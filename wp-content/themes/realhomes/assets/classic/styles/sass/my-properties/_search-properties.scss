@@ -1,0 +1,32 @@
+#my-properties-search {
+
+    input {
+      box-sizing: border-box;
+      height: 50px;
+      float: left;
+      margin: 0;
+      padding: 15px;
+    }
+
+    input[type='text'] {
+      width: 89%;
+      border-color: #dedede;
+    }
+
+    input[type='text']::-webkit-input-placeholder {
+      color: #9e9b9b;
+    }
+
+    input[type='submit'] {
+      width: 11%;
+    }
+
+  @media (max-width: 768px) {
+    input[type='text'] {
+      width: 82%;
+    }
+    input[type='submit'] {
+      width: 18%;
+    }
+  }
+}

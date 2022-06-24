@@ -1,0 +1,442 @@
+/* Real Homes Admin Menu Icon */
+#toplevel_page_real_homes .wp-menu-image img{
+  width: 24px;
+  padding: 5px 0 0;
+}
+
+/* Payments Table
+-------------------------------------------------------------- */
+#payments-table {
+  border: 1px solid #dedede;
+  background: #fff;
+  margin: 25px 0;
+  border-collapse: collapse;
+}
+
+#payments-table th, #payments-table td {
+  border: 1px solid #dedede;
+  text-align: left;
+}
+
+#payments-table a {
+  text-decoration: none;
+}
+
+#payments-table a:hover {
+  text-decoration: underline;
+}
+
+#payments-table .pagination {
+  padding: 0;
+  margin: 0;
+  text-align: center;
+}
+
+#payments-table .pagination li {
+  display: inline;
+}
+
+#payments-table .pagination li.active a {
+  font-weight: bold;
+}
+
+#payments-table .pagination a {
+  display: inline-block;
+  padding: 2px 3px;
+  text-decoration: none;
+}
+
+#payments-table .pagination a:hover {
+  text-decoration: underline;
+}
+
+/* Meta Box Fixes for RTL
+-------------------------------------------------------------- */
+.rwmb-field.rwmb-radio-wrapper .rwmb-input label {
+  display: block;
+  margin: 5px 0;
+}
+
+.rwmb-input .rwmb-button {
+  float: none;
+}
+
+#additonal_details .rwmb-meta-box {
+  overflow: hidden;
+}
+
+#additonal_details .rwmb-meta-box .rwmb-field.rwmb-text-wrapper {
+  float: left;
+  width: 29%;
+}
+
+#additonal_details .rwmb-meta-box .rwmb-field.rwmb-text-wrapper:last-child {
+  width: 70%;
+}
+
+#additonal_details .rwmb-meta-box .rwmb-field.rwmb-text-wrapper .rwmb-label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+#additonal_details .rwmb-meta-box .rwmb-field.rwmb-text-wrapper .rwmb-button.remove-clone {
+  position: static;
+  top: auto;
+  right: auto;
+  margin-left: 5px;
+}
+
+#additonal_details .rwmb-meta-box .rwmb-field.rwmb-text-wrapper .rwmb-input {
+  width: 100%;
+}
+
+#additonal_details .rwmb-meta-box .rwmb-field.rwmb-text-wrapper input.rwmb-text {
+  width: 75%;
+}
+
+/* Meta Box Styles Improvements - Since RealHomes Version 1.9
+-------------------------------------------------------------- */
+.rwmb-tabs-left .rwmb-tab-panel {
+  padding: 20px 25px;
+}
+
+.rwmb-column .rwmb-label {
+  margin-bottom: 5px;
+}
+
+.rwmb-column .rwmb-label label {
+  font-weight: bold;
+}
+
+.rwmb-column {
+  .rwmb-input {
+    input[type="text"],
+    input[type="password"],
+    input[type="email"],
+    input[type="number"],
+    input[type="search"],
+    input[type="tel"],
+    input[type="time"],
+    input[type="url"],
+    select,
+    textarea {
+      width: 100%;
+      max-width: 100%;
+    }
+    
+    .rwmb-clone input[type="text"].rwmb-file_input{
+      width: 80%;
+    }
+
+    .select2-container--default .select2-selection--multiple .select2-selection__rendered{
+      padding: 0;
+    }
+  }
+}
+
+.rwmb-column .rwmb-input .rwmb-map-goto-address-button {
+  margin-top: 10px;
+}
+
+.rwmb-input-list.inline li {
+  margin-right: 5px;
+  margin-left: 0;
+}
+
+.rwmb-input-list.inline li input[type=radio] {
+  margin-right: 5px;
+  margin-left: 5px;
+}
+
+.rwmb-select option {
+  padding: 2px;
+}
+
+/* RTL Fix after WordPress 4.4 */
+body.rtl {
+  direction: rtl;
+}
+
+body.rtl #adminmenuback {
+  right: 0;
+}
+
+body.rtl #adminmenu div.wp-menu-name {
+  padding: 8px 0 8px 8px !important;
+}
+
+body.rtl #adminmenuwrap {
+  position: relative !important;
+}
+
+/* Meta Box Styles Improvements - Since RealHomes Version 3.1.0
+-------------------------------------------------------------- */
+.wp-picker-container { width: 100%; }
+.wp-picker-input-wrap { width: 180px; }
+.wp-color-result { vertical-align: top; }
+input[type=text].wp-color-picker { max-width: 65px; }
+.rwmb-label { width: 25%; }
+.rwmb-label label { font-weight: normal }
+.rwmb-label ~ .rwmb-input { width: 75%; }
+.rwmb-label, .rwmb-input { float: left; vertical-align: top; }
+#addtag .rwmb-label, #addtag .rwmb-input,
+#edittag .rwmb-label, #edittag .rwmb-input { width: 100% !important; min-width: 200px; }
+#inspiry_properties_by_agents { width: 95%; }
+
+/* RTL Customizer text alignment fix - Since RealHomes Version 3.1.0
+-------------------------------------------------------------- */
+body.rtl #customize-theme-controls .control-section {
+  text-align: right;
+}
+body.rtl .customize-control-checkbox input,
+body.rtl .customize-control-nav_menu_auto_add input,
+body.rtl .customize-control-radio input { margin-right: 0; }
+
+/* Property Map/Type Icons Styles - Since RealHomes Version 3.1.0
+-------------------------------------------------------------- */
+.taxonomy-property-type .rwmb-meta-box {
+  border-top: 1px solid #f9f9f9;
+  box-shadow: 0px -1px 0px rgba(0,0,0,.04);
+  padding-top: 20px;
+  *zoom: 1;
+}
+
+.taxonomy-property-type .rwmb-meta-box:before,
+.taxonomy-property-type .rwmb-meta-box:after { display: table; content: ""; line-height: 0; clear: both }
+.taxonomy-property-type .rwmb-field { 
+	float: left; 
+	max-width: 250px; 
+	flex-direction: column;
+	
+	.rwmb-label,
+	.rwmb-input {
+		padding: 0;
+	}
+
+	.rwmb-label {
+		margin-bottom: 3px;
+	}
+}
+.taxonomy-property-type .rwmb-media-view .rwmb-media-status { display: none; }
+
+.taxonomy-property-feature .rwmb-meta-box:before,
+.taxonomy-property-feature .rwmb-meta-box:after { display: table; content: ""; line-height: 0; clear: both }
+.taxonomy-property-feature .rwmb-field { float: left; max-width: 250px; }
+.taxonomy-property-feature .rwmb-media-view .rwmb-media-status { display: none; }
+
+/* Meta Box Styles Improvements - Since RealHomes Version 3.5.0
+-------------------------------------------------------------- */
+.rwmb-image-item.thumbnail {
+  border: 0;
+  box-shadow: none;
+}
+
+.rwmb-image-item.thumbnail.attachment .thumbnail {
+  border: 0;
+}
+
+/* Real Homes widgets on WP Widgets page
+-------------------------------------------------------------- */
+div[id$="agents_list_widget-__i__"] .widget-title h3,
+div[id$="advance_search_widget-__i__"] .widget-title h3,
+div[id$="agent_featured_properties_widget-__i__"] .widget-title h3,
+div[id$="rh_contact_information-__i__"] .widget-title h3,
+div[id$="featured_properties_widget-__i__"] .widget-title h3,
+div[id$="inspiry_properties_widget-__i__"] .widget-title h3,
+div[id$="property_types_widget-__i__"] .widget-title h3,
+div[id$="agent_properties_widget-__i__"] .widget-title h3,
+div[id$="ere_widget_contact_form-__i__"] .widget-title h3,
+div[id$="realhomes_mortgage_calculator-__i__"] .widget-title h3 {
+  background: var(--rh-global-color-secondary, #ea723d);
+  color: #fff;
+}
+
+.wp-customizer #available-widgets .widget-title h3 {
+  background: none;
+  color: #23282d;
+}
+
+.widget-content {
+  .tax-option {
+    label {
+      display: inline-block;
+      margin-bottom: 5px;
+      margin-right: 5px;
+    }
+  }
+}
+
+/* Real Homes Agents Dashboard
+-------------------------------------------------------------- */
+td.thumbnail {
+  border: none;
+  box-shadow: none;
+}
+
+/* Real Homes Property Ratings
+-------------------------------------------------------------- */
+.rating-stars {
+  font-size: 15px;
+}
+
+.rating-stars i {
+  margin-right: 2px;
+}
+
+.rating-stars i.rated {
+  color: #EA923A;
+}
+
+/* Hided demo import mode switcher (due to wrong hardcoded url issue)
+-------------------------------------------------------------- */
+.ocdi__import-mode-switch {
+  display: none;
+}
+
+/* Metabox styles
+-------------------------------------------------------------- */
+.rwmb-divider-wrapper hr {
+  margin: 15px 0;
+}
+#rh_sortable li{
+  padding-bottom: 2px ;
+}
+#rh_sortable li:hover{
+  background: #fbfbfb;
+  cursor: move;
+}
+#rh_sortable li label:hover{
+  cursor: move;
+}
+
+/* Rmoved sortable styles for the mortgage calculator settings */
+#customize-control-inspiry_mortgage_calculator_statuses {
+	#rh_sortable li:hover {
+		background: none;
+		cursor: default;
+		
+		label {
+			cursor: pointer;
+		}
+	}
+}
+
+/* RealHomes Theme Activation
+-------------------------------------------------------------- */
+.realhomes-registration {
+
+  p {
+    font-size: 14px;
+
+    &.error {
+      color: red;
+    }
+  }
+
+  form {
+    margin-bottom: 1em;
+
+    input[type="text"] {
+      font-size: 16px;
+      padding: 5px 10px;
+      height: 37px;
+    }
+
+    .button {
+      font-size: 16px;
+      padding: 0 16px;
+      height: 37px;
+      width: auto;
+    }
+  }
+}
+
+.user-additional-fields select,
+#inspiry_user_role {
+  width: 100%;
+  max-width: 160px;
+}
+
+/* Homepage Meta Box Styles Improvements
+-------------------------------------------------------------- */
+.rwmb-tab-nav i {
+  display: inline;
+}
+
+.rwmb-tab-panel {
+
+  // Slider Area
+  &.rwmb-tab-panel-slider-area {
+    .rwmb-input-list {
+      li {
+        display: block;
+        margin-bottom: 10px;
+
+        label {
+          input {
+            margin-right: 8px;
+          }
+        }
+      }
+    }
+  }
+}
+
+.design_modern {
+  .rwmb-tab-panel {
+    // Home Properties
+    &.rwmb-tab-panel-home-properties {
+      &>div:nth-child(2),
+      &>div:nth-child(4),
+      &>div:nth-child(6) {
+        .rwmb-input-list {
+          li {
+            display: block;
+            margin-bottom: 10px;
+
+            label {
+              input {
+                margin-right: 8px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+.design_classic {
+  .rwmb-tab-panel {
+    // Home Properties
+    &.rwmb-tab-panel-home-properties {
+      &>div:nth-child(5),
+      &>div:nth-child(7),
+      &>div:nth-child(9) {
+        .rwmb-input-list {
+          li {
+            display: block;
+            margin-bottom: 10px;
+
+            label {
+              input {
+                margin-right: 8px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+.inspiry_switch_inline.rwmb-field {
+  display: flex;
+  justify-content: space-between;
+  .rwmb-label {
+    flex: auto;
+  }
+  .rwmb-input {
+    flex: auto;
+  }
+}

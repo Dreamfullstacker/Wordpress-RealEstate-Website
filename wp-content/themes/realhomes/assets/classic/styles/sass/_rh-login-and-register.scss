@@ -1,0 +1,375 @@
+/*	Login & Register
+--------------------------------------------------------*/
+.login-register{
+  .main-wrap{
+    h3 {
+      margin-top: 0;
+      font-size: 18px;
+      font-family: $RobotoFontFamily;
+      text-align: left;
+      font-weight: normal;
+      margin-bottom: 0;
+      span{
+        background-color: #394041;
+        color: white;
+        display: inline-block;
+        padding: 5px 25px;
+        vertical-align: top;
+      }
+    }
+  }
+
+  .inner-wrapper{
+    padding: 50px 95px 25px;
+  }
+
+  .info-text{
+    color: #171717;
+    font-family: $RobotoFontFamily;
+    font-weight: normal;
+    margin-bottom: 20px;
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  .form-option{
+    margin-bottom: 15px;
+
+    .selectwrap {
+      width: 79%;
+    }
+  }
+
+  input[type="text"],
+  input[type="password"]{
+    font-family: $RobotoFontFamily;
+    box-shadow: inset 0 0 2px #e9e9e9;
+    border: 1px solid #cdcdcd;
+    height: 28px;
+    padding: 3px 8px 4px;
+    color: $headingsColor ;
+    border-radius: 0;
+    width: 75%;
+    margin-bottom: 0;
+    &:focus{
+      border-color: $border_color_two;
+      box-shadow: none;
+    }
+    &.error{
+      border-color: red;
+    }
+  }
+
+  label{
+    display: block;
+    color: #394041;
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 5px;
+    font-family: $RobotoFontFamily;
+    span{
+      color: red;
+      display: inline-block;
+      margin: 0 5px;
+    }
+    &.error{
+      margin: 5px 0;
+      font-size: 12px;
+      color: red;
+      line-height: 20px;
+    }
+  }
+
+  .desc-text{
+    margin-bottom: 20px;
+  }
+
+  .register-btn,
+  .real-btn{
+    padding: 10px 40px;
+    font-size: 14px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+  .register-btn{
+    background: #62caea;
+    &:hover{
+      background: darken(#62caea,10%);
+    }
+  }
+
+  .forgot-password{
+    margin: 0 0 20px;
+    padding: 0;
+    a{
+      color: #EC894D;
+      outline: 0;
+      &:hover{
+        color: red;
+      }
+    }
+  }
+}
+.login-register{
+  #forgot-form{
+    display: none;
+  }
+}
+
+
+  .rh_property_detail_login.login-register {
+  input[type="text"], input[type="password"]{
+    height: 37px;
+    box-sizing: border-box;
+    width: 100%;
+  }
+    .form-option .selectwrap{
+      width: 100%;
+    }
+    ::placeholder{
+      color: #9c9c9c;
+    }
+    input[type="submit"]{
+      margin-bottom: 0;
+    }
+    form{
+      margin-bottom: 10px;
+    }
+  }
+
+/*	Social Login
+--------------------------------------------------------*/
+
+#comments,
+.inspiry-social-login {
+  .wp-social-login-widget{
+    margin-bottom: 20px;
+  }
+  .wp-social-login-connect-with{
+    font-family: $headingsFontFamily;
+    color: $headingsColor;
+  }
+  .wp-social-login-provider-list{
+    padding: 0;
+    margin: 0 0 0 -3px;
+
+    a {
+      color: $white;
+
+      &:hover {
+        color: $white;
+      }
+    }
+  }
+  .wp-social-login-provider{
+    display: inline-block;
+    padding: 8px 13px;
+    margin:5px 3px;
+    font-family: $RobotoFontFamily;
+    font-size: 13px;
+    line-height: 20px;
+    text-align: center;
+    color: #fff;
+    background-color: #e3712c;
+  }
+  i.fa{
+    display: inline-block;
+  }
+  .wp-social-login-provider-facebook{
+    background-color: #3b5998;
+    &:focus,
+    &:hover{
+      background-color: darken( #3b5998 , 5% );
+    }
+  }
+  .wp-social-login-provider-google{
+    background-color: #dd4b39;
+    &:focus,
+    &:hover{
+      background-color: #4285f4;
+    }
+  }
+  .wp-social-login-provider-twitter{
+    background-color: #1da1f2;
+    &:focus,
+    &:hover{
+      background-color: #14171a;
+    }
+  }
+  .wp-social-login-provider-yahoo{
+    background-color: #410093;
+    &:focus,
+    &:hover{
+      background-color: darken( #410093 , 5% );
+    }
+  }
+  .wp-social-login-provider-linkedin{
+    background-color: #0077b5;
+    &:focus,
+    &:hover{
+      background-color: #8d6cab;
+    }
+  }
+  .wp-social-login-provider-instagram{
+    background-color: #f77737;
+    &:focus,
+    &:hover{
+      background-color: #fcaf45;
+    }
+  }
+  .wp-social-login-provider-wordpress{
+    background-color: #21759b;
+    &:focus,
+    &:hover{
+      background-color: #464646;
+    }
+  }
+  .wp-social-login-provider-disqus{
+    background-color: #2e9fff;
+    &:focus,
+    &:hover{
+      background-color: darken( #2e9fff , 5% );
+    }
+  }
+  .wp-social-login-provider-reddit{
+    background-color: #ff4500;
+    &:focus,
+    &:hover{
+      background-color: #5f99cf;
+    }
+  }
+  .wp-social-login-provider-foursquare{
+    background-color: #f94877;
+    &:focus,
+    &:hover{
+      background-color: #0732a2;
+    }
+  }
+  .wp-social-login-provider-lastfm{
+    background-color: #d51007;
+    &:focus,
+    &:hover{
+      background-color: darken( #d51007 , 5% );
+    }
+  }
+  .wp-social-login-provider-tumblr{
+    background-color: #35465c;
+    &:focus,
+    &:hover{
+      background-color: darken( #35465c , 5% );
+    }
+  }
+  .wp-social-login-provider-goodreads{
+    background-color: #553b08;
+    &:focus,
+    &:hover{
+      background-color: darken( #553b08 , 5% );
+    }
+  }
+  .wp-social-login-provider-stackoverflow{
+    background-color: #fe7a15;
+    &:focus,
+    &:hover{
+      background-color: darken( #fe7a15 , 5% );
+    }
+  }
+  .wp-social-login-provider-github{
+    background-color: #4183c4;
+    &:focus,
+    &:hover{
+      background-color: darken( #4183c4 , 5% );
+    }
+  }
+  .wp-social-login-provider-dribbble{
+    background-color: #ea4c89;
+    &:focus,
+    &:hover{
+      background-color: #444444;
+    }
+  }
+  .wp-social-login-provider-500px{
+    background-color: #0099e5;
+    &:focus,
+    &:hover{
+      background-color: #ff4c4c;
+    }
+  }
+  .wp-social-login-provider-skyrock{
+    background-color: #009aff;
+    &:focus,
+    &:hover{
+      background-color: darken( #009aff , 5% );
+    }
+  }
+  .wp-social-login-provider-mixi{
+    background-color: #E67E22;
+    &:focus,
+    &:hover{
+      background-color: darken( #E67E22 , 5% );
+    }
+  }
+  .wp-social-login-provider-steam{
+    background-color: #000000;
+    &:focus,
+    &:hover{
+      background-color: #00adee;
+    }
+  }
+  .wp-social-login-provider-twitchtv{
+    background-color: #6441a5;
+    &:focus,
+    &:hover{
+      background-color: #b9a3e3;
+    }
+  }
+  .wp-social-login-provider-vkontakte{
+    background-color: #45668e;
+    &:focus,
+    &:hover{
+      background-color: darken( #45668e , 5% );
+    }
+  }
+  .wp-social-login-provider-mailru{
+    background-color: #07c;
+    &:focus,
+    &:hover{
+      background-color: darken( #07c , 5% );
+    }
+  }
+  .wp-social-login-provider-yandex{
+    background-color: #ffcc00;
+    &:focus,
+    &:hover{
+      background-color: darken( #ffcc00 , 5% );
+    }
+  }
+  .wp-social-login-provider-odnoklassniki{
+    background-color: #ed812b;
+    &:focus,
+    &:hover{
+      background-color: darken( #ed812b , 5% );
+    }
+  }
+  .wp-social-login-provider-aol{
+    background-color: #ff0b00;
+    &:focus,
+    &:hover{
+      background-color: #00c4ff;
+    }
+  }
+  .wp-social-login-provider-live{
+    background-color: #00bcf2;
+    &:focus,
+    &:hover{
+      background-color: darken( #00bcf2 , 5% );
+    }
+  }
+  .wp-social-login-provider-pixelpin{
+    background-color: #1d8bd5;
+    &:focus,
+    &:hover{
+      background-color: darken( #1d8bd5 , 5% );
+    }
+  }
+}

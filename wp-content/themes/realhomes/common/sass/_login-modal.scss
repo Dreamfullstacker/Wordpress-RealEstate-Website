@@ -1,0 +1,498 @@
+.rh_login_modal_wrapper{
+
+  position: fixed;
+  top: 0;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,.8);
+  z-index: 9999999;
+  justify-content: center;
+  align-items: center;
+  display: none;
+
+  li{
+    list-style: none;
+    display: inline-block;
+  }
+  .rh_modal_field{
+    display: block;
+    width: 100%;
+    border: 1px solid #dfdfdf;
+    margin-bottom: 20px;
+    height: 40px;
+    padding-left: 15px;
+    padding-right: 15px;
+    &.error{
+      border-color: red;
+      color: inherit;
+    }
+  }
+  .rh_modal_labels{
+    font-size: 14px;
+    color: #1a1a1a;
+    margin-bottom: 10px;
+    display: block;
+    font-weight: 500;
+
+  }
+  ::-webkit-input-placeholder { /* Edge */
+    color: #808080;
+  }
+
+  :-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: #808080;
+  }
+
+  ::placeholder {
+    color: #808080;
+  }
+   button:not(.dropdown-toggle){
+    line-height: 40px;
+    width: 100%;
+    padding: 0;
+    cursor: pointer;
+    //margin-bottom: 20px;
+    &:hover{
+      background: var(--rh-global-color-primary-dark);
+    }
+  }
+  .rh_login_tabs{
+    margin-bottom: 25px;
+    margin-left: -11px;
+    margin-right: -11px;
+    li{
+      color: #808080;
+      font-size: 14px;
+      margin-left: 11px;
+      margin-right: 11px;
+      display: inline-block;
+      padding-bottom: 15px;
+      cursor: pointer;
+      border-bottom: 2px solid transparent;
+      transition: .2s all ease-in-out;
+      &:hover{
+        color: #1ea39a;
+        border-color: #1ea39a;
+      }
+      &.rh_active{
+        color: #1ea39a;
+        border-color: #1ea39a;
+      }
+    }
+  }
+  .wp-social-login-provider-list{
+    padding-left: 0;
+    padding-right: 0;
+    padding-bottom: 0;
+    margin-left: -3px;
+    margin-right: -3px;
+    display: flex;
+    a{
+      display: inline-block;
+      color: #ffffff;
+      padding: 12px 0;
+      margin:  3px;
+      font-size: 13px;
+      flex: auto;
+      text-align: center;
+      transition: .2s all ease-in-out;
+      &:hover{
+        background: #1a1a1a;
+      }
+    }
+    .wp-social-login-provider-facebook{
+      background: #3b5998;
+    }
+    .wp-social-login-provider-google{
+      background: #dd4b39;
+    }
+    .wp-social-login-provider-twitter{
+      background: #1da1f2;
+    }
+  }
+
+  label.error{
+    display: none !important;
+  }
+  .rh_modal__recaptcha{
+    margin-bottom: 20px;
+  }
+  .inspiry-google-recaptcha{
+    //transform:scale(0.697);
+    //-webkit-transform:scale(0.697);
+    //transform-origin:0 0;
+    //-webkit-transform-origin:0 0;
+  }
+  .rh_modal_role_select{
+    //border: 1px solid #dfdfdf;
+    margin-bottom: 20px;
+
+
+    .inspiry_bs_default_mod button.dropdown-toggle{
+      padding: 10px 15px;
+    }
+
+  }
+  #user-role,.rh_custom_login_modal_select{
+    width: 100%;
+    margin-bottom: 0;
+    border: none;
+    height: 40px;
+    outline: none;
+    color: #808080;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+}
+.rh_login_quote_side{
+  display: flex;
+  position: relative;
+  background-image: url("../images/login-modal.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  .rh_bg_layer{
+    display: block;
+    background: #000000;
+    opacity: .7;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+  }
+  @include r(max1023){
+    display: none;
+  }
+}
+.rh_wapper_quote_contents{
+  position: relative;
+  z-index: 10;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.rh_login_modal_box{
+  background: #ffffff;
+  max-width: 1000px;
+  width: 100%;
+  display: flex;
+  position: relative;
+  &.rh_login_no_quote{
+    max-width: 500px;
+  }
+  .rh_login_sides{
+    max-width: 500px;
+
+    flex: 1;
+    background-position: left top;
+    background-size: cover;
+
+    padding: 35px 45px;
+    @include r(max479){
+      padding: 35px 10px;
+    }
+  }
+  .rh_login_form_side{
+    position: relative;
+  }
+  .rh_login_close{
+    display: inline-block;
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: 9;
+    padding: 10px 14px;
+    background: #e4e4e4;
+    color: #1a1a1a;
+    cursor: pointer;
+    transition: .2s all ease-in-out;
+    &:hover{
+      color: #ffffff;
+      background: #1a1a1a;
+    }
+  }
+  @include r(max1023){
+    max-width: 500px;
+    max-height: 100%;
+    overflow-y: auto;
+  }
+  .wp-social-login-widget{
+    margin-top: 15px;
+  }
+
+}
+.rh_login_quote_box{
+  .rh_login_quote{
+  font-size: 22px;
+  font-style: italic;
+  font-weight: 500;
+    color: #ffffff;
+    line-height: 1.6;
+    margin-bottom: 10px;
+  }
+  .rh_login_quote_author{
+    font-weight: 400;
+    font-size: 20px;
+    font-style: italic;
+    color: #ffffff;
+    opacity: .5;
+  }
+}
+.rh_wrapper_inline_labels{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.rh_forget_password_trigger{
+  color: #808080;
+  font-size: 13px;
+  cursor: pointer;
+  font-weight: 500;
+  transition: .2s all ease-in-out;
+  margin-bottom: 10px;
+  &:hover{
+    color: var(--rh-global-color-secondary);
+  }
+}
+.rh_login_date_box{
+  span{
+    display: block;
+    color: #ffffff;
+  }
+  .rh_login_date{
+    font-size: 20px;
+  }
+  .rh_login_day{
+    font-size: 30px;
+    font-weight: 500;
+  }
+}
+.rh_form_modal{
+  display: none;
+}
+.rh_login_modal_show{
+  display: block;
+}
+.rh_wrapper_login_forms{
+  overflow: hidden;
+}
+.rh_login_logo{
+  margin-bottom: 30px;
+  a{
+    display: inline-block;
+  }
+  img{
+    filter: drop-shadow(1px 1px 2px gray);
+  }
+}
+.rh_login_blog_name{
+  font-size: 26px;
+  font-weight: 500;
+  margin-bottom: 30px;
+  @include r(max1023){
+    display: none;
+  }
+}
+.rh_login_modal_messages{
+  box-sizing: border-box;
+  overflow: hidden;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  display: none;
+  width: 100%;
+  transition: .5s all ease-in-out;
+  padding: 25px 45px;
+  background: rgba(0,0,0,.95);
+  &.rh_login_message_show{
+
+  }
+  p{
+    margin-bottom: 0;
+    color: #ffffff;
+
+  }
+
+  .rh_login_close_message{
+    position: absolute;
+    right: 0;
+    top: 0;
+    cursor: pointer;
+    padding: 10px;
+    color: #ffffff;
+  }
+}
+
+.rh_login_modal_classic{
+
+   .rh_login_tabs li{
+     &.rh_active{
+       color: #ec894d;
+       border-color: #ec894d;
+       //ec894d
+     }
+    &:hover{
+      color: #ec894d;
+      border-color: #ec894d;
+    }
+   }
+  .rh_modal_field{
+    box-sizing: border-box;
+    border-color: #cdcdcd;
+    outline: none;
+    &:focus{
+      border-color: #cdcdcd !important;
+      box-shadow: none !important;
+
+    }
+    &.error{
+      border-color: red !important;
+    }
+    &::-webkit-input-placeholder { /* Edge */
+      color: #808080;
+    }
+
+    &:-ms-input-placeholder { /* Internet Explorer 10-11 */
+      color: #808080;
+    }
+
+    &::placeholder {
+      color: #808080;
+    }
+
+  }
+  button{
+    background: #ec894d;
+    color: #ffffff;
+    width: auto;
+    padding-left: 16px;
+    padding-right: 16px;
+    border: none;
+    outline: none;
+    line-height: 34px;
+    &:hover{
+      background: #e3712c;
+    }
+  }
+
+  button.dropdown-toggle{
+    &:hover {
+      background: transparent;
+    }
+  }
+
+  .wp-social-login-provider-list a{
+    padding: 7px 0;
+  }
+
+  .rh_modal_labels{
+    color: #394041;
+  }
+  .rh_login_blog_name{
+    color: #394041;
+  }
+  form{
+    margin-bottom: 0;
+  }
+  .rh_forget_password_trigger:hover{
+    color: #df5400;
+  }
+  .rh_login_date_box .rh_login_date{
+    margin-bottom: 10px;
+  }
+  .rh_modal_role_select{
+    //border: 1px solid #cdcdcd;
+    margin-bottom: 20px;
+
+    .inspiry_select_picker_trigger.bootstrap-select button.dropdown-toggle{
+      padding: 2px 15px;
+      .bs-caret{
+        height: 38px;
+      }
+    }
+
+  }
+  #user-role,.rh_custom_login_modal_select{
+    width: 100%;
+    margin-bottom: 0;
+    border: none;
+    height: 34px;
+    outline: none;
+    color: #808080;
+  }
+}
+
+.inspiry-select2-login-modal-container {
+  z-index: 99999999999;
+  display: block;
+
+  &:focus {
+    outline: none !important;
+  }
+  .select2-selection--single {
+    height: 40px;
+    outline: none !important;
+    border: none;
+    border-radius: 0;
+    .select2-selection__rendered {
+      line-height: 40px;
+      outline: none !important;
+      padding-left: 15px;
+    }
+  }
+  .select2-selection--single .select2-selection__arrow {
+    top: 0;
+    height: 40px;
+  }
+}
+
+.rh_login_quote_mark{
+  display: inline-block;
+  width: 36px;
+  margin-bottom: 30px;
+  svg{
+    fill: #ffffff;
+  }
+}
+
+
+.rtl{
+  .rh_login_quote_mark{
+    transform: rotateY(180deg);
+  }
+}
+.rtl{
+  .rh_login_modal_box .rh_login_close{
+    right: auto;
+    left: 0;
+  }
+}
+.rh_modal_login_loader{
+  position: absolute;
+  left: 0;
+  top: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  background: rgba(255,255,255,.4);
+  svg{
+    rect{
+      fill: transparent;
+    }
+  }
+  &.rh_modal_login_loader_hide{
+    display: none;
+  }
+  &.rh_modal_login_classic{
+    svg{
+      path{
+        fill: #ec894d;
+      }
+    }
+  }
+}

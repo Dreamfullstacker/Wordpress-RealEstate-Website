@@ -1,0 +1,32 @@
+/*** Seasonal Prices Section ***/
+.rvr_seasonal_prices_wrap {
+	margin-bottom: 30px;
+
+	table, th, td {
+		border: none;
+	}
+
+	table th {
+		color: #444;
+	}
+
+	.rvr_seasonal_prices {
+		border: 1px solid #f7f7f7;
+
+		text-align: center;
+
+		tr:nth-child(even) {
+			background-color: #f7f7f7;
+		}
+	}
+}
+
+.property-template-property-full-width-layout {
+	.rvr_seasonal_prices_wrap {
+		.rvr_seasonal_prices {
+			tr:nth-child(even) {
+				background-color: #fff;
+			}
+		}
+	}
+}

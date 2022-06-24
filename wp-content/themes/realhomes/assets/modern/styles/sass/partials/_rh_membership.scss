@@ -1,0 +1,306 @@
+/**
+ * Memberships Page Template
+ */
+
+.rh_memberships {
+	display: flex;
+	flex-wrap: wrap;
+	margin: 0 -1rem;
+	padding: 0;
+
+	.rh_alert-wrapper {
+		margin: 0 1rem 1.5rem;
+	}
+}
+
+.rh_membership {
+	display: flex;
+	flex-direction: column;
+	width: 33.3%;
+	padding: 0 1rem 2rem;
+
+	@include r(320)  { width: 100%; }
+	@include r(480)  { width: 100%; }
+	@include r(768)  { width: 50%; }
+	@include r(1024) { width: 50%; }
+	@include r(1140) { width: 33.3%; }
+	@include r(1280) { width: 33.3%; }
+
+	.rh_membership__wrap {
+		padding: 2rem 2.5rem;
+		background: #fff;
+		box-shadow: 0px 0px 5px 2px rgba(0,0,0,0.05);
+		height: 100%;
+	}
+
+	.rh_membership__title {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		padding: 0 0 2.5rem 0;
+
+		.title {
+			font-size: 2.4rem;
+			font-weight: 400;
+			line-height: 1.5;
+			margin: 0;
+			color: var(--rh-global-color-primary);
+		}
+
+		.price {
+			font-size: 2.4rem;
+			font-weight: 400;
+			line-height: 1.5;
+			color: $rh_text_color;
+		}
+	}
+
+	.rh_membership__details {
+		text-align: left;
+
+		p {
+			font-size: 1.5rem;
+			line-height: 2;
+			padding: 0.5rem 0;
+		}
+	}
+}
+
+.rh_memberships__sidebar {
+	display: block;
+	text-align: left;
+	margin-bottom: 3rem;
+
+	.title {
+		font-size: 1.5rem;
+		font-weight: 500;
+		margin: 0;
+		margin-bottom: 2rem;
+	}
+
+	.message {
+		color: var(--rh-global-color-headings);
+	}
+
+	.details {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-between;
+		align-items: center;
+		padding: 1rem 2.5rem;
+		background: darken($rh_body_bg, 3%);
+		border: 1px solid rgba(0,0,0,0.05);
+
+		@include r(320)  { padding: 1rem 2.5rem; }
+		@include r(480)  { padding: 1rem 2.5rem; }
+		@include r(768)  { padding: 1rem 2.5rem; }
+		@include r(1024) { padding: 1rem 2rem; }
+		@include r(1140) { padding: 1rem 2rem; }
+		@include r(1280) { padding: 1rem 2.5rem; }
+
+		.membership {
+			color: var(--rh-global-color-primary);
+			padding: 1rem 0;
+		}
+
+		.cancel {
+			padding: 1rem 0;
+
+			.title {
+				display: none;
+			}
+			#ims-btn-close {
+				display: none;
+			}
+			#ims-btn-confirm {
+				background: none;
+				color: $rh_text_color;
+				text-decoration: underline;
+				padding: 0;
+				cursor: pointer;
+
+				&:hover {
+					color: var(--rh-global-color-primary);
+				}
+			}
+		}
+	}
+}
+
+
+// Membership Selection Form
+.rh_memberships__selection {
+
+	#ims_select_membership {}
+
+	.form-option {
+		background: darken($rh_body_bg, 3%);
+		padding: 0 0 2.5rem 0;
+
+		h4 {
+			font-size: 1.3rem;
+			font-weight: 500;
+			line-height: 1.5;
+			margin: 0;
+			padding: 1.5rem 2rem 1rem;
+			background: #fff;
+		}
+
+		.select2-container {
+			display: block;
+			padding: 0 2rem 1.2rem;
+			background: #fff;
+
+			&:focus {
+				outline: 0;
+			}
+		}
+
+		.select2-container--default {
+			.select2-selection--single {
+				border-right: 0;
+				border: none;
+
+				&:focus {
+					outline: 0;
+				}
+			}
+
+			.select2-selection__rendered {
+				color: $rh_text_color;
+				font-size: 1.5rem;
+				padding-left: 0;
+			}
+
+			.select2-selection__arrow {
+				right: 1rem;
+			}
+		}
+
+		#ims_recurring_label {
+			position: relative;
+			display: block;
+    		margin: 2rem 2rem 0;
+			padding: 0 0 2rem 4rem;
+		    cursor: pointer;
+		    border-bottom: 1px dashed rgba($rh_text_color, 0.2);
+
+		    .rh_checkbox__title {
+		    	font-size: 1.3rem;
+		    	line-height: 2;
+		    	padding: 0;
+		    }
+		}
+	}
+
+	.ims-membership_loader {
+		display: none;
+	}
+
+	.ims-free-button{
+		padding: 0 2rem 2.5rem;
+		background: darken($rh_body_bg, 3%);
+	}
+	
+	.ims-stripe-button {
+		padding: 0 2rem 2.5rem;
+		background: darken($rh_body_bg, 3%);
+
+		#ims-stripe {
+			font-size: 1.5rem;
+		}
+
+		.stripe-button-el {
+			@extend .rh_btn;
+			@extend .rh_btn--primary;
+			box-shadow: none;
+			padding: 1rem 2rem;
+
+			span {
+				height: initial;
+				padding: 0;
+				background: none;
+				box-shadow: none;
+				font: 400 1.5rem/2 $rubikFontFamily;
+			}
+		}
+	}
+
+	.ims-paypal-button {
+		padding: 0 2rem 2.5rem;
+		background: darken($rh_body_bg, 3%);
+	}
+
+	.ims-wire-transfer {
+		padding: 2.5rem 0 0 0;
+
+		h4 {
+			font-size: 1.5rem;
+			font-weight: 500;
+			line-height: 1.5;
+			margin: 0;
+			margin-bottom: 1.5rem;
+		}
+
+		p {
+			background: #fff;
+			line-height: 2;
+			padding: 0 2rem 0;
+
+			&:nth-child(1) {
+				&:before {
+					content: '';
+					height: 5px;
+				}
+			}
+		}
+
+		.wire-details-before,
+		.wire-details-after {
+			display: block;
+			height: 2rem;
+			background: #fff;
+		}
+	}
+
+	.ims-receipt-button {
+		#ims-receipt {
+			display: block;
+			background: var(--rh-global-color-primary);
+			color: #fff;
+			padding: 2rem;
+			text-align: center;
+			transition: 0.2s all linear;
+
+			&:hover {
+				background: var(--rh-global-color-primary-dark);
+				transition: 0.2s all linear;
+			}
+		}
+	}
+
+	.ims-button-option.error,
+	.ims-wire-transfer-message {
+		display: block;
+		margin-top: 2rem;
+		font: 400 1.5rem/2 $rubikFontFamily;
+		background: transparent;
+		color: $rh_text_color;
+		border: 1px solid var(--rh-global-color-primary);
+		padding: 0.5rem 1rem;
+
+		&:empty {
+			display: none;
+		}
+
+		&.error {
+			border-color: red;
+		}
+	}
+
+	#ims-free-button {
+		@extend .rh_btn;
+		@extend .rh_btn--primary;
+	}
+
+}

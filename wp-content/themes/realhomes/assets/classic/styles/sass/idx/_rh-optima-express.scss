@@ -1,0 +1,1924 @@
+/**
+ * Optima Express Styles
+ *
+ */
+
+#post-0 {
+  overflow: visible;
+}
+
+.inner-wrapper .optima-express {
+  overflow: visible;
+}
+
+.ihf-eureka,
+#ihf-main-container {
+
+  .ihf-select-options .ihf-select-available-option > span.ihf-selected {
+    background-color: $main_menu_background_color_2 !important;
+    color: #fff !important;
+  }
+
+  .ihf-select-options .ihf-select-available-option > a,
+  .ihf-select-options .ihf-select-available-option span {
+    color: $label_color !important;
+  }
+
+  .btn {
+    border-radius: 0;
+    text-shadow: none;
+  }
+
+  .btn.btn-default {
+    font-size: 14px;
+  }
+
+  .ihf-btn.ihf-btn-primary,
+  .btn-primary,
+  .btn.btn-default {
+    border-radius: 0;
+    text-shadow: none;
+    box-shadow: none;
+    transition: 0.2s all linear;
+
+    &:hover,
+    &:active,
+    &:focus {
+      box-shadow: none;
+      transition: 0.2s all linear;
+    }
+  }
+
+  .ihf-btn.ihf-btn-primary,
+  .btn-primary,
+  .btn.btn-default {
+    background-color: $main_menu_background_color !important;
+    border-color: $main_menu_background_color !important;
+    color: $white !important;
+
+    &:hover,
+    &:active,
+    &:focus {
+      background-color: $main_menu_background_color_2 !important;
+      border-color: $main_menu_background_color_2 !important;
+      color: $white !important;
+    }
+  }
+}
+
+#ihf-main-container .carousel-control .glyphicon-chevron-left,
+#ihf-main-container .carousel-control .icon-prev {
+  left: 4%;
+}
+
+#ihf-main-container .carousel-control .glyphicon-chevron-right,
+#ihf-main-container .carousel-control .icon-next {
+  right: 5%;
+}
+
+#ihf-main-container {
+
+  #ihf-login-form {
+    margin-bottom: 0;
+
+    .checkbox,
+    .checkbox-inline {
+      margin-top: 6px;
+    }
+  }
+
+  #ihf-valuation-request-form {
+
+    .radio-inline input[type=radio] {
+      vertical-align: baseline;
+    }
+  }
+
+  .text-danger {
+    display: inline-block;
+    margin-bottom: 10px;
+  }
+
+  .btn-form-submit .glyphicon {
+    top: 2px;
+  }
+
+  .row {
+    & > .row {
+      margin-left: 0;
+      margin-right: 0;
+    }
+  }
+
+  .modal-content {
+    border-radius: 0;
+  }
+
+  .ihf-one-selectedArea {
+    margin-left: 2px;
+    margin-right: 2px;
+    margin-bottom: 4px;
+  }
+
+  a {
+    color: $label_color;
+    text-decoration: none;
+
+    &:hover {
+      color: $linkColorHover;
+      text-decoration: none;
+    }
+  }
+
+  .btn-primary.disabled {
+    border: none;
+    color: #333;
+  }
+
+  .btn-primary.active {
+    background: $main_menu_background_color_2;
+    border-color: #fff;
+    background-image: none;
+    box-shadow: none;
+  }
+
+  .btn.dropdown-toggle {
+    background: #fff;
+    color: $label_color;
+    text-decoration: none;
+    border: 1px solid $border_color_two;
+    font-size: 14px;
+    padding: 5px 10px 5px 10px;
+    box-shadow: none;
+    margin-left: 5px;
+    margin-top: 5px;
+    cursor: pointer;
+    transition: 0.2s all linear;
+
+    &:hover,
+    &:focus {
+      background: #fff;
+      color: $label_color;
+      border: 1px solid $border_color_two;
+      box-shadow: none;
+      transition: 0.2s all linear;
+    }
+
+    .caret {
+      margin-top: 0;
+      margin-left: 10px;
+    }
+  }
+
+  .dropdown-menu {
+    border-radius: 0;
+    box-shadow: none;
+
+    li {
+      a {
+        &:hover {
+          background: $contact_number_bg_color;
+        }
+      }
+    }
+
+    li.active {
+      a {
+        background: $contact_number_bg_color;
+      }
+    }
+  }
+
+  #ihf-sort-search-form {
+    display: none;
+  }
+
+  .ihf-mapsearch-refine-overlay {
+
+    form {
+      margin-bottom: 0;
+
+      .col-xs-6 {
+
+        .row + .row {
+          margin-top: 10px;
+        }
+
+        .checkbox,
+        .radio {
+          margin-top: 0;
+          margin-bottom: 0;
+          white-space: pre;
+        }
+      }
+    }
+
+    .ihf-mapsearch-proptype-checkbox {
+      input {
+        margin-top: -1px !important;
+      }
+    }
+
+    .ihf-mapsearch-proptype-checkbox,
+    .ihf-map-icon {
+      margin-top: 0;
+    }
+  }
+
+  .ihf-slider-col,
+  .ihf-grid-result {
+    .ihf-grid-result-container {
+      display: flex;
+      flex-direction: column;
+      box-shadow: none;
+      border-radius: 0;
+
+      .row {
+        &:nth-child(1) {
+          order: 2;
+          margin-bottom: -20px;
+        }
+      }
+
+      .ihf-grid-result-price {
+        border-radius: 0;
+        border: none;
+        background: $contact_number_bg_color;
+        padding: 10px 20px;
+        margin-bottom: 0;
+        margin-top: 5px;
+
+        margin: 0 -16px -4px;
+
+        a {
+          font-weight: normal;
+        }
+      }
+
+      div.col-xs-10 {
+        a {
+          display: block;
+          width: 100%;
+        }
+      }
+
+      .ihf-grid-result-address {
+        display: block;
+        width: 100%;
+        padding: 0 0 10px 0;
+        font: normal 18px/27px "Roboto", Helvetica, Arial, sans-serif;
+        color: $label_color;
+        text-transform: capitalize;
+        white-space: normal;
+
+        &:hover {
+          color: $linkColorHover;
+        }
+      }
+
+      .ihf-grid-result-basic-info-item1 {
+        padding-right: 15px;
+      }
+
+      .ihf-grid-result-basic-info-item2 {
+        padding: 0 15px;
+      }
+
+      .ihf-grid-result-basic-info-item3 {
+        padding-left: 15px;
+      }
+
+      .ihf-grid-result-photocount {
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        padding-top: 10px;
+        padding-bottom: 10px;
+
+        a {
+          display: inline-block;
+          vertical-align: top;
+          line-height: 11px;
+          margin-right: 5px;
+          color: $label_color;
+
+          &:hover {
+            color: $linkColorHover;
+          }
+
+          i {
+            font-size: 16px;
+            line-height: 12px;
+          }
+        }
+
+        span {
+          display: inline-block;
+          vertical-align: top;
+          font-size: 14px;
+          color: $label_color;
+        }
+      }
+
+      .mb-5 {
+        display: none;
+      }
+
+      .property-divider {
+        margin: 20px 0 0 0;
+      }
+
+      .ihf-grid-result-mlsnum-proptype {
+        font-size: 14px;
+        line-height: 21px;
+        color: $label_color;
+        text-align: center;
+        margin: 15px 0 0 0;
+        white-space: normal;
+      }
+    }
+  }
+
+  .ihf-listing-search-results {
+
+    .btn {
+      color: $label_color;
+      padding: 0;
+      text-decoration: none;
+
+      &:hover {
+        color: $linkColorHover;
+        text-decoration: none;
+      }
+    }
+
+    .btn.disabled {
+      padding: 10px 15px;
+      border: none;
+    }
+
+    .btn-group {
+
+      .btn:not(.dropdown-toggle) {
+        border-radius: 0;
+        color: $white;
+        background: $main_menu_background_color;
+        border-color: $main_menu_background_color;
+        box-shadow: none;
+        padding: 7px 10px;
+        text-shadow: none;
+
+        &:hover {
+          background: $main_menu_background_color_2;
+          border-color: $main_menu_background_color_2;
+        }
+      }
+
+      .btn.active:not(.dropdown-toggle) {
+        background: $main_menu_background_color_2;
+        border-color: $main_menu_background_color_2;
+      }
+
+      .btn-group + .btn-group {
+        margin-left: 0;
+      }
+    }
+
+    #saveSearchButton {
+      color: $white;
+      background: $main_menu_background_color;
+      border-radius: 0;
+      border: none;
+      box-shadow: none;
+      padding: 7px 12px;
+      text-shadow: none;
+
+      &:hover {
+        background: $main_menu_background_color_2;
+        color: $white;
+
+      }
+    }
+
+    .dropdown-menu {
+      border-radius: 0;
+      box-shadow: none;
+
+      li {
+        a {
+          &:hover {
+            background: $contact_number_bg_color;
+          }
+        }
+      }
+
+      li.active {
+        a {
+          background: $contact_number_bg_color;
+        }
+      }
+    }
+
+    #ihf-refine-search {
+
+      .form-control {
+        border-radius: 0 !important;
+        box-shadow: none;
+        width: 100%;
+      }
+
+      .ihf-widget-label {
+        display: block;
+      }
+
+      #ihf-mini-search-maxprice,
+      #ihf-mini-search-minprice,
+      #ihf-mini-search-beds,
+      #ihf-mini-search-baths {
+        width: 100%;
+      }
+    }
+
+    & > .mb-10 {
+
+      .col-xs-4 {
+        padding-top: 6px;
+        padding-bottom: 6px;
+      }
+
+      .dropdown-toggle {
+        color: $label_color;
+        text-decoration: none;
+        border: 1px solid $border_color_two;
+        font-size: 14px;
+        padding: 5px 10px 5px 10px;
+        box-shadow: none;
+        margin-left: 5px;
+        margin-top: 5px;
+
+        &:hover {
+          color: $label_color;
+          border: 1px solid $border_color_two;
+        }
+
+        .caret {
+          margin-top: 0;
+          margin-left: 10px;
+        }
+      }
+    }
+
+  }
+
+  div.modal {
+    top: 300px;
+    left: 280px;
+    width: 100%;
+    background: none;
+    border: none;
+  }
+
+  span.carousel-control.left,
+  span.carousel-control.right {
+    background: none;
+    border: none;
+    top: 45%;
+    opacity: 0.8;
+    transition: 0.1s all linear;
+
+    &:hover {
+      opacity: 1;
+      transition: 0.1s all linear;
+    }
+
+    span {
+      color: #292d2d;
+      text-shadow: 0px 0px 5px rgba(255, 255, 255, 1);
+    }
+  }
+
+  div.carousel-caption {
+    background: none;
+    padding: 20px 10px;
+  }
+
+  div.modal-header {
+    border-radius: 0;
+  }
+
+  div.modal-footer {
+    border-radius: 0;
+
+    .btn-link {
+      border: none;
+      outline: 0;
+      text-decoration: none;
+      color: $white;
+      background: $main_menu_background_color;
+      box-shadow: none;
+
+      &:hover {
+        background: $main_menu_background_color_2;
+      }
+    }
+  }
+
+  ul.pagination {
+    border: none;
+    padding: 0;
+
+    li.disabled {
+      a {
+        cursor: text;
+
+        &:hover {
+          cursor: text;
+        }
+      }
+    }
+
+    li.disabled,
+    li {
+      a {
+        color: $label_color;
+        border-color: $border_color_two;
+        border-radius: 0;
+
+        &:hover {
+          color: $label_color;
+        }
+      }
+    }
+    li {
+      display: inline-block;
+      vertical-align: top;
+      margin-right: 5px;
+
+      &:first-child,
+      &:last-child {
+        a,
+        span {
+          color: $white;
+          border: 1px solid $main_menu_background_color;
+          background: $main_menu_background_color;
+          border-radius: 0;
+          margin: 0;
+
+          &:hover {
+            color: $white;
+            background: $main_menu_background_color_2;
+            border: 1px solid $main_menu_background_color_2;
+          }
+        }
+      }
+    }
+  }
+
+  .ihf-board-update-text {
+    font-size: 14px;
+  }
+
+  .back-to-results {
+    a {
+      display: inline-block;
+      vertical-align: top;
+      text-decoration: none;
+      color: $label_color;
+
+      &:hover {
+        color: $linkColorHover;
+      }
+    }
+  }
+
+  #ihf-leadcapture-btns {
+    a.schedule-showing-btn,
+    a.info-req-btn,
+    a.save-listing-btn {
+      background: $main_menu_background_color;
+      border: none;
+      border-radius: 0;
+      padding: 10px;
+
+      &:hover {
+        background: $main_menu_background_color_2;
+      }
+    }
+  }
+
+  h4.ihf-address {
+    line-height: 1.5;
+  }
+
+  h4.ihf-price {
+    color: $main_menu_background_color;
+    line-height: 1.5;
+  }
+
+  div.ihf-social-share {
+
+    .ihf-share-btn-facebook,
+    .ihf-share-btn-email,
+    .ihf-share-btn-print,
+    .ihf-share-btn-more {
+      background: $main_menu_background_color;
+      padding: 7px !important;
+      margin: 0;
+      border: none;
+      border-radius: 0;
+      width: 30px;
+      height: 30px;
+
+      &:hover,
+      &:focus {
+        background: $main_menu_background_color_2;
+      }
+    }
+
+    .btn-group.open {
+      .dropdown-toggle {
+        box-shadow: none;
+      }
+
+      ul.dropdown-menu {
+        border-radius: 0;
+        box-shadow: none;
+
+        li {
+          a {
+            box-shadow: none;
+
+            &:hover {
+              background: $main_menu_background_color;
+              color: $white;
+
+              span.btn {
+                color: $white !important;
+              }
+            }
+
+            span.btn {
+              color: $label_color !important;
+              background: none;
+              font-size: 14px !important;
+              box-shadow: none;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .extra-link {
+    margin: 0;
+
+    a {
+      display: inline-block;
+      padding: 7px 15px;
+      text-decoration: none;
+      color: $white;
+      background: $main_menu_background_color;
+
+      &:hover {
+        color: $white;
+        background: $main_menu_background_color_2;
+      }
+    }
+  }
+
+  .ihf-description {
+    line-height: 28px;
+  }
+
+  #ihf-detail-extrainfo-tabrow {
+    ul {
+      li {
+        a {
+          border-radius: 0;
+          color: $label_color;
+          font-weight: 700;
+
+          .caret {
+            vertical-align: top;
+            border-top-color: $label_color;
+            border-bottom-color: $label_color;
+          }
+        }
+      }
+    }
+    .nav {
+      .open {
+        a {
+          &:focus {
+            border-color: #ddd;
+            border-bottom-color: transparent;
+          }
+        }
+      }
+    }
+  }
+
+  .ihf-tab-pane {
+    font-size: 14px;
+  }
+
+  .ihf-detail-tab-content {
+    overflow: visible;
+
+    #ihf-detail-features-tab {
+
+      h5 {
+        font-weight: 700;
+      }
+
+      .row {
+        margin-left: -20px;
+        margin-right: -20px;
+      }
+
+      .title-bar-1 {
+        background-color: #4dc7ec;
+        color: #fff;
+        padding: 10px 20px;
+        font-size: 14px;
+        font-weight: 700;
+        border: none;
+        border-radius: 0;
+        text-shadow: none;
+      }
+
+      .listing-info-item {
+        padding: 10px 0;
+        margin: 0 5px;
+        font-size: 14px;
+      }
+    }
+  }
+
+  #ihf-mortgage-calculator-tab-content {
+    .well {
+      box-shadow: none;
+      border-radius: 0;
+
+      .fs-12 {
+        font-size: 14px;
+      }
+
+      .input-group {
+        .form-control {
+          box-shadow: none;
+          border-radius: 0 !important;
+          border-color: #cccccc;
+          height: 35px;
+        }
+        .input-group-addon {
+          border-radius: 0;
+        }
+      }
+
+      #ihf-mort-calc-submit {
+        outline: 0;
+        border-radius: 0;
+        background: $main_menu_background_color;
+        color: $white;
+        box-shadow: none;
+        border: 0;
+      }
+
+      .mc-loanamt {
+        margin-top: 10px;
+      }
+
+      .panel {
+        border-color: #e3e3e3;
+        border-radius: 0;
+
+        .mc-amount,
+        .mc-lineitem {
+          color: $label_color;
+        }
+
+        .mc-estimated {
+          text-decoration: none;
+        }
+      }
+    }
+  }
+
+  #ihf-agent-sellers-rep,
+  #ihf-board-detail-disclaimer,
+  #ihf-board-disclaimers,
+  #ihf-board-detail-updatetext,
+  #ihf-board-update-text {
+    font-size: 14px;
+  }
+
+  .ihf-widget {
+    padding: 0;
+    margin-bottom: 15px;
+
+    .row {
+      .field-label {
+        font-size: 14px;
+      }
+
+      .form-control {
+        outline: 0;
+        border-radius: 0 !important;
+        box-shadow: none;
+        appearance: none;
+
+        &:focus {
+          border-color: #cccccc;
+        }
+
+        &:-moz-focusring {
+          color: transparent;
+          text-shadow: 0 0 0 #000;
+        }
+      }
+
+      .form-control::-ms-expand {
+        display: none;
+      }
+
+      button {
+        border-radius: 0;
+        box-shadow: none;
+        background: $main_menu_background_color;
+        border-color: $main_menu_background_color;
+        font-size: 14px;
+        outline: 0;
+        text-shadow: none;
+        padding: 6px 12px;
+
+        &:hover {
+          background: $main_menu_background_color_2;
+        }
+      }
+
+      .input-group-btn {
+        padding: 0 0 0 5px;
+      }
+    }
+
+    #ihf-widget-contact-form-replace,
+    .ihf-more-info-widget-container {
+      margin-bottom: 25px;
+    }
+  }
+
+  .row.mb-10 {
+    margin-bottom: 15px;
+  }
+
+  .gallery-prop-info {
+    padding: 0;
+    margin-bottom: 15px;
+    font-size: 14px;
+
+    .address {
+      a {
+        display: inline-block;
+        padding: 0 0 10px 0;
+        text-decoration: none;
+        color: $label_color;
+
+        &:hover {
+          color: $linkColorHover;
+        }
+      }
+    }
+
+    div.col-xs-6 {
+      width: 50%;
+
+      &:first-child {
+        width: 50%;
+        padding-right: 0;
+      }
+    }
+
+    div.gallery-sidebar-photo {
+      margin-bottom: 10px;
+    }
+  }
+
+  .chosen-container-single {
+
+    .chosen-single {
+      border-radius: 0;
+      box-shadow: none;
+      font-size: 14px;
+
+      span {
+        color: $label_color;
+      }
+    }
+
+    .chosen-drop {
+      box-shadow: none;
+      border-radius: 0 !important;
+      border-color: #ccc;
+    }
+
+    .chosen-results {
+      margin-right: 0;
+      margin-bottom: 0;
+      padding: 0;
+
+      li {
+        padding-top: 8px;
+        padding-bottom: 8px;
+        color: $label_color;
+        background-image: none;
+        background-color: $white;
+
+        &:hover {
+          color: $white;
+          background-color: $main_menu_background_color;
+        }
+      }
+
+      li.highlighted {
+        background-color: $main_menu_background_color;
+      }
+
+      li.result-selected {
+        color: $white;
+        background-color: $main_menu_background_color;
+      }
+    }
+  }
+
+  .checkbox input[type=checkbox],
+  .checkbox-inline input[type=checkbox],
+  .radio input[type=radio],
+  .radio-inline input[type=radio] {
+    display: inline-block;
+    margin-right: 7px;
+    margin-bottom: 2px;
+    float: none;
+  }
+
+  .radio + .radio {
+    padding-left: 0;
+
+    label {
+      padding-left: 20px;
+    }
+  }
+}
+
+.ihf-map-search-refine-link {
+  margin-top: 26px;
+}
+
+#ihf-main-container .well {
+  padding: 10px 15px 15px;
+}
+
+.widget_ihomefinderpropertiesgallery {
+
+  & > a {
+    display: block;
+    margin: 0 15px 25px;
+    text-align: center;
+    padding: 10px 0;
+    background: $main_menu_background_color;
+    color: $white;
+    font-size: 14px;
+
+    &:hover {
+      background: $main_menu_background_color_2;
+    }
+  }
+
+  br {
+    display: none;
+  }
+}
+
+.widget_ihomefinderagentbiowidget {
+  background: $white;
+
+  table {
+    background-color: transparent;
+    border: none;
+    border-color: transparent;
+    margin: 0;
+
+    .ihf-bio-img {
+      padding: 0 15px 15px 15px;
+      border-color: transparent;
+      background-color: $white;
+      border-bottom: 1px solid #dedede;
+
+      img {
+        max-width: 100%;
+      }
+    }
+
+    td {
+      display: block;
+      padding: 15px;
+      border: none;
+      box-sizing: border-box;
+    }
+
+    .ihf-bio-about-info {
+      word-break: break-all;
+
+      blockquote {
+        margin: 15px 0;
+      }
+
+      strong,
+      span {
+        color: $label_color !important;
+        font-family: Helvetica, Arial, sans-serif !important;
+      }
+
+      div {
+        color: $label_color;
+        font: 14px/1.5 Helvetica, Arial, sans-serif;
+      }
+    }
+  }
+}
+
+.widget_ihomefinderlinkwidget {
+  padding: 15px;
+
+  .ihf-seo-link {
+    display: inline-block;
+    vertical-align: top;
+  }
+
+  a {
+    font-size: 14px;
+    line-height: 2;
+    padding: 0 5px 0 0;
+  }
+}
+
+.widget_ihomefindersocialwidget {
+  border: none;
+
+  a {
+    display: inline-block;
+    vertical-align: middle;
+    margin-top: 5px;
+  }
+}
+
+.widget_ihomefinderloginwidget {
+  .dropdown {
+    margin: 0 0 15px;
+
+    ul li {
+      padding: 0;
+      background: none;
+      border: none;
+    }
+  }
+
+  #ihf-main-container .btn.dropdown-toggle {
+    margin: 0;
+  }
+
+  #ihf-main-container {
+    .dropdown-menu {
+      & > li > a {
+        padding: 7px 20px;
+        transition: 0.1s all linear;
+
+        &:hover {
+          transition: 0.1s all linear;
+        }
+      }
+
+      .divider {
+        margin: 5px 0;
+      }
+    }
+  }
+}
+
+.widget {
+  #ihf-main-container {
+    display: block !important;
+    padding: 0 15px;
+  }
+}
+
+#ihf-main-search-form {
+
+  .nav-tabs {
+    li {
+      a {
+        border-radius: 0;
+        color: $label_color;
+      }
+    }
+  }
+
+  .tab-content,
+  #areaPickerContainer {
+    overflow: visible;
+
+    .input-group {
+      .input-group-addon {
+        border-radius: 0;
+
+        .areaPickerExpandAllButtonClass {
+          &:first-child {
+            display: none !important;
+          }
+        }
+
+        .glyphicon {
+          display: block !important;
+          padding: 0px 2px 2px 2px;
+        }
+      }
+      .form-control {
+        border-radius: 0;
+        box-shadow: none;
+
+        input {
+          padding: 0 !important;
+        }
+      }
+    }
+  }
+
+  .areaPickerExpandAllTopBar {
+    border-radius: 0;
+    background: $main_menu_background_color;
+    border-color: $main_menu_background_color;
+    color: $white;
+    text-shadow: none;
+    box-shadow: none;
+    padding: 0;
+
+    &:hover {
+      background: $main_menu_background_color_2;
+      border-color: $main_menu_background_color_2;
+    }
+
+    .glyphicon {
+      color: $white !important;
+    }
+
+    .areaPickerExpandAllButtonClass {
+      span {
+        background: none;
+      }
+    }
+
+  }
+
+  #areaPickerExpandAllContainer {
+    border-radius: 0;
+    font-size: 14px;
+    box-shadow: none;
+
+    .areaPickerExpandAllElement {
+      font: 14px/2 Helvetica, Arial, sans-serif;
+      color: $label_color;
+      text-shadow: none;
+      text-align: center;
+
+      div {
+        &:hover {
+          background: $main_menu_background_color;
+          border-radius: 0;
+          color: $white;
+          font-weight: 400;
+          text-shadow: none;
+        }
+      }
+
+      div.areaSelected {
+        background: $main_menu_background_color;
+        border-color: $main_menu_background_color;
+        border-radius: 0;
+        color: $white;
+        font-weight: 400;
+      }
+    }
+  }
+
+  #ihf-status-fields {
+    input {
+      outline: 0;
+
+      &:focus {
+        outline: 0;
+      }
+    }
+  }
+
+  .form-control {
+    outline: 0;
+    box-shadow: none;
+    border-radius: 0 !important;
+
+    &:focus {
+      outline: 0;
+      border-color: #cccccc;
+      box-shadow: none;
+    }
+  }
+
+  input.form-control {
+    outline: 0;
+    box-shadow: none;
+    border-radius: 0 !important;
+
+    &:focus {
+      border-color: #cccccc;
+      box-shadow: none;
+    }
+  }
+
+  .checkbox {
+    input[type=checkbox] {
+      outline: 0;
+
+      &:focus {
+        outline: 0;
+      }
+    }
+  }
+
+  #ihf-main-search-form-submit,
+  #ihf-search-adv-submit,
+  #ihf-search-adv2-submit {
+    background: $main_menu_background_color;
+    color: $white;
+    border-radius: 0;
+    border: none;
+    box-shadow: none;
+    font-size: 14px;
+    outline: 0;
+    text-shadow: none;
+    margin-top: 10px;
+    padding: 10px 15px;
+
+    &:hover {
+      border: none;
+      background: $main_menu_background_color_2;
+    }
+
+    &:focus {
+      border: none;
+      outline: 0;
+    }
+  }
+
+  .ihf-advanced-search-launch {
+    color: $label_color;
+    text-decoration: none;
+    font-size: 14px;
+    white-space: normal;
+    text-align: left;
+
+    &:hover {
+      color: $linkColorHover;
+      text-decoration: none;
+    }
+  }
+
+  .chosen-container-multi {
+    .chosen-choices {
+      border-radius: 0;
+      box-shadow: none;
+      text-shadow: none;
+      background-image: none;
+
+      li.search-choice {
+        background-image: none;
+        box-shadow: none;
+        border-radius: 0;
+        color: $label_color;
+        text-shadow: none;
+      }
+    }
+
+    .chosen-results {
+      li.highlighted {
+        background-image: none;
+        background-color: $main_menu_background_color;
+        color: $white;
+      }
+    }
+  }
+
+}
+
+#emailSignupForm {
+  padding: 0 0 15px;
+
+  label {
+    font-size: 14px;
+  }
+
+  input.form-control {
+    border-radius: 0 !important;
+    box-shadow: none;
+
+    &:focus {
+      outline: 0;
+      box-shadow: none;
+      border-color: #ccc;
+    }
+  }
+
+  .ihf-email-alert-widget-submit {
+    border-radius: 0;
+    box-shadow: none;
+    border: none;
+    background: $main_menu_background_color;
+    text-shadow: none;
+
+    &:hover {
+      background: $main_menu_background_color_2;
+    }
+  }
+}
+
+.ihf-map-icon {
+  background: $main_menu_background_color !important;
+  border-color: $main_menu_background_color !important;
+  color: $white;
+  border-radius: 0;
+  box-shadow: none;
+  margin-top: 10px;
+
+  &:after {
+    border-top-color: $main_menu_background_color !important;
+    left: 7px;
+  }
+}
+
+.leaflet-touch {
+  .leaflet-bar,
+  .leaflet-control-layers {
+    border: 1px solid #ccc;
+    border-radius: 0;
+
+    a {
+      border-radius: 0;
+    }
+  }
+}
+
+#ihf-main-container {
+  .leaflet-popup-content-wrapper {
+    box-shadow: none;
+    border-radius: 0;
+  }
+
+  .leaflet-popup-content-wrapper,
+  .leaflet-popup-tip {
+    box-shadow: none;
+  }
+}
+
+#ihf-main-container {
+  .close {
+    color: $white;
+    opacity: 0.7;
+    text-shadow: none;
+
+    &:hover {
+      color: $white;
+      opacity: 1;
+    }
+
+    &:focus {
+      outline: 0;
+    }
+  }
+
+  .form-control,
+  input.form-control,
+  select.form-control {
+    border-radius: 0 !important;
+    box-shadow: none;
+    color: $label_color;
+
+    &:focus {
+      box-shadow: none;
+      outline: 0;
+      border-color: #ccc;
+    }
+  }
+
+  select.form-control {
+    -webkit-appearance: none;
+    background-image: url('../../images/dropdown-arrow.png');
+    background-position: right 50%;
+    background-repeat: no-repeat;
+  }
+
+  .input-group-addon {
+    border-radius: 0;
+  }
+
+  .panel {
+    border-radius: 0;
+
+    .panel-heading {
+      border-top-right-radius: 0;
+      border-top-left-radius: 0;
+    }
+
+    .panel-body {
+      font-size: 14px;
+    }
+  }
+
+  .chosen-container {
+    margin-bottom: 10px;
+  }
+
+  .ihf-map-results-count {
+    margin: 0;
+
+    + form {
+      margin-top: 5px;
+      margin-bottom: 5px;
+    }
+  }
+
+  button.btn-default,
+  button.btn-primary {
+    background: $main_menu_background_color;
+    color: $white;
+    border-radius: 0;
+    box-shadow: none;
+    border-color: $main_menu_background_color;
+    font-size: 14px;
+    text-shadow: none;
+
+    &:hover {
+      background: $main_menu_background_color_2;
+      border-color: $main_menu_background_color_2;
+      color: $white;
+    }
+
+    &:focus {
+      outline: 0;
+      background: $main_menu_background_color_2;
+      border-color: $main_menu_background_color_2;
+      color: $white;
+    }
+  }
+
+  .btn-link {
+    color: $label_color;
+    text-decoration: none;
+
+    &:hover {
+      color: $linkColorHover;
+      text-decoration: none;
+    }
+  }
+
+  #Map {
+    overflow: hidden;
+  }
+
+  .checkbox {
+    input {
+      outline: 0;
+
+      &:focus {
+        outline: 0;
+      }
+    }
+  }
+
+  .well-sm {
+    padding: 15px;
+    border-radius: 0;
+    box-shadow: none;
+  }
+}
+
+.optima-express {
+  #ihf-main-container {
+    .ihf-widget {
+      padding: 0;
+
+      .form-inline,
+      .searchAddressForm {
+        .row {
+          padding: 0 0 15px 0;
+
+          & > div {
+            padding-left: 0;
+          }
+        }
+      }
+    }
+  }
+}
+
+.ihf-container {
+  .ihf-one-selectedArea {
+    border-radius: 0;
+    padding: 0;
+
+    .btn {
+      transition: 0.1s all linear;
+
+      &:hover {
+        background: #dadada;
+        transition: 0.1s all linear;
+      }
+    }
+  }
+}
+
+// Property detail tabs styles
+#ihf-main-container {
+
+  .nav > li > a {
+    padding: 14px 16px;
+    font-weight: 500;
+    border-radius: 0;
+  }
+
+  .nav-tabs {
+
+    > li.active {
+
+      & > a {
+        border-bottom-color: transparent;
+        border-radius: 0;
+      }
+    }
+
+    > li.dropdown {
+
+      .dropdown-toggle {
+        border-color: transparent;
+
+        &:focus,
+        &:active {
+          border-color: #eee;
+        }
+      }
+
+      .dropdown-menu {
+
+        > li {
+          float: none !important;
+          text-align: right;
+        }
+      }
+    }
+  }
+
+  .ihf-detail-tab-content {
+    border: 1px solid #ddd;
+    border-top: none;
+    padding: 1px 0;
+
+    h5 {
+      padding: 0 15px;
+    }
+
+    #ihf-detail-features-tab {
+
+      .row .col-xs-12 {
+        padding-left: 0;
+        padding-right: 0;
+      }
+
+      > .row {
+        margin-left: 0;
+        margin-right: 0;
+
+        .col-xs-12:first-of-type > .listing-info-item-2 {
+          border-top: none;
+        }
+      }
+
+      .title-bar-1 {
+        font-size: 16px;
+        font-weight: 500;
+        margin-bottom: 10px;
+        padding-left: 15px;
+        padding-right: 15px;
+      }
+
+      .listing-info-item {
+        font-size: 14px;
+        line-height: 2;
+        margin-right: 15px;
+        margin-left: 15px;
+        padding: 8px 0;
+
+        .listing-info-item-title {
+          font-weight: 500;
+        }
+      }
+    }
+
+    #ihf-map-tab-content {
+
+      .row.mb-25 {
+        margin-bottom: 0;
+
+        .col-xs-12 {
+          padding-bottom: 18px;
+        }
+      }
+
+      #ihf-map-canvas {
+        margin: 0 auto;
+        width: calc(100% - 34px) !important;
+      }
+    }
+
+    #ihf-great-schools-widget {
+      height: 620px;
+
+      iframe {
+        height: 620px;
+        padding: 15px 15px;
+      }
+    }
+
+    #ihf-walkscore-tab-content {
+
+      #ihf-walkscore-content {
+        padding: 0 15px 24px;
+      }
+    }
+
+    #ihf-mortgage-calculator-tab-content {
+
+      .mc-container {
+        margin-top: 15px !important;
+        margin-bottom: 15px !important;
+
+        > .col-xs-12 {
+          padding: 0 30px;
+        }
+      }
+
+      .mc-total {
+        padding-top: 0;
+      }
+    }
+  }
+}
+
+// Listing styles
+#ihf-main-container {
+
+  .ihf-result {
+    margin: 20px 0;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border: 1px solid #ddd;
+
+    .property-divider {
+      display: none;
+    }
+
+    .row {
+      margin-left: 0;
+      margin-right: 0;
+    }
+
+    > .col-xs-12 {
+      padding-left: 0;
+      padding-right: 0;
+    }
+
+    .ihf-results-address {
+      font-size: 18px;
+    }
+
+    .ihf-results-photo {
+      @media (max-width: 767px) {
+        width: 240px;
+
+        img {
+          width: 100%;
+        }
+      }
+
+      @media (max-width: 560px) {
+        width: 100%;
+      }
+    }
+  }
+}
+
+.ihf-eureka .ihf-rounded-top,
+.ihf-eureka .ihf-rounded-top,
+.ihf-eureka .ihf-dropdown-menu,
+.ihf-eureka .ihf-dropdown-menu,
+.ihf-eureka .ihf-list-group-item:first-child,
+.ihf-eureka .ihf-list-group-item:last-child,
+.ihf-eureka nav.ihf-navbar.ihf-rounded,
+.ihf-eureka .ihf-rounded,
+.ihf-eureka .ihf-form-control,
+.ihf-eureka .ihf-input-group-text,
+.ihf-input-group-text,
+.ihf-select-options,
+.ihf-select-input,
+.ihf-form-control,
+.ihf-btn {
+  border-radius: 0 !important;
+}
+
+.ihf-eureka .ihf-dropdown-menu,
+.ihf-eureka .ihf-select-options,
+.ihf-eureka .ihf-btn-primary:focus,
+.ihf-eureka .ihf-btn-primary.ihf-focus,
+.ihf-eureka .ihf-form-control:focus,
+.ihf-eureka .ihf-select-focused {
+  box-shadow: none !important;
+}
+
+.ihf-eureka .ihf-dropdown-menu,
+.ihf-eureka .ihf-btn-primary:focus,
+.ihf-eureka .ihf-btn-primary.ihf-focus,
+.ihf-eureka .ihf-form-control:focus,
+.ihf-eureka .ihf-select-focused {
+  border-color: $main_menu_background_color !important;
+}
+
+.ihf-search .ihf-secondary {
+  width: 100% !important;
+}
+
+// Forms
+.ihf-eureka label .ihf-select-single,
+.ihf-eureka label .ihf-select-multiple,
+.ihf-eureka label .ihf-input-group {
+  margin-top: 4px !important;
+}
+
+.ihf-eureka .ihf-select-input,
+.ihf-eureka .ihf-select-single .ihf-select-input {
+  padding-top: 3px !important;
+}
+
+.ihf-eureka .ihf-input-group .ihf-input-group-prepend,
+.ihf-eureka .ihf-input-group .ihf-form-control,
+.ihf-eureka .ihf-btn-primary {
+  height: 38px !important;
+}
+
+.ihf-select-options {
+  margin-top: 1px !important;
+  margin-left: -1px !important;
+  width: calc(100% + 2px) !important;
+}
+
+.ihf-eureka .ihf-btn-primary {
+  font-size: 15px !important;
+  font-weight: 700 !important;
+}
+
+#ihf-widget-valuation-form .ihf-captcha {
+  margin-top: 15px;
+}
+
+.ihf-eureka .ihf-select-multiple .ihf-select-selected-option {
+  font-size: 14px;
+  line-height: 24px !important;
+}
+
+.ihf-eureka .ihf-select-multiple .ihf-select-input .ihf-remove {
+  vertical-align: baseline !important;
+}
+
+#ihf-status-fields > label {
+  display: inline-block;
+  margin-bottom: 7px;
+}
+
+.ihf-area-inclusion-label {
+  display: inline-block !important;
+  margin-bottom: 20px !important;
+}
+
+.areaPickerExpandAllElement {
+  padding-bottom: 0;
+}
+
+// Widgets
+.widget ul.ihf-select-options li {
+  padding: 0;
+  background: none;
+  border: none;
+}
+
+.sidebar {
+
+  .ihf-eureka .ihf-border,
+  .ihf-eureka.ihf-white .ihf-border {
+    border: none !important;
+    background-color: transparent !important;
+  }
+
+  .ihf-eureka .ihf-form-control.ihf-select-multiple,
+  .ihf-eureka .ihf-select-input {
+    height: auto;
+  }
+
+  #searchProfile,
+  .widget_ihomefindervaluationwidget {
+
+    .col-sm-10,
+    .col-sm-4,
+    .col-sm-2,
+    .col-sm-3,
+    .col-sm-1 {
+      width: 100% !important;
+    }
+
+    .col-sm-4,
+    .col-sm-2,
+    .col-sm-3,
+    .col-sm-1 {
+      margin-bottom: 12px !important;
+    }
+
+    .chosen-container {
+      margin-bottom: 0 !important;
+    }
+  }
+
+  .widget_ihomefinderquicksearchwidget form.ihf-ng-untouched {
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 15px;
+  }
+
+  .widget_ihomefinderquicksearchwidget .ihf-eureka .ihf-border {
+    border: none !important;
+  }
+
+  .widget_ihomefinderquicksearchwidget .ihf-eureka .ihf-bg-light {
+    background-color: transparent !important;
+  }
+}
+
+#home-idx-search {
+
+  .ihf-container,
+  #ihf-main-container,
+  #social-icons,
+  .ihf-eureka,
+  &.widget_ihomefinderagentbiowidget table {
+    margin: 20px 25px;
+  }
+
+  .ihf-eureka .ihf-btn-primary {
+    margin-top: 4px;
+  }
+
+  .ihf-eureka .ihf-input-group .ihf-btn-primary {
+    margin-top: 0;
+  }
+
+  &.widget_ihomefinderagentbiowidget {
+
+    td {
+      padding: 15px;
+    }
+  }
+}
+
+.widget_ihomefinderpropertiesgallery {
+
+  > br,
+  > a {
+    display: none;
+  }
+}
+
+.ihf-navbar {
+  height: auto !important;
+
+  .ihf-navbar-nav,
+  .ihf-navbar-nav li {
+    margin: 0 !important;
+  }
+}
+
+.ihf-powered-by {
+  margin-top: 10px;
+}

@@ -1,0 +1,47 @@
+/*
+  Testimonials Styles
+*/
+
+.qe-testimonial-wrapper{
+  margin-bottom: 20px;
+
+  .qe-testimonial-img{
+    margin: 0 0 6px;
+    img{
+      border: 5px solid #eee;
+      &:hover{
+        border-color: #dedede;
+      }
+    }
+  }
+
+  .qe-testimonial-name{
+    color: $headingsColor;
+  }
+
+  .qe-testimonial-byline{
+    margin: 0;
+  }
+
+  .qe-testimonial-text{
+    position: relative;
+    margin: 10px 15px 15px;
+    padding-top: 15px;
+
+    &:before{
+      content: "";
+      position: absolute;
+      left: 50%;
+      top: 0;
+      width: 70px;
+      height: 1px;
+      margin-left: -35px;
+      background-color: $headingsColor;
+    }
+  }
+
+  .qe-testimonial-text p {
+    font-size: 14px;
+    line-height: 24px;
+  }
+}

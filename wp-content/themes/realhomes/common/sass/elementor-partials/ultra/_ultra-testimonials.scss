@@ -1,0 +1,97 @@
+.rhea-ultra-testimonials-wrapper{
+    ul,ol{
+        &.slides{
+        margin: 0;
+        padding: 0;
+    }
+    }
+    .flexslider{
+        background: transparent;
+        margin: 0;
+        padding: 0;
+        border: 0;
+    }
+}
+.rhea-ultra-testimonial-box{
+    display: flex;
+    column-gap: 45px;
+
+    .rhea-ultra-testimonial-strong{
+        color: $ultra_primary;
+        font-size: 30px;
+        font-weight: 500;
+        margin-bottom: 20px;
+        line-height: 1.3;
+
+    }
+    .rhea-ultra-testimonial-light{
+        color: #1a1a1a;
+        font-size: 18px;
+        
+    }
+}
+.rhea-ultra-testimonials-thumb{
+    // flex: 1;
+    padding: 40px 52px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.rhea-ultra-thumb-inner{
+
+}
+.rhea-ultra-bg-dots{
+    background-image: radial-gradient(#bae8ff 20%, transparent 20%);
+    background-position: 0 0, 50px 50px;
+    background-size: 25px 25px;
+}
+.rhea-ultra-dots-class{
+    .elementor-widget-container{
+    background-size: 25px 25px;
+    background-position: 0 0, 50px 50px;
+}
+}
+.rhea-ultra-testimonials-details{
+    flex: 2;
+}
+.rhea-ultra-thumb{
+    margin-bottom: 20px;
+    max-width: 150px;
+    max-height: 150px;
+    border-radius: 150px;
+    overflow: hidden;
+    box-shadow: 14px 14px 0px 4px rgba(29,178,255,0.09);
+    -webkit-box-shadow: 14px 14px 0px 4px rgba(29,178,255,0.09);
+    -moz-box-shadow: 14px 14px 0px 4px rgba(29,178,255,0.09);
+}
+.rhea-ultra-testimonal-author{
+    .rhea-author{
+        display: block;
+        font-size: 24px;
+        font-weight: 500;
+        color: #1a1a1a;
+    }
+    .rhea-author-designation{
+        font-size: 16px;
+        color: #808080;
+        text-decoration: underline;
+    }
+}
+
+[data-elementor-device-mode="tablet"] {
+    .rhea-ultra-testimonial-box{
+        flex-direction: column;
+    }
+    .rhea-ultra-bg-dots{
+        margin-bottom: 30px;
+    }
+}
+
+[data-elementor-device-mode="mobile"] {
+    .rhea-ultra-testimonial-box{
+        flex-direction: column;
+    }
+    .rhea-ultra-bg-dots{
+        margin-bottom: 30px;
+    }
+}

@@ -1,0 +1,171 @@
+/**
+ * Property Agent for Sidebar
+ */
+
+.rh_property_agent,
+.agent-info {
+  display: block;
+  width: 100%;
+  background: #fff;
+  text-align: center;
+  margin-bottom: 3rem;
+  box-shadow: 0 0 5px 2px rgba(0, 0, 0, 0.05);
+
+  .agent-image {
+    display: inline-block;
+    width: 128px;
+  }
+
+  img {
+    display: inline-block;
+    margin-top: 0;
+    padding: 3rem 0 1rem 0;
+
+    @include r(1024) {
+      margin-top: -4rem;
+      padding: 0 0 1rem 0;
+    }
+  }
+
+  .rh_property_agent__title {
+    margin: 2rem 1rem;
+    font-size: 1.9rem;
+    font-weight: 500;
+  }
+
+  .rh_property_agent__agent_info {
+    padding: 0 1.5rem 1.5rem;
+
+    .contact {
+      margin-bottom: 1rem;
+      line-height: 1.5;
+    }
+
+    .value {
+      color: var(--rh-global-color-headings);
+    }
+
+    .email {
+      .value {
+        color: var(--rh-global-color-primary);
+      }
+    }
+  }
+
+  .rh_property_agent__link {
+    display: block;
+    padding: 2rem 0;
+    transition: 0.2s all linear;
+
+    &:hover {
+      transition: 0.2s all linear;
+    }
+  }
+
+  .inspiry-google-recaptcha {
+    margin: 0 1rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+
+    > div {
+      margin-left: auto;
+      margin-right: auto;
+    }
+  }
+
+  .g-recaptcha-type-v3{
+    .inspiry-google-recaptcha{
+      padding-top: 0;
+      padding-bottom: 0;
+    }
+  }
+
+  .rh_inspiry_gdpr + .rh_modal__recaptcha .inspiry-google-recaptcha {
+    margin-top: 0;
+  }
+}
+
+.multiple-agent {
+  margin-top: 0;
+  @include r(1024) {
+    margin-top: 7rem;
+  }
+}
+
+.rh_widget_form {
+  text-align: left;
+  overflow: hidden;
+
+  .rh_widget_form__row {
+    border-bottom: 1px solid rgba($rh_text_color, 0.2);
+    margin: 0;
+    padding: 2rem;
+
+    label {
+      display: block;
+      font-size: 1.3rem;
+      margin-bottom: 1rem;
+    }
+
+    label:not([for^="rh_inspiry_gdpr"]) {
+      color: var(--rh-global-color-headings);
+    }
+
+    input:not([type="checkbox"]),
+    textarea {
+      display: block;
+      width: 100%;
+      line-height: 1.5;
+      padding: 0;
+      color: $rh_text_color;
+    }
+
+    &.rh_inspiry_gdpr {
+      margin-bottom: 0;
+      border: none;
+
+      label {
+        font-size: 1.4rem;
+        line-height: 1.5;
+      }
+    }
+  }
+
+  .rh_widget_form__submit {
+    width: 100%;
+    padding: 2rem;
+  }
+
+  .ajax-loader,
+  #ajax-loader {
+    margin: 2rem;
+    text-align: center;
+  }
+
+  .error-container,
+  .message-container {
+    display: block;
+    color: $rh_text_color;
+    line-height: 2;
+    margin: 2rem;
+
+    p {
+      margin: 0;
+      padding: 0 0 5px 0;
+    }
+
+    .error {
+      display: block;
+      color: #ea3d3d;
+      padding: 0 0 5px 0;
+      line-height: 1.5;
+    }
+  }
+}
+
+.ajax-loader-center {
+  display: inline-block;
+  width: calc(100% - 4rem);
+  margin: 1.5rem auto;
+  text-align: center;
+}

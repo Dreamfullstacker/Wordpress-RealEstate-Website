@@ -1,0 +1,133 @@
+/*	My Properties
+--------------------------------------------------------*/
+.my-properties{
+  .main-wrap{
+    h3 {
+      margin-top: 0;
+      font-size: 18px;
+      font-family: $RobotoFontFamily;
+      text-align: left;
+      font-weight: normal;
+      margin-bottom: 0;
+      span{
+        background-color: #394041;
+        color: white;
+        display: inline-block;
+        padding: 5px 25px;
+        vertical-align: top;
+      }
+    }
+  }
+  .main{
+    border: none;
+  }
+  .alert-wrapper{
+    background: #fff;
+    padding: 25px;
+    h5{
+      font-family: $RobotoFontFamily;
+      font-weight: normal;
+    }
+  }
+}
+
+.my-property{
+  border: 1px solid #dedede;
+  background: #fff;
+  margin-bottom: 20px;
+  .cell{
+    padding: 22px 15px;
+    float: left;
+    height: 80px;
+    h5{
+      font-family: $RobotoFontFamily;
+      font-weight: normal;
+      font-size: 14px;
+      line-height: 32px;
+      margin: 24px 0;
+      overflow: hidden;
+      height: 32px;
+      text-align: center;
+    }
+    .cell-content{
+      line-height: 32px;
+      margin: 24px 0;
+      color: $headingsColor;
+      text-align: center;
+    }
+  }
+  .property-thumb{
+    width: 120px;
+  }
+  .property-title{
+    width: 200px;
+    border-right: 1px solid #dedede;
+    h5{
+      text-align: left;
+    }
+  }
+  .property-date{
+    width: 220px;
+    i{
+      margin-right: 5px;
+      position: relative;
+      top: -1px;
+    }
+  }
+  .property-publish-status{
+    width: 60px;
+    background: #ebebeb;
+    border-left: 1px solid #dedede;
+    border-right: 1px solid #dedede;
+  }
+  .property-payment{
+    width: 140px;
+    float: right;
+    border-right: 1px solid #dedede;
+    img{
+      vertical-align: top;
+    }
+    .paypal-button{
+      margin: 5px 0;
+      text-align: center;
+      button{
+        margin: 0;
+        outline: 0;
+
+        &:focus {
+          outline: 0;
+        }
+      }
+    }
+  }
+
+  .ajax-response{
+    color: red;
+  }
+
+  .property-controls{
+    width: 40px;
+    float: right;
+    .loader{
+      display: none;
+    }
+    a{
+      display: inline-block;
+      width: 40px;
+      height: 40px;
+      border-bottom: 1px solid #dedede;
+      text-align: center;
+    }
+    a:last-child{
+      border-bottom: none;
+    }
+    i{
+      line-height: 40px;
+    }
+  }
+}
+
+/*** Search Properties ***/
+@import "my-properties/search-properties";
+
+

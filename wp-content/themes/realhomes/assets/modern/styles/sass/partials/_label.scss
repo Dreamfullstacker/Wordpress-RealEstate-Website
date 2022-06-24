@@ -1,0 +1,78 @@
+/**
+ * Labels
+ */
+
+.rh_label {
+	display: inline-block;
+	font-size: 1.4rem;
+	background: var(--rh-global-color-secondary);
+	color: #fff;
+
+	.rh_label__wrap {
+		position: relative;
+		padding: 5px 5px 5px 10px;
+		font-size: 14px;
+		line-height: 16px;
+	}
+
+	span {
+		display: inline-block;
+	    width: 0;
+	    height: 0;
+	    position: absolute;
+	    right: -9px;
+	    top: 0;
+	    border: 0 solid transparent;
+	    border-bottom-width: 13px;
+	    border-top-width: 13px;
+	    border-left: 9px solid var(--rh-global-color-secondary);
+	}
+}
+
+.rh_label__slide {
+	position: absolute;
+	top: -13px;
+    left: 0;
+}
+
+.rh_label__property {
+	position: absolute;
+    left: 1.5rem;
+    top: -1.3rem;
+    z-index: 999;
+}
+
+.rh_label__featured {
+	position: absolute;
+	left: 0;
+	top: -1.3rem;
+	z-index: 999;
+}
+
+.rh_label__list {
+	position: absolute;
+	left: 0;
+	top: -1.3rem;
+	z-index: 9;
+}
+
+.rh_label__featured_widget {
+	position: absolute;
+	left: 0;
+	top: -1.3rem;
+	z-index: 999;
+}
+
+.rh_label__property_grid {
+	position: absolute;
+	left: 1.5rem;
+	top: -1.3rem;
+	z-index: 9;
+}
+
+.rh_label__favorite {
+	position: absolute;
+	left: 1.5rem;
+	top: -1.3rem;
+	z-index: 999;
+}

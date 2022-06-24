@@ -1,0 +1,67 @@
+.rh_detail_wrapper_3 {
+  padding: 20px 20px 15px 20px;
+}
+
+.rhea_wrapper_bottom_agent {
+  padding: 0 10px 10px 10px;
+  .rhea_agent_expand_wrapper {
+    position: relative;
+    .rhea_agent_list {
+      padding: 10px 0;
+      .rh_property_agent__title {
+        color: rgba(26,26,26,1);
+        &:hover{
+          color: rgba(26,26,26,.8);
+        }
+      }
+
+      .rh_property_agent__agency{
+        color: rgba(128,128,128,1);
+        &:hover{
+          color: rgba(26,26,26,.8);
+        }
+      }
+      .rhea_owner_label{
+        color: rgba(128,128,128,1);
+      }
+      .rhea_owner_title{
+        color: rgba(26,26,26,1);
+
+      }
+      .agent-image{
+        border: none;
+      }
+    }
+    .rhea_agent_list_extra{
+      z-index: 99;
+      background: #f7f7f7;
+    }
+    .rhea_agents_expand_button{
+      color: #808080;
+      &.rhea_open{
+        right: 10px;
+        left: auto;
+        bottom: auto;
+        top: 50%;
+        text-align: center;
+        margin-top: -12px;
+      }
+    }
+  }
+  .rhea_agent_expand_wrapper{
+    background: #f7f7f7;
+  }
+}
+.rhea_bottom_tags_box{
+  .rhea_property_types{
+    margin: 20px 15px;
+    font-size: 13px;
+    color: #ffffff;
+    display: inline-block;
+    font-weight: 500;
+    align-self: center;
+    small{
+      font-size: inherit;
+    }
+  }
+}

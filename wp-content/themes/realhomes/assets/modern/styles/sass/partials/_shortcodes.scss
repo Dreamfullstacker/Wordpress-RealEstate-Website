@@ -1,0 +1,364 @@
+/**
+ * Shortcode Styles
+ *
+ */
+
+.list-container {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  margin-left: -1.5rem;
+  margin-right: -1.5rem;
+
+  .rh_list_card {
+    @include r(320) {
+      max-width: 35rem;
+    }
+    @include r(480) {
+      max-width: 35rem;
+    }
+    @include r(768) {
+      max-width: 60rem;
+    }
+    @include r(1024) {
+      max-width: 60rem;
+    }
+    @include r(1140) {
+      max-width: 60rem;
+    }
+    @include r(1280) {
+      max-width: 80rem;
+    }
+  }
+
+  .rh_list_card__wrap .rh_list_card__details {
+    border-bottom: none;
+
+    @include r(320) {
+      width: 100%;
+      padding: 0;
+      border-right: none;
+    }
+    @include r(480) {
+      width: 100%;
+      padding: 0;
+      border-right: none;
+    }
+    @include r(768) {
+      width: 100%;
+      padding: 0;
+      border-right: none;
+    }
+    @include r(1024) {
+      width: 100%;
+      padding: 0;
+      border-right: none;
+    }
+    @include r(1140) {
+      width: 100%;
+      padding: 0;
+      border-right: none;
+    }
+    @include r(1280) {
+      width: 65%;
+      padding: 0 2rem 0 0;
+      border-right: 1px solid rgba($rh_text_color, 0.2);
+    }
+  }
+
+  .rh_list_card__wrap .rh_list_card__priceLabel {
+    @include r(320) {
+      display: none;
+    }
+    @include r(480) {
+      display: none;
+    }
+    @include r(768) {
+      display: none;
+    }
+    @include r(1024) {
+      display: none;
+    }
+    @include r(1140) {
+      display: none;
+    }
+    @include r(1280) {
+      display: flex;
+    }
+  }
+
+  .rh_list_card__wrap .rh_list_card__thumbnail {
+    @include r(320) {
+      width: 100%;
+    }
+    @include r(480) {
+      width: 100%;
+    }
+    @include r(768) {
+      width: 40%;
+    }
+    @include r(1024) {
+      width: 40%;
+    }
+    @include r(1140) {
+      width: 40%;
+    }
+    @include r(1280) {
+      width: 30%;
+    }
+  }
+
+  .rh_list_card__wrap .rh_list_card__details_wrap {
+    @include r(320) {
+      width: 100%;
+    }
+    @include r(480) {
+      width: 100%;
+    }
+    @include r(768) {
+      width: 60%;
+    }
+    @include r(1024) {
+      width: 60%;
+    }
+    @include r(1140) {
+      width: 60%;
+    }
+    @include r(1280) {
+      width: 70%;
+    }
+  }
+}
+
+.listing-layout {
+  .list-container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin-left: -2rem;
+    margin-right: -2rem;
+
+    @include r(320) {
+      margin-left: 0;
+      margin-right: 0;
+    }
+    @include r(480) {
+      margin-left: 0;
+      margin-right: 0;
+    }
+    @include r(768) {
+      margin-left: -2rem;
+      margin-right: -2rem;
+    }
+    @include r(1024) {
+      margin-left: -2rem;
+      margin-right: -2rem;
+    }
+    @include r(1140) {
+      margin-left: -2rem;
+      margin-right: -2rem;
+    }
+    @include r(1280) {
+      margin-left: -2rem;
+      margin-right: -2rem;
+    }
+  }
+}
+
+/**
+ * Testimonials Shortcodes
+ */
+.qe-testimonial-wrapper {
+  .qe-testimonial-img {
+    margin-top: 0;
+
+    a {
+      &:hover {
+        .avatar {
+          border: 3px solid var(--rh-global-color-secondary);
+          transition: 0.2s all linear;
+        }
+      }
+
+      .avatar {
+        border: 3px solid var(--rh-global-color-primary);
+        transition: 0.2s all linear;
+      }
+    }
+  }
+
+  .qe-testimonial-name {
+    font-size: 1.6rem;
+    font-weight: 500;
+    line-height: 2;
+    color: var(--rh-global-color-headings);
+  }
+
+  .qe-testimonial-byline {
+    line-height: 1.5;
+
+    a {
+      color: var(--rh-global-color-primary);
+      font-size: 1.4rem;
+      transition: 0.2s all linear;
+
+      &:hover {
+        color: var(--rh-global-color-secondary);
+        transition: 0.2s all linear;
+      }
+    }
+  }
+
+  .qe-testimonial-text {
+    margin: 1.5rem 0;
+
+    &:before {
+      display: none;
+    }
+
+    p {
+      font-size: 1.5rem;
+    }
+  }
+}
+
+/**
+ * FAQs Shortcode
+ */
+.rh_content {
+  .qe-faqs-filters-container {
+    padding: 0;
+    margin-bottom: 2.5rem;
+  }
+}
+
+.qe-faqs-filters-container {
+  li {
+    a {
+      color: var(--rh-global-color-primary);
+      padding: 1rem 1.5rem;
+      transition: 0.2s all linear;
+      border-bottom: 2px solid;
+
+      &:hover {
+        color: var(--rh-global-color-secondary);
+        transition: 0.2s all linear;
+      }
+    }
+  }
+
+  li.active {
+    a {
+      font-weight: 500;
+    }
+  }
+}
+
+.qe-faq-toggle,
+.entry-content .qe-faq-toggle {
+  margin-bottom: 1.5rem;
+}
+
+.qe-faq-toggle {
+
+  .qe-toggle-title {
+    border: none;
+    background: rgba(var(--rh-global-color-primary-rgb), 0.1);
+    color: var(--rh-global-color-headings);
+
+    &:hover {
+      background: rgba(var(--rh-global-color-primary-rgb), 0.2);
+    }
+
+    h4,
+    strong {
+      font-weight: 500;
+      line-height: 2;
+    }
+
+    .fa-plus-circle {
+      color: $rh_text_color;
+
+      &:before {
+        content: "\f067";
+      }
+    }
+
+    .fa-minus-circle {
+      color: $rh_text_color;
+
+      &:before {
+        content: "\f068";
+      }
+    }
+  }
+
+  .qe-toggle-content {
+    border: none;
+    background: rgba(var(--rh-global-color-primary-rgb), 0.1);
+  }
+}
+
+.qae-faqs-container {
+
+  .qe-faqs-index-list {
+    margin-bottom: 1.5rem;
+  }
+}
+
+.qae-faqs-container {
+
+  .qe-faqs-group-title {
+    margin-bottom: 1.5rem;
+    font-weight: 500;
+  }
+}
+
+.qe-faq-list .qe-list-title h4 {
+  font-weight: 500;
+  line-height: 1.6;
+}
+
+.qe-faq-toggle.active {
+  .qe-toggle-title {
+    background: rgba(var(--rh-global-color-primary-rgb), 0.2);
+  }
+}
+
+.ere_latest_properties_ajax {
+  .pagination {
+    z-index: 999999;
+    text-align: center;
+    padding-bottom: 20px;
+    a {
+      display: inline-block;
+      border-radius: 40px;
+      //width: 40px;
+      //height: 40px;
+      padding: 6px 17px;
+      line-height: 28px;
+      font-size: 14px;
+      font-weight: 500;
+      margin: 1rem;
+      color: #808080;
+      background: #fff;
+      vertical-align: middle;
+      transition: 0.2s all linear;
+      box-shadow: 0px 0px 5px 2px rgba(0, 0, 0, 0.05);
+      &.current {
+        background: var(--rh-global-color-primary);
+        color: #ffffff;
+      }
+      &:hover {
+        background: var(--rh-global-color-primary);
+        color: #ffffff;
+      }
+    }
+    &.rhea-pagination-clean {
+      border: none;
+      a, span {
+        margin: 10px;
+      }
+    }
+  }
+}

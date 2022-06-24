@@ -1,0 +1,196 @@
+//.rhea-agent-widget-wrapper {
+//  position: relative;
+//  width: 100%;
+//  height: 200px;
+//  margin-bottom: 30px;
+//  overflow: hidden;
+//
+//  &.rhea-agent-widget-style-2 {
+//    height: 430px;
+//  }
+//
+//  &.rhea-agent-widget-style-3 {
+//    height: 660px;
+//  }
+//
+//  a {
+//    transition: .2s all ease-in-out;
+//    //color: #fff;
+//    //
+//    //&:hover {
+//    //  color: var(--rh-global-color-headings-hover);
+//    //}
+//  }
+//
+//  &:hover {
+//
+//    .rhea-agent-widget-overlay {
+//      transition: all 0.3s ease-in-out;
+//      //  background-color: rgba(0, 0, 0, 0.2);
+//      // background-image: linear-gradient(180deg, #00000000 40%, #000000 100%);
+//    }
+//
+//    .rhea-agent-widget-inner {
+//      //  transition: transform 0.3s ease-in-out;
+//      //  transform: scale(1.02);
+//    }
+//
+// //   .rhea-agent-title,
+////    .rhea-agent-designation,
+// //   .rhea-agent-widget-details,
+//    .rhea-agent-socials,
+//    .rhea-agent-excerpt {
+//   //   transition: all 0.3s ease-in-out;
+//      opacity: 1;
+//      height: initial;
+//      transform: translateY(0);
+//      animation: rh-slide-in 0.5s;
+//    }
+//  }
+//
+//  .rhea-agent-widget-inner {
+//    display: flex;
+//    flex-direction: column;
+//    justify-content: flex-end;
+//    position: absolute;
+//    top: 0;
+//    left: 0;
+//    z-index: 1;
+//    width: 100%;
+//    height: 100%;
+//    padding: 30px;
+//    background-size: cover;
+//    background-position: center;
+//    background-repeat: no-repeat;
+//    transition: transform 0.3s ease-in-out;
+//  }
+//
+//  .rhea-agent-widget-overlay {
+//    //position: absolute;
+//    //top: 0;
+//    //left: 0;
+//    //z-index: 2;
+//    //width: 100%;
+//    //height: 100%;
+//    //transition: all 0.3s ease-in-out;
+//    //background-color: transparent;
+//    //background-image: linear-gradient(180deg, #00000000 60%, #000000 100%);
+//  }
+//
+//  .rhea-agent-widget-head {
+//    position: relative;
+//    z-index: 3;
+//  //  padding-bottom: 30px;
+//  }
+//
+//  .rhea-agent-title {
+//    margin: 0 0 7px;
+//    padding: 0;
+//    font-size: 24px;
+//    font-weight: 400;
+//    line-height: 1.1;
+//
+//    a {
+//      color: #fff;
+//    }
+//
+//    a:hover {
+//      color: var(--rh-global-color-headings-hover);
+//    }
+//  }
+//
+//  .rhea-agent-designation {
+//    display: block;
+//    font-size: 14px;
+//    font-weight: 400;
+//    color: #fff;
+//  }
+//
+//  .rhea-agent-widget-details {
+//    display: flex;
+//    flex-direction: column;
+//    position: absolute;
+//    right: 0;
+//    left: 0;
+//    bottom: 0;
+//    z-index: 4;
+//    padding: 50px 30px 30px;
+//    //opacity: 0;
+// //   transform: translateY(65%);
+//    /* opacity: 0; */
+//  //  transform: translateY(60%);
+//  //  padding-top: 50px;
+//
+//    transition: all 0.3s ease-in-out;
+//    background-image: linear-gradient(180deg, #00000000 0%, #000000 100%);
+//  }
+//
+//  .rhea-agent-excerpt {
+//    margin: 0;
+//   padding-top: 22px;
+//    font-size: 15px;
+
+//    font-weight: 400;
+//    line-height: 1.73333;
+//    color: #fff;
+//
+//    //transform: translateY(100%);
+//    //height: 0;
+//    //opacity: 0;
+//    //transition: all 0.3s ease-in-out;
+//  }
+//
+//  .rhea-agent-excerpt,
+//  .rhea-agent-socials {
+//    height: 0;
+//   // opacity: 0;
+//   // transform: translateY(200%);
+//   overflow: hidden;
+//
+//    animation: rh-slide-out 0.5s;
+//   // transition: transform 0.3s ease-in-out,  opacity 0.3s ease-in-out, 0.3s height 0.5s ease-in-out;
+//  }
+//
+//  .rhea-agent-socials {
+//    display: flex;
+//    flex-wrap: wrap;
+//    margin: 0 -8px;
+//
+//    li {
+//      list-style: none;
+//      padding: 25px 9px 0;
+//    }
+//
+//    a {
+//      color: #fff;
+//
+//      &:hover {
+//        color: var(--rh-global-color-headings-hover);
+//      }
+//    }
+//  }
+//
+//  .rhea-agent-social-link-facebook a:hover {
+//    color: #3b5998;
+//  }
+//
+//  .rhea-agent-social-link-twitter a:hover {
+//    color: #00acee;
+//  }
+//
+//  .rhea-agent-social-link-linkedin a:hover {
+//    color: #0e76a8;
+//  }
+//
+//  .rhea-agent-social-link-instagram a:hover {
+//    color: #FCAF45;
+//  }
+//
+//  .rhea-agent-social-link-pinterest a:hover {
+//    color: #c8232c;
+//  }
+//
+//  .rhea-agent-social-link-youtube a:hover {
+//    color: #c4302b;
+//  }
+//}

@@ -1,0 +1,366 @@
+/* Agents Listing
+--------------------------------------------------------*/
+.about-agent {
+  padding: 16px 20px 0;
+  border: 1px solid $border_color_two;
+  margin-bottom: 30px;
+
+  h4 a {
+    color: $headingsColor;
+
+    &:hover {
+      color: $linkColorHover;
+    }
+  }
+
+  .agent-pic {
+    margin: 0;
+    float: none;
+    margin-bottom: 15px;
+  }
+
+  .contact-types {
+    color: $headingsColor;
+    font-family: $RobotoFontFamily;
+  }
+
+  .agent-content {
+    line-height: 24px;
+  }
+
+  .contacts-list {
+    font-family: $RobotoFontFamily;
+
+    li {
+      border: none;
+      display: inline-block;
+      margin-right: 20px;
+      line-height: 20px;
+
+      &:last-child {
+        margin-right: 0;
+      }
+
+      svg {
+        width: 16px;
+        height: 16px;
+      }
+    }
+  }
+
+  .contacts-list,
+  .span9 .contacts-list {
+    margin: 0 0 20px;
+  }
+
+  .agent-recaptcha {
+    min-height: inherit;
+  }
+
+  .follow-agent {
+    border-top: 1px solid $border_color_two;
+    margin: 20px -20px 0;
+    clear: both;
+  }
+
+  .real-btn.btn {
+    float: right;
+    padding: 12px 25px;
+  }
+
+  .social_networks {
+    li {
+      a {
+        border-color: $border_color_two;
+        height: 44px;
+
+        i {
+          width: auto;
+
+          &.icon-twitter:before {
+            left: 1px;
+            position: relative;
+            top: 1px;
+          }
+
+          &.icon-google-plus:before {
+            left: 2px;
+            position: relative;
+            top: 1px;
+          }
+
+          &.icon-linkedin:before {
+            left: 1px;
+            position: relative;
+            top: 0px;
+          }
+        }
+      }
+    }
+  }
+
+}
+
+/* Agent Single
+--------------------------------------------------------*/
+.about-agent.agent-single {
+
+  figure {
+    width: auto;
+    margin: 0;
+    float: none;
+
+    img {
+      border: 1px solid $border_color_two;
+    }
+  }
+
+  .detail {
+    float: none;
+    width: auto;
+    margin-bottom: 0;
+
+    ul, ol {
+      list-style-position: inside;
+    }
+  }
+
+}
+
+.agent-single {
+
+  .contacts-list {
+    margin: 0 0 20px;
+    color: $headingsColor;
+
+    li {
+      border: none;
+      display: inline-block;
+      margin-right: 20px;
+
+      &:last-child {
+        margin-right: 0;
+      }
+    }
+  }
+
+  .follow-agent {
+    margin-top: 0;
+  }
+
+}
+
+.follow-agent .social_networks li {
+  margin-left: -4px;
+}
+
+/* Agent Single Form
+--------------------------------------------------------*/
+#agent-single-form {
+  margin-top: 15px;
+  margin-bottom: 0;
+
+  input[type="text"],
+  input[type="email"],
+  textarea {
+    width: 100%;
+    box-sizing: border-box;
+
+    &.error {
+      border: 1px solid #ff1a3a;
+      box-shadow: inset 0 0 1px #ff1a3a;
+    }
+
+    color: #394041;
+
+    &::-webkit-input-placeholder {
+      /* WebKit, Blink, Edge */
+      color: #a6a6a7;
+    }
+
+    &:-moz-placeholder {
+      /* Mozilla Firefox 4 to 18 */
+      color: #a6a6a7;
+      opacity: 1;
+    }
+
+    &::-moz-placeholder {
+      /* Mozilla Firefox 19+ */
+      color: #a6a6a7;
+      opacity: 1;
+    }
+
+    &:-ms-input-placeholder {
+      /* Internet Explorer 10-11 */
+      color: #a6a6a7;
+    }
+  }
+
+  input[type="text"],
+  input[type="email"] {
+    height: 34px;
+  }
+
+  textarea {
+    height: 100px;
+  }
+
+  .inspiry-recaptcha-wrapper {
+    margin-bottom: 10px;
+  }
+
+  .recaptcha_widget {
+    width: 100%;
+    box-sizing: border-box;
+    max-width: none;
+  }
+
+  .ajax-loader,
+  #ajax-loader {
+    display: none;
+  }
+
+  .error-container,
+  .message-container,
+  #error-container,
+  #message-container {
+    margin: 10px 0;
+    padding: 0;
+  }
+
+  ul.recaptcha_options {
+    margin: 5px;
+  }
+}
+
+/* Agent custom contact form styles
+--------------------------------------------------------*/
+.agent-custom-contact-form {
+
+  .wpforms-container .wpforms-form .wpforms-field-label {
+    font-size: inherit;
+  }
+
+  .wpforms-container .wpforms-form input.wpforms-field-medium,
+  .wpforms-container .wpforms-form select.wpforms-field-medium,
+  .wpforms-container .wpforms-form .wpforms-field-row.wpforms-field-medium {
+    max-width: 100%;
+  }
+
+  .wpforms-container .wpforms-form textarea {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+
+  .wpforms-container .wpforms-form input[type=checkbox],
+  .wpforms-container .wpforms-form input[type=radio] {
+    vertical-align: text-top;
+  }
+
+  .wpcf7 input[type="number"],
+  .wpcf7 input[type="date"],
+  .wpcf7 input[type="tel"],
+  .wpcf7 input[type="url"],
+  .wpcf7 input[type="email"],
+  .wpcf7 input[type="text"] {
+    margin-bottom: 0;
+  }
+
+  .wpcf7 input[type="radio"],
+  .wpcf7 input[type="checkbox"] {
+    vertical-align: top;
+  }
+
+  .wpcf7-acceptance .wpcf7-list-item,
+  .wpcf7-list-item.first {
+    margin-left: 0;
+  }
+
+  .wpcf7 p {
+    margin-bottom: 15px;
+  }
+
+  .wpcf7-response-output {
+    margin: 25px 0;
+    padding: 6px 10px;
+    font-size: 13px;
+    line-height: 1.5;
+  }
+
+  .wpcf7 .wpcf7-form-control.wpcf7-submit{
+    display: inline-block;
+  }
+}
+
+#overview .agent-custom-contact-form {
+  .wpforms-form {
+    textarea,
+    input[type="text"] {
+      width: 100%;
+      margin-bottom: 0;
+    }
+  }
+
+  .wpcf7 input[type="text"] {
+    width: calc(60% - 8px);
+    margin-bottom: 0;
+  }
+
+  .wpcf7 textarea {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+}
+
+.single-property-fullwidth #overview .agent-custom-contact-form {
+  .wpforms-container {
+    textarea,
+    input[type="text"] {
+      width: 100%;
+    }
+  }
+
+  .wpcf7-form {
+    input[type="text"] {
+      width: calc(60% - 9px);
+    }
+  }
+}
+
+.sidebar .agent-custom-contact-form {
+  padding: 0 25px;
+
+  @media (min-width: 980px) {
+    .wpforms-container .wpforms-form .wpforms-one-half,
+    .wpforms-container .wpforms-form .wpforms-three-sixths,
+    .wpforms-container .wpforms-form .wpforms-two-fourths {
+      width: 100%;
+      margin-left: 0;
+      margin-right: 0;
+    }
+
+    .wpcf7 textarea,
+    .wpcf7 input[type="number"],
+    .wpcf7 input[type="date"],
+    .wpcf7 input[type="tel"],
+    .wpcf7 input[type="url"],
+    .wpcf7 input[type="email"],
+    .wpcf7 input[type="text"] {
+      width: calc(100% - 14px);
+    }
+  }
+}
+
+.rtl .agent-custom-contact-form {
+  .wpforms-form input[type=checkbox],
+  .wpforms-form input[type=radio] {
+    margin-left: 10px;
+    margin-right: 0;
+  }
+
+  .wpcf7 span.wpcf7-list-item {
+    margin: 0 1em 0 0;
+    margin-right: 0;
+    margin-left: 1em;
+  }
+}

@@ -1,0 +1,90 @@
+.rhea_ultra_City{
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    border-radius: 15px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .rhea_ultra_city_thumb{
+        position: absolute;
+        z-index: 10;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        transition: .2s all ease-in-out;
+        background-color: rgba(0,0,0,0);
+        border-radius: inherit;
+        span{
+            background: #ffffff;
+            padding: 11px 20px;
+            border-radius: 40px;
+            font-size: 15px;
+            font-weight: 500;
+            color: #1a1a1a;
+            display: flex;
+            align-items: center;
+            column-gap: 10px;
+            opacity: 0;
+            visibility: hidden;
+            transition: .2s all ease-in-out;
+        }
+        &:hover{
+            background-color: rgba(0,0,0,.3);
+            span{
+                opacity: 1;
+                visibility: visible;
+            }
+        }
+    }
+
+    .rhea_ultra_city_tag_wrapper{
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        z-index: 20;
+    }
+    .rhea_ultra_city_tag{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background: #ffffff;
+        transform: translateY(50%);
+        padding: 16px 40px 10px;
+        border-radius: 15px;
+        position: relative;
+        box-shadow: 0px 0px 7px -2px rgba(0,0,0,0.19);
+        -webkit-box-shadow: 0px 0px 7px -2px rgba(0,0,0,0.19);
+        -moz-box-shadow: 0px 0px 7px -2px rgba(0,0,0,0.19);
+    }
+}
+.rhea_ultra_city_name{
+    font-weight: 600;
+    font-size: 14px;
+    color: #ffffff;
+    background: $ultra_primary;
+    display: inline-block;
+    padding: 5px 20px;
+    border-radius: 50px;
+    position: absolute;
+    top: 0;
+    transform: translateY(-50%);
+
+}
+.rhea_ultra_city_properties{
+    font-weight: 600;
+    font-size: 30px;
+    color: #1a1a1a;
+}
+.rhea_ultra_city_properties_label{
+    font-size: 14px;
+    color: #808080;
+}
+

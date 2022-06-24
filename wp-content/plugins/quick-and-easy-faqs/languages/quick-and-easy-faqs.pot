@@ -1,0 +1,314 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"Project-Id-Version: Quick and Easy FAQs\n"
+"POT-Creation-Date: 2020-03-06 19:40+0500\n"
+"PO-Revision-Date: 2019-04-04 18:28+0500\n"
+"Last-Translator: M Saqib Sarwar <saqib@inspirythemes.com>\n"
+"Language-Team: M Saqib Sarwar <saqib@inspirythemes.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.3\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: quick-and-easy-faqs.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;"
+"_n_noop:1,2;_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#. Plugin Name of the plugin/theme
+#: admin/class-gutenberg-editor.php:17 frontend/class-shortcode.php:133
+msgid "Quick and Easy FAQs"
+msgstr ""
+
+#: admin/class-register-post-and-taxonomy.php:17
+msgctxt "Post Type General Name"
+msgid "FAQs"
+msgstr ""
+
+#: admin/class-register-post-and-taxonomy.php:18
+msgctxt "Post Type Singular Name"
+msgid "FAQ"
+msgstr ""
+
+#: admin/class-register-post-and-taxonomy.php:19
+#: admin/class-register-post-and-taxonomy.php:22
+msgid "FAQs"
+msgstr ""
+
+#: admin/class-register-post-and-taxonomy.php:20
+msgid "FAQ"
+msgstr ""
+
+#: admin/class-register-post-and-taxonomy.php:21
+msgid "Parent FAQ:"
+msgstr ""
+
+#: admin/class-register-post-and-taxonomy.php:23
+msgid "Add New FAQ"
+msgstr ""
+
+#: admin/class-register-post-and-taxonomy.php:24
+msgid "Add New"
+msgstr ""
+
+#: admin/class-register-post-and-taxonomy.php:25
+msgid "New FAQ"
+msgstr ""
+
+#: admin/class-register-post-and-taxonomy.php:26
+msgid "Edit FAQ"
+msgstr ""
+
+#: admin/class-register-post-and-taxonomy.php:27
+msgid "Update FAQ"
+msgstr ""
+
+#: admin/class-register-post-and-taxonomy.php:28
+msgid "View FAQ"
+msgstr ""
+
+#: admin/class-register-post-and-taxonomy.php:29
+msgid "Search FAQ"
+msgstr ""
+
+#: admin/class-register-post-and-taxonomy.php:30
+msgid "Not found"
+msgstr ""
+
+#: admin/class-register-post-and-taxonomy.php:31
+msgid "Not found in Trash"
+msgstr ""
+
+#: admin/class-register-post-and-taxonomy.php:35
+msgid "faq"
+msgstr ""
+
+#: admin/class-register-post-and-taxonomy.php:36
+msgid "Frequently Asked Questions"
+msgstr ""
+
+#: admin/class-register-post-and-taxonomy.php:53
+msgid "faqs"
+msgstr ""
+
+#: admin/class-register-post-and-taxonomy.php:66
+msgctxt "Taxonomy General Name"
+msgid "FAQ Groups"
+msgstr ""
+
+#: admin/class-register-post-and-taxonomy.php:67
+msgctxt "Taxonomy Singular Name"
+msgid "FAQ Group"
+msgstr ""
+
+#: admin/class-register-post-and-taxonomy.php:68
+msgid "Groups"
+msgstr ""
+
+#: admin/class-register-post-and-taxonomy.php:69
+msgid "All FAQ Groups"
+msgstr ""
+
+#: admin/class-register-post-and-taxonomy.php:70
+msgid "Parent FAQ Group"
+msgstr ""
+
+#: admin/class-register-post-and-taxonomy.php:71
+msgid "Parent FAQ Group:"
+msgstr ""
+
+#: admin/class-register-post-and-taxonomy.php:72
+msgid "New FAQ Group Name"
+msgstr ""
+
+#: admin/class-register-post-and-taxonomy.php:73
+msgid "Add New FAQ Group"
+msgstr ""
+
+#: admin/class-register-post-and-taxonomy.php:74
+msgid "Edit FAQ Group"
+msgstr ""
+
+#: admin/class-register-post-and-taxonomy.php:75
+msgid "Update FAQ Group"
+msgstr ""
+
+#: admin/class-register-post-and-taxonomy.php:76
+msgid "View FAQ Group"
+msgstr ""
+
+#: admin/class-register-post-and-taxonomy.php:77
+msgid "Separate FAQ Groups with commas"
+msgstr ""
+
+#: admin/class-register-post-and-taxonomy.php:78
+msgid "Add or remove FAQ Groups"
+msgstr ""
+
+#: admin/class-register-post-and-taxonomy.php:79
+msgid "Choose from the most used"
+msgstr ""
+
+#: admin/class-register-post-and-taxonomy.php:80
+msgid "Popular FAQ Groups"
+msgstr ""
+
+#: admin/class-register-post-and-taxonomy.php:81
+msgid "Search FAQ Groups"
+msgstr ""
+
+#: admin/class-register-post-and-taxonomy.php:82
+msgid "Not Found"
+msgstr ""
+
+#: admin/class-register-post-and-taxonomy.php:97
+msgid "faq_groups"
+msgstr ""
+
+#: admin/class-settings.php:62
+msgid "Quick & Easy Settings"
+msgstr ""
+
+#: admin/class-settings.php:63
+msgid "Settings"
+msgstr ""
+
+#: admin/class-settings.php:80
+msgid "Basic"
+msgstr ""
+
+#: admin/class-settings.php:84
+msgid "Typography"
+msgstr ""
+
+#: admin/class-settings.php:85
+msgid ""
+"These settings only applies to FAQs with toggle style. As FAQs with list "
+"style use colors inherited from currently active theme."
+msgstr ""
+
+#: admin/class-settings.php:102
+msgid "FAQs Plugin Based Font Awesome Stylesheet"
+msgstr ""
+
+#: admin/class-settings.php:103
+msgid "Disable"
+msgstr ""
+
+#: admin/class-settings.php:108
+msgid "Back to Index Link"
+msgstr ""
+
+#: admin/class-settings.php:109
+msgid "Hide"
+msgstr ""
+
+#: admin/class-settings.php:117
+msgid "FAQs toggle colors"
+msgstr ""
+
+#: admin/class-settings.php:119
+msgid "Choose custom colors to apply colors provided in options below."
+msgstr ""
+
+#: admin/class-settings.php:122
+msgid "Default Colors"
+msgstr ""
+
+#: admin/class-settings.php:123
+msgid "Custom Colors"
+msgstr ""
+
+#: admin/class-settings.php:128
+msgid "Question text color"
+msgstr ""
+
+#: admin/class-settings.php:134
+msgid "Question text color on mouse over"
+msgstr ""
+
+#: admin/class-settings.php:140
+msgid "Question background color"
+msgstr ""
+
+#: admin/class-settings.php:146
+msgid "Question background color on mouse over"
+msgstr ""
+
+#: admin/class-settings.php:152
+msgid "Answer text color"
+msgstr ""
+
+#: admin/class-settings.php:158
+msgid "Answer background color"
+msgstr ""
+
+#: admin/class-settings.php:164
+msgid "Toggle Border color"
+msgstr ""
+
+#: admin/class-settings.php:170
+msgid "Custom CSS"
+msgstr ""
+
+#: admin/class-settings.php:184
+msgid "Quick and Easy FAQs Settings"
+msgstr ""
+
+#: frontend/class-shortcode.php:134
+msgid "Quick and Easy FAQs Plugin"
+msgstr ""
+
+#: frontend/class-shortcode.php:136
+msgid "Content"
+msgstr ""
+
+#: frontend/class-shortcode.php:140
+msgid "Display Style"
+msgstr ""
+
+#: frontend/class-shortcode.php:154
+msgid "FAQs Filters"
+msgstr ""
+
+#: frontend/class-shortcode.php:165
+msgid "FAQs Order"
+msgstr ""
+
+#: frontend/class-shortcode.php:176
+msgid "FAQs Order By"
+msgstr ""
+
+#: includes/class-faqs-query.php:225
+msgid "All"
+msgstr ""
+
+#: includes/class-faqs-query.php:290
+msgid "Back to Index"
+msgstr ""
+
+#: includes/class-settings-api.php:350
+msgid "Choose File"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "https://github.com/inspirythemes/quick-and-easy-faqs"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "A quick and easy way to add FAQs to your site."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Inspiry Themes"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://inspirythemes.com/"
+msgstr ""

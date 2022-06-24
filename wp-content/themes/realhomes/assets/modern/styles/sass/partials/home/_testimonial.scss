@@ -1,0 +1,169 @@
+/**
+ * Section Testimonial
+ */
+
+.rh_section__testimonial {
+	z-index: 999999999 !important;
+	background: var(--rh-global-color-primary);
+	padding: 10rem;
+	position: relative;
+
+	@include r(320)  { padding: 5rem 2rem; }
+	@include r(480)  { padding: 7rem 3rem; }
+	@include r(768)  { padding: 7rem; }
+	@include r(1024) { padding: 18rem 7rem; }
+	@include r(1280) { padding: 18rem 10rem; }
+
+	&.diagonal-border:before {
+		content: '';
+		color: transparent;
+	    width: 0;
+	    height: 0;
+	    border: 0 solid transparent;
+	    border-right-width: 0px;
+	    border-left-width: 1440px;
+	    border-left-width: 100vw;
+	    border-bottom: 180px solid var(--rh-global-color-primary);
+	    position: absolute;
+	    top: -90px;
+	    left: 0;
+	    z-index: 99;
+
+	    @include r(320)  { border-left-width: 0; border-bottom-width: 0; }
+		@include r(1024) { top: -70px; border-left-width: 100vw; border-bottom-width: 140px; }
+		@include r(1140) { top: -80px; border-bottom-width: 160px; }
+		@include r(1280) { top: -90px; border-bottom-width: 180px; }
+	}
+
+	&.diagonal-border:after {
+		content: '';
+	    width: 0;
+	    height: 0;
+	    border: 0 solid transparent;
+	    border-left-width: 0px;
+	    border-right-width: 1440px;
+	    border-right-width: 100vw;
+	    border-top: 180px solid var(--rh-global-color-primary);
+	    position: absolute;
+	    bottom: -90px;
+	    left: 0;
+	    z-index: 9999;
+
+	    @include r(320)  { border-right-width: 0; border-top-width: 0; }
+		@include r(1024) { bottom: -70px; border-right-width: 100vw; border-top-width: 140px; }
+		@include r(1140) { bottom: -80px; border-top-width: 160px; }
+		@include r(1280) { bottom: -90px; border-top-width: 180px; }
+	}
+	.quotes-marks{
+		position: absolute;
+		z-index: 999999;
+		opacity: .9;
+		@include r(max1023){
+			display: none;
+		}
+		&.mark-left{
+			top: -180px;
+			left: -90px;
+		}
+		&.mark-right{
+			bottom: -180px;
+			right: -90px;
+			transform: rotate(180deg);
+		}
+		svg{
+			fill: var(--rh-global-color-primary-dark);
+		}
+	}
+}
+
+
+.rh_testimonial {
+	max-width: 95rem;
+    text-align: center;
+    margin: 0 auto;
+    position: relative;
+    z-index: 99999;
+
+    .rh_testimonial__quote {
+    	position: relative;
+    	z-index: 999;
+		font-size: 2.2rem;
+    	font-weight: 400;
+    	line-height: 1.5;
+    	color: #fff;
+    	margin: 0;
+    	margin-bottom: 5rem;
+
+		a {
+			font-size: 3.6rem;
+			font-weight: 400;
+			line-height: 1.5;
+		}
+
+    	@include r(320)  { margin-bottom: 2rem; }
+		@include r(480)  { font-size: 2.5rem; margin-bottom: 3rem; }
+		@include r(768)  { font-size: 2.7rem; margin-bottom: 5rem; }
+		@include r(1024) { font-size: 3.2rem; }
+		@include r(1280) { font-size: 3.6rem; }
+    }
+
+    .rh_testimonial__author {
+    	display: flex;
+    	justify-content: center;
+    	align-items: center;
+    	position: relative;
+    	z-index: 999;
+
+    	@include r(320)  { flex-direction: column; }
+		@include r(768)  { flex-direction: row; }
+
+    	.rh_testimonial__author_name {
+    		color: #fff;
+			font-size: 2rem;
+    		font-weight: 500;
+    		padding: 0 1rem 0 0;
+
+    		@include r(320)  { padding: 0 0 1rem 0; }
+			@include r(480)  { font-size: 2.2rem; }
+			@include r(768)  { font-size: 2.5rem; padding: 0 1rem 0 0; }
+			@include r(1024) { font-size: 3rem; padding: 0 1rem 0 0; }
+    	}
+
+    	.rh_testimonial__author__link {
+    		a {
+    			color: #fff;
+    			font-size: 1.8rem;
+    			text-decoration: underline;
+    		}
+    	}
+    }
+}
+
+.rh_testimonial__quote_bg {
+	//background: url( '../../images/icons/quote-left.png' ) 10% 0% no-repeat,
+	//			url( '../../images/icons/quote-right.png' ) 90% 100% no-repeat;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	//height: calc(100% + -3rem);
+    margin-top: 1.5rem;
+    opacity: 0.8;
+    z-index: 99999;
+
+	@include r(320)  { display: none; }
+	@include r(1024) {
+		display: block;
+		//background: url( '../../images/icons/quote-left.png' ) 5% 0% no-repeat,
+		//			url( '../../images/icons/quote-right.png' ) 95% 100% no-repeat;
+	}
+	@include r(1140) {
+		//background: url( '../../images/icons/quote-left.png' ) 5% 0% no-repeat,
+		//			url( '../../images/icons/quote-right.png' ) 95% 100% no-repeat;
+	}
+	@include r(1280) {
+		//background: url( '../../images/icons/quote-left.png' ) 10% 0% no-repeat,
+		//			url( '../../images/icons/quote-right.png' ) 90% 100% no-repeat;
+	}
+}

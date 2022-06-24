@@ -1,0 +1,19 @@
+.rh_section__partners_elementor {
+  display: block;
+  text-align: center;
+
+  .rh_partner {
+    display: inline-block;
+    vertical-align: middle;
+    margin-top: auto;
+    text-align: center;
+
+    &:hover img {
+      opacity: .8;
+    }
+
+    img {
+      transition: opacity 0.3s ease-in-out;
+    }
+  }
+}

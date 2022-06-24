@@ -1,0 +1,16 @@
+<svg class="arrow" xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48">
+   <style>
+      .cls-1 {
+        fill: #ea723d;
+      }
+
+      .cls-2 {
+        fill: #fff;
+        fill-rule: evenodd;
+      }
+    </style>
+  <g fill="none">
+      <circle class="cls-1" cx="24" cy="24" r="24" fill="#EA723D"/>
+      <path class="cls-2" d="M16.5 25.6L24 26.4 24 31.1 33 24.1 24 17.1 24 21.7 16.5 22.5C16.1 22.5 15.7 22.6 15.4 22.9 15.1 23.2 15 23.6 15 24.1 15 24.5 15.1 24.9 15.4 25.1 15.7 25.4 16.1 25.6 16.5 25.6Z" fill="#FFF"/>
+  </g>
+</svg>

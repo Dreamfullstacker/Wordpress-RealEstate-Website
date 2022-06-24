@@ -1,0 +1,23 @@
+// Variables
+$rh_primary_color: #1ea69a;
+$rh_secondary_color: #ea723d;
+$rh_text_color: #808080;
+$rh_heading_color: #1a1a1a;
+
+:root {
+  --rvr-color-primary: var(--rh-global-color-primary,#{$rh_primary_color});
+  --rvr-color-primary-dark: var(--rh-global-color-primary-dark,#0b8278);
+  --rvr-color-secondary: var(--rh-global-color-secondary,#{$rh_secondary_color});
+  --rvr-color-text: var(--rh-global-color-text, #{$rh_text_color});
+  --rvr-color-headings: var(--rh-global-color-headings, #{$rh_heading_color});
+}
+
+@import 'search-form';
+@import 'single-property';
+@import 'seasonal-pricing';
+@import 'price-details';
+@import 'guests-accommodation';
+@import 'availability-calendar';
+@import 'datepicker-calendar';
+@import 'booking_widget';
+@import 'owner_widget';

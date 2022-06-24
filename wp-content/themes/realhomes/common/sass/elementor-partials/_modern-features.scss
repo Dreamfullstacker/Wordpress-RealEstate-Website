@@ -1,0 +1,40 @@
+.rhea_modern_elementor_widget_wrapper{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  .rhea_modern_feature_section{
+    min-width: 320px;
+    width: 33.333%;
+    text-align: center;
+    margin-bottom: 40px;
+    padding: 10px;
+    svg{
+      height: auto;
+    }
+  }
+  .rhea_modern_features_image{
+    margin-bottom: 20px;
+  }
+  .rhea_modern_features_icon{
+    margin-bottom: 20px;
+  }
+  .rhea_modern_feature_title{
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+    color: #1a1a1a;
+  }
+  .rhea_modern_feature_desc{
+    margin: 0;
+    font-size: 15px;
+    line-height: 2;
+    color: #808080;
+  }
+}
+
+[data-elementor-device-mode="mobile"],[data-elementor-device-mode="mobile_extra"] {
+  .rhea_modern_feature_section{
+     min-width: auto;
+  }
+}

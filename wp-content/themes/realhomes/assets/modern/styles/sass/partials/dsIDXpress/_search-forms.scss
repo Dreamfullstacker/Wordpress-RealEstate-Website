@@ -1,0 +1,78 @@
+.dsidx-resp-search-box {
+	.select2-container {
+		width: 100%;
+	}
+
+	.select2-selection--single {
+		border-radius: 0;
+		border-color: #e6e6e6;
+		height: 36px;
+
+		.select2-selection__rendered {
+			height: 36px;
+			line-height: 36px;
+		}
+
+		.select2-selection__arrow {
+			height: 36px;
+			right: 5px;
+		}
+	}
+}
+
+/* idx search form for homepage */
+#home-idx-search.dsidx-widget-guided-search {
+	position: relative;
+	z-index: 10;
+	max-width: 1240px;
+	margin-left: auto;
+	margin-right: auto;
+
+	@media (min-width: 768px) {
+		top: -40px;
+		margin-bottom: -40px;
+	}
+
+	.home-widget-label {
+		display: none;
+	}
+
+	.select2-container--default .select2-selection--multiple {
+		border-color: #e9e9e9;
+	}
+
+	.dsidx-resp-search-box {
+		padding-bottom: 10px;
+
+		.select2-container {
+			font-size: 1.5rem;
+		}
+
+		.dsidx-resp-search-form {
+			margin-left: -10px;
+			margin-right: -10px;
+		}
+		.dsidx-resp-area {
+			float: left !important;
+			width: 100% !important;
+			padding-left: 10px !important;
+			padding-right: 10px !important;
+
+			@media (min-width: 550px) {
+				width: 50% !important;
+			}
+
+			@media (min-width: 768px) {
+				width: 33.33% !important;
+			}
+
+			@media (min-width: 1024px) {
+				width: 20% !important;
+			}
+		}
+
+		input[type="submit"] {
+			margin-top: 26px;
+		}
+	}
+}

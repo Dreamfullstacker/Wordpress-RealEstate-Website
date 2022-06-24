@@ -1,0 +1,182 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: RealHomes Currency Switcher\n"
+"POT-Creation-Date: 2020-05-20 18:16+0500\n"
+"PO-Revision-Date: 2020-05-20 18:17+0500\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: de_DE\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.3\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: realhomes-currency-switcher.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.min.js\n"
+
+#: admin/class-realhomes-currency-switcher-admin.php:196
+msgid "Unverified Nonce!"
+msgstr "Zur Zeit unbestätigt!"
+
+#: admin/class-realhomes-currency-switcher-admin.php:223
+msgid "Failed to update cookie!"
+msgstr "Aktualisierung des Cookies fehlgeschlagen!"
+
+#: admin/class-realhomes-currency-switcher-admin.php:231
+msgid "Invalid Request!"
+msgstr "Ungültige Anfrage!"
+
+#: admin/class-realhomes-currency-switcher-settings.php:33
+#: admin/class-realhomes-currency-switcher-settings.php:34
+msgid "Currencies Settings"
+msgstr "Währungen Einstellungen"
+
+#: admin/class-realhomes-currency-switcher-settings.php:54
+msgid "RealHomes Currency Switcher Settings"
+msgstr "RealHomes-Währungsumschalter-Einstellungen"
+
+#: admin/class-realhomes-currency-switcher-settings.php:63
+msgid "Currency Switcher"
+msgstr "Währungsumschalter"
+
+#: admin/class-realhomes-currency-switcher-settings.php:70
+msgid "Enable Currency Swithcer on frontend side."
+msgstr "Aktivieren Sie den Currency Swithcer auf der Frontend-Seite."
+
+#: admin/class-realhomes-currency-switcher-settings.php:77
+msgid "App ID*"
+msgstr "Anwendungs-ID*"
+
+#: admin/class-realhomes-currency-switcher-settings.php:81
+#, php-format
+msgid "You can get your Open Exchange Rate App ID from %s."
+msgstr "Sie können Ihre Open Exchange Rate App ID von %s erhalten."
+
+#: admin/class-realhomes-currency-switcher-settings.php:88
+msgid "Update Interval"
+msgstr "Aktualisierungs-Intervall"
+
+#: admin/class-realhomes-currency-switcher-settings.php:95
+msgid "Hourly"
+msgstr "Stündlich"
+
+#: admin/class-realhomes-currency-switcher-settings.php:96
+msgid "Daily"
+msgstr "Täglich"
+
+#: admin/class-realhomes-currency-switcher-settings.php:97
+msgid "Weekly"
+msgstr "Wöchentlich"
+
+#: admin/class-realhomes-currency-switcher-settings.php:99
+msgid "Set how frequent you want to update the currency exchange rates."
+msgstr ""
+"Legen Sie fest, wie häufig Sie die Währungsumrechnungskurse aktualisieren "
+"möchten."
+
+#: admin/class-realhomes-currency-switcher-settings.php:106
+msgid "Base Currency"
+msgstr "Basiswährung"
+
+#: admin/class-realhomes-currency-switcher-settings.php:121
+msgid "United States Dollar"
+msgstr "US Dollar"
+
+#: admin/class-realhomes-currency-switcher-settings.php:125
+msgid ""
+"Price format settings of easy real estate plugin, will be overwritten by "
+"base currency’s default format."
+msgstr ""
+"Die Preisformat-Einstellungen des einfachen Immobilien-Plugins, werden durch "
+"das Standardformat der Basiswährung überschrieben."
+
+#: admin/class-realhomes-currency-switcher-settings.php:132
+msgid "Allowed Currencies"
+msgstr "Zugelassene Währungen"
+
+#: admin/class-realhomes-currency-switcher-settings.php:139
+msgid ""
+"Provide comma separated list of currency codes in capital letters. Maximum 5 "
+"codes allowed."
+msgstr ""
+"Geben Sie eine durch Komma getrennte Liste von Währungscodes in "
+"Großbuchstaben an. Maximal 5 Codes sind zulässig."
+
+#: admin/class-realhomes-currency-switcher-settings.php:143
+#, php-format
+msgid "You can find full list of supported currencies by %s."
+msgstr ""
+"Sie finden eine vollständige Liste der unterstützten Währungen nach %s."
+
+#: admin/class-realhomes-currency-switcher-settings.php:152
+msgid "Expiry Period of Switched Currency"
+msgstr "Ablauf der Gültigkeitsdauer der getauschten Währung"
+
+#: admin/class-realhomes-currency-switcher-settings.php:159
+msgid "One Hour"
+msgstr "Eine Stunde"
+
+#: admin/class-realhomes-currency-switcher-settings.php:160
+msgid "One Day"
+msgstr "Ein Tag"
+
+#: admin/class-realhomes-currency-switcher-settings.php:161
+msgid "One Week"
+msgstr "Eine Woche"
+
+#: admin/class-realhomes-currency-switcher-settings.php:162
+msgid "One Month"
+msgstr "Ein Monat"
+
+#: admin/class-realhomes-currency-switcher-settings.php:164
+msgid "This is for website visitor."
+msgstr "Dies ist für Website-Besucher."
+
+#: admin/class-realhomes-currency-switcher-settings.php:171
+msgid "Update Currencies Rates"
+msgstr "Update Währungen Kurse"
+
+#: admin/class-realhomes-currency-switcher-settings.php:183
+msgid ""
+"Checking this box will immediately fetch latest currencies exchange rates on "
+"Save Options."
+msgstr ""
+"Wenn Sie dieses Kästchen ankreuzen, werden sofort die aktuellen Wechselkurse "
+"der Währungen unter Optionen speichern abgerufen."
+
+#: admin/class-realhomes-currency-switcher-settings.php:191
+msgid "Save Options"
+msgstr "Einstellungen speichern"
+
+#. Plugin Name of the plugin/theme
+msgid "RealHomes Currency Switcher"
+msgstr "RealHomes-Währungsumrechner"
+
+#. Plugin URI of the plugin/theme
+msgid ""
+"https://themeforest.net/item/real-homes-wordpress-real-estate-theme/5373914"
+msgstr ""
+"https://themeforest.net/item/real-homes-wordpress-real-estate-theme/5373914"
+
+#. Description of the plugin/theme
+msgid ""
+"Provides multiple currencies support and currency switching for RealHomes "
+"theme."
+msgstr ""
+"Bietet Unterstützung für mehrere Währungen und Währungsumtausch für das "
+"Thema RealHomes."
+
+#. Author of the plugin/theme
+msgid "InspiryThemes"
+msgstr "Inspirationsthemen"
+
+#. Author URI of the plugin/theme
+msgid "https://inspirythemes.com/"
+msgstr "https://inspirythemes.com/"

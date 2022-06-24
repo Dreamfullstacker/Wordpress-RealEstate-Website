@@ -1,0 +1,887 @@
+.recrm-wrapper-file .recrm_wp_custom_attachment_delete {
+    color: #FF0000;
+}
+
+.recrm_note_stream_wrapper textarea {
+    /*display: none;*/
+    display: block;
+}
+
+.recrm_message_stream_wrapper {
+    margin-top: 20px;
+    margin-bottom: 40px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #eee;
+    /*background: #f7f7f7;*/
+}
+
+.recrm_first_response_wrapper {
+
+    padding: 20px 20px 0;
+    position: relative;
+    max-width: 90%;
+    background: #A5FFD6;
+    width: auto;
+    display: inline-block;
+    z-index: 10;
+    margin-bottom: 40px;
+    border-radius: 10px;
+}
+
+.recrm_message_meta {
+    display: block;
+    padding-left: 3px;
+    margin-bottom: 7px;
+}
+
+.recrm_message_meta span {
+    color: #696969;
+    font-size: 11px;
+    margin-bottom: 7px;
+    display: inline-block;
+}
+
+.recrm_message_meta strong {
+    color: #3a3a3a;
+}
+
+.recrm_first_response_wrapper:after {
+    display: block;
+    content: "";
+    position: absolute;
+    border: 20px solid #A5FFD6;
+    border-left-color: transparent;
+    border-bottom-color: transparent;
+    border-top-color: transparent;
+    z-index: -1;
+    bottom: -20px;
+    right: 30px;
+}
+
+.recrm_table_wrapper, .recrm_info_card {
+    display: none;
+}
+
+.recrm_meta_box_wrapper-outer {
+    display: flex;
+}
+
+.recrm_meta_box_wrapper {
+    width: 43%;
+    padding: 15px 10px;
+}
+
+.recrm_communication_wrapper {
+    width: 57%;
+}
+
+.recrm_meta_box_wrapper .active {
+    display: block;
+}
+
+#recrm_tabs {
+    display: flex;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+#recrm_tabs li {
+    display: inline-block;
+    margin-bottom: 0;
+}
+
+#recrm_tabs li a {
+    display: inline-block;
+    outline: none;
+    box-shadow: none;
+    text-decoration: none;
+    padding: 5px 30px;
+    border: 1px solid #dddddd;
+    border-bottom: none;
+    color: #1a1a1a;
+}
+
+#recrm_tabs li:last-of-type a {
+    border-left: none;
+}
+
+#recrm_tabs li a.current {
+    background: #dddddd;
+}
+
+.recrm_table {
+    table-layout: fixed
+}
+
+.recrm_table td {
+    padding: 10px 0;
+}
+
+.recrm_table .meta-fields {
+    /*width: 50%;*/
+    vertical-align: top;
+}
+
+.recrm_table .field-value {
+    color: #444444;
+    font-size: 16px;
+}
+
+.recrm_table .meta-fields label {
+
+    display: block;
+    margin-bottom: 7px;
+    font-size: 15px;
+    color: #444;
+    font-weight: bold;
+}
+
+.recrm_first_message {
+    margin: 0;
+}
+
+.recrm_first_message p {
+    margin: 0 0 1.5em;
+    font-size: 14px;
+
+}
+
+.recrm_table select, .recrm_table input {
+    max-width: 350px;
+    width: 100%;
+}
+
+.recrm_table textarea {
+    max-width: 350px;
+    width: 100%;
+}
+
+.recrm_table .custom_notes_row {
+    font-size: 12px;
+    color: #7d7d7d;
+    margin-bottom: 7px;
+    display: block;
+}
+
+.recrm_table_message_outer {
+    /*margin-top: 40px;*/
+    width: 100%;
+}
+
+.recrm_enquiry_message_link {
+    text-decoration: none;
+}
+
+.post-type-enquiry .thumbnail {
+    text-align: left;
+}
+
+.recrm-clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.file_display_wrapper {
+    width: 120px;
+    height: 120px;
+    position: relative;
+    border: 1px solid #d4d4d4;
+    color: #d4d4d4;
+    transition: .2s all ease-in-out;
+    opacity: 1;
+    visibility: visible;
+    display: inline-block;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    vertical-align: middle;
+}
+
+.file_display_wrapper:hover {
+    opacity: .9;
+}
+
+.file_display_wrapper a {
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    z-index: 9;
+    box-shadow: none;
+}
+
+.file_display_wrapper.file_hide {
+    display: none;
+}
+
+.file_display_wrapper img {
+    position: relative;
+    z-index: 99;
+}
+
+.file_display_wrapper .recrm_delete_file {
+    position: absolute;
+    right: 1px;
+    top: 1px;
+    z-index: 999;
+    background: #ffffff;
+    transition: .2s all ease-in-out;
+}
+
+.file_display_wrapper .recrm_delete_file:hover {
+    background: #d4d4d4;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.file_display_wrapper.temp_added img {
+    width: 100%;
+    height: 100%;
+}
+
+.file_display_wrapper:after, .file_display_wrapper_temp:after {
+    display: block;
+    content: "\f491";
+    font-size: 82px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    font-family: dashicons;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 120px;
+    z-index: 1;
+
+}
+
+.file_display_wrapper_temp a {
+    box-shadow: none;
+}
+
+.file_display_wrapper_temp {
+    display: none;
+    width: 120px;
+    height: 120px;
+    position: relative;
+    border: 1px solid #d4d4d4;
+    color: #d4d4d4;
+    vertical-align: middle;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+.file_display_wrapper_temp img {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    z-index: 99;
+}
+
+.recrm_wp_custom_attachment {
+    display: block;
+    margin-bottom: 7px;
+    font-size: 13px;
+    color: #444;
+    font-weight: bold;
+}
+
+.file_display_wrapper_temp span {
+    position: absolute;
+    right: 1px;
+    top: 1px;
+    z-index: 999;
+    background: #ffffff;
+    transition: .2s all ease-in-out;
+}
+
+.file_display_wrapper_temp span:hover {
+    background: #d4d4d4;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.file_display_wrapper_temp span:after {
+    background: #d4d4d4;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.recrm_file_button {
+    padding: 3px 10px;
+    border: 1px solid #ddd;
+    text-decoration: none;
+    display: inline-block;
+    color: #444444;
+}
+
+.empty-error {
+    border-color: #ff0000;
+}
+
+.recrm_notes_wrapper textarea {
+    width: 100%;
+    max-width: none;
+}
+
+.recrm_notes_wrapper input[type="submit"] {
+    width: auto;
+    max-width: none;
+    text-decoration: none;
+    display: inline-block;
+    vertical-align: middle;
+    cursor: pointer;
+    padding: 5px 10px;
+    background: #dddddd;
+    border: 1px solid #444444;
+    color: #1a1a1a;
+    margin-top: 20px;
+
+}
+
+.recrm_notes_wrapper input[type="submit"]:hover {
+    background: #f8f8f8;
+}
+
+/*.recrm_note_list_wrapper .note_meta{*/
+/*margin-bottom: 5px;*/
+/*}*/
+.recrm_note_list_wrapper .recrm_note {
+    overflow: hidden;
+}
+
+/*TODO:*/
+
+.note_content_wrapper p {
+    font-size: 14px;
+    margin: 0 0 1.5em;
+}
+
+.note_content_wrapper::after {
+    display: block;
+    content: "";
+    position: absolute;
+    border: 20px solid #A5FFD6;
+    border-left-color: transparent;
+    border-bottom-color: transparent;
+    border-top-color: transparent;
+    z-index: -1;
+    bottom: -20px;
+    right: 30px;
+}
+
+.recrm_admin_message .recrm_note_date {
+    margin-left: 10px;
+}
+
+.recrm_admin_message .recrm_note_author {
+    margin-right: 0;
+}
+
+.recrm_admin_message .recrm_delete_note {
+    /*float: left;*/
+}
+
+.recrm_author_message_meta {
+    display: none;
+    /*text-align: right;*/
+}
+
+.recrm_enquiry_meta .recrm_note_date {
+    margin-right: 10px;
+}
+
+.recrm_admin_message .recrm_enquiry_meta {
+    display: none;
+}
+
+.recrm_admin_message .recrm_author_message_meta {
+    display: block;
+}
+
+.recrm_admin_message .note_content_wrapper::after {
+    border-left-color: #84DCC6;
+    border-bottom-color: transparent;
+    border-top-color: transparent;
+    border-right-color: transparent;
+    right: inherit;
+    left: 30px;
+}
+
+.recrm_table_communication {
+    width: 100%;
+}
+
+.recrm_note_stream {
+    position: relative;
+    /*margin-bottom: 30px;*/
+}
+
+/*.recrm_note_stream:hover .recrm_delete_note{*/
+/*visibility: visible;*/
+/*opacity: 1;*/
+/*}*/
+.recrm_note_author {
+    margin-right: 10px;
+}
+
+/*.recrm_delete_note{*/
+/*visibility: hidden;*/
+/*opacity: 0;*/
+/*cursor: pointer;*/
+/*display: inline-block;*/
+/*color: #0073aa;*/
+/*transition: .2s all ease-in-out;*/
+/*}*/
+
+.recrm_delete_note:before {
+    font-size: 18px;
+}
+
+.recrm_delete_note:hover:before {
+    color: #ff0000;
+}
+
+.recrm_note_fields {
+    /*display: none;*/
+}
+
+.recrm_open_note, .recrm_cancel_note {
+    padding: 3px 10px;
+    border: 1px solid #ddd;
+    text-decoration: none;
+    display: inline-block;
+    color: #444444;
+    line-height: 17px;
+    vertical-align: middle;
+
+}
+
+.recrm_open_note:hover, .recrm_cancel_note:hover {
+    color: #444444;
+}
+
+.recrm_cancel_note {
+    float: right;
+}
+
+.recrm_ajax_loader {
+    vertical-align: middle;
+    margin-top: 20px;
+    margin-left: 10px;
+    width: 20px;
+}
+
+.recrm_disable {
+    opacity: .5;
+    pointer-events: none;
+    cursor: not-allowed;
+
+}
+
+.recrm_hide {
+    display: none;
+}
+
+.post-type-contact .column-thumb {
+    width: 70px;
+}
+
+.post-type-contact .column-id {
+    width: 50px;
+}
+
+.recrm_card_details {
+    border: 1px solid #dddddd;
+    padding: 20px 20px;
+}
+
+.recrm_card_head {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+#recrm_card_view h2 {
+    font-size: 24px;
+    font-weight: 400;
+    color: #444444;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.recrm_head_meta span {
+    display: block;
+    color: #444444;
+}
+
+.recrm_head_meta .card_socials a .svg-bg {
+    fill: #808080;
+    transition: .2s all;
+}
+
+.recrm_head_meta .card_socials a:hover .svg-bg {
+    fill: #1a1a1a;
+}
+
+.recrm_head_meta .card_socials a {
+    margin-right: 10px;
+    outline: none;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.recrm_head_meta .card_socials a:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+/*.recrm_head_meta span:before{*/
+/*}*/
+.recrm_head_meta .email, .recrm_head_meta .phone {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 14px;
+    line-height: 14px;
+
+}
+
+.recrm_head_meta .email-svg, .recrm_head_meta .phone-svg {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 8px;
+}
+
+/*.recrm_head_meta .email:before,.recrm_head_meta .phone:before{*/
+/*font-family: Dashicons;*/
+/*vertical-align: middle;*/
+/*font-size: 18px;*/
+/*margin-right: 5px;*/
+/*color: #444444;*/
+/*}*/
+/*.recrm_head_meta .email:before{*/
+/*content: "\f466";*/
+/*}*/
+/*.recrm_head_meta .phone:before{*/
+/*content: "\f525";*/
+/*}*/
+.recrm_head_thumb {
+    margin-right: 25px;
+    width: 130px;
+}
+
+.recrm_head_thumb img {
+    width: 100%;
+    height: auto;
+}
+
+.recrm_card_info_table td {
+    padding-bottom: 10px;
+    vertical-align: top;
+}
+
+.recrm_card_info_table .label {
+    font-weight: 700;
+    padding-right: 20px;
+}
+
+.recrm_attachment_display .file_display_wrapper {
+    width: 40px;
+    height: 40px;
+}
+
+.recrm_attachment_display .file_display_wrapper img {
+    width: 100%;
+    height: auto;
+}
+
+.recrm_attachment_display .file_display_wrapper:after {
+    line-height: 40px;
+    font-size: 34px;
+}
+
+.recrm_private_note_display {
+    overflow: hidden;
+}
+
+.recrm_private_note_display h4 {
+    margin-top: 2em;
+    margin-bottom: 1em;
+    font-size: 15px;
+}
+
+.recrm_attachment_display {
+    overflow: hidden;
+}
+
+.recrm_attachment_display h4 {
+    margin-top: 1em;
+    margin-bottom: 1em;
+    font-size: 15px;
+}
+
+.recrm_communication_wrapper {
+}
+
+.recrm_communication_inner {
+    padding: 23px 10px;
+}
+
+.recrm_contact_enquiry_container {
+    border-bottom: 1px solid #dddddd;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+
+}
+
+.recrm_contact_enquiry_box {
+    border: 1px solid #dddddd;
+    padding: 20px;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.recrm_contact_enquiry_box:hover .recrm_toggle_show {
+    opacity: 1;
+    visibility: visible;
+}
+
+.recrm_toggle_show {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    cursor: pointer;
+    opacity: 0;
+    visibility: hidden;
+    transition: .2s all ease-in-out;
+}
+
+.recrm_toggle_show.invert_arrow {
+    transform: rotateX(180deg);
+}
+
+.recrm_enquiry_toggle {
+    margin-top: 20px;
+    padding: 0 20px;
+    background: #f7f7f7;
+    border: 1px solid #dddddd;
+}
+.toggle_off{
+    display: none;
+}
+
+.recrm_enquiry_toggle h4 {
+    margin-bottom: 0;
+    font-size: 12px;
+}
+.recrm_enquiry_toggle h4 a{
+    text-decoration: none;
+}
+
+.recrm_contact_enquiry_box_inner {
+    display: flex;
+}
+
+.recrm_contact_enquiry_box a:focus {
+    box-shadow: none;
+}
+
+.recrm_contact_enquiry_box .enquiry_thumb_box {
+    width: 80px;
+    margin-right: 20px;
+
+}
+
+.recrm_contact_enquiry_box .enquiry_thumb_box a:hover {
+    opacity: .9;
+}
+
+.recrm_contact_enquiry_box .enquiry_meta_box {
+    flex: auto;
+}
+
+.recrm_contact_enquiry_box img {
+    width: 100%;
+    height: auto;
+}
+.recrm_contact_enquiry_box .enquiry_meta_box .recrm_contact_source{
+    display: inline-block;
+    font-size: 14px;
+    margin-bottom: 10px;
+
+}
+.recrm_contact_enquiry_box .enquiry_meta_box .recrm_contact_source.contact_form{
+    font-size: 14px;
+}
+.recrm_contact_enquiry_box .enquiry_meta_box .recrm_contact_source span{
+    font-size: 16px;
+    display: inline-block;
+}
+
+.recrm_contact_enquiry_box .enquiry_meta_box .enquiry_property_title {
+    display: inline-block;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+.recrm_contact_enquiry_box .enquiry_meta_box .enquired_by {
+    margin-bottom: 5px;
+}
+
+.recrm_contact_enquiry_box .enquiry_meta_box span {
+    display: block;
+}
+
+.recrm_enquiry_title {
+    font-size: 24px !important;
+    font-weight: 700 !important;
+    color: #1a1a1a !important;
+    padding-left: 0 !important;
+}
+
+.recrm_contact_enquiry_box .vew_enquiry_detail_button {
+    display: inline-block;
+    padding: 5px 10px;
+    background: #dddddd;
+    border: 1px solid #444444;
+    text-decoration: none;
+    color: #1a1a1a;
+    float: right;
+    margin-top: 20px;
+}
+
+.recrm_contact_enquiry_box .vew_enquiry_detail_button:hover {
+    background: #f8f8f8;
+}
+
+.recrm_contact_enquiry_box .meta_info_inner {
+    float: left;
+}
+
+.recrm_enquiry_toggle_contents {
+    /*display: none;*/
+}
+
+.recrm_communication_table_container {
+    padding: 20px;
+    border: 1px solid #dddddd;
+}
+
+.recrm_wrapper_note_stream {
+    border: 1px solid #dddddd;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.recrm_note_head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 20px;
+    border-bottom: 1px solid #dddddd;
+
+}
+
+.recrm_note_head .note_gravatar {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 10px;
+    width: 40px;
+}
+
+.recrm_note_head .note_gravatar img {
+    width: 100%;
+}
+
+.recrm_note_head h4 {
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 15px;
+}
+
+.recrm_note_content {
+    padding: 10px 20px;
+}
+
+.recrm_wrapper_note_stream .recrm_delete_note {
+    position: absolute;
+	font-size: 13px;
+	font-weight: 600;
+	right: 5px;
+	bottom: 5px;
+    background: transparent;
+    cursor: pointer;
+	padding: 0;
+    vertical-align: middle;
+    opacity: 0;
+    visibility: hidden;
+    transition: .2s all;
+}
+
+.recrm_wrapper_note_stream:hover .recrm_delete_note {
+    opacity: .5;
+    visibility: visible;
+}
+
+.recrm_wrapper_note_stream .recrm_delete_note:hover {
+    opacity: 1;
+}
+
+.recrm_wrapper_note_stream .recrm_delete_note span {
+    font-style: inherit;
+    color: #444444;
+    font-size: 16px;
+}
+
+@media (max-width: 1340px) {
+    .recrm_contact_enquiry_box_inner {
+        flex-direction: column;
+    }
+
+    .recrm_contact_enquiry_box .enquiry_thumb_box {
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 20px;
+
+    }
+}
+
+@media (max-width: 1250px) {
+    .recrm_meta_box_wrapper-outer {
+        flex-direction: column;
+    }
+
+    .recrm_meta_box_wrapper{
+        padding: 10px 0;
+    }
+    .recrm_communication_inner{
+        padding: 20px 0;
+    }
+    .recrm_meta_box_wrapper, .recrm_communication_wrapper {
+        width: 100%;
+    }
+
+    .recrm_contact_enquiry_box_inner {
+        flex-direction: row;
+    }
+    .recrm_contact_enquiry_box .enquiry_thumb_box {
+        margin-left: 0;
+        margin-right: 20px;
+        margin-bottom: 0;
+
+    }
+}
+
+
+.recrm_feedback_note{
+    padding-left: 10px;
+}
+
+/* RECRM admin menu icon */
+#toplevel_page_recrm .wp-menu-image img {
+    width: 24px;
+    padding: 5px 0 0;
+}

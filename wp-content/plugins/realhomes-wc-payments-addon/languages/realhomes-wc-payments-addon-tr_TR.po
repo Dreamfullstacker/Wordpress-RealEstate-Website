@@ -1,0 +1,218 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: RealHomes WooCommerce Payments Addon\n"
+"POT-Creation-Date: 2021-06-02 15:50+0500\n"
+"PO-Revision-Date: 2021-06-02 15:50+0500\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: tr_TR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.3\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: realhomes-wc-payments-addon.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.min.js\n"
+
+#: assets/booking-payment-handler.php:57
+msgid "Invoice:"
+msgstr ""
+
+#: assets/booking-payment-handler.php:104
+#, php-format
+msgid "Payment for the '%1$s' property booking. Period: %2$s"
+msgstr ""
+
+#: assets/booking-payment-handler.php:163
+msgid "Success:"
+msgstr "Başarılı:"
+
+#: assets/booking-payment-handler.php:163
+msgid "Your booking has been confirmed!"
+msgstr ""
+
+#: assets/booking-payment-handler.php:169
+msgid "Important:"
+msgstr "Önemli:"
+
+#: assets/booking-payment-handler.php:169
+msgid ""
+"Your booking will be confirmed as soon as we receive the booking payment!"
+msgstr ""
+
+#: assets/membership-payment-handler.php:44
+#, php-format
+msgid "Payment for the '%s' package"
+msgstr ""
+
+#: assets/membership-payment-handler.php:186
+#: assets/property-payment-handler.php:198
+msgid "Success"
+msgstr "Başarılı"
+
+#: assets/membership-payment-handler.php:187
+msgid "Membership package is subscribed successfully!"
+msgstr ""
+
+#: assets/membership-payment-handler.php:193
+#: assets/property-payment-handler.php:205
+msgid "Important"
+msgstr "Önemli"
+
+#: assets/membership-payment-handler.php:194
+msgid ""
+"Subscription will be activated as soon as you pay the membership package "
+"payment!"
+msgstr ""
+
+#: assets/plugin-update.php:79
+msgid "An Unexpected HTTP Error occurred during the API request. Try again!"
+msgstr ""
+"API isteği sırasında Beklenmedik bir HTTP Hatası oluştu. Tekrar deneyin!"
+
+#: assets/plugin-update.php:84
+msgid "An unknown error occurred"
+msgstr "Bilinmeyen bir hata oluştu"
+
+#: assets/property-payment-handler.php:18
+#: assets/property-payment-settings.php:103
+msgid "Pay Now"
+msgstr "Şimdi Öde"
+
+#: assets/property-payment-handler.php:71
+#, php-format
+msgid "Payment for the '%s' property"
+msgstr ""
+
+#: assets/property-payment-handler.php:199
+msgid "Your property has been published!"
+msgstr ""
+
+#: assets/property-payment-handler.php:206
+msgid ""
+"Your property will be published as soon as property payment is received!"
+msgstr ""
+
+#: assets/property-payment-settings.php:31
+#: assets/property-payment-settings.php:32
+msgid "Woo Payments Settings"
+msgstr ""
+
+#: assets/property-payment-settings.php:50
+msgid "Property WooCommerce Payments Settings"
+msgstr ""
+
+#: assets/property-payment-settings.php:64
+msgid "WooCommerce Payments"
+msgstr "WooCommerce Ödeme Yöntemleri"
+
+#: assets/property-payment-settings.php:71
+msgid "Enable WooCommerce Payments for Submitted Property."
+msgstr ""
+
+#: assets/property-payment-settings.php:77
+msgid "Currency Code*"
+msgstr "Para Birimi Kodu"
+
+#: assets/property-payment-settings.php:82
+#, php-format
+msgid ""
+"Currency code is set from WooCommerce Currency Settings under General "
+"Settings tab. To configure WooCommerce Currency Settings please follow "
+"%1$sthis guide%2$s."
+msgstr ""
+
+#: assets/property-payment-settings.php:88
+msgid "Payment Amount Per Property*"
+msgstr "İlan Başına Ödeme Tutarı"
+
+#: assets/property-payment-settings.php:93
+msgid ""
+"Provide the amount that you want to charge for one property. Example: 20.00"
+msgstr "İlan için ücretlendirmek istediğiniz tutarı girin. Örnek: 20,00"
+
+#: assets/property-payment-settings.php:99
+msgid "Payment Button Label"
+msgstr "Ödeme Düğmesi Etiketi"
+
+#: assets/property-payment-settings.php:104
+msgid "Default: Pay Now"
+msgstr ""
+
+#: assets/property-payment-settings.php:110
+msgid "Publish Submitted Property after Payment"
+msgstr "Ödeme Sonrası Gönderilen Mülkü Yayınla"
+
+#: assets/property-payment-settings.php:115
+msgid "Yes"
+msgstr "Evet"
+
+#: assets/property-payment-settings.php:117
+msgid "No"
+msgstr "Hayır"
+
+#: assets/property-payment-settings.php:124
+msgid "Save Options"
+msgstr "Ayarları Kaydet"
+
+#: assets/wc-payments-addon-functions.php:40
+#: assets/wc-payments-addon-functions.php:43
+msgid "Contact information"
+msgstr "İletişim bilgileri"
+
+#. translators: 1. URL link.
+#.
+#: realhomes-wc-payments-addon.php:193
+msgid ""
+"RealHomes WooCommerce Payments Addon requires \"Easy Real Estate\" plugin to "
+"be installed and active."
+msgstr ""
+
+#. translators: 1. URL link.
+#.
+#: realhomes-wc-payments-addon.php:201
+#, php-format
+msgid ""
+"RealHomes WooCommerce Payments Addon requires \"WooCommerce\" plugin to be "
+"installed and active. You can download %s here."
+msgstr ""
+
+#. translators: 1. URL link.
+#.
+#: realhomes-wc-payments-addon.php:209
+msgid ""
+"Please deactivate \"Inspiry Stripe Payments for RealHomes\" plugin as it "
+"will not work while using \"RealHomes WooCommerce Payments Addon\" plugin."
+msgstr ""
+
+#. translators: 1. URL link.
+#.
+#: realhomes-wc-payments-addon.php:217
+msgid ""
+"Please deactivate \"RealHomes PayPal Payments\" plugin as it will not work "
+"while using \"RealHomes WooCommerce Payments Addon\" plugin."
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "RealHomes WooCommerce Payments Addon"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+#. Author URI of the plugin/theme
+msgid "https://inspirythemes.com/"
+msgstr "https://inspirythemes.com/"
+
+#. Description of the plugin/theme
+msgid "Adds WooCommerce Payments support to RealHomes theme."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "InspiryThemes"
+msgstr "InspiryThemes"

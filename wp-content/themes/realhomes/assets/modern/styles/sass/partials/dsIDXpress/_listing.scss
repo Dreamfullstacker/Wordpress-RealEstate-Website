@@ -1,0 +1,156 @@
+.dsidx-results:not(.dsidx-results-grid) {
+
+  #dsidx-listings {
+
+    li.dsidx-listing-container {
+      padding: 10px;
+      margin-bottom: 10px;
+      border: 1px solid #dedede;
+    }
+
+    .dsidx-listing {
+      border: none;
+
+      .dsidx-media {
+        margin: 0;
+        padding: 0;
+        width: 35%;
+
+        .dsidx-photo {
+          border: none;
+
+          img {
+            width: 100%;
+            height: auto;
+          }
+
+          .dsidx-photo-count {
+            padding: 10px 6px 10px 24px;
+            left: 0;
+            bottom: -1px;
+            background-position-y: 4px;
+            background-position-x: 5px;
+            background-color: var(--rh-global-color-primary);
+          }
+        }
+      }
+
+      .dsidx-data {
+        margin: 0;
+        width: 65%;
+        float: right;
+
+        .dsidx-primary-data {
+          border: none;
+          padding: 10px 15px;
+          background-color: #f7f7f7;
+
+          .dsidx-address {
+            a {
+              font-size: 1.7rem;
+              font-weight: 500;
+            }
+          }
+
+          .dsidx-price {
+            color: var(--rh-global-color-primary);
+            background-color: #f7f7f7;
+            font-weight: 500;
+            padding: 0;
+            line-height: 35px;
+          }
+        }
+
+        .dsidx-secondary-data {
+          font-size: 14px;
+          padding: 10px 15px;
+
+          & > div {
+            float: left;
+            width: 40%;
+            padding: 10px 0;
+            font-size: 15px;
+            color: #3b3b3b;
+
+            &:before {
+              display: inline-block;
+              content: "\f054";
+              font-family: "Font Awesome 5 Free";
+              font-weight: 900;
+              text-rendering: auto;
+              -webkit-font-smoothing: antialiased;
+              -moz-osx-font-smoothing: grayscale;
+              -webkit-transform: translate(0, 0);
+              -ms-transform: translate(0, 0);
+              transform: translate(0, 0);
+              margin-right: 5px;
+              font-size: 10px;
+              vertical-align: 1px;
+              color: var(--rh-global-color-primary);
+            }
+          }
+
+          span {
+            font-size: 14px;
+            font-weight: normal;
+          }
+        }
+      }
+    }
+
+    @media (max-width: 767px) {
+      .dsidx-listing-container {
+        margin-bottom: 15px !important;
+      }
+
+      .dsidx-listing {
+        margin-bottom: 0;
+
+        .dsidx-data {
+          width: 100%;
+          margin: 0 !important;
+
+          .dsidx-secondary-data > div {
+            padding-top: 0;
+            width: 100%;
+          }
+        }
+
+        .dsidx-media {
+          width: 100%;
+          padding: 0 !important;
+        }
+      }
+    }
+
+  }
+}
+
+@media (max-width: 767px) {
+  #dsidx.dsidx-results {
+    padding: 0 10px;
+
+    #dsidx-profile-header,
+    .dsidx-paging-control {
+      float: none;
+    }
+
+    .dsidx-sorting-control {
+      float: none;
+      margin: 15px 0;
+    }
+
+    .dsidx-data {
+      .dsidx-primary-data {
+
+        @media (max-width: 375px) {
+          .dsidx-address,
+          .dsidx-price {
+            float: none;
+            margin-left: 0;
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,219 @@
+.admin-bar .rh_mod_sticky_header {
+  top: 32px;
+}
+
+.rh_sticky_header_container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: stretch;
+  justify-content: space-between;
+}
+
+.rh_mod_sticky_header {
+  position: fixed;
+  top: 0;
+  z-index: -1;
+  width: 100%;
+  padding: 0 2rem;
+  opacity: 0;
+  transition: all 0.3s ease-in-out;
+
+  @media (max-width: 1139px) {
+    display: none !important;
+  }
+
+  @media (min-width: 1140px) {
+    &.sticked {
+      z-index: 99999999999;
+      opacity: 1;
+      transform: translateY(0);
+      animation: slide-down 0.5s;
+    }
+  }
+}
+
+.rh_mod_sticky_header {
+
+  .rh_sticky_header_logo {
+    display: flex;
+    align-items: center;
+    max-width: 112px;
+    min-height: 75px;
+    padding: 1.2rem 0;
+  }
+
+  .rh_logo__heading {
+    margin-top: 0;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 1;
+
+    a {
+      transition: .2s all ease-in-out;
+    }
+  }
+
+  .rh_sticky_header_menu {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .menu-main-menu-container {
+    display: flex;
+
+    > ul {
+      display: flex;
+
+      > li {
+        display: flex;
+        align-items: center;
+        margin: 0 3.5rem 0 0;
+
+        &:last-child {
+          margin-right: 0;
+        }
+
+        > a {
+          margin: 0;
+          padding: 0;
+          transition: .2s all;
+        }
+      }
+    }
+
+    li {
+      display: inline-block;
+      position: relative;
+
+      a {
+        display: inline-block;
+      }
+
+      &:hover > ul {
+        visibility: visible;
+        opacity: 1;
+      }
+
+      ul {
+        display: block;
+        position: absolute;
+        top: 100%;
+        z-index: 999999;
+        min-width: 230px;
+        padding: 2rem 0;
+        opacity: 0;
+        visibility: hidden;
+        transition: .2s all ease-in-out;
+        border-top: 3px solid transparent;
+        box-shadow: 0 3px 5px rgba(0, 0, 0, 0.05);
+
+        li {
+          display: block;
+
+          a {
+            display: block;
+            white-space: nowrap;
+            padding: 1rem 2.5rem;
+            line-height: 2.4rem
+          }
+
+          ul {
+            left: 100%;
+            top: 0;
+          }
+        }
+      }
+    }
+
+    .sub-menu li {
+      a {
+        transition: all 0.2s ease-out;
+      }
+
+      &:hover a,
+      &.current-menu-item a {
+        transition: all 0.2s ease-out;
+      }
+    }
+  }
+
+  .rh_menu__user_submit {
+    display: flex;
+    align-items: center;
+    padding: 0;
+    margin: 0 0 0 3rem;
+  }
+}
+
+.rtl {
+  .rh_mod_sticky_header {
+    .menu-main-menu-container > ul > li {
+      margin-right: 0;
+      margin-left: 3.5rem;
+
+      &:last-child {
+        margin-left: 0;
+      }
+    }
+
+    .rh_menu__user_submit {
+      margin-right: 3rem;
+      margin-left: 0;
+    }
+  }
+}
+
+// Skin
+.rh_mod_sticky_header {
+  box-shadow: 0 3px 15px rgba(0, 0, 0, 0.07);
+  background: #303030;
+
+  .rh_logo__heading a,
+  .menu-main-menu-container > ul > li > a {
+    color: #fff;
+  }
+
+  .rh_logo__heading a:hover,
+  .menu-main-menu-container > ul > li:hover > a,
+  .menu-main-menu-container > ul > li.current-menu-item > a {
+    color: var(--rh-global-color-primary);
+  }
+
+  .menu-main-menu-container li ul li:hover > a,
+  .menu-main-menu-container li > ul > li.current-menu-ancestor > a {
+    background: #f7f7f7;
+  }
+
+  .menu-main-menu-container li .sub-menu {
+    background: #fff;
+    border-top-color: var(--rh-global-color-primary);
+
+    li a {
+      color: #808080;
+
+      &:hover {
+        color: #000;
+      }
+    }
+  }
+
+  // Light skin
+  &.sticky_header_light {
+    background: #fff;
+
+    .rh_logo__heading a,
+    .menu-main-menu-container > ul > li > a {
+      color: var(--rh-global-color-headings);
+    }
+
+    .rh_logo__heading a:hover,
+    .menu-main-menu-container > ul > li:hover > a,
+    .menu-main-menu-container > ul > li.current-menu-item > a {
+      color: var(--rh-global-color-secondary);
+    }
+
+    .menu-main-menu-container li ul {
+      border-top-color: var(--rh-global-color-secondary);
+    }
+  }
+}

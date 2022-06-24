@@ -1,0 +1,63 @@
+/**
+* RVR - single property styles - Classic
+*/
+
+.booking-notice {
+	border: 1px solid #6bb53e;
+	background-color: #87d05b;
+	color: #284b13;
+	padding: 12px 35px 12px 22px;
+	margin-bottom: 18px;
+	font-family: "Lato", Helvetica, Arial, sans-serif;
+	font-weight: 300;
+	position: relative;
+}
+
+// outdoor features & optional services
+.nolink-list {
+  ul {
+    li {
+      color: #636464;
+      padding: 7px 2px 7px 25px;
+    }
+  }
+}
+
+// optional services
+.rvr-inc-exc {
+  h5 {
+    margin: 1rem;
+  }
+}
+
+// property policies
+.rvr-property-policies {
+  padding: 1rem;
+  border-bottom: 1px solid #dedede;
+
+  ul.additional-details {
+    li:last-child {
+      border-bottom: 0 !important;
+    }
+  }
+}
+
+// location surroundings
+.rvr-location-surrounding {
+  padding: 1rem;
+  border-bottom: 1px solid #dedede;
+
+  ul.additional-details {
+    border: 0 !important;
+
+    li {
+      h6 {
+        margin: 0;
+      }
+
+      &:last-child {
+        border-bottom: 0 !important;
+      }
+    }
+  }
+}

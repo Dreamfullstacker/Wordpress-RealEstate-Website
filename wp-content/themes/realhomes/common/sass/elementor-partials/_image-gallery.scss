@@ -1,0 +1,91 @@
+.rhea-image-gallery-wrapper {
+  position: relative;
+  margin: 0;
+  padding: 0;
+
+  figure {
+    position: relative;
+    margin: 0;
+    padding: 0;
+  }
+}
+
+.rhea-image-gallery-filters {
+  margin: 0 -5px 30px;
+  text-align: center;
+
+  a {
+    display: inline-block;
+    margin: 5px;
+    padding: 10px 15px;
+    border-radius: 5px;
+    transition: all 0.2s ease;
+    color: #8c8f97;
+
+    &:hover,
+    &:focus,
+    &.current {
+      color: #fff;
+      background-color: #0068ff;
+    }
+  }
+}
+
+.rhea-image-gallery {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 0 0 -30px;
+  padding: 0;
+}
+
+.rhea-image-gallery-item {
+  width: 25%;
+  padding: 0 0 0 30px;
+  margin: 0 0 30px;
+
+  img {
+    display: block;
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+  }
+}
+
+// For all gallery items.
+.rhea-image-gallery-column-1 .rhea-image-gallery-item {
+  width: calc(100% / 1);
+}
+
+.rhea-image-gallery-column-2 .rhea-image-gallery-item {
+  width: calc(100% / 2);
+}
+
+.rhea-image-gallery-column-3 .rhea-image-gallery-item {
+  width: calc(100% / 3);
+}
+
+.rhea-image-gallery-column-4 .rhea-image-gallery-item {
+  width: calc(100% / 4);
+}
+
+.rhea-image-gallery-column-5 .rhea-image-gallery-item {
+  width: calc(100% / 5);
+}
+
+.rhea-image-gallery-column-6 .rhea-image-gallery-item {
+  width: calc(100% / 6);
+}
+
+// SCSS Lists
+$columns: 1, 2, 3, 4, 5, 6;
+$breakpoints: mobile, mobile_extra, tablet, tablet_extra, laptop, desktop, widescreen;
+@each $breakpoint in $breakpoints {
+  [data-elementor-device-mode="#{$breakpoint}"] {
+    @each $column in $columns {
+      .rhea-image-gallery-column-#{$breakpoint}-#{$column} .rhea-image-gallery-item {
+        width: calc(100% / #{$column});
+      }
+    }
+  }
+}

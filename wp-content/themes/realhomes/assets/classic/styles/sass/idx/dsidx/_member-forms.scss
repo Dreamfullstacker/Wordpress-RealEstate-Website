@@ -1,0 +1,144 @@
+/* dsIDXpress member forms */
+
+// common
+.dsidx-ui-widget.dsidx-dialog {
+  border: solid 1px #4dc7ec;
+
+  .ui-button-icon-only {
+    &:active,
+    &:focus,
+    &:visited {
+      outline: none;
+    }
+  }
+
+  .ui-icon-closethick {
+    background-position: -97px -128px;
+  }
+
+  .ui-dialog-titlebar {
+    background: #4dc7ec;
+  }
+
+  label.checkbox {
+    padding-left: 5px;
+    vertical-align: middle;
+  }
+
+  input.text, select {
+    box-shadow: none;
+    border-color: #cdcdcd;
+  }
+
+  #dsidx-savesearch {
+    #dsidx-savesearch-updates +label {
+      display: inline-block;
+      vertical-align: middle;
+      margin-top: 4px;
+      margin-left: 5px;
+    }
+  }
+}
+
+#dsidx .dsidx-small-button,
+body.dsidx .dsidx-small-button,
+#dsidx .dsidx-large-button,
+body.dsidx .dsidx-large-button {
+  border: 0;
+  border-radius: 0;
+  background: #ec894d;
+  font-weight: normal;
+  &:hover {
+    background: #df5400;
+  }
+}
+
+#dsidx .dsidx-small-button,
+body.dsidx .dsidx-small-button {
+  vertical-align: top;
+  padding: 8px 15px 5px;
+  height: auto;
+}
+
+/* top members links */
+#dsidx-profile-header {
+
+  .dsidx-profile-button.Drop.Selected {
+    .Shim {
+      border-color: #cdcdcd;
+      right: 8px;
+    }
+  }
+
+  .dsidx-profile-button-divet-left {
+    display: none;
+  }
+}
+
+/* profile form */
+.dsidx-profile-item {
+  border-color: #cdcdcd;
+
+  input.text, select {
+    box-shadow: none !important;
+    border-color: #cdcdcd !important;
+  }
+
+  &#dsidx-profile-personal-info {
+
+    select {
+      height: 30px;
+      margin-left: 7px !important;
+      margin-right: 0 !important;
+    }
+
+    .dsidx-dialog-message.colorblue {
+      color: #52aa67;
+    }
+  }
+
+  &#dsidx-profile-listings {
+    ul {
+      margin: 8px 0 0;
+    }
+
+    ul.dsidx-tabs {
+      li.dsidx-tab {
+        -webkit-border-radius:0;
+        -moz-border-radius:0;
+        border-radius:0;
+        line-height: 16px;
+      }
+    }
+  }
+
+  &#dsidx-profile-searches {
+    input[type="text"] {
+      height: 15px;
+      vertical-align: middle;
+      margin-bottom: 0;
+    }
+
+    .dsidx-search-item {
+      padding: 10px 10px 6px;
+    }
+
+    .dsidx-search-info {
+      display: inline-block;
+      margin-top: 7px;
+    }
+
+    .dsidx-search-alerts {
+      label {
+        display: inline-block;
+        vertical-align: middle;
+        margin-bottom: 0;
+      }
+    }
+
+    .dsidx-search-delete {
+      margin-top: 7px;
+    }
+  }
+
+}

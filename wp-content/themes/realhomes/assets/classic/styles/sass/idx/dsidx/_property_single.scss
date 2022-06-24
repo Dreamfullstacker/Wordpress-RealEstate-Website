@@ -1,0 +1,54 @@
+.dsidx-details {
+  #dsidx-primary-data {
+    #dsidx-price {
+      td {
+        font-size: 18px;
+      }
+    }
+  }
+
+  .dsidx-headerbar-green {
+    border-color: #4dc7ec;
+    background: #4dc7ec;
+
+    span {
+      color: #fff !important;
+    }
+  }
+
+  .dsidx-contact-form {
+    border-color: #4dc7ec !important;
+  }
+}
+
+/* bars */
+#dsidx-zestimate,
+#dsidx-rentzestimate {
+  border-color: #4dc7ec;
+  background-color: rgba(77, 199, 236, 0.1);
+
+  #dsidx-zestimate-triangle,
+  #dsidx-rentzestimate-triangle {
+    border-left-color: #4dc7ec;
+  }
+
+  #dsidx-zestimate-notice,
+  #dsidx-rentzestimate-notice {
+    background-color: #4dc7ec;
+  }
+
+  .dsidx-alert-text {
+    font-size: 15px;
+  }
+}
+
+/* similar properties */
+body.dsidx  .dsidx-small-listing {
+  padding: 10px;
+
+  .dsidx-secondary-data {
+    .dsidx-price {
+      margin-top: 0;
+    }
+  }
+}

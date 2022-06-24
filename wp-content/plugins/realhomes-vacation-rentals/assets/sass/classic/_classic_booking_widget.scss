@@ -1,0 +1,395 @@
+/**
+* RVR - booking form styles - Classic/Default
+*/
+.widget.RVR_Booking_Widget,
+#footer .widget.RVR_Booking_Widget {
+  background-color: #fff;
+
+  .title {
+    background-color: #394041;
+    color: #fff;
+    font-size: 18px;
+    line-height: 48px;
+    padding: 0 0 0 15px;
+    margin-bottom: 0;
+
+    a {
+      color: #ffffff;
+      transition: .2s all ease-in-out;
+
+      &:hover {
+        opacity: .8;
+      }
+    }
+  }
+
+  .rvr-booking-form-wrap {
+    padding: 18px 14px 18px;
+    box-shadow: 0px 0px 5px 2px rgba(0, 0, 0, 0.05);
+
+    .rvr-contact-information {
+      border-bottom: 1px solid #cdcdcd;
+      margin-bottom: 15px;
+
+      .rvr-ask-question {
+        text-align: center;
+        margin-bottom: 5px;
+
+        a {
+          font-size: 16px;
+          color: #ec894d;
+          display: block;
+
+          &:hover {
+            color: #4DC7EC;
+          }
+        }
+      }
+
+      .rvr-phone-number {
+        margin-bottom: 1rem;
+        font-size: 14px;
+        text-align: center;
+      }
+
+    }
+
+    .rvr-booking-form {
+
+      margin-left: -15px;
+
+      .option-bar {
+        float: left;
+        padding-left: 15px;
+
+        &.large {
+          width: 100%;
+          box-sizing: border-box;
+        }
+
+        &.small {
+          width: 50%;
+          box-sizing: border-box;
+        }
+      }
+
+      input[type="text"] {
+        width: 100%;
+        line-height: 34px;
+        height: 34px;
+        box-sizing: border-box;
+
+        //@include placeholder( $textColor );
+
+        &::-webkit-input-placeholder {
+          /* WebKit, Blink, Edge */
+          color: #909798;
+        }
+
+        &:-moz-placeholder {
+          /* Mozilla Firefox 4 to 18 */
+          color: #909798;
+          opacity: 1;
+        }
+
+        &::-moz-placeholder {
+          /* Mozilla Firefox 19+ */
+          color: #909798;
+          opacity: 1;
+        }
+
+        &:-ms-input-placeholder {
+          /* Internet Explorer 10-11 */
+          color: #909798;
+        }
+      }
+
+      input.error {
+        border-color: red;
+
+        & + label + span {
+          color: red;
+
+          a {
+            color: red;
+          }
+        }
+      }
+
+      label {
+        color: #394041;
+        margin-bottom: 5px;
+
+        &.error {
+          color: red;
+          margin-bottom: 10px;
+          margin-top: -5px;
+        }
+
+        #terms_conditions-error {
+          display: none !important;
+        }
+      }
+
+      .rvr-terms-conditions {
+        margin-top: 1rem;
+        width: 100%;
+
+        input {
+          float: left;
+          margin-right: 0;
+
+          &[type="checkbox"] {
+            width: auto;
+            margin-top: 4px;
+          }
+        }
+
+        label {
+
+          label {
+            display: none !important;
+          }
+
+          span {
+            font-size: 13px;
+            color: #808080;
+            display: block;
+            margin-left: 20px;
+            cursor: pointer;
+
+            a {
+              font-weight: 500;
+            }
+          }
+        }
+      }
+
+      .rvr-ajax-loader {
+        display: none;
+        margin: 20px auto 20px auto;
+        padding-left: 15px;
+      }
+
+      .rvr-booking-button-wrapper {
+        overflow: hidden;
+        margin-bottom: 20px;
+        clear: both;
+        padding-left: 15px;
+
+        .real-btn {
+          display: block;
+          padding: 8px 28px;
+          margin-top: 20px;
+          width: 100%;
+        }
+      }
+    }
+
+    .warning-message {
+      margin: 0;
+    }
+
+    .booking-cost {
+      display: none;
+      clear: both;
+      padding-left: 15px;
+      padding-top: 20px;
+
+      .cost-field {
+        border: 1px solid #cdcdcd;
+        border-bottom: 0;
+
+        &:last-child {
+          border-bottom: 1px solid #cdcdcd;
+        }
+
+        & > div {
+          display: inline-block;
+          box-sizing: border-box;
+          padding: 10px 5px;
+
+          &.cost-desc {
+            width: 68%;
+            border-right: 1px solid #cdcdcd;
+          }
+
+          &.cost-value {
+            width: 30%;
+            text-align: center;
+          }
+        }
+      }
+    }
+  }
+
+  .rvr-message-container,
+  .rvr-error-container {
+    display: none;
+    margin-bottom: 20px;
+  }
+
+  .rvr-error-container {
+    color: red;
+  }
+}
+
+
+.rvr_request_cta_booking {
+  position: relative;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  box-shadow: 0px 5px 5px 2px rgba(0, 0, 0, 0.05);
+
+}
+
+.rvr_request_cta_number_wrapper {
+  display: flex;
+
+  .rvr-phone-number {
+    margin-bottom: 0;
+    margin-left: 30px;
+    line-height: inherit;
+
+    strong {
+      font-size: 13px;
+      line-height: 13px;
+      font-weight: 500;
+      color: #394041;
+      display: block;
+      margin-bottom: 6px;
+    }
+
+    a {
+      font-size: 20px;
+      font-weight: 500;
+      color: #4dc7ec;
+      transition: .2s all ease-in-out;
+
+      &:hover {
+        color: #df5400;
+      }
+    }
+  }
+}
+
+.rvr_cta_or {
+  padding-left: 5px;
+  padding-right: 5px;
+  min-width: 45px;
+  height: 45px;
+  border-radius: 45px;
+  line-height: 45px;
+  text-align: center;
+  display: block;
+  background: #394041;
+  color: #ffffff;
+  position: absolute;
+  top: -22.5px;
+  margin-left: -22.5px;
+  left: 50%;
+}
+
+.rvr_phone_icon {
+  background: #e3712c;
+  display: inline-block;
+  padding: 8px;
+  position: relative;
+  line-height: .5;
+
+  svg {
+    width: 30px;
+
+    .a {
+      fill: #ffffff;
+    }
+  }
+
+  &:before {
+    content: '';
+    display: none;
+    position: absolute;
+    border-top: 23px solid transparent;
+    border-bottom: 23px solid transparent;
+    border-right: 12px solid #e3712c;
+    right: 100%;
+    top: 0;
+  }
+
+  &:after {
+    content: '';
+    display: block;
+    position: absolute;
+    border-top: 23px solid transparent;
+    border-bottom: 23px solid transparent;
+    border-left: 12px solid #e3712c;
+    left: 100%;
+    top: 0;
+  }
+}
+
+.rvr-reCAPTCHA-wrapper {
+  padding-top: 15px;
+  padding-left: 15px;
+  clear: both;
+
+  .inspiry-google-recaptcha > div {
+
+    @media (min-width: 980px) {
+      transform: scale(0.62);
+      transform-origin: 0 0;
+    }
+
+    @media (min-width: 1200px) {
+      transform: scale(0.75);
+    }
+  }
+}
+
+.rtl {
+
+  .widget.RVR_Booking_Widget .rvr-booking-form-wrap .rvr-booking-form .rvr-terms-conditions input, #footer .widget.RVR_Booking_Widget .rvr-booking-form-wrap .rvr-booking-form .rvr-terms-conditions input {
+    float: right;
+  }
+
+  .widget.RVR_Booking_Widget .rvr-booking-form-wrap .rvr-booking-form .option-bar,
+  #footer .widget.RVR_Booking_Widget .rvr-booking-form-wrap .rvr-booking-form .option-bar {
+    padding-right: 15px;
+    box-sizing: border-box;
+  }
+
+  .widget.RVR_Booking_Widget .rvr-booking-form-wrap .rvr-booking-form .rvr-terms-conditions label span,
+  #footer .widget.RVR_Booking_Widget .rvr-booking-form-wrap .rvr-booking-form .rvr-terms-conditions label span {
+    margin-right: 20px;
+  }
+
+  .rvr-reCAPTCHA-wrapper {
+
+    .inspiry-google-recaptcha > div {
+      transform-origin: right;
+    }
+  }
+
+  .widget.RVR_Booking_Widget .title, #footer .widget.RVR_Booking_Widget .title {
+    padding: 0 15px 0 0;
+  }
+
+  .rvr_phone_icon {
+    svg {
+      transform: rotateY(180deg);
+    }
+  }
+
+  .rvr_phone_icon:before {
+    display: block;
+  }
+
+  .rvr_phone_icon:after {
+    display: none;
+  }
+
+  .rvr_request_cta_number_wrapper .rvr-phone-number {
+    margin-left: 0;
+    margin-right: 30px;
+  }
+}

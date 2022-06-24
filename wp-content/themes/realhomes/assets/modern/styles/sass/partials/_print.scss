@@ -1,0 +1,554 @@
+/*
+ * Print Styles
+ */
+@media print {
+  *,
+  *::before,
+  *::after {
+    box-shadow: none !important;
+    text-shadow: none !important;
+    background-color: transparent !important;
+    color: #000 !important; // Black prints faster
+  }
+
+  html {
+    padding: 0 !important;
+  }
+
+  html,
+  body {
+    max-width: 960px !important;
+    width: auto !important;
+    height: auto !important;
+    margin: 0 auto !important;
+  }
+
+  body {
+    padding: 0 25px !important;
+  }
+
+  @page {
+    margin: 1.2cm 0 !important;
+  }
+
+  a[href]::after,
+  a[href^="#"]::after,
+  a[href^="javascript:"]::after,
+  .ir a:after {
+    content: "";
+  }
+
+  abbr[title]:after {
+    content: " [" attr(title) "] ";
+  }
+
+  pre {
+    white-space: pre-wrap !important;
+  }
+
+  pre,
+  blockquote {
+    border: 1px solid #999;
+  }
+
+  img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+  }
+
+  form,
+  .rh_property__print,
+  .property-detail-slider-wrapper,
+  #property-detail-flexslider,
+  .flex-direction-nav,
+  .rh_prop_search,
+  .slider-item-count,
+  .rh_menu .main-menu,
+  .rh_banner,
+  .page-breadcrumbs,
+  .property-breadcrumbs,
+  .rh_property__sidebar .widget:not(.rh_property_agent),
+  .floor-plans-accordions .floor-plan-title .fas,
+  .video-content-wrapper,
+  .rh_property__video,
+  .rh_property__virtual_tour,
+  .virtual-tour-content-wrapper,
+  .children-content-wrapper,
+  .rh_property__child_properties,
+  .rh_menu__user .rh_menu__user_profile,
+  .rh_menu__user .rh_menu__user_submit,
+  .rh_property_agent__link,
+  .rh_agent_card__link,
+  .agent-single-page-link,
+  .listed_properties,
+  .rh_agent_form,
+  .rh_property_agent__enquiry_form,
+  .rh_agent_profile__social,
+  .rh_property__agent_detail_right_col,
+  .rh_property__mc_wrap,
+  .rh_property__mc_wrap .mc_left_side,
+  .mortgage-calculator-content-wrapper,
+  .walkscore-content-wrapper,
+  .rh_property__walkscore_wrap,
+  .yelp-content-wrapper,
+  .rh_property__yelp_wrap,
+  .availability-calendar,
+  .rh_property__ava_calendar_wrap,
+  .rh_property__attachments_wrap,
+  .attachments-content-wrapper,
+  .rh_property__views_wrap,
+  .property-views-wrapper,
+  .similar-properties-content-wrapper,
+  .rh_property__similar_properties,
+  .rh_property__comments,
+  .comments-content-wrapper,
+  .rh_wrapper_floating_features,
+  .leaflet-control-attribution,
+  .grecaptcha-badge,
+  .inspiry-post-nav,
+  #rh_progress,
+  #scroll-top,
+  #property-agent-contact-methods-wrapper,
+  .rh_footer {
+    display: none !important;
+  }
+
+  .rh_property__wrap,
+  .only-for-print {
+    display: block !important;
+  }
+
+  .rh_section,
+  .rh_page,
+  .rh_property__wrap,
+  .rh_property__content,
+  .rh_wrap_stick_footer {
+    padding: 0 !important;
+  }
+
+  .rh_property__main,
+  .rh_property__sidebar,
+  .rh_property__content {
+    max-width: 100% !important;
+    width: 100% !important;
+    margin: 0 !important;
+  }
+
+  .rh_property .rh_property--borderBottom {
+    padding-bottom: 20px;
+  }
+
+  .rh_property__heading {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+
+  .property-head-wrapper {
+    position: static;
+    padding-top: 15px;
+    background: none;
+  }
+
+  .content-wrapper {
+    padding-top: 15px;
+  }
+
+  .rh_content,
+  .rh_content > p,
+  .rh_content > ul,
+  .rh_property__common_note,
+  .rh_property__features_wrap,
+  .rh_property__map_wrap,
+  .rh_property__energy_performance_wrap{
+    margin-bottom: 15px !important;
+  }
+
+  #property-featured-image {
+    margin-bottom: 20px !important;
+  }
+
+  .rh_property__meta {
+    margin-bottom: 20px;
+    padding: 0;
+    border-bottom: none;
+  }
+
+  .rh_property__meta_wrap .rh_property__meta {
+    margin-right: 20px;
+  }
+
+  .rh_property__meta_wrap .rh_property__meta h4 {
+    margin-bottom: 5px;
+  }
+
+  .rh_property__meta_wrap .rh_property__meta .figure {
+    margin-left: 10px;
+  }
+
+  // Header
+  .rh_header {
+    position: relative !important;
+  }
+
+  .rh_header--shadow {
+    background: none;
+  }
+
+  .rh_header .rh_header__wrap {
+    display: flex !important;
+    padding: 0 0 20px 0;
+
+    .rh_logo .rh_logo_inner {
+      text-align: left;
+    }
+  }
+
+  .rh_logo {
+    padding: 0 !important;
+    margin-bottom: 0 !important;
+    margin-left: 0 !important;
+
+    .rh_logo__heading {
+      font-size: 24px !important;
+      font-weight: 500;
+      justify-content: flex-start !important;
+
+      a {
+        text-decoration: none;
+      }
+    }
+
+    img {
+      max-width: 50% !important;
+      margin-bottom: 10px;
+    }
+  }
+
+  .rh_menu__user .rh_menu__user_phone {
+    padding: 0;
+    margin-top: 0;
+
+    svg {
+      fill: #000;
+    }
+
+    .contact-number {
+      font-weight: 700;
+      font-size: 18px;
+      text-decoration: none;
+      margin-left: 7px;
+    }
+  }
+
+  .inspiry-qr-code {
+    float: left;
+    margin: -10px 0 0 -12px;
+  }
+
+  // Price
+  .rh_page__property {
+    align-items: flex-start;
+    flex-direction: row;
+    padding-bottom: 8px !important;
+
+    .rh_page__property_title {
+      text-align: left;
+
+      .rh_page__title {
+        margin-bottom: 0;
+        font-size: 18px;
+        font-weight: 700;
+      }
+    }
+
+    .rh_page__property_price {
+      padding: 4px 0 0;
+      text-align: left;
+      border: none;
+
+      .status {
+        font-weight: 700;
+        font-size: 16px;
+      }
+
+      .price {
+        font-size: 19px !important;
+      }
+    }
+  }
+
+  .rh_property__additional {
+    margin-bottom: 15px;
+
+    li {
+      padding: 0;
+      margin-bottom: 0;
+    }
+  }
+
+  .rh_property__common_note p {
+    padding: 0;
+  }
+
+  .rh_property__features_wrap {
+
+    .rh_property__feature {
+      flex-basis: auto;
+
+      a {
+        margin-left: 0;
+        text-decoration: none;
+      }
+    }
+  }
+
+  .rh_property__energy_performance_wrap .energy-performance .epc-details {
+    border-color: grey !important;
+  }
+
+  .rh_property__energy_performance_wrap .energy-performance .energy-class li.current span {
+    border-top-color: grey !important;
+  }
+
+  // Additional details
+  .rh_property__additional li {
+    padding: 0;
+    border: none;
+
+    .title {
+      display: inline-block;
+      min-width: 220px;
+    }
+  }
+
+  // Floor Plan
+  .floor-plans-accordions .floor-plan-title {
+    flex-direction: row;
+  }
+
+  .floor-plans-accordions .floor-plan-title .title,
+  .floor-plans-accordions .floor-plan-title .floor-plan-meta p {
+    margin-bottom: 0;
+  }
+
+  .floor-plans-accordions .floor-plan-title,
+  .floor-plans-content-wrapper .floor-plans-accordions .floor-plan-title {
+    padding: 12px 20px;
+
+    .title h3 {
+      margin-left: 0;
+    }
+  }
+
+  .floor-plans-accordions {
+    display: block;
+
+    .floor-plan {
+      display: block;
+    }
+  }
+
+  .floor-plans-accordions .floor-plan-content {
+    display: block !important;
+
+    img {
+      max-width: 320px;
+    }
+  }
+
+  // Property Map
+  .rh_property__map_wrap #property_map {
+    height: 320px;
+    overflow: hidden;
+
+    img {
+      max-width: none !important;
+    }
+  }
+
+  // RVR
+  .rh_rvr_optional_services {
+    display: block;
+  }
+
+  .rh_rvr_alternate_wrapper {
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .rh_wrapper_rvr_features,
+  .rh_wrapper_rvr_features > div {
+    margin-bottom: 0;
+    padding-top: 0;
+  }
+
+  // Property Full width layout
+  .single-property-section {
+    padding-top: 0;
+    padding-bottom: 30px;
+    background: none;
+  }
+
+  .single-property-fullwidth {
+
+    .container {
+      padding-left: 0;
+      padding-right: 0;
+    }
+
+    .rh_page__property .rh_page__property_title {
+      margin-bottom: 10px;
+    }
+
+    .property-head-wrapper {
+      padding-top: 0;
+    }
+
+    .additional-details-content-wrapper li {
+      width: 100%;
+
+      span {
+        display: inline-block;
+      }
+    }
+
+    .property-head-wrapper .rh_page__property {
+      padding-top: 0;
+      padding-bottom: 0 !important;
+    }
+
+    .rh_property--borderBottom {
+      margin-bottom: 20px !important;
+    }
+
+    .content-wrapper {
+      padding-bottom: 0;
+    }
+
+    .rh_content {
+      margin-bottom: 0 !important;
+    }
+
+    .additional-details-content-wrapper {
+      padding-bottom: 15px;
+
+      li {
+        margin-bottom: 10px;
+      }
+    }
+
+    .features-content-wrapper {
+      padding-bottom: 5px;
+    }
+
+    .agent-content-wrapper {
+      padding-bottom: 5px;
+    }
+  }
+
+  // Agents
+  .multiple-agent {
+    margin-top: 25px;
+  }
+
+  .agent-content-wrapper .rh_property__agent_head figure,
+  .agent-content-wrapper .rh_property__agent_title_wrap{
+    float: none ;
+    width: 100%;
+    padding: 0;
+    margin-bottom: 15px;
+  }
+
+  .agent-content-wrapper .rh_property__agent_title_wrap h3 {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+
+  .agent-content-wrapper .rh_property__agent_detail_left_col {
+    margin-bottom: 15px;
+  }
+
+  .rh_property_agent img,
+  .agent-info img {
+    margin: 0 !important;
+  }
+
+  .rh_property__main {
+
+    .rh_property__agent_head .description {
+      text-align: left;
+    }
+
+    .rh_property__agent_head .contacts-list .contact {
+      justify-content: initial;
+    }
+
+    .rh_property__agent_head .contacts-list {
+      padding: 0;
+    }
+
+    .rh_property__agent_detail {
+      padding-top: 0;
+      border: none;
+      margin-bottom: 14px;
+    }
+  }
+
+  .rh_property__sidebar {
+
+    .rh_property_agent img,
+    .agent-info img {
+      padding: 0;
+    }
+
+    .rh_property_agent .rh_property_agent__title, .agent-info .rh_property_agent__title {
+      margin-left: 0;
+      margin-right: 0;
+    }
+
+    .rh_property_agent,
+    .agent-info {
+      margin-bottom: 0;
+      text-align: left;
+    }
+
+    .rh_property_agent .rh_property_agent__agent_info,
+    .agent-info .rh_property_agent__agent_info {
+      padding: 0;
+    }
+  }
+
+  .rh_property__agent_head {
+    display: block;
+
+    .description {
+      display: none;
+    }
+  }
+
+  .rtl {
+
+    .rh_header .rh_header__wrap .rh_logo .rh_logo_inner {
+      text-align: right;
+    }
+
+    .inspiry-qr-code {
+      float: right;
+      margin-left: 0;
+      margin-right: -12px;
+    }
+
+    .rh_property__main .rh_property__agent_head .description {
+      text-align: right;
+    }
+
+    .rh_property__sidebar {
+
+      .rh_property_agent,
+      .agent-info {
+        text-align: right;
+      }
+    }
+  }
+}

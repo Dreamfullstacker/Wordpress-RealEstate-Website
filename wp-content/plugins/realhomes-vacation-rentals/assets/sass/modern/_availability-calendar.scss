@@ -1,0 +1,226 @@
+/**
+* RVR - availability calendar styles - Modern
+*/
+.rh_property__ava_calendar_wrap{
+  margin-bottom: 30px;
+
+  .calendar-guide {
+	  padding-top: 2rem;
+	  ul {
+		  display: flex;
+		  justify-content: center;
+		  li {
+			  list-style: none;
+			  margin-right: 2rem;
+
+			  &:before {
+				content: '';
+				width: 1.5rem;
+				height: 1.5rem;
+				background-color: rgba(128, 128, 128, 0.2);
+				margin-right: 0.5rem;
+				display: block;
+				float: left;
+				margin-top: 1px;
+				text-align: center;
+			  }
+
+			  &.past-days {
+				&:before {
+					content: '-';
+					line-height: 15px;
+					color: #808080;
+				}
+			  }
+
+			  &.today {
+				  &:before {
+					background-color: var(--rvr-color-primary);
+				  }
+			  }
+
+			  &.available-days {
+				  &:before {
+					  background-color: rgba(30, 166, 154, 0.2);
+				  }
+			  }
+
+			  &.reserved-days {
+				&:before {
+					background-color: var(--rvr-color-secondary);
+				}
+			}
+		  }
+	  }
+  }
+}
+.availability-calendar {
+  overflow: hidden;
+  width: 48%;
+  box-sizing: border-box;
+  display: inline-block;
+  vertical-align: top;
+  padding-right: 1px;
+
+
+  & + .availability-calendar {
+    margin-left: 3rem;
+  }
+
+  .paging {
+    text-align: center;
+    font-size: 12px;
+    position: relative;
+    padding: 10px;
+    background: var(--rvr-color-primary);
+    color: #fff;
+
+    .month-name {
+      text-transform: uppercase;
+      font-size: 18px;
+    }
+
+    i {
+      width: 0;
+      height: 0;
+      display: inline-block;
+      vertical-align: middle;
+      position: absolute;
+      top: 13px;
+      line-height: 24px;
+      border-color: #fff;
+      border-style: solid;
+      border-width: 7px;
+      cursor: pointer;
+
+      &.prev {
+        left: 10px;
+        border-top-color: transparent;
+        border-bottom-color: transparent;
+        border-left-style: none;
+      }
+
+      &.next {
+        right: 10px;
+        border-top-color: transparent;
+        border-bottom-color: transparent;
+        border-right-style: none;
+      }
+    }
+  }
+
+  table {
+    font-weight: 400;
+    font-size: 14px;
+    color: #333;
+    border-collapse: collapse;
+    width: 100%;
+    border: none;
+    margin-bottom: 0;
+
+    td {
+      text-align: center;
+      background-color: #fff;
+      border: 1px solid #fff;
+      padding: 3px;
+      height: 4rem;
+
+		&.cur-date.cur-month {
+			background: #D9EDF7;
+		}
+
+		&.unavailable {
+			background: var(--rvr-color-secondary);
+			color: #fff;
+		}
+
+		&.available {
+			background: rgba(30, 166, 154, 0.2);
+			color: #000;
+		}
+
+		&.near-month {
+			color: #ccc;
+			background: #f7f7f7;
+			visibility: hidden;
+			//border: none;
+		}
+
+		&.past-date {
+			background: rgba(128, 128, 128, 0.2) !important;
+			text-decoration: line-through;
+			color:#808080;
+		}
+
+		&.today {
+			background-color: var(--rvr-color-primary);
+			color: #fff;
+		}
+    }
+
+    thead {
+      font-weight: 700;
+	  
+      td {
+        border: none;
+        min-width: 40px;
+        background: none;
+        text-transform: uppercase;
+      }
+    }
+
+    tbody {
+
+      tr:last-of-type{
+        display: none;
+      }
+
+      tr:last-child td.cur-month {
+        border-bottom-width: 37px;
+        border-bottom-color: #fff;
+        height: 60px;
+
+        &:after {
+          content: '';
+          display: block;
+          border-bottom: 1px solid #eee;
+          margin-bottom: -11px;
+          margin-right: -3px;
+          margin-left: -3px;
+          height: 9px;
+        }
+      }
+
+    }
+  }
+}
+
+// Responsive styles
+#property-availability {
+  display: flex;
+
+  @media (max-width: 767px) {
+    flex-direction: column;
+    .availability-calendar {
+      margin: 0;
+      width: 100%;
+    }
+  }
+}
+
+// Property Single Fullwidth
+.rvr-content-wrapper {
+  .availability-calendar {
+    table tbody {
+      tr:last-child td.cur-month {
+        border-bottom-width: 1px;
+        border-bottom-color: #eee;
+        height: auto;
+
+        &:after {
+          content: none;
+        }
+      }
+    }
+  }
+}

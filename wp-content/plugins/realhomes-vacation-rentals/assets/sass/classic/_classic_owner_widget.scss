@@ -1,0 +1,36 @@
+/**
+* RVR Owner Widget
+**/
+.RVR_Owner_Widget {
+
+  // classic design specific styles
+  .property-owner.classic {
+
+    .agent-info {
+      background-color: #fff;
+      padding: 25px;
+
+      .wp-post-image {
+        max-width: 100%;
+        margin-bottom: 10px;
+      }
+
+      .contacts-list {
+        margin-top: 0;
+      }
+
+      p:last-child {
+        margin-bottom: 0;
+      }
+
+    }
+  }
+}
+
+.sidebar .RVR_Owner_Widget {
+  .property-owner {
+    .title {
+      margin-bottom: 0;
+    }
+  }
+}

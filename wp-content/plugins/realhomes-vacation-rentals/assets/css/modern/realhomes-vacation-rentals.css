@@ -1,0 +1,542 @@
+:root { --rvr-color-primary: var(--rh-global-color-primary,#1ea69a); --rvr-color-primary-dark: var(--rh-global-color-primary-dark,#0b8278); --rvr-color-secondary: var(--rh-global-color-secondary,#ea723d); --rvr-color-text: var(--rh-global-color-text, #808080); --rvr-color-headings: var(--rh-global-color-headings, #1a1a1a); }
+
+/** RVR - single property styles - Modern */
+.booking-notice { margin-bottom: 30px; text-align: left; }
+
+.rh_property__features_wrap h5 { display: block; margin-bottom: 1rem; color: #808080; }
+
+.rh_property__features_wrap .no-link-list .rh_property__feature { padding-left: 3rem; color: #808080; }
+
+.rh_property__features_wrap .no-link-list.property-policy .rh_property__feature { flex-basis: 100%; }
+
+.rh_property__features_wrap .no-link-list.icon-cross .rh_property__feature:before { background: url("../../images/icon-cross.png") 50% 50% no-repeat; }
+
+.rh_outdoor_and_surroundings { display: flex; flex-wrap: wrap; }
+
+.rh_outdoor_and_surroundings .rh_property__features_wrap { width: 50%; }
+
+.rh_outdoor_and_surroundings .rh_property__features_wrap .rh_property__features li { flex-basis: 100%; }
+
+.rh_rvr_property_surroundings h5 { line-height: 18px; margin-top: 0; margin-bottom: 0; display: inline-block; }
+
+.rh_rvr_property_surroundings span { margin-left: 5px; margin-right: 5px; display: inline-block; font-size: 13px; color: #808080; }
+
+.rh_rvr_optional_services { display: flex; flex-wrap: wrap; }
+
+.rvr_optional_services_status { width: 50%; }
+
+.rvr_optional_services_status h5 { margin-top: 0; }
+
+.rvr_optional_services_status li.rh_property__feature { flex-basis: 100%; }
+
+.rvr_optional_services_status li.rh_property__feature .rvr_not_available i { color: #ea723d; }
+
+.rh_property__features_wrap .rh_property__feature .rh_done_icon.rvr_fa_icon { top: 0; }
+
+.rvr_fa_icon { color: #ea723d; }
+
+.rh_property__features_wrap .rh_rvr_optional_included li .rh_done_icon svg { width: 18px; }
+
+.rh_single_full_rvr_features { display: flex; flex-wrap: wrap; }
+
+.rh_single_full_rvr_features .rh_rvr_property_surroundings { width: 25%; }
+
+.rh_single_full_rvr_features .rh_rvr_outdoor_features_wrapper { width: 25%; }
+
+.rh_single_full_rvr_features .rh_rvr_optional_services_wrapper { width: 50%; }
+
+.features-content-wrapper .rh_single_full_rvr_features li.rh_property__feature { flex-basis: 100%; }
+
+.rh_wrapper_rvr_features { margin-bottom: 3rem; margin-left: -3rem; margin-right: -3rem; background: #f7f7f7; }
+
+.rh_wrapper_rvr_features > div { padding: 2rem 3rem 0 3rem; margin-bottom: 1rem; }
+
+.rh_wrapper_rvr_features > div:nth-of-type(even) { background: #ffffff; }
+
+.rh_wrapper_rvr_features .rh_rvr_property_policies_wrapper ul li { line-height: 22px; }
+
+.rh_wrapper_rvr_features .rh_rvr_property_policies_wrapper ul li .rh_done_icon.rvr_fa_icon { top: 2px; }
+
+.rvr-slash-line { display: none !important; }
+
+.rvr-slash { position: relative; }
+
+.rvr-slash .rvr-slash-line { display: inline-block !important; width: calc(100% + 3px); height: 3px; border-bottom: 1px solid #ffffff; background: #ea723d; position: absolute; top: calc(50% - 1.5px); left: -2px; transform: rotate(45deg); }
+
+.rh_prop_card__priceLabel_box { display: flex; justify-content: space-between; flex-wrap: wrap; align-items: flex-end; }
+
+.rh_prop_card__priceLabel_box .stars-avg-rating .rating-stars { margin: 0 0 5px 0; }
+
+.rvr-is-enabled .rh_list_card__wrap .rh_list_card__map_details .rh_list_card__priceLabel { display: flex; flex-direction: row; flex-wrap: wrap; align-items: flex-end; }
+
+.rvr-is-enabled .rh_list_card__wrap .rh_list_card__map_details .rh_list_card__priceLabel .stars-avg-rating .rating-stars { margin: 0 0 5px 0; }
+
+.rvr-is-enabled .rh_prop_card--similar { z-index: auto; }
+
+@media (max-width: 1139px) { .rh_single_full_rvr_features .rh_rvr_property_surroundings { width: 50%; }
+  .rh_single_full_rvr_features .rh_rvr_outdoor_features_wrapper { width: 50%; }
+  .rh_single_full_rvr_features .rh_rvr_optional_services_wrapper { width: 100%; } }
+
+@media (max-width: 767px) { .rh_single_full_rvr_features .rh_rvr_property_surroundings { width: 100%; }
+  .rh_single_full_rvr_features .rh_rvr_outdoor_features_wrapper { width: 100%; }
+  .rh_outdoor_and_surroundings .rh_property__features_wrap { width: 100%; }
+  .rvr_optional_services_status { width: 100%; } }
+
+.rtl .rh_property__features_wrap .no-link-list .rh_property__feature { padding-right: 3rem; }
+
+/*** Seasonal Prices Section ***/
+.rvr_seasonal_prices_wrap { margin-bottom: 30px; }
+
+.rvr_seasonal_prices_wrap table, .rvr_seasonal_prices_wrap th, .rvr_seasonal_prices_wrap td { border: none; }
+
+.rvr_seasonal_prices_wrap table th { color: #444; }
+
+.rvr_seasonal_prices_wrap .rvr_seasonal_prices { border: 1px solid #f7f7f7; text-align: center; }
+
+.rvr_seasonal_prices_wrap .rvr_seasonal_prices tr:nth-child(even) { background-color: #f7f7f7; }
+
+.property-template-property-full-width-layout .rvr_seasonal_prices_wrap .rvr_seasonal_prices tr:nth-child(even) { background-color: #fff; }
+
+/*** Price Details Section ***/
+.rvr_price_details_wrap { margin-bottom: 30px; }
+
+.rvr_price_details_wrap .rvr_price_details ul { display: flex; flex-direction: row; flex-wrap: wrap; width: 100%; list-style: none; }
+
+.rvr_price_details_wrap .rvr_price_details ul li { flex-basis: 50%; margin-bottom: 15px; }
+
+.rvr_price_details_wrap .rvr_price_details ul li strong { font-weight: 500; margin-right: 5px; }
+
+.rvr_price_details_wrap .rvr_price_details ul li i { margin-right: 5px; font-size: 12px; }
+
+.rvr_price_details_wrap .rvr_price_details ul li.bulk-pricing-heading { flex-basis: 100%; margin: 10px 0 15px; font-size: 1.6rem; font-weight: 500; line-height: 1.5; color: var(--rvr-color-primary); }
+
+@media (max-width: 580px) { .rvr_price_details_wrap .rvr_price_details ul li { flex-basis: 100%; } }
+
+/*** Property Guests Accommodation Section Styles ***/
+.rvr_guests_accommodation_wrap { margin-bottom: 3rem; }
+
+.rvr_guests_accommodation_wrap .rvr_guests_accommodation ul { list-style: none; display: flex; flex-wrap: wrap; }
+
+.rvr_guests_accommodation_wrap .rvr_guests_accommodation ul li { width: 50%; margin-bottom: 1rem; padding-right: 1rem; }
+
+.rvr_guests_accommodation_wrap .rvr_guests_accommodation ul li i { margin-right: 1rem; }
+
+.rvr_guests_accommodation_wrap .rvr_guests_accommodation ul li i.fas { color: var(--rvr-color-primary); }
+
+.rvr_guests_accommodation_wrap .rvr_guests_accommodation ul li i.guests-info { font-size: 1.2rem; }
+
+.rvr_guests_accommodation_wrap .rvr_guests_accommodation ul li strong { font-weight: 500; }
+
+@media (max-width: 580px) { .rvr_guests_accommodation_wrap .rvr_guests_accommodation ul li { width: 100%; } }
+
+/**
+* RVR - availability calendar styles - Modern
+*/
+.rh_property__ava_calendar_wrap { margin-bottom: 30px; }
+
+.rh_property__ava_calendar_wrap .calendar-guide { padding-top: 2rem; }
+
+.rh_property__ava_calendar_wrap .calendar-guide ul { display: flex; justify-content: center; }
+
+.rh_property__ava_calendar_wrap .calendar-guide ul li { list-style: none; margin-right: 2rem; }
+
+.rh_property__ava_calendar_wrap .calendar-guide ul li:before { content: ''; width: 1.5rem; height: 1.5rem; background-color: rgba(128, 128, 128, 0.2); margin-right: 0.5rem; display: block; float: left; margin-top: 1px; text-align: center; }
+
+.rh_property__ava_calendar_wrap .calendar-guide ul li.past-days:before { content: '-'; line-height: 15px; color: #808080; }
+
+.rh_property__ava_calendar_wrap .calendar-guide ul li.today:before { background-color: var(--rvr-color-primary); }
+
+.rh_property__ava_calendar_wrap .calendar-guide ul li.available-days:before { background-color: rgba(30, 166, 154, 0.2); }
+
+.rh_property__ava_calendar_wrap .calendar-guide ul li.reserved-days:before { background-color: var(--rvr-color-secondary); }
+
+.availability-calendar { overflow: hidden; width: 48%; box-sizing: border-box; display: inline-block; vertical-align: top; padding-right: 1px; }
+
+.availability-calendar + .availability-calendar { margin-left: 3rem; }
+
+.availability-calendar .paging { text-align: center; font-size: 12px; position: relative; padding: 10px; background: var(--rvr-color-primary); color: #fff; }
+
+.availability-calendar .paging .month-name { text-transform: uppercase; font-size: 18px; }
+
+.availability-calendar .paging i { width: 0; height: 0; display: inline-block; vertical-align: middle; position: absolute; top: 13px; line-height: 24px; border-color: #fff; border-style: solid; border-width: 7px; cursor: pointer; }
+
+.availability-calendar .paging i.prev { left: 10px; border-top-color: transparent; border-bottom-color: transparent; border-left-style: none; }
+
+.availability-calendar .paging i.next { right: 10px; border-top-color: transparent; border-bottom-color: transparent; border-right-style: none; }
+
+.availability-calendar table { font-weight: 400; font-size: 14px; color: #333; border-collapse: collapse; width: 100%; border: none; margin-bottom: 0; }
+
+.availability-calendar table td { text-align: center; background-color: #fff; border: 1px solid #fff; padding: 3px; height: 4rem; }
+
+.availability-calendar table td.cur-date.cur-month { background: #D9EDF7; }
+
+.availability-calendar table td.unavailable { background: var(--rvr-color-secondary); color: #fff; }
+
+.availability-calendar table td.available { background: rgba(30, 166, 154, 0.2); color: #000; }
+
+.availability-calendar table td.near-month { color: #ccc; background: #f7f7f7; visibility: hidden; }
+
+.availability-calendar table td.past-date { background: rgba(128, 128, 128, 0.2) !important; text-decoration: line-through; color: #808080; }
+
+.availability-calendar table td.today { background-color: var(--rvr-color-primary); color: #fff; }
+
+.availability-calendar table thead { font-weight: 700; }
+
+.availability-calendar table thead td { border: none; min-width: 40px; background: none; text-transform: uppercase; }
+
+.availability-calendar table tbody tr:last-of-type { display: none; }
+
+.availability-calendar table tbody tr:last-child td.cur-month { border-bottom-width: 37px; border-bottom-color: #fff; height: 60px; }
+
+.availability-calendar table tbody tr:last-child td.cur-month:after { content: ''; display: block; border-bottom: 1px solid #eee; margin-bottom: -11px; margin-right: -3px; margin-left: -3px; height: 9px; }
+
+#property-availability { display: flex; }
+
+@media (max-width: 767px) { #property-availability { flex-direction: column; }
+  #property-availability .availability-calendar { margin: 0; width: 100%; } }
+
+.rvr-content-wrapper .availability-calendar table tbody tr:last-child td.cur-month { border-bottom-width: 1px; border-bottom-color: #eee; height: auto; }
+
+.rvr-content-wrapper .availability-calendar table tbody tr:last-child td.cur-month:after { content: none; }
+
+/** RVR - datepicker calendar styles - Classic/Default */
+#ui-datepicker-div { background-color: #fbfbfb; padding: 0; margin: 1px; border: 0; box-shadow: 0 5px 5px -5px #80808059; }
+
+#ui-datepicker-div .ui-datepicker-header { background: #54c7ed; color: #fff; border: 0; border-radius: 0; padding: 8px 0; font-weight: normal; }
+
+#ui-datepicker-div .ui-datepicker-header .ui-corner-all { width: 40px; height: 40px; top: 0 !important; }
+
+#ui-datepicker-div .ui-datepicker-header .ui-corner-all:hover { cursor: pointer; border: none; background: none; }
+
+#ui-datepicker-div .ui-datepicker-header .ui-corner-all.ui-datepicker-next { right: 0 !important; }
+
+#ui-datepicker-div .ui-datepicker-header .ui-corner-all.ui-datepicker-prev { left: 0 !important; }
+
+#ui-datepicker-div .ui-datepicker-header .ui-corner-all.ui-datepicker-prev span { background-position: -96px 0; }
+
+#ui-datepicker-div .ui-datepicker-header .ui-corner-all span { width: 16px; height: 16px; top: 20px; background-image: url("../datepicker/images/ui-icons_ffffff_256x240.png"); background-position: -32px 0; }
+
+#ui-datepicker-div .ui-datepicker-calendar { margin: 0; }
+
+#ui-datepicker-div .ui-datepicker-calendar thead { text-transform: uppercase; }
+
+#ui-datepicker-div .ui-datepicker-calendar tbody tr td { border: 1px solid #dedede; background-color: #fff; }
+
+#ui-datepicker-div .ui-datepicker-calendar tbody tr td.ui-datepicker-today { background: #54c7ee; }
+
+#ui-datepicker-div .ui-datepicker-calendar tbody tr td.ui-state-reserved { background-color: #ec884d !important; opacity: 1; }
+
+#ui-datepicker-div .ui-datepicker-calendar tbody tr td.ui-state-reserved span { color: #fff; }
+
+#ui-datepicker-div .ui-datepicker-calendar tbody tr td a, #ui-datepicker-div .ui-datepicker-calendar tbody tr td span { text-align: center; border: 0; background: none; }
+
+#ui-datepicker-div .ui-datepicker-calendar tbody tr td a.ui-state-highlight, #ui-datepicker-div .ui-datepicker-calendar tbody tr td span.ui-state-highlight { color: #fff; }
+
+#ui-datepicker-div .ui-datepicker-calendar tbody tr td:hover { background-color: #ec884d; }
+
+#ui-datepicker-div .ui-datepicker-calendar tbody tr td:hover a { color: #fff; }
+
+#ui-datepicker-div .ui-datepicker-calendar tbody tr td.ui-datepicker-current-day { background-color: #54c7ed; }
+
+#ui-datepicker-div .ui-datepicker-calendar tbody tr td.ui-datepicker-current-day a { color: #fff; }
+
+#ui-datepicker-div .ui-datepicker-calendar tbody tr td.ui-state-disabled { background-color: #dedede; }
+
+/**
+* RVR - DateRangePicker calendar styles - Modern
+*/
+div.daterangepicker { border-color: #e6e6e6; padding: 1rem; margin-top: 0; margin-right: -1px; margin-left: -1px; border-radius: 0; }
+
+div.daterangepicker::before, div.daterangepicker::after { display: none; content: none; }
+
+div.daterangepicker .calendar-table th.available { border-radius: 0; }
+
+div.daterangepicker .calendar-table th.available.next span { margin-right: 2px; }
+
+div.daterangepicker .calendar-table th.available.prev span { margin-left: 2px; }
+
+div.daterangepicker .calendar-table th, div.daterangepicker .calendar-table td { font-size: 14px; line-height: 23px; text-transform: uppercase; }
+
+div.daterangepicker .calendar-table th.reserved, div.daterangepicker .calendar-table td.reserved { background-color: #ea723d; color: #fff; text-decoration: none; }
+
+div.daterangepicker .drp-calendar.left .calendar-table { padding-right: 1rem; }
+
+div.daterangepicker .drp-calendar.right .calendar-table { padding-left: 1rem; }
+
+div.daterangepicker th { font-weight: bold; }
+
+div.daterangepicker td { border-radius: 0 !important; }
+
+div.daterangepicker td.in-range { background-color: rgba(30, 166, 154, 0.2); }
+
+div.daterangepicker td.in-range:hover:not(.active) { background-color: #eee; }
+
+div.daterangepicker td.active, div.daterangepicker td.active:hover { background-color: #1ea69a; }
+
+body:not(.home) .rh_prop_search__form .daterangepicker { margin-top: 20px; }
+
+/**
+* RVR - datepicker calendar styles - Modern (Old)
+*/
+#ui-datepicker-div { width: 24.9rem; margin-left: -1px; margin-top: -1px; }
+
+#ui-datepicker-div .ui-datepicker-header { background-color: var(--rvr-color-primary); }
+
+#ui-datepicker-div .ui-datepicker-header .ui-datepicker-title { font-size: 1.4rem; }
+
+#ui-datepicker-div .ui-datepicker-calendar thead tr th { font-size: 1.4rem; }
+
+#ui-datepicker-div .ui-datepicker-calendar tbody tr td.ui-datepicker-today, #ui-datepicker-div .ui-datepicker-calendar tbody tr td.ui-datepicker-current-day { background-color: var(--rvr-color-primary); }
+
+#ui-datepicker-div .ui-datepicker-calendar tbody tr td.ui-state-disabled { background-color: #dedede; }
+
+#ui-datepicker-div .ui-datepicker-calendar tbody tr td.ui-state-reserved { background-color: var(--rvr-color-secondary) !important; }
+
+/**
+* RVR - booking form styles - Modern
+*/
+/**
+* RVR - booking form styles - Classic/Default
+*/
+.widget.RVR_Booking_Widget, #footer .widget.RVR_Booking_Widget { background-color: #fff; }
+
+.widget.RVR_Booking_Widget .title, #footer .widget.RVR_Booking_Widget .title { background-color: #394041; color: #fff; font-size: 19px; font-weight: 500; line-height: 48px; padding: 0 0 0 15px; margin-bottom: 0; }
+
+.widget.RVR_Booking_Widget .title a, #footer .widget.RVR_Booking_Widget .title a { font-size: 19px; font-weight: 500; color: #ffffff; transition: .2s all ease-in-out; }
+
+.widget.RVR_Booking_Widget .title a:hover, #footer .widget.RVR_Booking_Widget .title a:hover { opacity: .8; }
+
+.widget.RVR_Booking_Widget .rvr-booking-form-wrap, #footer .widget.RVR_Booking_Widget .rvr-booking-form-wrap { padding: 18px 14px 18px; box-shadow: 0px 0px 5px 2px rgba(0, 0, 0, 0.05); }
+
+.widget.RVR_Booking_Widget .rvr-booking-form-wrap .rvr-contact-information, #footer .widget.RVR_Booking_Widget .rvr-booking-form-wrap .rvr-contact-information { border-bottom: 1px solid #cdcdcd; margin-bottom: 15px; }
+
+.widget.RVR_Booking_Widget .rvr-booking-form-wrap .rvr-contact-information .rvr-ask-question, #footer .widget.RVR_Booking_Widget .rvr-booking-form-wrap .rvr-contact-information .rvr-ask-question { text-align: center; margin-bottom: 5px; }
+
+.widget.RVR_Booking_Widget .rvr-booking-form-wrap .rvr-contact-information .rvr-ask-question a, #footer .widget.RVR_Booking_Widget .rvr-booking-form-wrap .rvr-contact-information .rvr-ask-question a { font-size: 16px; color: #ec894d; display: block; }
+
+.widget.RVR_Booking_Widget .rvr-booking-form-wrap .rvr-contact-information .rvr-ask-question a:hover, #footer .widget.RVR_Booking_Widget .rvr-booking-form-wrap .rvr-contact-information .rvr-ask-question a:hover { color: #4DC7EC; }
+
+.widget.RVR_Booking_Widget .rvr-booking-form-wrap .rvr-contact-information .rvr-phone-number, #footer .widget.RVR_Booking_Widget .rvr-booking-form-wrap .rvr-contact-information .rvr-phone-number { margin-bottom: 1rem; font-size: 14px; text-align: center; }
+
+.widget.RVR_Booking_Widget .rvr-booking-form-wrap .rvr-booking-form, #footer .widget.RVR_Booking_Widget .rvr-booking-form-wrap .rvr-booking-form { margin-left: -15px; }
+
+.widget.RVR_Booking_Widget .rvr-booking-form-wrap .rvr-booking-form .option-bar, #footer .widget.RVR_Booking_Widget .rvr-booking-form-wrap .rvr-booking-form .option-bar { float: left; padding-left: 15px; }
+
+.widget.RVR_Booking_Widget .rvr-booking-form-wrap .rvr-booking-form .option-bar.large, #footer .widget.RVR_Booking_Widget .rvr-booking-form-wrap .rvr-booking-form .option-bar.large { width: 100%; box-sizing: border-box; }
+
+.widget.RVR_Booking_Widget .rvr-booking-form-wrap .rvr-booking-form .option-bar.small, #footer .widget.RVR_Booking_Widget .rvr-booking-form-wrap .rvr-booking-form .option-bar.small { width: 50%; box-sizing: border-box; }
+
+.widget.RVR_Booking_Widget .rvr-booking-form-wrap .rvr-booking-form input[type="text"], #footer .widget.RVR_Booking_Widget .rvr-booking-form-wrap .rvr-booking-form input[type="text"] { width: 100%; line-height: 34px; height: 34px; box-sizing: border-box; }
+
+.widget.RVR_Booking_Widget .rvr-booking-form-wrap .rvr-booking-form input[type="text"]::-webkit-input-placeholder, #footer .widget.RVR_Booking_Widget .rvr-booking-form-wrap .rvr-booking-form input[type="text"]::-webkit-input-placeholder { /* WebKit, Blink, Edge */ color: #909798; }
+
+.widget.RVR_Booking_Widget .rvr-booking-form-wrap .rvr-booking-form input[type="text"]:-moz-placeholder, #footer .widget.RVR_Booking_Widget .rvr-booking-form-wrap .rvr-booking-form input[type="text"]:-moz-placeholder { /* Mozilla Firefox 4 to 18 */ color: #909798; opacity: 1; }
+
+.widget.RVR_Booking_Widget .rvr-booking-form-wrap .rvr-booking-form input[type="text"]::-moz-placeholder, #footer .widget.RVR_Booking_Widget .rvr-booking-form-wrap .rvr-booking-form input[type="text"]::-moz-placeholder { /* Mozilla Firefox 19+ */ color: #909798; opacity: 1; }
+
+.widget.RVR_Booking_Widget .rvr-booking-form-wrap .rvr-booking-form input[type="text"]:-ms-input-placeholder, #footer .widget.RVR_Booking_Widget .rvr-booking-form-wrap .rvr-booking-form input[type="text"]:-ms-input-placeholder { /* Internet Explorer 10-11 */ color: #909798; }
+
+.widget.RVR_Booking_Widget .rvr-booking-form-wrap .rvr-booking-form input.error, #footer .widget.RVR_Booking_Widget .rvr-booking-form-wrap .rvr-booking-form input.error { border-color: red; }
+
+.widget.RVR_Booking_Widget .rvr-booking-form-wrap .rvr-booking-form input.error + label + span, #footer .widget.RVR_Booking_Widget .rvr-booking-form-wrap .rvr-booking-form input.error + label + span { color: red; }
+
+.widget.RVR_Booking_Widget .rvr-booking-form-wrap .rvr-booking-form input.error + label + span a, #footer .widget.RVR_Booking_Widget .rvr-booking-form-wrap .rvr-booking-form input.error + label + span a { color: red; }
+
+.widget.RVR_Booking_Widget .rvr-booking-form-wrap .rvr-booking-form label, #footer .widget.RVR_Booking_Widget .rvr-booking-form-wrap .rvr-booking-form label { color: #394041; margin-bottom: 5px; }
+
+.widget.RVR_Booking_Widget .rvr-booking-form-wrap .rvr-booking-form label.error, #footer .widget.RVR_Booking_Widget .rvr-booking-form-wrap .rvr-booking-form label.error { color: red; margin-bottom: 10px; margin-top: -5px; }
+
+.widget.RVR_Booking_Widget .rvr-booking-form-wrap .rvr-booking-form label #terms_conditions-error, #footer .widget.RVR_Booking_Widget .rvr-booking-form-wrap .rvr-booking-form label #terms_conditions-error { display: none !important; }
+
+.widget.RVR_Booking_Widget .rvr-booking-form-wrap .rvr-booking-form .rvr-terms-conditions, #footer .widget.RVR_Booking_Widget .rvr-booking-form-wrap .rvr-booking-form .rvr-terms-conditions { margin-top: 1rem; width: 100%; }
+
+.widget.RVR_Booking_Widget .rvr-booking-form-wrap .rvr-booking-form .rvr-terms-conditions input, #footer .widget.RVR_Booking_Widget .rvr-booking-form-wrap .rvr-booking-form .rvr-terms-conditions input { float: left; margin-right: 0; }
+
+.widget.RVR_Booking_Widget .rvr-booking-form-wrap .rvr-booking-form .rvr-terms-conditions label label, #footer .widget.RVR_Booking_Widget .rvr-booking-form-wrap .rvr-booking-form .rvr-terms-conditions label label { display: none !important; }
+
+.widget.RVR_Booking_Widget .rvr-booking-form-wrap .rvr-booking-form .rvr-terms-conditions label span, #footer .widget.RVR_Booking_Widget .rvr-booking-form-wrap .rvr-booking-form .rvr-terms-conditions label span { font-size: 13px; color: #808080; display: block; margin-left: 20px; cursor: pointer; line-height: 22px; }
+
+.widget.RVR_Booking_Widget .rvr-booking-form-wrap .rvr-booking-form .rvr-terms-conditions label span a, #footer .widget.RVR_Booking_Widget .rvr-booking-form-wrap .rvr-booking-form .rvr-terms-conditions label span a { font-weight: 500; }
+
+.widget.RVR_Booking_Widget .rvr-booking-form-wrap .rvr-booking-form .rvr-ajax-loader, #footer .widget.RVR_Booking_Widget .rvr-booking-form-wrap .rvr-booking-form .rvr-ajax-loader { display: none; margin-top: 20px; }
+
+.widget.RVR_Booking_Widget .rvr-booking-form-wrap .rvr-booking-form .rvr-booking-button-wrapper, #footer .widget.RVR_Booking_Widget .rvr-booking-form-wrap .rvr-booking-form .rvr-booking-button-wrapper { overflow: hidden; margin-bottom: 20px; clear: both; padding-left: 15px; }
+
+.widget.RVR_Booking_Widget .rvr-booking-form-wrap .rvr-booking-form .rvr-booking-button-wrapper .real-btn, #footer .widget.RVR_Booking_Widget .rvr-booking-form-wrap .rvr-booking-form .rvr-booking-button-wrapper .real-btn { display: block; padding: 8px 28px; margin-top: 20px; width: 100%; }
+
+.widget.RVR_Booking_Widget .rvr-booking-form-wrap .warning-message, #footer .widget.RVR_Booking_Widget .rvr-booking-form-wrap .warning-message { margin: 0; }
+
+.widget.RVR_Booking_Widget .rvr-booking-form-wrap .booking-cost, #footer .widget.RVR_Booking_Widget .rvr-booking-form-wrap .booking-cost { display: none; clear: both; padding-left: 15px; padding-top: 20px; }
+
+.widget.RVR_Booking_Widget .rvr-booking-form-wrap .booking-cost .cost-field, #footer .widget.RVR_Booking_Widget .rvr-booking-form-wrap .booking-cost .cost-field { border-bottom: 0; }
+
+.widget.RVR_Booking_Widget .rvr-booking-form-wrap .booking-cost .cost-field:last-child, .widget.RVR_Booking_Widget .rvr-booking-form-wrap .booking-cost .cost-field.subtotal-price-field, #footer .widget.RVR_Booking_Widget .rvr-booking-form-wrap .booking-cost .cost-field:last-child, #footer .widget.RVR_Booking_Widget .rvr-booking-form-wrap .booking-cost .cost-field.subtotal-price-field { border-top: 1px solid #f7f7f7; }
+
+.widget.RVR_Booking_Widget .rvr-booking-form-wrap .booking-cost .cost-field > div, #footer .widget.RVR_Booking_Widget .rvr-booking-form-wrap .booking-cost .cost-field > div { display: inline-block; box-sizing: border-box; padding: 10px 5px; }
+
+.widget.RVR_Booking_Widget .rvr-booking-form-wrap .booking-cost .cost-field > div.cost-desc, #footer .widget.RVR_Booking_Widget .rvr-booking-form-wrap .booking-cost .cost-field > div.cost-desc { width: 68%; }
+
+.widget.RVR_Booking_Widget .rvr-booking-form-wrap .booking-cost .cost-field > div.cost-desc a, #footer .widget.RVR_Booking_Widget .rvr-booking-form-wrap .booking-cost .cost-field > div.cost-desc a { font-size: 12px; cursor: pointer; }
+
+.widget.RVR_Booking_Widget .rvr-booking-form-wrap .booking-cost .cost-field > div.cost-desc span, #footer .widget.RVR_Booking_Widget .rvr-booking-form-wrap .booking-cost .cost-field > div.cost-desc span { background: #f7f7f7; font-size: 11px; padding: 2px 5px; margin-left: 5px; border-radius: 4px; }
+
+.widget.RVR_Booking_Widget .rvr-booking-form-wrap .booking-cost .cost-field > div.cost-value, #footer .widget.RVR_Booking_Widget .rvr-booking-form-wrap .booking-cost .cost-field > div.cost-value { width: 30%; text-align: right; }
+
+.widget.RVR_Booking_Widget .submission-area, #footer .widget.RVR_Booking_Widget .submission-area { padding-bottom: 30px; }
+
+.widget.RVR_Booking_Widget .rvr-message-container, .widget.RVR_Booking_Widget .rvr-error-container, #footer .widget.RVR_Booking_Widget .rvr-message-container, #footer .widget.RVR_Booking_Widget .rvr-error-container { display: none; margin-top: 0; padding: 10px 40px 10px 40px; }
+
+.widget.RVR_Booking_Widget .rvr-error-container, #footer .widget.RVR_Booking_Widget .rvr-error-container { color: red; }
+
+.widget.RVR_Booking_Widget { background: #ffffff; }
+
+.widget.RVR_Booking_Widget h4.title { background: #ea723d; line-height: 18px; padding: 20px; margin-bottom: 0; color: #ffffff; font-size: 19px; font-weight: 500; }
+
+.widget.RVR_Booking_Widget h4.title a { vertical-align: middle; color: #ffffff; }
+
+.widget.RVR_Booking_Widget .rvr-booking-form-wrap { background: #fff; padding: 0; }
+
+.widget.RVR_Booking_Widget .rvr-booking-form-wrap .rvr-contact-information { padding: 3rem 2rem; border-bottom: 1px solid rgba(128, 128, 128, 0.2); }
+
+.widget.RVR_Booking_Widget .rvr-booking-form-wrap .rvr-contact-information .rvr-ask-question a { color: var(--rvr-color-primary); }
+
+.widget.RVR_Booking_Widget .rvr-booking-form-wrap .rvr-contact-information .rvr-ask-question a:hover { color: var(--rvr-color-secondary); }
+
+.widget.RVR_Booking_Widget .rvr-booking-form-wrap .rvr-contact-information .rvr-phone-number { margin-bottom: 0; }
+
+.widget.RVR_Booking_Widget .rvr-booking-form-wrap .rvr-booking-form { margin: 0; }
+
+.widget.RVR_Booking_Widget .rvr-booking-form-wrap .rvr-booking-form .option-bar { width: 100%; padding-left: 0; border-top: 1px solid rgba(128, 128, 128, 0.2); }
+
+.widget.RVR_Booking_Widget .rvr-booking-form-wrap .rvr-booking-form .option-bar label { display: block; font-size: 1.3rem; color: var(--rvr-color-headings); margin: 0; padding: 2rem 2rem 0; }
+
+.widget.RVR_Booking_Widget .rvr-booking-form-wrap .rvr-booking-form .option-bar label.error { padding: 0 2rem 2rem; color: red; }
+
+.widget.RVR_Booking_Widget .rvr-booking-form-wrap .rvr-booking-form .option-bar input { display: block; width: 100%; padding: 0 2rem 2rem; margin-top: 1rem; color: var(--rvr-color-text); font-size: 1.5rem; height: initial; }
+
+.widget.RVR_Booking_Widget .rvr-booking-form-wrap .rvr-booking-form .option-bar select { border-bottom: 0; }
+
+.widget.RVR_Booking_Widget .rvr-booking-form-wrap .rvr-booking-form .option-bar .select2 { display: block; width: 100%; padding: 0 2rem 2rem; border: none; margin-top: 1.5rem; }
+
+.widget.RVR_Booking_Widget .rvr-booking-form-wrap .rvr-booking-form .option-bar .select2-container--default .select2-selection--single { border: none; outline: 0; background: transparent; color: var(--rvr-color-text); }
+
+.widget.RVR_Booking_Widget .rvr-booking-form-wrap .rvr-booking-form .option-bar .select2-container--default .select2-selection--single .select2-selection__rendered { padding: 0; color: var(--rvr-color-text); font-size: 1.5rem; }
+
+.widget.RVR_Booking_Widget .rvr-booking-form-wrap .rvr-booking-form .option-bar.rvr-terms-conditions { margin-bottom: 2rem; border-bottom: 0; }
+
+.widget.RVR_Booking_Widget .rvr-booking-form-wrap .rvr-booking-form .option-bar.rvr-terms-conditions label input[type="checkbox"] { float: left; width: auto; margin-top: 5px; margin-right: 1rem; }
+
+.widget.RVR_Booking_Widget .rvr-booking-form-wrap .rvr-booking-form .submission-area .rvr-booking-button-wrapper { padding-left: 20px; padding-right: 20px; margin-bottom: 15px; overflow: hidden; }
+
+.widget.RVR_Booking_Widget .rvr-booking-form-wrap .rvr-booking-form .submission-area input[type="submit"] { background: var(--rvr-color-primary); margin: 0; padding: 2.5rem 2rem; width: 100%; color: #fff; transition: 0.2s background linear; cursor: pointer; }
+
+.widget.RVR_Booking_Widget .rvr-booking-form-wrap .rvr-booking-form .submission-area input[type="submit"]:hover { background: var(--rvr-color-primary-dark); transition: 0.2s background linear; }
+
+.widget.RVR_Booking_Widget .rvr-booking-form-wrap .rvr-booking-form .submission-area .rvr-ajax-loader svg { margin: auto; margin-bottom: 10px; display: block; }
+
+.widget.RVR_Booking_Widget .rvr-booking-form-wrap .booking-cost { padding: 2rem; border-top: 1px solid rgba(128, 128, 128, 0.2); }
+
+.widget.RVR_Booking_Widget .rvr-booking-form-wrap .booking-cost .cost-field > div { padding: 1rem 0; }
+
+.widget.RVR_Booking_Widget .rvr-booking-form-wrap .booking-cost .booking-cost-details { display: none; border-top: 1px solid #f7f7f7; padding-top: 1rem; }
+
+.widget.RVR_Booking_Widget .rvr-booking-form-wrap .rvr-error-container { margin: 0; }
+
+.widget.RVR_Booking_Widget .rvr-booking-form-wrap .rvr-error-container label { display: block; color: red; padding: 0 2rem; margin-bottom: 1rem; }
+
+.widget.RVR_Booking_Widget .rvr-booking-form-wrap .rvr-error-container label:last-child { margin-bottom: 0; }
+
+.widget.RVR_Booking_Widget .rvr-booking-form-wrap .rvr-message-container { color: #6eab51; }
+
+.widget.RVR_Booking_Widget .select2-container--default .select2-selection--single .select2-selection__arrow { right: 10px; }
+
+.widget.RVR_Booking_Widget .inspiry_select_picker_trigger { margin-bottom: 12px; }
+
+.widget.RVR_Booking_Widget .inspiry_select_picker_trigger button.dropdown-toggle { border: none; margin-top: 10px; padding-bottom: 12px; padding-left: 20px; padding-right: 20px; padding-top: 12px; }
+
+.widget.RVR_Booking_Widget .warning-message { padding-top: 20px; padding-left: 25px; padding-right: 25px; }
+
+.rh_footer__widgets .widget.RVR_Booking_Widget .title { font-size: 1.5rem; }
+
+.rvr_request_cta_booking { position: relative; padding-top: 30px; padding-bottom: 30px; box-shadow: 0px 5px 5px 2px rgba(0, 0, 0, 0.05); }
+
+.rvr_request_cta_number_wrapper { display: flex; }
+
+.rvr_request_cta_number_wrapper .rvr-phone-number { margin-bottom: 0; margin-left: 40px; line-height: inherit; }
+
+.rvr_request_cta_number_wrapper .rvr-phone-number strong { font-size: 13px; line-height: 13px; font-weight: 500; color: #333333; display: block; margin-bottom: 5px; }
+
+.rvr_request_cta_number_wrapper .rvr-phone-number a { font-size: 24px; font-weight: 500; color: #1ea69a; }
+
+.rvr_cta_or { padding-left: 5px; padding-right: 5px; min-width: 45px; height: 45px; border-radius: 45px; line-height: 45px; text-align: center; display: block; background: #333333; color: #ffffff; position: absolute; top: -22.5px; margin-left: -22.5px; left: 50%; }
+
+.rvr_no_top_border { border-top: none !important; }
+
+.rvr_no_bottom_border { border-bottom: none !important; }
+
+.rvr_no_bottom_border select { border: none !important; }
+
+.rvr_phone_icon { background: #ea723d; display: inline-block; padding: 8px; position: relative; }
+
+.rvr_phone_icon svg { width: 30px; }
+
+.rvr_phone_icon svg .a { fill: #ffffff; }
+
+.rvr_phone_icon:before { content: ''; display: none; position: absolute; border-top: 23px solid transparent; border-bottom: 23px solid transparent; border-right: 12px solid #ea723d; right: 100%; top: 0; }
+
+.rvr_phone_icon:after { content: ''; display: block; position: absolute; border-top: 23px solid transparent; border-bottom: 23px solid transparent; border-left: 12px solid #ea723d; left: 100%; top: 0; }
+
+.rvr-reCAPTCHA-wrapper { padding: 0 2rem 2rem; }
+
+.rvr-reCAPTCHA-wrapper.g-recaptcha-type-v2 .inspiry-google-recaptcha > div { margin-left: auto; margin-right: auto; }
+
+@media (max-width: 380px) { .rvr-reCAPTCHA-wrapper.g-recaptcha-type-v2 .inspiry-google-recaptcha > div { transform: scale(0.8); } }
+
+.rtl .widget.RVR_Booking_Widget .select2-container--default .select2-selection--single .select2-selection__arrow { right: auto; left: 10px; }
+
+.rtl .rvr_phone_icon svg { transform: rotateY(180deg); }
+
+.rtl .rvr_phone_icon:before { display: block; }
+
+.rtl .rvr_phone_icon:after { display: none; }
+
+.rtl .rvr_request_cta_number_wrapper .rvr-phone-number { margin-left: 0; margin-right: 40px; }
+
+/** Owner Information */
+.widget.RVR_Owner_Widget .title { margin-bottom: 6rem; }
+
+.widget.RVR_Owner_Widget .agent-info { padding: 0 3rem 3rem; margin-bottom: 0; }
+
+.widget.RVR_Owner_Widget .agent-info img { width: 128px; }
+
+.widget.RVR_Owner_Widget .agent-info p { text-align: center; }
+
+.widget.RVR_Owner_Widget .agent-info p:last-child { margin-bottom: 0; }
+
+.widget.RVR_Owner_Widget .rvr_property_owner_title { margin-bottom: 0; font-size: 1.9rem; font-weight: 500; line-height: 1.2; color: #1a1a1a; }
+
+.widget.RVR_Owner_Widget .rvr_widget_owner_label { color: #1ea69a; font-size: 14px; margin-bottom: 15px; }
+
+.widget.RVR_Owner_Widget .rvr_property_owner_agent_info { display: flex; flex-wrap: wrap; margin-bottom: 25px; }
+
+.widget.RVR_Owner_Widget .rvr_property_owner_agent_info .contact { flex: auto; font-size: 21px; color: #323d35; line-height: 21px; margin-bottom: 15px; }
+
+.widget.RVR_Owner_Widget .rvr_property_owner_agent_info .contact a { color: #444444; }
+
+.widget.RVR_Owner_Widget .rvr_property_owner_agent_info .contact a:hover { color: #ea723d; }
+
+.widget.RVR_Owner_Widget .rvr_property_owner_agent_info .contact i { color: #cccccc; font-size: 20px; vertical-align: middle; margin-right: 5px; }
+
+.widget.RVR_Owner_Widget .rvr_owner_social_icons_wrapper ul { margin-top: 0; }
+
+.widget.RVR_Owner_Widget .rvr_owner_social_icons_wrapper ul li { display: inline-block; margin-left: 8px; margin-right: 8px; }
+
+.widget.RVR_Owner_Widget .rvr_owner_social_icons_wrapper ul li i { transition: .2s all ease-in-out; font-size: 20px; color: #cccccc; }
+
+.widget.RVR_Owner_Widget .rvr_owner_social_icons_wrapper ul li a:hover i { color: #1a1a1a; }
+
+.rh_sidebar section + .RVR_Owner_Widget { padding-top: 40px; }
+
+.rvr_owner_content_area { margin-bottom: 30px; color: #656e68; line-height: 21px; }
+
+.rtl .widget.RVR_Owner_Widget .rvr_property_owner_agent_info .contact i { margin-right: auto; margin-left: 5px; }

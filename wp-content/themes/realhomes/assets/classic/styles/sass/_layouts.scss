@@ -1,0 +1,79 @@
+//
+// Layouts
+// --------------------------------------------------
+
+// Container (centered, fixed-width layouts)
+.container {
+  @include container-fixed();
+}
+
+// Fluid layouts (left aligned, with sidebar, min- & max-width content)
+.container-fluid {
+  padding-right: $gridGutterWidth;
+  padding-left: $gridGutterWidth;
+  @include clearfix();
+}
+
+.full-width-row {
+
+  @media (min-width: 768px) {
+    margin-left: -20px;
+    margin-right: -20px;
+  }
+
+  .main-wrap {
+    width: 100% !important;
+
+    .main {
+      border-left: 0;
+      border-right: 0;
+    }
+  }
+
+  .inner-wrapper {
+
+    .post-title-wrap {
+      padding-right: 20px;
+    }
+  }
+}
+
+.realhomes-content-fullwidth {
+
+  .main-wrap {
+    width: calc(100% - 30px);
+
+    .slides,
+    .post-thumbnail {
+      img {
+        width: 100%;
+      }
+    }
+  }
+
+  @media (min-width: 767px) {
+    .property-item figure {
+      width: 244px;
+    }
+
+    .listing-layout .property-item .detail {
+      width: calc(100% - 262px);
+    }
+  }
+
+  @media (min-width: 979px) {
+    &.page-template-list-layout .property-grid .property-item,
+    &.page-template-grid-layout .property-grid .property-item {
+      width: 29.85%;
+    }
+  }
+}
+
+.inspiry-term-description {
+  margin-bottom: 28px;
+  line-height: 1.6;
+
+  p {
+    margin-bottom: 15px;
+  }
+}

@@ -1,0 +1,141 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: RealHomes PayPal Payments\n"
+"POT-Creation-Date: 2020-04-09 11:49+0500\n"
+"PO-Revision-Date: 2020-04-09 11:50+0500\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: de_DE\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.3\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: realhomes-paypal-payments.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;"
+"_n_noop:1,2;_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.min.js\n"
+
+#: admin/class-realhomes-paypal-payments-settings.php:32
+#: admin/class-realhomes-paypal-payments-settings.php:33
+msgid "PayPal Settings"
+msgstr "PayPal Einstellungen"
+
+#: admin/class-realhomes-paypal-payments-settings.php:52
+msgid "RealHomes PayPal Payments Settings"
+msgstr "RealHomes PayPal-Zahlungen Einstellungen"
+
+#: admin/class-realhomes-paypal-payments-settings.php:61
+msgid "PayPal Payments"
+msgstr "PayPal-Zahlungen"
+
+#: admin/class-realhomes-paypal-payments-settings.php:68
+msgid "Enable PayPal Payments for Submitted Property."
+msgstr "PayPal-Zahlungen für eingereichte Immobilien aktivieren."
+
+#: admin/class-realhomes-paypal-payments-settings.php:74
+msgid "Client ID*"
+msgstr "Kunden-ID*"
+
+#: admin/class-realhomes-paypal-payments-settings.php:78
+msgid "Paste your application Client ID here."
+msgstr "Fügen Sie hier Ihre Client-ID der Anwendung ein."
+
+#: admin/class-realhomes-paypal-payments-settings.php:84
+msgid "Client Secret*"
+msgstr "Kundengeheimnis*"
+
+#: admin/class-realhomes-paypal-payments-settings.php:88
+msgid "Paste your application Secret ID here."
+msgstr "Fügen Sie Ihre Bewerbung Secret ID hier ein."
+
+#: admin/class-realhomes-paypal-payments-settings.php:94
+msgid "Payment Button Label"
+msgstr "Aufkleber für Zahlungsbuttons"
+
+#: admin/class-realhomes-paypal-payments-settings.php:98
+msgid "Default: Pay with PayPal"
+msgstr "Voreinstellung: Bezahlen mit PayPal"
+
+#: admin/class-realhomes-paypal-payments-settings.php:104
+msgid "Currency Code*"
+msgstr "Währungs-Code*"
+
+#: admin/class-realhomes-paypal-payments-settings.php:108
+msgid "Provide currency code that you want to use. Example: USD"
+msgstr ""
+"Geben Sie den Währungscode an, den Sie verwenden möchten. Beispiel: USD"
+
+#: admin/class-realhomes-paypal-payments-settings.php:114
+msgid "Payment Amount Per Property*"
+msgstr "Zahlungsbetrag pro Grundstück*"
+
+#: admin/class-realhomes-paypal-payments-settings.php:118
+msgid ""
+"Provide the amount that you want to charge for one property. Example: 20.00"
+msgstr ""
+"Geben Sie den Betrag ein, den Sie für eine Immobilie berechnen wollen. "
+"Beispiel: 20.00"
+
+#: admin/class-realhomes-paypal-payments-settings.php:124
+msgid "Publish Submitted Property after Payment"
+msgstr "Eingereichte Objekte nach Zahlung veröffentlichen"
+
+#: admin/class-realhomes-paypal-payments-settings.php:128
+msgid "Yes"
+msgstr "Ja"
+
+#: admin/class-realhomes-paypal-payments-settings.php:130
+msgid "No"
+msgstr "Nein"
+
+#: admin/class-realhomes-paypal-payments-settings.php:136
+msgid "Redirect Page*"
+msgstr "Seite umleiten*"
+
+#: admin/class-realhomes-paypal-payments-settings.php:140
+msgid ""
+"Provide the page URL on which you want to redirect the user after "
+"successfull payment approval."
+msgstr ""
+"Geben Sie die URL der Seite an, auf die Sie den Benutzer nach "
+"erfolgreicher Zahlungsfreigabe umleiten möchten."
+
+#: admin/class-realhomes-paypal-payments-settings.php:141
+msgid "Recommended: \"My Properties\" page URL."
+msgstr "Empfohlen: URL der Seite \"Meine Eigenschaften\"."
+
+#: admin/class-realhomes-paypal-payments-settings.php:149
+msgid "Save Options"
+msgstr "Einstellungen speichern"
+
+#: public/class-realhomes-paypal-payments-public.php:84
+msgid "Pay with PayPal"
+msgstr "Mit PayPal bezahlen"
+
+#. Plugin Name of the plugin/theme
+msgid "RealHomes PayPal Payments"
+msgstr "RealHomes PayPal-Zahlungen"
+
+#. Plugin URI of the plugin/theme
+msgid ""
+"https://themeforest.net/item/real-homes-wordpress-real-estate-theme/5373914"
+msgstr ""
+"https://themeforest.net/item/real-homes-wordpress-real-estate-theme/5373914"
+
+#. Description of the plugin/theme
+msgid "Provides PayPal functionality for individual property payments."
+msgstr "Bietet PayPal-Funktionalität für Zahlungen für einzelne Immobilien."
+
+#. Author of the plugin/theme
+msgid "InspiryThemes"
+msgstr "Inspirationsthemen"
+
+#. Author URI of the plugin/theme
+msgid "https://inspirythemes.com/"
+msgstr "https://inspirythemes.com/"

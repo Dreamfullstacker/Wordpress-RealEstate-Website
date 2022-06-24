@@ -1,0 +1,72 @@
+/*  Add to favorites
+--------------------------------------------------------*/
+#add-to-favorite-form{
+  margin: 0;
+}
+#fav_output{
+  display: none;
+  #fav_target{
+    display: inline-block;
+    padding: 0;
+    margin: 0;
+    float: none;
+    border: none;
+    &.dim{
+      color: lighten( $headingsColor, 30% );
+    }
+  }
+  &.show{
+    display: block;
+  }
+}
+.dim{
+  color: lighten( $headingsColor, 30% );
+}
+.property-grid .property-item figure{
+  position: relative;
+  .loader,
+  .remove-from-favorite{
+	cursor: pointer;
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 24px;
+    height: 24px;
+    text-align: center;
+    color: #fff;
+    background-color: #000;
+    opacity: 0.7;
+    &:hover{
+      opacity: 1;
+    }
+  }
+  .loader{
+    opacity: 1;
+    display: none;
+  }
+
+}
+.property-grid .property-item .ajax-response{
+  color: red;
+}
+
+// favorite button
+.add-to-fav {
+
+  .btn-fav{
+
+    fill: white;
+
+    &:hover,
+    &.highlight__red {
+		cursor: pointer;
+		svg path {
+			fill: #ea3d3d;
+		}
+	}
+
+    &.hide {
+      display: none;
+    }
+  }
+}

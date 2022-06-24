@@ -1,0 +1,115 @@
+@media (max-width: 279px) {
+
+  #overview .property-video,
+  .advance-search .search-heading .icon-search ,
+  .advance-search .search-heading:hover .icon-search,
+  .flexslider{
+    display:  none;
+  }
+
+  .advance-search .search-heading {
+    padding: 0 11px;
+    font-size: 15px;
+  }
+
+  #footer{
+    padding: 0 10px;
+  }
+
+  .container{
+    width: auto;
+  }
+
+  .main {
+    border: none;
+  }
+
+  .sidebar .widget {
+    width: auto;
+  }
+
+  /* Advance Search */
+  .advance-search{
+    .as-form-wrap {
+      width: 200px;
+    }
+  }
+
+  /* Search Widget */
+  .widget{
+    border-left:none ;
+    border-right: none ;
+  }
+
+  /* Calculator Widget */
+  .widget.calculator{
+    .as-form-wrap {
+      padding: 17px 12px;
+      width: auto;
+    }
+  }
+
+  .widget.calculator {
+    input[type="text"] {
+      width: 185px;
+    }
+    #payment{
+      width: 181px;
+    }
+  }
+
+  /* Property Grid View Page */
+  .list-container {
+    padding: 25px 11px;
+  }
+
+  .property-grid{
+    .list-container{
+      width: 200px;
+      padding: 25px 11px;
+    }
+  }
+
+
+  /* Contact Page Styles */
+  .contact-page .contact-form {
+    width: calc(100% - 30px);
+    margin: 0 auto 15px;
+  }
+
+  .contact-page .inner-wrapper {
+    padding: 0;
+  }
+
+
+  /* Similar Properties on Property Detail Page */
+  .detail{
+    .list-container {
+      h3{
+        margin: 0 0 2px 0px;
+      }
+    }
+    .property-grid .property-item{
+      min-height: 310px;
+    }
+  }
+
+
+  /* Detail Page */
+  #property-detail-flexslider {
+    width: 240px;
+    height: 132.923076px;
+    .flex-direction-nav{
+      display: block;
+    }
+    .flex-direction-nav,
+    .flex-viewport{
+      width: 240px;
+      height: 132.923076px;
+    }
+    .jcarousel-container-vertical {
+      display: none !important;
+    }
+  }
+
+}// End Qurey

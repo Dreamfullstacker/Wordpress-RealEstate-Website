@@ -1,0 +1,164 @@
+/**
+ * Agent Contact Form
+ */
+.rh_agent_form {
+  display: block;
+  padding: 2rem 0 0 0;
+  margin: 0;
+
+  form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+    @include r(768) {
+      flex-direction: row;
+    }
+  }
+
+  .rh_agent_form__field {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .rh_agent_form__text {
+    width: 100%;
+    margin-bottom: 1.5rem;
+
+    @include r(768) {
+      width: 48%;
+    }
+
+    label {
+      display: inline-block;
+      font-size: 1.5rem;
+      margin-bottom: 1rem;
+      color: var(--rh-global-color-headings);
+    }
+
+    input {
+      display: block;
+      font-size: 1.4rem;
+      padding: 1.5rem 1rem;
+      margin-bottom: 1.5rem;
+      transition: 0.2s all linear;
+      border: 1px solid rgba($rh_text_color, 0.2);
+      color: $rh_text_color;
+    }
+
+    .error {
+      background: rgba(#ea3d3d, 0.05);
+      border-color: #ea3d3d;
+      transition: 0.2s all linear;
+    }
+  }
+
+  .rh_agent_form__textarea {
+    width: 100%;
+    margin-bottom: 1.5rem;
+
+    label {
+      display: inline-block;
+      font-size: 1.5rem;
+      color: var(--rh-global-color-headings);
+      margin-bottom: 1rem;
+    }
+
+    textarea {
+      display: block;
+      font-size: 1.4rem;
+      color: $rh_text_color;
+      border: 1px solid rgba($rh_text_color, 0.2);
+      padding: 1.5rem 1rem;
+      margin-bottom: 1.5rem;
+      transition: 0.2s all linear;
+    }
+
+    .error {
+      background: rgba(#ea3d3d, 0.05);
+      border-color: #ea3d3d;
+      transition: 0.2s all linear;
+    }
+  }
+
+  .rh_agent_form__row {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    @extend p;
+
+    .ajax-loader,
+    #ajax-loader {
+      display: none;
+    }
+
+    .error-container,
+    #error-container,
+    .message-container,
+    #message-container {
+      display: block;
+      width: 100%;
+
+      &:empty {
+        display: none;
+      }
+    }
+
+    .message-container,
+    #message-container {
+      margin-top: 1rem;
+    }
+  }
+
+  .inspiry-recaptcha-wrapper:not(.g-recaptcha-type-v3) {
+    margin-bottom: 2.5rem;
+  }
+}
+
+.inspiry-recaptcha-wrapper {
+  overflow: hidden;
+  width: 100%;
+}
+
+.g-recaptcha-type-v2 .inspiry-google-recaptcha {
+  @media (max-width: 420px) {
+    overflow-x: auto;
+  }
+
+  @media (max-width: 380px) {
+    > div{
+      transform: scale(.7);
+      transform-origin:0 0;
+    }
+  }
+}
+
+.rh_property__sidebar .rh_sidebar .g-recaptcha-type-v2 .inspiry-google-recaptcha {
+  @media (max-width: 1199px) and (min-width: 1024px) {
+    overflow-x: auto;
+
+    > div{
+      transform: scale(.8);
+      transform-origin:0 0;
+    }
+  }
+}
+
+.rtl{
+  .g-recaptcha-type-v2 .inspiry-google-recaptcha {
+    @media (max-width: 380px) {
+      > div{
+        transform-origin: right;
+      }
+    }
+  }
+
+  .rh_property__sidebar .rh_sidebar .g-recaptcha-type-v2 .inspiry-google-recaptcha {
+    @media (max-width: 1199px) and (min-width: 1024px) {
+      > div{
+        transform-origin: right;
+      }
+    }
+  }
+}

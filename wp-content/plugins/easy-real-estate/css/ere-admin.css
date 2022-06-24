@@ -1,0 +1,544 @@
+/*
+ * Easy Real Estate Plugin's Admin Styles
+ */
+
+#toplevel_page_easy-real-estate .wp-menu-image img {
+    width: 24px;
+    padding: 5px 0 0;
+}
+
+/*
+ * Additional details meta box CSS
+ */
+.rwmb-tab-panel-details {
+	
+}
+
+.rwmb-tab-panel-details .rwmb-clone {
+	margin-bottom: 0;
+}
+
+.rwmb-tab-panel-details .rwmb-clone label {
+	width: 46%;
+}
+.rwmb-tab-panel-details .rwmb-clone .rwmb-clone-icon {
+	top: 4px;
+}
+.rwmb-tab-panel-details .rwmb-clone .remove-clone {
+	position: static;
+}
+.rwmb-tab-panel-details .rwmb-clone .remove-clone {
+	margin-top: 6px;
+}
+
+.rwmb-tab-panel-details .rwmb-clone .rwmb-text-list-label {
+	display: none;
+}
+
+/*
+ * Additional details meta box CSS
+ */
+.inspiry-detail {
+    overflow: hidden;
+    margin: 5px 0;
+}
+
+.detail-placeholder {
+    margin: 5px 0;
+    background: #fafafa;
+    height: 29px;
+}
+
+.inspiry-detail label {
+    display: block;
+}
+
+.inspiry-detail input[type="text"] {
+    width: 97%;
+}
+
+.inspiry-detail-control {
+    width: 3%;
+    float: left;
+    color: #aaa;
+}
+
+.sort-detail {
+    cursor: move;
+}
+
+.sort-detail:hover {
+    color: #666;
+}
+
+.inspiry-detail-title {
+    width: 34%;
+    float: left;
+}
+
+.inspiry-detail-value {
+    width: 60%;
+    float: left;
+}
+
+.inspiry-details-wrapper a {
+    color: #aaa;
+}
+
+.inspiry-details-wrapper a:hover,
+.inspiry-details-wrapper a:focus {
+    color: #666;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+.inspiry-details-wrapper .dashicons {
+    text-decoration: none;
+    margin-top: 3px;
+}
+
+@media all and ( max-width: 1200px ) {
+
+    .inspiry-detail-control {
+        width: 4%;
+    }
+
+    .inspiry-detail-title {
+        width: 34%;
+    }
+
+    .inspiry-detail-value {
+        width: 58%;
+    }
+
+}
+
+@media all and ( max-width: 500px ) {
+
+    .inspiry-detail-control {
+        width: 5%;
+    }
+
+    .inspiry-detail-title {
+        width: 32%;
+    }
+
+    .inspiry-detail-value {
+        width: 58%;
+    }
+
+    .inspiry-details-wrapper .dashicons {
+        margin-top: 8px;
+    }
+
+}
+
+/*
+ * ERE Settings Page Styles
+ */
+.inspiry-ere-logo-wrap img {
+    width: 32px;
+    height: auto;
+    margin-right: 2px;
+    vertical-align: middle;
+}
+
+.inspiry-ere-page {
+    position: relative;
+    margin: 20px 0 0 0;
+    font-size: 14px;
+    box-sizing: border-box;
+    border: 1px solid #e5e5e5;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.04);
+    background: #fff;
+}
+
+.inspiry-ere-page #setting-error-ere_settings_updated {
+    display: none;
+}
+
+.inspiry-ere-page-header {
+    margin-bottom: 30px;
+    -webkit-box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+}
+
+.inspiry-ere-page-header,
+.inspiry-ere-page-footer {
+    padding: 15px 25px;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.inspiry-ere-page-header *,
+.inspiry-ere-page-footer * {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.inspiry-ere-page-footer {
+    border-top: 1px solid #eee;
+}
+
+.inspiry-ere-tabs {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 0 30px;
+    padding: 0 25px;
+    border-bottom: 1px solid #ddd;
+}
+
+.inspiry-ere-tabs a {
+    width: 100%;
+    margin: 0;
+    padding: 10px 12px;
+    font-size: 14px;
+    font-weight: 600;
+    text-decoration: none;
+    white-space: nowrap;
+    transition: background 0.2s linear;
+    box-shadow: none;
+    border: 1px solid #ddd;
+    border-bottom: none;
+    background: #eee;
+    color: #000;
+}
+
+.inspiry-ere-tabs a:hover,
+.inspiry-ere-tabs a:focus,
+.inspiry-ere-tabs a:focus:active {
+    box-shadow: none;
+    background: #fff;
+    color: #000;
+}
+
+.inspiry-ere-tabs .inspiry-is-active-tab {
+    background: #fff;
+}
+
+@media (min-width: 700px) {
+    .inspiry-ere-tabs a {
+        width: auto;
+        margin: 0 5px 10px;
+        border-bottom: 1px solid #ddd;
+    }
+
+    .inspiry-ere-tabs {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}
+
+@media (min-width: 1199px) {
+    .inspiry-ere-tabs a {
+        margin-bottom: 0;
+        border-bottom: none;
+    }
+
+    .inspiry-ere-tabs .inspiry-is-active-tab {
+        margin-bottom: -1px;
+    }
+}
+
+.inspiry-ere-page-content {
+    margin-top: 30px;
+    padding: 0 25px 25px;
+}
+
+.inspiry-ere-page-content .form-table {
+    margin-top: 0;
+}
+
+@media (min-width: 783px) {
+    .inspiry-ere-page-content .form-table select {
+        width: 25em;
+    }
+}
+
+.inspiry-ere-page-content textarea {
+    padding-top: 6px;
+    line-height: 1.8;
+}
+
+.inspiry-ere-page-content .submit {
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+
+/*
+ * Social Network Styles
+ */
+.inspiry-ere-sn-tr label {
+    display: block;
+}
+
+.inspiry-ere-sn-tr td > div {
+    display: inherit;
+}
+
+.inspiry-ere-sn-field {
+}
+
+.inspiry-ere-sn-field.hide {
+    display: none !important;
+}
+
+.inspiry-ere-sn-actions {
+    margin-left: 5px;
+}
+
+.inspiry-ere-sn-actions .hide {
+    display: none;
+}
+
+.inspiry-ere-add-sn {
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.inspiry-ere-add-sn:hover,
+.inspiry-ere-add-sn:focus {
+    box-shadow: none;
+    outline: 0;
+}
+
+.inspiry-ere-sn-btn {
+    display: inline-block;
+    height: 30px;
+    line-height: 30px;
+    padding: 0 10px;
+    text-decoration: none;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 700;
+    background-color: orange;
+    color: #fff;
+}
+
+.inspiry-ere-sn-btn:hover,
+.inspiry-ere-sn-btn:focus {
+    box-shadow: none;
+    outline: 0;
+    background-color: red;
+    color: #fff;
+}
+
+label[for=REAL_HOMES_tour_video_url] span {
+    color: red;
+}
+
+label[for=REAL_HOMES_tour_video_image] span {
+    color: red;
+}
+
+#REAL_HOMES_tour_video_image-description span {
+    color: red;
+}
+
+#REAL_HOMES_tour_video_url-description span {
+    color: red;
+}
+
+#REAL_HOMES_tour_video_url_divider {
+    margin-top: 50px;
+}
+
+/*
+ * Properties Filters
+ */
+.actions #prop_id_admin_filter {
+    height: 28px;
+    margin-right: 6px;
+}
+
+body.rtl .actions #prop_id_admin_filter {
+    margin-right: 0;
+    margin-left: 6px;
+    float: right;
+}
+
+/*
+ * Switch Styles
+ */
+#property-meta-box .rwmb-switch-label {
+    padding: 7px;
+    height: 27px;
+}
+
+#property-meta-box .rwmb-switch-on,
+#property-meta-box .rwmb-switch-off {
+    margin: 0 7px;
+    text-transform: capitalize;
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 1;
+}
+
+#property-meta-box .rwmb-switch-off {
+    color: #6c7781;
+}
+
+#property-meta-box .rwmb-switch-slider:before {
+    width: 20px;
+    height: 23px;
+}
+
+#property-meta-box .rwmb-switch:checked + .rwmb-switch-status .rwmb-switch-slider:before {
+    left: calc(100% - 22px);
+}
+
+.ere-price-preview.hide,
+.ere-price-preview:empty {
+    display: none;
+}
+
+.ere-price-preview.overlap {
+    top: 4px;
+    border-radius: 0;
+    box-shadow: none;
+}
+
+.ere-price-preview {
+    position: absolute;
+    left: 2px;
+    top: 31px;
+    padding: 2px 8px;
+    transition: top 0.3s ease-in-out;
+    border-radius: 3px;
+    box-shadow: 0 0 3px rgba(126, 136, 147, 0.9);
+    background: #ffffff;
+}
+
+/*
+ * Energy Performance Classes Settings 
+ */
+ .energy-classes-settings {
+	 max-width: 500px;
+ }
+ .energy-classes-settings > h2 {
+	 margin-top: 40px;
+ }
+ .energy-classes-settings tr th,
+ .energy-classes-settings tr td {
+	 width: 50%;
+	 padding: 10px 0px;
+ }
+
+ .energy-classes-settings tr td input {
+	 width: 85%;
+ }
+ 
+ .energy-classes-settings tr td .remove-epc-class {
+	text-decoration: navajowhite;
+	margin-top: 5px;
+	color: #ccc;
+	display: inline-block;
+	margin-left: 5px;
+ }
+
+ .energy-classes-settings .add-epc-class {
+	margin: 10px 0 0 20px;
+ }
+
+ .energy-classes-settings tr td .remove-epc-class:hover {
+	 color: #dc3232;
+ }
+
+ .energy-classes-settings tr td .reorder-epc-class {
+	cursor: move;
+	background: url(../images/icons/drag_icon.gif) no-repeat;
+	height: 23px;
+	width: 15px;
+	vertical-align: middle;
+	display: inline-block;
+ }
+ .energy-classes-settings .epc-class {
+	 background-color: #fff;
+ }
+ .energy-classes-settings .epc-class.dragging {
+	opacity: 1 !important;
+	background-color: #fdf8e4;
+	cursor: move;
+}
+
+.energy-classes-settings tr td .wp-picker-container {
+	width: auto;
+	float: left;
+}
+
+.energy-classes-settings tr td .wp-picker-container.wp-picker-active + .remove-epc-class {
+	display: none;
+}
+
+.energy-classes-settings .wp-picker-input-wrap {
+	width: auto;
+}
+
+.energy-classes-settings .wp-picker-input-wrap label {
+	float: left;
+}
+
+.energy-classes-settings .wp-picker-input-wrap .button {
+	width: auto;
+}
+
+.energy-classes-settings .wp-picker-holder {
+	position: absolute;
+}
+
+.energy-classes-settings .wp-picker-holder  .iris-square-handle {
+	cursor: pointer;
+}
+
+/*
+ * Properties Table Thumbnail Column Styles
+ */
+.ere-properties-table-thumbnail-wrap{
+    display: block;
+    position: relative;
+    max-width: 130px;
+    text-align: center;
+}
+
+.ere-properties-table-no-thumbnail{
+    display: block;
+    padding: 50px 5px;
+    background: #e6e6e6;
+}
+
+.ere-properties-table-thumbnail-wrap .ere-featured-property{
+    display: block;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    padding: 4px;
+    font-weight: bold;
+    text-align: center;
+    box-sizing: border-box;
+    background: #005177;
+    color: #fff;
+}
+
+.ere-properties-table-thumbnail-wrap a{
+    display: block;
+}
+
+.ere-properties-table-thumbnail-wrap img{
+    max-width: 100%;
+    height: auto;
+}

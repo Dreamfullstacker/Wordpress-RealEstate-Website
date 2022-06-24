@@ -1,0 +1,630 @@
+/* Header */
+.rh-logo {
+  margin-right: 0;
+  margin-left: 20px;
+}
+
+.rh-menu-main > li {
+  float: right;
+  padding-right: 0;
+  padding-left: 24px;
+}
+
+.rh-menu-main > li.menu-item-has-children > a:after {
+  margin-left: 0;
+  margin-right: 6px;
+}
+
+.rh-menu-main .sub-menu {
+  left: auto;
+  right: 0;
+}
+
+.rh-menu-main .sub-menu .sub-menu {
+  right: 220px;
+}
+
+.rh-menu-responsive {
+  left: auto;
+  right: 0;
+}
+
+.rh-menu-responsive .rh-menu-indicator {
+  right: auto;
+  left: 0;
+}
+
+.rh-menu-toggle .stacked-lines span {
+  right: auto;
+  left: 4px;
+}
+
+.rh-user-account {
+
+  &-profile-image {
+    margin-left: 0;
+    margin-right: 12px;
+
+    > svg {
+      width: 38px;
+      height: 48px;
+      cursor: pointer;
+      transition: 0.2s all linear;
+      fill: #d8d8d8;
+
+      @media (min-width: 768px) {
+        margin-right: 0;
+        margin-left: 18px;
+      }
+    }
+
+    img {
+
+      @media (min-width: 768px) {
+        margin-right: 0;
+        margin-left: 20px;
+      }
+    }
+
+    .fa {
+      right: auto;
+      left: 0;
+    }
+  }
+
+  .btn {
+    margin-left: 0;
+    margin-right: 12px;
+
+    @media (min-width: 768px) {
+      margin-left: 0;
+      margin-right: 20px;
+    }
+  }
+
+  .rh-user-links-dropdown {
+    right: auto;
+    left: 20px;
+
+    svg {
+      margin-right: 0;
+      margin-left: 11px;
+    }
+  }
+}
+
+/* Common */
+.has-progress-bar {
+  .progress-bar,
+  .progress {
+    left: auto;
+    right: 0;
+  }
+}
+
+.dashboard-color-picker .wp-picker-container .wp-color-result.button,
+.dashboard-color-picker .wp-picker-container input[type=text].wp-color-picker {
+  margin-right: 0;
+  margin-left: 5px;
+}
+
+.checkbox-field {
+
+  label {
+    padding-left: 0;
+    padding-right: 34px;
+
+    &:before {
+      left: auto;
+      right: 0;
+    }
+
+    &:after {
+      left: auto;
+      right: 4px;
+      transform: scale(-1, 1);
+    }
+  }
+}
+
+.radio-field {
+
+  label {
+    padding-left: 0;
+    padding-right: 34px;
+
+    &:before {
+      left: auto;
+      right: 0;
+    }
+
+    &:after {
+      left: auto;
+      right: 4px;
+    }
+  }
+}
+
+@media (min-width: 1200px) {
+  .loading:before {
+    left: auto;
+    right: calc(50% + 150px);
+  }
+}
+
+.dashboard {
+
+  &-content {
+    @media (min-width: 1200px) {
+      margin-left: 0;
+      margin-right: $sidebar_width;
+    }
+  }
+
+  &-sidebar {
+    transform: translateX(100%);
+
+    @media (min-width: 1200px) {
+      transform: translateX(0);
+    }
+  }
+
+  &.show-sidebar {
+    .dashboard-content {
+      @media (min-width: 1200px) {
+        margin-left: 0;
+        margin-right: $sidebar_width;
+      }
+    }
+  }
+
+  .input-group {
+
+    input {
+      padding-left: 0;
+      padding-right: 43px;
+    }
+
+    i {
+      left: auto;
+      right: 0;
+    }
+  }
+
+  .select2-selection--single {
+    .select2-selection__arrow {
+      border-right: none;
+      border-radius: 4px 0 0 4px;
+    }
+
+    .select2-selection__rendered {
+      padding-right: 15px;
+      padding-left: 15px;
+    }
+  }
+}
+
+.dashboard-menu {
+
+  i {
+    &:not(.fa-angle-down) {
+      margin-right: 0;
+      margin-left: 14px;
+    }
+  }
+
+  .fa-angle-down {
+    right: auto;
+    left: 18px;
+  }
+
+  a {
+    padding-right: 17px;
+    padding-left: 40px;
+    border-left: none;
+    border-right: 3px solid transparent;
+  }
+
+  a:hover,
+  > li.current > a,
+  .submenu > li.current > a {
+    border-color: var(--dashboard-sidebar-color);
+  }
+
+  .submenu {
+    a {
+      &:before {
+        margin-right: 0;
+        margin-left: 20px;
+      }
+    }
+  }
+}
+
+.dashboard-notice {
+  padding-right: 15px;
+  padding-left: 49px;
+  border-left: none;
+  border-right: 4px solid #aaa;
+
+  &.info {
+    border-right-color: #00a0d2;
+  }
+
+  &.warning {
+    border-right-color: #ffb900;
+  }
+
+  &.success {
+    border-right-color: #46b450;
+  }
+
+  &.error {
+    border-right-color: #dc3232;
+  }
+
+  &-dismiss-button {
+    right: auto;
+    left: 14px;
+  }
+}
+
+.dashboard-breadcrumbs {
+
+  ul {
+    > li {
+      + li {
+        margin-left: 0;
+        margin-right: 2px;
+      }
+    }
+  }
+
+  .separator {
+    margin-left: 0;
+    margin-right: 4px;
+  }
+}
+
+.dashboard-search {
+
+  &-wrap {
+    @media (min-width: 768px) {
+      float: left;
+    }
+  }
+
+  &-form {
+
+    input[type="text"] {
+      padding-right: 15px;
+      padding-left: 45px;
+    }
+
+    .submit-button {
+      right: auto;
+      left: 0;
+      border-radius: 4px 0 0 4px;
+    }
+
+    i {
+      transform: scale(-1, 1);
+    }
+  }
+}
+
+/* Pages */
+.widget-small {
+  padding-right: 95px;
+  padding-left: 30px;
+
+  i {
+    left: 0;
+    right: 30px;
+  }
+}
+
+/* Properties page */
+.dashboard-posts-list-topnav {
+
+  select {
+    padding-right: 14px;
+    padding-left: 28px;
+    background-position: left 12px top 50%;
+
+    @media (min-width: 550px) {
+      float: right;
+    }
+  }
+
+  .paging-entries {
+    @media (min-width: 550px) {
+      float: left;
+    }
+
+    li {
+
+      &:first-child {
+        margin-left: 4px;
+        margin-right: 0;
+      }
+
+      &:last-child {
+        margin-right: 4px;
+        margin-left: 0;
+      }
+
+      &.paging {
+        margin-left: 0;
+        margin-right: 20px;
+      }
+    }
+  }
+}
+
+.property-info-wrap {
+
+  .figure {
+    padding-left: 0;
+    padding-right: 14px;
+  }
+
+  .property-meta {
+
+    li {
+      margin-right: 0;
+      margin-left: 10px;
+
+      @media (min-width: 768px) {
+        margin-right: 0;
+        margin-left: 20px;
+      }
+
+      &:last-of-type {
+        margin-left: 0;
+      }
+    }
+  }
+
+  .property-meta-postfix {
+    margin-left: 0;
+    margin-right: 2px;
+  }
+}
+
+.property-actions-wrapper {
+
+  @media (min-width: 992px) {
+    right: auto;
+    left: 0;
+  }
+
+  .fa,
+  .fas {
+    margin-right: 0;
+    margin-left: 4px;
+  }
+}
+
+/* Profile page */
+.profile-image-upload-container {
+
+  .profile-image {
+    margin-right: 0;
+    margin-left: 20px;
+  }
+}
+
+.profile-image-controls {
+  padding-top: 20px;
+
+  .btn-primary {
+    margin-right: 0;
+    margin-left: 15px;
+  }
+}
+
+/* Add/Edit property page */
+.dashboard-form-actions {
+  right: auto;
+  left: 0;
+
+  .cancel {
+    float: right;
+  }
+
+  .submit-property-button,
+  .update-property-button {
+    float: left;
+  }
+}
+
+.submit-property-form-wizard {
+
+  .dashboard-tabs-nav {
+
+    > li {
+
+      &:after {
+        right: auto;
+        left: 0;
+      }
+
+      &.current {
+
+        &:after {
+          left: auto;
+          right: 0;
+        }
+      }
+    }
+  }
+
+  &.form-add-property .dashboard-form-actions {
+
+    .next {
+      float: left;
+    }
+  }
+}
+
+// Gallery Images
+.property-gallery-images {
+
+  .drag-drop-container {
+
+    .limit-left {
+      left: 0;
+      right: auto;
+    }
+  }
+
+  .gallery-thumbs-container {
+
+    .mark-featured {
+      left: auto;
+      right: 4px;
+    }
+
+    .remove-image {
+      right: auto;
+      left: 4px;
+    }
+
+    .loader {
+      left: auto;
+      right: 4px;
+    }
+  }
+}
+
+// Property Attachments
+.property-attachments-container {
+
+  .attachment-thumb {
+    .remove-attachment,
+    .loader {
+      left: auto;
+      right: 0;
+    }
+  }
+
+  .attachments-drag-drop {
+    .attachments-limit {
+      right: auto;
+      left: 0;
+    }
+  }
+}
+
+// Additional Details
+.inspiry-details-wrapper {
+
+  .inspiry-detail {
+
+    .inspiry-detail-sort-handle {
+      left: auto;
+      right: 0;
+
+      @media (min-width: 768px) {
+        margin-right: 0;
+        margin-left: 10px;
+      }
+    }
+
+    .inspiry-detail-remove-detail {
+      right: auto;
+      left: 0;
+
+      @media (min-width: 768px) {
+        margin-left: 0;
+        margin-right: 10px;
+      }
+    }
+  }
+
+  .add-detail i {
+    margin-right: 0;
+    margin-left: 8px;
+  }
+}
+
+// Floor Plans
+.inspiry-floor-plans-group-wrapper {
+
+  .inspiry-remove-clone {
+    right: auto;
+    left: 0;
+  }
+
+  .inspiry-btn-group {
+
+    &.show-remove-btn {
+      @media (min-width: 767px) {
+        .inspiry-file-remove {
+          margin-left: 0;
+          margin-right: 1%;
+        }
+      }
+    }
+
+    input[type="text"] {
+      float: right;
+
+      @media (min-width: 767px) {
+        margin-right: 0;
+        margin-left: 1%;
+      }
+    }
+
+    .real-btn {
+
+      @media (min-width: 767px) {
+        float: right;
+      }
+    }
+  }
+
+  .inspiry-add-clone {
+
+    i {
+      margin-right: 0;
+      margin-left: 8px;
+    }
+  }
+}
+
+// Agent Information
+.property-agent-information .agent-options-wrap {
+  margin-left: 0;
+  margin-right: 34px;
+}
+
+/* Membership page */
+.membership-package-popular-tag {
+  right: auto;
+  left: -7px;
+}
+
+.membership-package-popular-tag > span:before {
+  right: 0;
+  left: auto;
+  border-right: none;
+  border-left: 7px solid #1e2323;
+
+  transform: translateX(100%);
+}
+
+.membership-package-popular-tag > span:after {
+  left: 0;
+  right: auto;
+  border-left: 7px solid transparent;
+  border-right: 0;
+}
+
+.membership-package {
+  .currency-symbol {
+    left: auto;
+    right: 0;
+  }
+}

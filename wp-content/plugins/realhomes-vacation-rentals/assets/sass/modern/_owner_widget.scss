@@ -1,0 +1,102 @@
+/**
+* Owner Information
+*/
+.widget.RVR_Owner_Widget {
+  .title {
+    margin-bottom: 6rem;
+  }
+  .agent-info {
+    padding: 0 3rem 3rem;
+    margin-bottom: 0;
+
+    img {
+      width: 128px;
+    }
+
+    p {
+      text-align: center;
+
+      &:last-child {
+        margin-bottom: 0;
+      }
+    }
+  }
+
+  .rvr_property_owner_title{
+    margin-bottom: 0;
+    font-size: 1.9rem;
+    font-weight: 500;
+    line-height: 1.2;
+    color: #1a1a1a;
+  }
+  .rvr_widget_owner_label {
+    color: #1ea69a;
+    font-size: 14px;
+    margin-bottom: 15px;
+  }
+  .rvr_property_owner_agent_info{
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 25px;
+    .contact{
+      flex: auto;
+      font-size: 21px;
+      color: #323d35;
+      line-height: 21px;
+      margin-bottom: 15px;
+      a{
+        color: #444444;
+        &:hover{
+          color: #ea723d;
+        }
+      }
+      i{
+        color: #cccccc;
+        font-size: 20px;
+        vertical-align: middle;
+        margin-right: 5px;
+      }
+    }
+  }
+  .rvr_owner_social_icons_wrapper {
+    ul {
+      margin-top: 0;
+      li {
+        display: inline-block;
+        margin-left: 8px;
+        margin-right: 8px;
+        i {
+          transition: .2s all ease-in-out;
+          font-size: 20px;
+          color: #cccccc;
+        }
+        a{
+          &:hover{
+            i{
+            color: #1a1a1a;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+.rh_sidebar {
+  section + .RVR_Owner_Widget {
+    padding-top: 40px;
+  }
+}
+
+.rvr_owner_content_area{
+  margin-bottom: 30px;
+  color: #656e68;
+  line-height: 21px;
+}
+
+.rtl{
+  .widget.RVR_Owner_Widget .rvr_property_owner_agent_info .contact i{
+    margin-right: auto;
+    margin-left: 5px;
+  }
+}

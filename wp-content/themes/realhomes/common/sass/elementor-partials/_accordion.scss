@@ -1,0 +1,94 @@
+.rhea-accordion {
+  position: relative;
+  margin: 0;
+  padding: 0;
+
+  .rhea-accordion-title {
+    margin: 0;
+    padding: 35px 30px 35px 0;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 1;
+    cursor: pointer;
+    outline: none;
+    overflow: hidden;
+    border-bottom: 1px solid transparent;
+
+    &.rhea-accordion-active {
+      border-bottom: none;
+
+      .rhea-accordion-icon-closed {
+        display: none;
+      }
+
+      .rhea-accordion-icon-opened {
+        display: block;
+      }
+    }
+  }
+  
+  .rhea-accordion-icon-left {
+    margin-right: 25px;
+    float: left;
+    text-align: left;
+  }
+
+  .rhea-accordion-icon-right {
+    margin-left: 25px;
+    float: right;
+    text-align: right;
+  }
+
+  .rhea-accordion-icon-closed {
+    display: block;
+  }
+
+  .rhea-accordion-icon-closed,
+  .rhea-accordion-icon-opened {
+    line-height: 1;
+  }
+
+  .rhea-accordion-icon-opened {
+    display: none;
+  }
+
+  .rhea-accordion-content {
+    display: none;
+    margin: 0;
+    overflow: hidden;
+    padding: 0 0 40px;
+    border-bottom: 1px solid transparent;
+
+    &.rhea-accordion-active {
+      display: block;
+    }
+
+    p:last-of-type {
+      margin-bottom: 0;
+    }
+  }
+
+  p {
+    margin-bottom: 20px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.6875;
+  }
+
+  .rhea-accordion-title,
+  .rhea-accordion-content {
+    border-color: #e6ecef;
+  }
+
+  .rhea-accordion-icon,
+  .rhea-accordion-title.rhea-accordion-active .rhea-accordion-icon {
+    color: #c1cfd6;
+  }
+}
+
+.rtl {
+  .rhea-accordion .rhea-accordion-title {
+    padding-right: 0;
+    padding-left: 30px;
+  }
+}

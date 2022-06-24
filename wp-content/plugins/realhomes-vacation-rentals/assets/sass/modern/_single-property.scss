@@ -1,0 +1,227 @@
+/**
+* RVR - single property styles - Modern
+*/
+
+// Booking confirmation notices.
+.booking-notice {
+    margin-bottom: 30px;
+    text-align: left;
+}
+
+// Property features styles related RVR.
+.rh_property__features_wrap {
+
+  h5 {
+    display: block;
+    margin-bottom: 1rem;
+    color: #808080;
+  }
+
+  .no-link-list {
+
+    .rh_property__feature {
+      padding-left: 3rem;
+      color: #808080;
+    }
+
+    &.property-policy {
+      .rh_property__feature {
+        flex-basis: 100%;
+      }
+    }
+
+    &.icon-cross {
+      .rh_property__feature {
+        &:before {
+          background: url("../../images/icon-cross.png") 50% 50% no-repeat;
+        }
+      }
+    }
+  }
+
+
+}
+
+.rh_outdoor_and_surroundings{
+  display: flex;
+  flex-wrap: wrap;
+  .rh_property__features_wrap{
+    width: 50%;
+    .rh_property__features{
+      li{
+        flex-basis: 100%;
+      }
+    }
+  }
+}
+.rh_rvr_property_surroundings{
+  h5{
+    line-height: 18px;
+    margin-top: 0;
+    margin-bottom: 0;
+    display: inline-block;
+  }
+  span{
+    margin-left: 5px;
+    margin-right: 5px;
+    display: inline-block;
+    font-size: 13px;
+    color: #808080;
+  }
+}
+.rh_rvr_optional_services{
+  display: flex;
+  flex-wrap: wrap;
+}
+.rvr_optional_services_status{
+  width: 50%;
+  h5{
+    margin-top: 0;
+  }
+  li.rh_property__feature{
+    flex-basis: 100%;
+    .rvr_not_available{
+      i{
+        color: #ea723d;
+      }
+    }
+  }
+}
+
+.rh_property__features_wrap .rh_property__feature .rh_done_icon.rvr_fa_icon{
+  top: 0;
+}
+
+.rvr_fa_icon{
+  color: #ea723d;
+}
+
+.rh_property__features_wrap .rh_rvr_optional_included li .rh_done_icon svg{
+  width: 18px;
+}
+.rh_single_full_rvr_features{
+  display: flex;
+  flex-wrap: wrap;
+  .rh_rvr_property_surroundings{
+    width: 25%;
+  }
+  .rh_rvr_outdoor_features_wrapper{
+    width: 25%;
+  }
+  .rh_rvr_optional_services_wrapper{
+    width: 50%;
+  }
+}
+
+.features-content-wrapper .rh_single_full_rvr_features li.rh_property__feature{
+  flex-basis: 100%;
+
+}
+
+.rh_wrapper_rvr_features {
+  margin-bottom: 3rem;
+  margin-left: -3rem;
+  margin-right: -3rem;
+  background: #f7f7f7;
+  > div{
+    padding: 2rem 3rem 0 3rem;
+    margin-bottom: 1rem;
+  }
+  > div:nth-of-type(even){
+    background: #ffffff;
+  }
+  .rh_rvr_property_policies_wrapper {
+    ul {
+      li {
+        line-height: 22px;
+        .rh_done_icon.rvr_fa_icon {
+          top: 2px;
+        }
+      }
+    }
+  }
+}
+.rvr-slash-line{
+  display: none !important;
+}
+.rvr-slash {
+  position: relative;
+  .rvr-slash-line {
+    display: inline-block !important;
+    width: calc(100% + 3px);
+    height: 3px;
+    border-bottom: 1px solid #ffffff;
+    background: #ea723d;
+    position: absolute;
+    top: calc(50% - 1.5px);
+    left: -2px;
+    transform: rotate(45deg);
+  }
+}
+
+.rh_prop_card__priceLabel_box{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  .stars-avg-rating .rating-stars{
+    margin: 0 0 5px 0;
+
+  }
+}
+.rvr-is-enabled{
+  .rh_list_card__wrap .rh_list_card__map_details .rh_list_card__priceLabel{
+  display: flex;
+  flex-direction: row;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    .stars-avg-rating .rating-stars{
+      margin: 0 0 5px 0;
+
+    }
+}
+  .rh_prop_card--similar{
+    z-index: auto;
+  }
+}
+@media (max-width: 1139px) {
+  .rh_single_full_rvr_features {
+
+    .rh_rvr_property_surroundings {
+      width: 50%;
+    }
+    .rh_rvr_outdoor_features_wrapper {
+      width: 50%;
+    }
+    .rh_rvr_optional_services_wrapper {
+      width: 100%;
+    }
+  }
+}
+@media (max-width: 767px) {
+
+  .rh_single_full_rvr_features {
+
+    .rh_rvr_property_surroundings {
+      width: 100%;
+    }
+    .rh_rvr_outdoor_features_wrapper {
+      width: 100%;
+    }
+  }
+
+  .rh_outdoor_and_surroundings .rh_property__features_wrap {
+    width: 100%;
+  }
+  .rvr_optional_services_status {
+    width: 100%;
+  }
+}
+
+.rtl {
+  .rh_property__features_wrap .no-link-list .rh_property__feature {
+    padding-right: 3rem;
+  }
+}
+
+

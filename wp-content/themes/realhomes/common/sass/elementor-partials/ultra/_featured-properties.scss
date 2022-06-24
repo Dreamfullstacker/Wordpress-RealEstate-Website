@@ -1,0 +1,236 @@
+.rhea-ultra-featred-properties {
+        ul.slides {
+                margin: 0;
+                padding: 0;
+        }
+        .rhea-ultra-property-title {
+                margin-top: 20px;
+                margin-bottom: 5px;
+                a {
+                        display: inline-block;
+                        font-size: 36px;
+                        font-weight: 500;
+                        color: #1a1a1a;
+                        transition: 0.2s all ease-in-out;
+                        &:hover {
+                                color: $ultra_primary;
+                        }
+                }
+        }
+        .rhea_address_ultra {
+                margin-bottom: 20px;
+                a {
+                        font-size: 15px;
+                        color: $ultra_primary;
+                }
+        }
+        .rhea_ultra_prop_card__meta {
+                background: #ffffff;
+                border-radius: 7px;
+                padding: 36px;
+                svg {
+                        width: 25px;
+                        height: 25px;
+                }
+        }
+        .rhea_ultra_meta_box .figure {
+                font-size: 15px;
+                vertical-align: middle;
+        }
+        .rh_prop_card_meta_wrap_ultra {
+                margin-bottom: 40px;
+                margin-left: -100px;
+                position: relative;
+                z-index: 999;
+                column-gap: 20px;
+                row-gap: 20px;
+        }
+        p.rh_prop_card__price_ultra {
+                margin-bottom: 30px;
+                .ere-price-display {
+                        font-size: 36px;
+                        font-weight: 500;
+                        color: $ultra_primary;
+                }
+                .property-current-price {
+                        font-size: 36px;
+                        font-weight: 500;
+                        color: $ultra_primary;
+                }
+                .ere-price-slash,
+                .ere-price-postfix,
+                .ere-price-prefix,
+                .property-old-price {
+                        font-size: 21px;
+                        color: #808080;
+                }
+        }
+
+        .rhea-ultra-fp-excerpt {
+                font-size: 15px;
+                color: #1a1a1a;
+        }
+        
+
+        .rhea-ultra-status-box {
+                span {
+                        font-weight: 500;
+                }
+        }
+}
+.rhea-ultra-featured-bottom-box{
+        padding: 0 10px 10px;
+        position: absolute;
+        bottom: 0;
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+}
+.rhea-ultra-compare-favourite-box{
+        display: flex;
+}
+.rhea-ultra-featured-top-info{
+        display: flex;
+        justify-content: space-between;
+        
+}
+.rhea-ultra-featured-year-build{
+        color: #1a1a1a;
+        font-weight: 500;
+}
+.rhea-ultra-featured-slider-wrapper {
+        display: flex;
+}
+.rhea-ultra-featured-thumb-slider {
+        margin-bottom: 40px;
+        .flexslider {
+                margin: 0;
+                border: none;
+                background: transparent;
+        }
+}
+.rhea-ultra-featured-slide {
+        display: flex;
+        column-gap: 50px;
+}
+.rhea-ultra-thumb-box {
+        width: 64%;
+}
+.rhea-ultra-featured-thumbs {
+        padding-top: 71%;
+        background-position: center;
+        background-size: cover;
+        border-radius: 10px;
+        position: relative;
+}
+.rhea-ultra-featured-content {
+        width: 36%;
+}
+.rhea-ultra-caruosel-thumb {
+        border-radius: 7px;
+        padding-top: 60%;
+        // width: 210px;
+        // height: 180px;
+        background-size: cover;
+        background-position: center;
+        display: block;
+        margin-left: 10px;
+        margin-right: 10px;
+        cursor: pointer;
+}
+.rhea-ultra-featured-thumbnail-carousel {
+        max-width: 50%;
+        display: flex;
+        column-gap: 12px;
+        position: relative;
+        z-index: 9999999;
+}
+
+.rhea-ultra-thumbnail-carouse-wrapper{
+        width: 100%;
+        margin-left: -10px;
+        margin-right: -10px;
+        border-radius: 7px;
+}
+
+.rhea-ultra-featured-thumbnail-carousel {
+        .flexslider {
+                background: transparent;
+                border: none;
+                margin: 0;
+        }
+}
+.rhea-ultra-thumbnail-carousel {
+        // flex: 1;
+        border-radius: 7px;
+}
+.rhea-ultra-thumb-count {
+        background: #ffffff;
+        min-width: 80px;
+        border-radius: 7px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        margin-bottom: 14px;
+        svg{
+                width: 18px;
+        }
+        span {
+                display: block;
+                color: #1a1a1a;
+        }
+        .rhea-slider-item-total{
+                font-size: 24px;
+                font-weight: 600;
+        }
+        .rhea-more-slides{
+                font-size: 14px;
+                font-weight: 500;
+        }
+}
+
+.rhea-ultra-featured-map-icon{
+        position: absolute;
+        top: 0;
+        margin: 10px;
+        display: block;
+        overflow: hidden;
+
+        svg{
+                width: 100%;
+                height: auto;
+        }
+        &.rhea-image-icon{
+                border-radius: 5px;
+        }
+}
+.rhea-ultra-caruosel-thumb-inner{
+        position: relative;
+        &::after{
+                // position: absolute;
+                left: 50%;
+                content: '';
+                height: 4px;
+                width: 80px;
+                border-radius: 4px;
+                background: transparent;
+                display: block;
+                margin: auto;
+                margin-top: 10px;
+                // margin-left: -40px;
+                transition: .5s all ease-in-out;
+        }
+}
+.slick-current{
+.rhea-ultra-caruosel-thumb-inner{
+        &::after{
+                // position: absolute;
+                background: $ultra_primary;
+                transition: .2s all ease-in-out;
+                // margin-left: -40px;
+        }
+}
+}

@@ -1,0 +1,67 @@
+/**
+ * Stripe Payment Button
+ */
+
+.property-payment {
+	display: flex;
+	flex-direction: column;
+    justify-content: center;
+	text-align: center;
+
+	.stripe-button {
+	    margin: 0 auto;
+	    padding: 5px 0;
+
+	    button.stripe-button-el {
+	    	background: none;
+		    border: none;
+		    box-shadow: none;
+			background: #32325d;
+		    border-radius: 0;
+		    outline: 0;
+		    color: $white;
+			
+			span {
+				background-color: #32325d !important;
+				font-weight: bold !important;
+				font-style: italic;
+				font-size: 13px;
+			}
+
+		    &:hover {
+		    	background-color: #1a1a30;
+
+		    	span {
+		    		background-color: #1a1a30 !important;
+		    	}
+		    }
+
+		    &:focus {
+		    	outline: 0;
+		    	color: $white;
+
+		    	span {
+		    		color: $white;
+		    	}
+		    }
+
+		    span {
+		    	background: $contact_number_bg_color;
+				text-shadow: none;
+				box-shadow: none;
+				border-radius: 0;
+				font-weight: 400;
+				transition: 0.2s background linear;
+			}
+			
+			&:disabled {
+				background-color: #ebebeb;
+
+				span {
+					background: #ebebeb;
+    				cursor: not-allowed;
+				}
+			}
+	    }
+	}
+}

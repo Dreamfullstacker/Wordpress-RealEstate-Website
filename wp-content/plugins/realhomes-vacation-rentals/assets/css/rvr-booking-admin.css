@@ -1,0 +1,23 @@
+.rwmb-text-wrapper .rwmb-button.remove-clone .dashicons { margin-top: 6px; margin-left: 25px; }
+
+.rvr-additional-fees-info h3 { font-size: 15px; }
+
+.rvr-additional-fees-info table { font-size: 14px; min-width: 30%; border-collapse: collapse; }
+
+.rvr-additional-fees-info table tr:nth-child(even) { background-color: #f0f0f1; }
+
+.rvr-additional-fees-info table tr:nth-child(odd) { background-color: #fff; }
+
+.rvr-additional-fees-info table td { border: 1px solid #c3c4c7; padding: 5px 10px; }
+
+.rvr-additional-fees-info table td:nth-child(2) { text-align: center; }
+
+.admin_page_rvr-settings .form-table td p { max-width: 600px; }
+
+div[id$="rvr_owner_widget-__i__"] .widget-title h3, div[id$="rvr_booking_widget-__i__"] .widget-title h3 { background: #ea723d; color: #fff; }
+
+.widefat td.column-renter, .widefat th.column-renter { text-align: center; }
+
+#toplevel_page_rvr .wp-menu-image img { width: 24px; padding: 5px 0 0; }
+
+.post-type-property .ui-datepicker th { color: #000; }

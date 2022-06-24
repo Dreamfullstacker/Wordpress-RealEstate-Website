@@ -1,0 +1,226 @@
+/**
+ * Featured Properties - Homepage
+ */
+#rh_featured_properties {
+	margin: 0 auto;
+	padding: 15px 0 0;
+	background: #fff;
+	border-left: 1px solid #dedede;
+	border-right: 1px solid #dedede;
+
+	.narrative {
+		text-align: center;
+	}
+}
+
+.rh_featured_properties__slider {
+	position: relative;
+	margin-top: 30px;
+	background: $header_Wrapper_background_color;
+
+	.rh_slide__container {
+	    box-sizing: border-box;
+	}
+
+	.slides{
+		overflow: hidden;
+	}
+
+	.flex-control-nav {
+		position: relative;
+		bottom: 0;
+		padding: 0 0 25px;
+		line-height: 1;
+		background: $header_Wrapper_background_color;
+
+		a {
+			background: #8b9293;
+			outline: 0;
+
+			&:hover {
+				background: $white;
+			}
+
+			&:focus {
+				outline: 0;
+			}
+		}
+
+		a.flex-active {
+			background: $white;
+		}
+	}
+}
+
+.rh_slide__container {
+	display: flex;
+	flex-wrap: nowrap;
+	justify-content: flex-start;
+	padding: 35px 35px 25px;
+	color: #888;
+
+	figure {
+		flex: 1 1 50%;
+    	margin: 0;
+	    padding: 0;
+
+	    .wrapper {
+	    	display: block;
+	    	position: relative;
+	    	margin: 0 30px 0 0;
+	    	box-sizing: border-box;
+	    }
+
+	    .statuses {
+    		display: inline-block;
+    		position: absolute;
+		    bottom: 20px;
+		    right: 25px;
+
+		    a {
+		    	display: inline-block;
+		    	color: $white;
+			    background: $contact_number_bg_color;
+			    padding: 5px 15px;
+			    border-radius: 500rem;
+			    font-size: 11px;
+			    text-transform: uppercase;
+			    line-height: 17px;
+			    transition: 0.2s background linear;
+
+			    &:hover {
+			    	background: darken( $contact_number_bg_color, 15% );
+			    	transition: 0.2s background linear;
+			    }
+		    }
+    	}
+
+	    img {
+	    	width: 100%;
+	    }
+    }
+
+    .rh_slide__details {
+    	flex: 1 1 50%;
+    	padding: 0;
+    	margin: 0;
+
+    	h4 {
+			margin-top: 0;
+    		a {
+    			color: $white;
+    			line-height: 30px;
+
+    			&:hover {
+    				color: rgba( $white, 0.8 );
+    			}
+    		}
+    	}
+
+    	.rh_prop_details {
+    		display: block;
+    		margin: 25px 0;
+    		text-align: right;
+
+    		.rh_prop_details__price {
+    			display: inline-block;
+    			float: left;
+    			text-align: left;
+
+    			.price {
+    				margin: 0 0 5px;
+    				font-size: 20px;
+    				font-weight: 700;
+    				color: $main_menu_background_color;
+    			}
+
+    			.type {
+    				margin: 0;
+    				color: $white;
+    			}
+    		}
+
+    		.rh_prop_details__buttons {
+    			display: inline-block;
+
+    			a {
+    				display: inline-block;
+    				vertical-align: top;
+    				padding: 8px 15px;
+    				margin: 0 10px 0 0;
+    				color: $white;
+    				background: $main_menu_background_color;
+    				border: 1px solid $main_menu_background_color;
+    				transition: 0.2s all linear;
+
+    				&:hover {
+    					background: none;
+    					border: 1px solid $main_menu_background_color;
+    					transition: 0.2s all linear;
+    				}
+    			}
+
+    			.photos {
+    				display: inline-block;
+    				vertical-align: top;
+    				padding: 8px 15px;
+    				margin: 0;
+    				color: $white;
+    				background: none;
+    				border: 1px solid rgba( $white, 0.5 );
+
+    				.fa {
+    					margin: 0 10px 0 0;
+    				}
+    			}
+    		}
+    	}
+
+    	.excerpt {
+    		margin: 0;
+    		padding: 0 0 25px;
+    		border-bottom: 1px solid $border_color_one;
+			line-height: 24px;
+    	}
+
+    	.rh_prop_meta {
+		    display: flex;
+		    flex-direction: row;
+		    flex-wrap: nowrap;
+		    justify-content: space-between;
+		    padding: 25px 0 0 0;
+
+		    .rh_prop_meta__single {
+		    	float: left;
+		    }
+
+		    .icon {
+		    	display: inline-block;
+		    	vertical-align: top;
+		    	margin: 0 5px 0 0;
+
+		    	img {
+		    		height: 35px;
+		    	}
+		    	svg {
+		    		fill: #8b9293;
+		    		width: 40px;
+		    		height: 35px;
+		    	}
+		    }
+		    .details {
+		    	display: inline-block;
+		    	vertical-align: top;
+		    	margin: 0;
+
+		    	span {
+		    		display: block;
+		    		padding: 0 10px 0 0;
+		    	}
+		    	.number {
+		    		font-size: 16px;
+		    	}
+		    }
+    	}
+    }
+}

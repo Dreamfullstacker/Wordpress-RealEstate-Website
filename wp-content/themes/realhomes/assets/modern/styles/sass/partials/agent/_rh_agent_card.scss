@@ -1,0 +1,288 @@
+/**
+ * Agent Card
+ */
+.rh_agent_card {
+	display: block;
+	width: 100%;
+	margin-top: 5.5rem;
+	padding: 0 0 1rem 0;
+	@include r(768)  { margin-top: 6.5rem; padding: 0; }
+}
+
+.rh_agent_card__wrap {
+	display: block;
+	padding: 2.5rem;
+	background: #fff;
+
+	.rh_agent_card__head {
+		display: flex;
+		justify-content: flex-start;
+		text-align: left;
+		margin-bottom: 2rem;
+
+		@include r(320)  { flex-direction: column; align-items: center; }
+		@include r(768)  { flex-direction: row; align-items: flex-start; }
+
+		.rh_agent_card__dp {
+			margin: -6rem 0 0;
+			width: 50%;
+			text-align: center;
+			border: 1px solid transparent;
+			transition: all .3s ease-in-out;
+
+			@include r(480)  { width: 30%; }
+			@include r(768)  { width: 23%; text-align: left; }
+			@include r(1140) { width: 20%; }
+
+			&:hover{
+				box-shadow: 0 0 3px rgba(128, 128, 128, 0.5);
+			}
+		}
+
+		.rh_agent_card__name {
+			width: 56%;
+			margin-left: 2.5rem;
+
+			@include r(320)  { width: 100%; margin-left: 0; margin-top: 2rem; text-align: center; }
+			@include r(768)  { width: 54%; margin-left: 2.5rem; margin-top: 0; text-align: left; }
+			@include r(1140) { width: 56%; }
+
+			.name {
+				font-size: 2.4rem;
+				font-weight: 500;
+				line-height: 1.5;
+				margin: 0 0 0.8rem;
+
+				a {
+					color: var(--rh-global-color-headings);
+					transition: 0.2s all linear;
+
+					&:hover {
+						color: var(--rh-global-color-primary);
+						transition: 0.2s all linear;
+					}
+				}
+			}
+		}
+
+		.social a {
+			display: inline-block;
+			vertical-align: top;
+			margin: 0 0.5rem;
+			transition: 0.2s all linear;
+
+			i {
+				font-size: 1.8rem;
+			}
+		}
+
+		.rh_agent_card__listings {
+			width: 100%;
+			padding: 0 0 0 3rem;
+
+			@include r(320)  { padding: 2rem 0 0 0; text-align: center; border-left: none; }
+			@include r(768)  { width: 24%; padding: 0 0 0 3rem; text-align: left; border-left: 1px solid rgba($rh_text_color, 0.2); }
+
+			.head {
+				color: var(--rh-global-color-headings);
+				font-size: 1.3rem;
+				margin-bottom: 0.8rem;
+			}
+
+			.count {
+				font-size: 2.4rem;
+				color: var(--rh-global-color-primary);
+			}
+		}
+	}
+
+	.social a {
+		color: rgba($rh_text_color, 0.5);
+	}
+
+	.rh_agent_card__details {
+		text-align: left;
+
+		.content {
+			line-height: 2;
+			margin-bottom: 2rem;
+
+			@include r(768)  { margin-bottom: 3rem; }
+		}
+
+		.rh_agent_card__contact {
+			display: flex;
+			justify-content: space-between;
+			align-items: center;
+
+			@include r(320)  { flex-direction: column; align-items: flex-start; }
+			@include r(768)  { flex-direction: row; align-items: center; }
+
+			.rh_agent_card__contact_wrap {
+				display: flex;
+				flex-wrap: wrap;
+
+				.contact {
+					line-height: 1.5;
+					margin-bottom: 1rem;
+					margin-right: 1rem;
+					padding: 0 1rem 0 0;
+
+					span,
+					a {
+						display: inline-block;
+						font-size: 1.5rem;
+						color: var(--rh-global-color-headings);
+					}
+
+					a {
+						transition: 0.2s color linear;
+
+						&:hover {
+							color: var(--rh-global-color-primary);
+						}
+					}
+				}
+			}
+
+			.rh_agent_card__link {
+				display: flex;
+				align-items: center;
+				min-width: 15rem;
+				transition: 0.2s all linear;
+
+				@include r(320)  { margin-top: 1rem; }
+				@include r(768)  { margin-top: 0; }
+
+				&:hover {
+					p,
+					span,
+					i {
+						color: var(--rh-global-color-primary);
+					}
+
+					&:hover i{
+						transform: translateX(5px);
+					}
+				}
+
+				p,
+				span {
+					margin-right: 2rem;
+					transition: 0.2s all linear;
+					color: var(--rh-global-color-secondary);
+				}
+
+
+				i {
+					font-size: 1.8rem;
+					transition: all .3s ease-in-out;
+					color: var(--rh-global-color-secondary);
+				}
+			}
+		}
+	}
+}
+
+.rh_agent_card__wrap .rh_agent_card__head .rh_agent_card__listings-inline{
+	width: 100%;
+	padding: 0 0 1.6rem;
+	line-height:1;
+	border: none;
+
+	@media (min-width: 768px) {
+		padding-bottom: 0;
+	}
+
+	.count{
+		font-size: 1.4rem;
+		font-weight: 500;
+		line-height: 1;
+	}
+
+	.head{
+		margin-bottom: 0;
+	}
+
+	span{
+		//display: inline-block;
+		//vertical-align: bottom;
+	}
+}
+
+.single-agent-profile-social{
+    margin-top: 8px;
+
+	@media (min-width: 768px) {
+		width: 28%;
+		text-align: right;
+	}
+
+	@media (min-width: 1024px) {
+		width: 24%;
+	}
+}
+
+.rh_agent_card__wrap .rh_agent_card__head .social a {
+
+	&:last-child {
+		margin-right: 0;
+	}
+
+	&:first-child {
+		margin-left: 0;
+	}
+}
+
+// Social Networks Brand Color
+.social-networks-brand-color {
+
+	.facebook {
+		&:hover {
+			color: #395b89;
+		}
+	}
+
+	.twitter {
+		&:hover {
+			color: #2bbfec;
+		}
+	}
+
+	.linkedin {
+		&:hover {
+			color: #1184cd;
+		}
+	}
+
+	.pinterest {
+		&:hover {
+			color: #be2225;
+		}
+	}
+
+	.youtube {
+		&:hover {
+			color: #d02525;
+		}
+	}
+
+	.instagram {
+		&:hover {
+			color: #F77737;
+		}
+	}
+
+	.skype {
+		&:hover {
+			color: #0099e5;
+		}
+	}
+
+	.website-icon {
+
+		&:hover {
+			color: #00c300;
+		}
+	}
+}

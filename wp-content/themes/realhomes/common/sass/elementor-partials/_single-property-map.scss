@@ -1,0 +1,120 @@
+.rhea-single-property-map-wrapper {
+  position: relative;
+  z-index: 5;
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 1140px;
+  margin-left: auto;
+  margin-right: auto;
+  overflow: hidden;
+  border-radius: 10px;
+  background-color: #fff;
+
+  &.rhea-single-property-map-swap-col .rhea-single-property-map {
+    order: 2;
+  }
+
+  .rhea-single-property-map {
+    width: 66%;
+    height: 460px;
+  }
+
+  .rhea-single-property-map-info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 34%;
+    padding: 25px 0;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+
+  .rhea-single-property-map-info-inner {
+    width: calc(100% - 78px);
+    padding: 25px 15px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5px;
+    text-align: center;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.06);
+    background-color: #fff;
+  }
+
+  .rhea-single-property-map-heading {
+    margin-top: 0;
+    margin-bottom: 9px;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    color: #0068ff;
+  }
+
+  p,
+  .rhea-single-property-address {
+    margin: 0;
+    font-size: 16px;
+    line-height: 1.4;
+
+    &:not(:last-child) {
+      margin-bottom: 8px;
+    }
+
+    &,
+    a {
+      color: #000;
+    }
+
+    a {
+      transition: color 0.3s ease-in-out;
+
+      &:hover{
+        color: var(--rh-global-color-secondary);
+      }
+    }
+    
+    i{
+      min-width: 16px;
+      margin-right: 8px;
+      color: #999;
+    }
+  }
+}
+
+.rhea-single-property-map-fullwidth .rhea-single-property-map {
+  width: 100% !important;
+}
+
+// Responsive Styles
+[data-elementor-device-mode="mobile_extra"],
+[data-elementor-device-mode="tablet"] {
+
+  .rhea-single-property-map-wrapper {
+
+    .rhea-single-property-map {
+      height: 300px;
+    }
+
+    .rhea-single-property-map,
+    .rhea-single-property-map-info {
+      width: 100%;
+    }
+  }
+}
+
+[data-elementor-device-mode="mobile"] {
+
+  .rhea-single-property-map-wrapper {
+
+    .rhea-single-property-map {
+      height: 250px;
+    }
+
+    .rhea-single-property-map,
+    .rhea-single-property-map-info {
+      width: 100%;
+    }
+  }
+}

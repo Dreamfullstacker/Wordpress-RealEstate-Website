@@ -1,0 +1,69 @@
+/**
+ * Homepage Features Section
+ */
+
+.home-features-section {
+
+    .home-features-bg {
+        background-color: $features_bg;
+        background: $features_bg url( '../../images/features-bg.png' ) no-repeat 50% 50%;
+        background-size: cover;
+        padding: 60px 49px;
+
+		p {
+			a {
+				color: #4f6a87;
+				&:hover {
+					color: #e3712c;
+				}
+			}
+		}
+    }
+
+    .headings {
+    	text-align: center;
+    	padding-bottom: 20px;
+
+    	h2,
+    	p {
+    		color: $white;
+    	}
+    	h2 {
+    		font-size: 30px;
+    		margin-bottom: 16px;
+    	}
+    	p {
+		    max-width: 450px;
+		    margin: 0 auto 10px;
+		    line-height: 28px;
+    	}
+    }
+
+    .features-wrapper {
+        display: flex;
+        flex-wrap: nowrap;
+    	padding: 10px 0;
+
+    	.features-single {
+            flex: 1 1 auto;
+    		text-align: center;
+    		margin: 0 30px;
+            padding: 0;
+
+    		.feature-img {
+    			margin-bottom: 30px;
+    		}
+
+    		.feature-content {
+    			h4 {
+		    		color: $white;
+                    line-height: 30px;
+		    	}
+		    	p {
+		    		color: rgba( $white, 0.9 );
+		    		line-height: 24px;
+		    	}
+    		}
+    	}
+    }
+}

@@ -1,0 +1,16 @@
+<svg class="rh_svg" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="24px" height="24px" viewBox="0 0 24 24" enable-background="new 0 0 24 24" xml:space="preserve">
+<g>
+	<circle cx="2" cy="2" r="2"/>
+</g>
+<g>
+	<circle cx="2" cy="22" r="2"/>
+</g>
+<g>
+	<circle cx="22" cy="2" r="2"/>
+</g>
+<rect x="1" y="1" width="2" height="22"/>
+<rect x="1" y="1" width="22" height="2"/>
+<path opacity="0.5" d="M23,20.277V1h-2v19.277C20.7,20.452,20.452,20.7,20.277,21H1v2h19.277c0.347,0.596,0.984,1,1.723,1
+	c1.104,0,2-0.896,2-2C24,21.262,23.596,20.624,23,20.277z"/>
+</svg>

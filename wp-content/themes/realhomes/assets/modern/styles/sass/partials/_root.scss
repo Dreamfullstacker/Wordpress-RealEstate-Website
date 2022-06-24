@@ -1,0 +1,19 @@
+:root {
+  --rh-global-color-primary: #{$rh_primary_color};
+  --rh-global-color-primary-dark: #{$rh_primary_hover};
+  --rh-global-color-primary-rgb: #{to-rgb($rh_primary_color)};
+  --rh-global-color-secondary: #{$rh_secondary_color};
+  --rh-global-color-secondary-dark: #{$rh_secondary_hover};
+  --rh-global-color-secondary-rgb: #{to-rgb($rh_secondary_color)};
+  --rh-global-color-text: #{$rh_text_color};
+  --rh-global-color-headings: #{$rh_heading_color};
+  --rh-global-color-headings-hover: #{$rh_secondary_color};
+  --rh-global-color-link: #444;
+  --rh-global-color-link-hover: #{$rh_secondary_color};
+  --rh-body-bg-color: #{$rh_body_bg};
+  --rh-banner-bg-color: #{$rh_banner_bg};
+  --rh-footer-bg-color: #{$rh_footer_bg};
+  --rh-small-border-radius: 4px;
+  --rh-medium-border-radius: 8px;
+  --rh-large-border-radius: 12px;
+}

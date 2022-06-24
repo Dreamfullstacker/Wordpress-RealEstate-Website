@@ -1,0 +1,184 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Inspiry Stripe Payments\n"
+"POT-Creation-Date: 2020-04-20 17:10+0500\n"
+"PO-Revision-Date: 2020-04-20 17:12+0500\n"
+"Last-Translator: M Saqib Sarwar <saqib@inspirythemes.com>\n"
+"Language-Team: M Saqib Sarwar <saqib@inspirythemes.com>\n"
+"Language: tr_TR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.3\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: inspiry-stripe-payments.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;"
+"_n_noop:1,2;_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: admin/class-inspiry-stripe-payments-settings.php:33
+#: admin/class-inspiry-stripe-payments-settings.php:34
+msgid "Stripe Settings"
+msgstr "Stripe Ayarları"
+
+#: admin/class-inspiry-stripe-payments-settings.php:52
+msgid "RealHomes Stripe Payments Settings"
+msgstr "RealHomes Stripe Ödeme Ayarları"
+
+#: admin/class-inspiry-stripe-payments-settings.php:62
+msgid "Stripe Payments"
+msgstr "Şerit Ödemeleri"
+
+#: admin/class-inspiry-stripe-payments-settings.php:69
+msgid "Enable Stripe Payments for Submitted Property."
+msgstr "Gönderilen Mülk için Şerit Ödemelerini Etkinleştir."
+
+#: admin/class-inspiry-stripe-payments-settings.php:75
+msgid "Publishable Key*"
+msgstr "Yayınlanabilir Anahtar *"
+
+#: admin/class-inspiry-stripe-payments-settings.php:80
+msgid "Paste your account publishable key here."
+msgstr "Hesap yayınlanabilir anahtarınızı buraya yapıştırın."
+
+#: admin/class-inspiry-stripe-payments-settings.php:86
+msgid "Secret Key*"
+msgstr "Gizli Anahtar"
+
+#: admin/class-inspiry-stripe-payments-settings.php:91
+msgid "Paste your account secret key here."
+msgstr "Hesabınızın gizli anahtarını buraya yapıştırın."
+
+#: admin/class-inspiry-stripe-payments-settings.php:97
+msgid "Currency Code*"
+msgstr "Para Birimi Kodu"
+
+#: admin/class-inspiry-stripe-payments-settings.php:101
+msgid "Provide currency code that you want to use. Example: USD"
+msgstr "Kullanmak istediğiniz para birimi kodu. Örnek: USD"
+
+#: admin/class-inspiry-stripe-payments-settings.php:107
+msgid "Payment Amount Per Property*"
+msgstr "İlan Başına Ödeme Tutarı"
+
+#: admin/class-inspiry-stripe-payments-settings.php:111
+msgid ""
+"Provide the amount that you want to charge for one property. Example: 20.00"
+msgstr "İlan için ücretlendirmek istediğiniz tutarı girin. Örnek: 20,00"
+
+#: admin/class-inspiry-stripe-payments-settings.php:117
+msgid "Payment Button Label"
+msgstr "Ödeme Düğmesi Etiketi"
+
+#: admin/class-inspiry-stripe-payments-settings.php:120
+#: public/class-inspiry-stripe-payments-public.php:87
+#: public/class-inspiry-stripe-payments-shortcodes.php:88
+msgid "Pay with Card"
+msgstr "Kartla Öde"
+
+#: admin/class-inspiry-stripe-payments-settings.php:121
+msgid "Default: Pay with Card"
+msgstr "Varsayılan: Kartla Öde"
+
+#: admin/class-inspiry-stripe-payments-settings.php:127
+msgid "Publish Submitted Property after Payment"
+msgstr "Ödeme Sonrası Gönderilen Mülkü Yayınla"
+
+#: admin/class-inspiry-stripe-payments-settings.php:132
+msgid "Yes"
+msgstr "Evet"
+
+#: admin/class-inspiry-stripe-payments-settings.php:134
+msgid "No"
+msgstr "Hayır"
+
+#: admin/class-inspiry-stripe-payments-settings.php:141
+msgid "Save Options"
+msgstr "Ayarları Kaydet"
+
+#: public/class-inspiry-stripe-payments-handler.php:252
+msgid "Property payment processed via Stripe."
+msgstr "Mülk ödemesi Stripe ile işlendi."
+
+#. translators: Property name.
+#: public/class-inspiry-stripe-payments-handler.php:256
+#, php-format
+msgid "Payment for property [%s] has been processed successfully."
+msgstr "[ %s] mülküne ilişkin ödeme başarıyla işleme koyuldu."
+
+#: public/class-inspiry-stripe-payments-handler.php:257
+#: public/class-inspiry-stripe-payments-handler.php:297
+msgid "You can view the property here:"
+msgstr "Mülkü buradan görüntüleyebilirsiniz:"
+
+#: public/class-inspiry-stripe-payments-handler.php:292
+msgid "Property payment received via Stripe."
+msgstr "Mülk ödemesi Stripe ile alındı."
+
+#. translators: Property name.
+#: public/class-inspiry-stripe-payments-handler.php:296
+#, php-format
+msgid "Payment for property [%1$s] has been received by %2$s."
+msgstr "[%1$s] mülkü için ödeme%2$s tarafından alındı."
+
+#. translators: User name who submitted the payment.
+#: public/class-inspiry-stripe-payments-handler.php:300
+#, php-format
+msgid "You can contact the customer at %s."
+msgstr "Müşteri ile %s adresinden iletişime geçebilirsiniz."
+
+#: public/class-inspiry-stripe-payments-public.php:97
+msgid "Property Payment"
+msgstr "Mülk Ödemesi"
+
+#: public/class-inspiry-stripe-payments-shortcodes.php:45
+msgid "Inspiry Stripe Payments plugin is not enabled yet."
+msgstr "Inspiry Stripe Payments eklentisi henüz etkinleştirilmedi."
+
+#: public/class-inspiry-stripe-payments-shortcodes.php:98
+msgid "Thank you for your payment."
+msgstr "Ödemeniz için teşekkürler."
+
+#: public/class-inspiry-stripe-payments-shortcodes.php:100
+msgid "Error: Payment was not charged."
+msgstr "Hata: Ödeme alınmadı."
+
+#. Plugin Name of the plugin/theme
+msgid "Inspiry Stripe Payments for RealHomes"
+msgstr "RealHomes için İlham Şerit Ödemeleri"
+
+#. Plugin URI of the plugin/theme
+msgid ""
+"https://themeforest.net/item/real-homes-wordpress-real-estate-theme/5373914"
+msgstr ""
+"https://themeforest.net/item/real-homes-wordpress-real-estate-theme/5373914"
+
+#. Description of the plugin/theme
+msgid "Provides Stripe functionality for individual property payments."
+msgstr "Bireysel mülk ödemeleri için Şerit işlevselliği sağlar."
+
+#. Author of the plugin/theme
+msgid "InspiryThemes"
+msgstr "InspiryThemes"
+
+#. Author URI of the plugin/theme
+msgid "https://inspirythemes.com"
+msgstr "https://inspirythemes.com"
+
+#~ msgid "Test Mode"
+#~ msgstr "Test Modu"
+
+#~ msgid "Theme Settings"
+#~ msgstr "Tema Ayarları"
+
+#, php-format
+#~ msgid "Hi %s,"
+#~ msgstr "Merhaba %s,"
+
+#~ msgid "Cheatin&#8217; huh?"
+#~ msgstr "Hile mi&#8217; vay?"

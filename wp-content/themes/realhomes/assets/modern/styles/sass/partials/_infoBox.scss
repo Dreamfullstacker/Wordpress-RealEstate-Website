@@ -1,0 +1,86 @@
+/**
+ * Google Map Info Box
+ *
+ */
+
+.infoBox {
+
+	& > img {
+		background: rgba(#fff, 1);
+		transition: 0.2s all;
+
+		&:hover {
+			background: rgba(#fff, 0.8);
+		}
+	}
+
+	.map-info-window {
+	    display: block;
+	    width: 24.4rem;
+		text-align: initial;
+	    background: #fff;
+	    margin-bottom: 2rem;
+	    border-bottom: 3px solid var(--rh-global-color-primary);
+
+	    .prop-thumb {
+	    	width: 100%;
+	    }
+
+	    .prop-title {
+	    	color: var(--rh-global-color-headings);
+	    	font-weight: 500;
+		    font-size: 1.5rem;
+		    margin: 0;
+		    padding: 1.5rem;
+		    line-height: 1.5;
+	    }
+
+	    a {
+	    	color: var(--rh-global-color-headings);
+	    	font-weight: 500;
+		    font-size: 1.5rem;
+		    line-height: 1.5;
+	    	transition: 0.2s all linear;
+
+	    	&:hover {
+	    		color: var(--rh-global-color-primary);
+	    		transition: 0.2s all linear;
+	    	}
+	    }
+
+	    p {
+	    	padding: 0 1.5rem 1.5rem;
+	    	color: var(--rh-global-color-primary);
+	    }
+
+	    .arrow-down {
+	    	width: 0;
+		    height: 0;
+		    border-style: solid;
+		    border-width: 10px 10px 0 10px;
+		    border-color: var(--rh-global-color-primary) transparent transparent transparent;
+		    position: absolute;
+		    bottom: 1rem;
+		    left: 50%;
+		    left: calc(50% - 10px);
+	    }
+	}
+}
+
+.cluster {
+	border-radius:50%;
+	background-color: rgba(var(--rh-global-color-primary-rgb), 0.5);
+
+	div{
+		border-radius:50%;
+		top: 5px !important;
+		left: 5px !important;
+		width: 38px !important;
+		line-height: 38px !important;
+		background-color: var(--rh-global-color-primary);
+	}
+
+	img{
+		display:none;
+	}
+}

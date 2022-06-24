@@ -1,0 +1,429 @@
+/**
+ * Single Agent Card
+ */
+
+.rh_agent_profile {
+  display: block;
+  margin-top: 1.5rem;
+  margin-bottom: 1rem;
+  padding: 0;
+  text-align: left;
+
+  @include r(768) {
+    margin-bottom: 3rem;
+  }
+}
+
+.rh_agent_profile__wrap {
+  display: block;
+  padding: 2rem;
+  background: #fff;
+  box-shadow: 0 0 5px 2px rgba(0, 0, 0, 0.05);
+
+  @include r(480) {
+    padding: 3rem;
+  }
+
+  .rh_agent_profile__head {
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+    margin-bottom: 2rem;
+
+    @include r(320) {
+      flex-direction: column;
+      align-items: center;
+    }
+    @include r(768) {
+      flex-direction: row;
+      align-items: flex-start;
+    }
+
+    .rh_agent_profile__dp {
+      width: 60%;
+      margin-top: -4.5rem;
+      text-align: center;
+
+      @include r(480) {
+        width: 50%;
+      }
+      @include r(768) {
+        width: 20%;
+        text-align: left;
+      }
+
+      .picture {
+        margin: 0;
+      }
+
+      .listed_properties {
+        margin-top: 1.5rem;
+
+        .number {
+          font-size: 2.4rem;
+          color: var(--rh-global-color-primary);
+          margin-bottom: 0.2rem;
+        }
+
+        .heading {
+          color: var(--rh-global-color-headings);
+          font-size: 1.3rem;
+        }
+      }
+    }
+
+    .rh_agent_profile__details {
+      width: 80%;
+      padding: 0 0 0 3rem;
+
+      @include r(320) {
+        width: 100%;
+        padding: 2rem 0 0;
+        text-align: center;
+      }
+      @include r(480) {
+        padding: 1.5rem 0 0;
+      }
+      @include r(768) {
+        width: 80%;
+        padding: 0 0 0 2rem;
+        text-align: left;
+      }
+      @include r(1024) {
+        padding: 0 0 0 3rem;
+      }
+
+      .rh_agent_profile__name {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 2.5rem;
+
+        @include r(320) {
+          flex-direction: column;
+          margin-bottom: 1rem;
+        }
+        @include r(768) {
+          flex-direction: row;
+          margin-bottom: 1.5rem;
+        }
+        @include r(1024) {
+          margin-bottom: 2.5rem;
+        }
+
+      }
+
+      .name {
+        width: 100%;
+        font-size: 2.4rem;
+        font-weight: 500;
+        margin-bottom: 0.5rem;
+        line-height: 1.5;
+
+        @include r(768) {
+          width: 65%;
+          margin-bottom: 0;
+        }
+      }
+
+      .rh_agent_profile__contact {
+        display: flex;
+        flex-wrap: wrap;
+
+        @include r(320) {
+          justify-content: center;
+        }
+        @include r(768) {
+          justify-content: flex-start;
+        }
+      }
+
+      .detail {
+        line-height: 1.5;
+        padding: 0 1.5rem 0 0;
+        margin: 0 1.5rem 1rem 0;
+
+        @include r(320) {
+          padding: 0;
+          margin: 0 0.5rem 1rem;
+        }
+        @include r(768) {
+          padding: 0 1.5rem 0 0;
+          margin: 0 1.5rem 1rem 0;
+        }
+
+        span {
+          color: var(--rh-global-color-headings);
+        }
+
+        a {
+          color: var(--rh-global-color-headings);
+          transition: 0.2s all linear;
+
+          &:hover {
+            color: var(--rh-global-color-primary);
+            transition: 0.2s all linear;
+          }
+        }
+      }
+
+      .detail-border {
+        display: inline-block;
+        background: rgba($rh_text_color, 0.2);
+        width: 1px;
+        height: 18px;
+      }
+    }
+
+    .rh_agent_profile__social {
+      display: flex;
+      align-items: flex-end;
+      justify-content: flex-end;
+      width: 35%;
+
+      @include r(320) {
+        width: 80%;
+      }
+      @include r(480) {
+        width: 50%;
+      }
+      @include r(768) {
+        width: 35%;
+      }
+
+      a {
+        display: inline-block;
+        color: rgba($rh_text_color, 0.5);
+        margin: 0.5rem;
+        transition: 0.2s all linear;
+
+        &:hover {
+          color: var(--rh-global-color-secondary);
+          transition: 0.2s all linear;
+        }
+
+        i {
+          font-size: 1.8rem;
+        }
+      }
+    }
+  }
+}
+
+.horizontal-border,
+.rh_agent_profile__wrap .rh_agent_profile__excerpt {
+  border-bottom: 1px solid rgba($rh_text_color, 0.2);
+}
+
+.rh_agent_profile .horizontal-border {
+  margin: 20px 0 10px;
+}
+
+.author,
+.single-agent,
+.single-agency {
+
+  .rh_agent_profile {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+
+  @media (min-width: 480px) {
+    .rh_agent_card__wrap {
+      padding: 3rem;
+      box-shadow: 0 0 5px 2px rgba(0, 0, 0, 0.05);
+    }
+  }
+}
+
+.author,
+.single-agent {
+
+  @media (min-width: 768px) {
+    .rh_agent_card {
+      margin-top: 3.4rem;
+    }
+  }
+}
+
+.single-agency {
+
+  @media (min-width: 768px) {
+    .rh_agent_profile .rh_agent_card,
+    .rh_page__section .rh_agent_card:first-child {
+      margin-top: 3.4rem;
+    }
+  }
+}
+
+/* Agent custom contact form styles
+--------------------------------------------------------*/
+.agent-custom-contact-form {
+
+  .wpforms-container .wpforms-form .wpforms-field-label {
+    font-size: inherit;
+    font-weight: inherit;
+  }
+
+  .wpforms-container .wpforms-form textarea {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+
+  .wpforms-container .wpforms-form input[type=checkbox],
+  .wpforms-container .wpforms-form input[type=radio] {
+    vertical-align: 1px;
+  }
+
+  .wpcf7 {
+
+    p {
+      width: 100%;
+      margin-bottom: 2rem;
+
+      &:last-of-type {
+        margin-bottom: 0;
+      }
+    }
+
+    input[type="radio"],
+    input[type="checkbox"] {
+      vertical-align: 1px;
+    }
+
+    textarea {
+      width: 100%;
+    }
+  }
+
+  .wpcf7 select,
+  .wpcf7 textarea,
+  .wpcf7 input[type="number"],
+  .wpcf7 input[type="date"],
+  .wpcf7 input[type="tel"],
+  .wpcf7 input[type="url"],
+  .wpcf7 input[type="email"],
+  .wpcf7 input[type="submit"],
+  .wpcf7 input[type="text"] {
+    font-size: 1.4rem;
+    padding: 1.2rem 1rem;
+  }
+
+  .wpcf7 select,
+  .wpcf7 textarea,
+  .wpcf7 input[type="number"],
+  .wpcf7 input[type="date"],
+  .wpcf7 input[type="tel"],
+  .wpcf7 input[type="url"],
+  .wpcf7 input[type="email"],
+  .wpcf7 input[type="text"] {
+    border: 1px solid #ccc;
+  }
+
+  .wpcf7 select,
+  .wpcf7 textarea,
+  .wpcf7 input[type="number"],
+  .wpcf7 input[type="date"],
+  .wpcf7 input[type="tel"],
+  .wpcf7 input[type="url"],
+  .wpcf7 input[type="email"],
+  .wpcf7 input[type="text"] {
+    margin-top: 3px;
+    margin-bottom: 3px;
+  }
+
+  .wpcf7 input[type="submit"] {
+    @extend .rh_btn;
+    @extend .rh_btn--primary;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    cursor: pointer;
+  }
+
+  .wpcf7-acceptance .wpcf7-list-item,
+  .wpcf7-list-item.first {
+    margin-left: 0;
+  }
+
+  .wpcf7-response-output {
+    margin: 25px 0;
+    padding: 6px 10px;
+    line-height: 1.5;
+  }
+}
+
+.single-agency .agent-custom-contact-form,
+.single-agent .agent-custom-contact-form {
+  padding-top: 1.4rem;
+
+  .wpforms-container {
+    margin-bottom: 0;
+
+    .wpforms-error {
+      margin-top: 3px;
+    }
+  }
+}
+
+.single-property .agent-custom-contact-form {
+
+  .wpforms-field-container {
+    width: 100%;
+  }
+
+  .wpforms-container .wpforms-form input.wpforms-field-medium,
+  .wpforms-container .wpforms-form select.wpforms-field-medium,
+  .wpforms-container .wpforms-form .wpforms-field-row.wpforms-field-medium {
+    max-width: 100%;
+  }
+
+  .wpforms-field:first-of-type {
+    padding-top: 0;
+  }
+}
+
+.rh_property__sidebar .agent-custom-contact-form {
+  padding: 2rem 2rem 1px;
+  text-align: left;
+
+  .wpcf7 {
+    margin-bottom: 2.4rem;
+
+    select,
+    textarea,
+    [type="date"],
+    [type="datetime"],
+    [type="datetime-local"],
+    [type="email"],
+    [type="month"],
+    [type="number"],
+    [type="password"],
+    [type="reset"],
+    [type="search"],
+    [type="tel"],
+    [type="text"],
+    [type="time"],
+    [type="url"],
+    [type="week"] {
+      width: 100%;
+    }
+  }
+}
+
+.rtl .rh_property__sidebar .agent-custom-contact-form {
+  text-align: right;
+}
+
+.rtl .agent-custom-contact-form {
+  .wpforms-form input[type=checkbox],
+  .wpforms-form input[type=radio] {
+    margin-left: 10px;
+    margin-right: 0;
+  }
+
+  .wpcf7 span.wpcf7-list-item {
+    margin: 0 1em 0 0;
+    margin-right: 0;
+    margin-left: 1em;
+  }
+}

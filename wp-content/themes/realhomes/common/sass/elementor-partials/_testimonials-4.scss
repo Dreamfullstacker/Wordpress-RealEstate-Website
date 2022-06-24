@@ -1,0 +1,130 @@
+.rhea_testimonials_4_widget {
+  position: relative;
+  margin: 40px 0;
+
+  .rhea_testimonials_4_widget_quotation_mark {
+    position: absolute;
+    top: 0;
+    z-index: 2;
+    margin: 0 50px;
+    transform: translateY(-50%);
+
+    svg path {
+      fill: #013a51;
+    }
+  }
+
+  .rhea_testimonials_4_widget_flexslider {
+    margin-bottom: 0;
+    padding: 67px 90px 57px 53px;
+    border: 0;
+    border-radius: 5px;
+    box-shadow: 0 5px 15px rgba(207, 193, 165, 0.21);
+    background-color: #fff;
+
+    ul {
+      padding: 0;
+      margin: 0;
+    }
+  }
+
+  p {
+    margin-bottom: 26px;
+    font-size: 24px;
+    line-height: 1.5;
+    font-weight: 400;
+    color: #394041;
+  }
+
+  .rhea_testimonials_4_widget_meta {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+
+  .rhea_testimonials_4_widget_image {
+    margin-right: 19px;
+
+    img {
+      display: block;
+      width: 48px;
+      height: 48px;
+      border-radius: 50%;
+    }
+  }
+
+  .rhea_testimonials_4_widget_name {
+    margin: 0;
+    font-size: 16px;
+    font-weight: 500;
+  }
+
+  .rhea_testimonials_4_widget_navigation {
+    position: absolute;
+    right: 42px;
+    bottom: 0;
+    transform: translateY(50%);
+
+    a {
+      display: inline-block;
+      width: 42px;
+      height: 42px;
+      margin: 0 2px;
+      padding-top: 1px;
+      text-align: center;
+      border-radius: 50%;
+      transition: .2s all ease-in-out;
+      background-color: #c6d4dc;
+
+      &:hover {
+        background-color: #e33b4a;
+      }
+
+      svg {
+        width: 21px;
+        fill: #fff;
+      }
+    }
+  }
+}
+
+[data-elementor-device-mode="mobile"],[data-elementor-device-mode="mobile_extra"] {
+  
+  .rhea_testimonials_4_widget  .rhea_testimonials_4_widget_quotation_mark {
+    margin: 0 30px;
+  }
+
+  .rhea_testimonials_4_widget .rhea_testimonials_4_widget_flexslider {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+}
+
+.rtl {
+  .rhea_testimonials_4_widget {
+    text-align: right;
+
+    .rhea_testimonials_4_widget_quotation_mark svg {
+      transform: scale(-1, 1);
+    }
+
+    .rhea_testimonials_4_widget_flexslider {
+      padding: 67px 53px 57px 90px;
+    }
+
+    .rhea_testimonials_4_widget_meta {
+      flex-direction: row-reverse;
+    }
+
+    .rhea_testimonials_4_widget_image {
+      margin-right: 0;
+      margin-left: 19px;
+    }
+
+    .rhea_testimonials_4_widget_navigation {
+      right: auto;
+      left: 42px;
+      direction: ltr;
+    }
+  }
+}

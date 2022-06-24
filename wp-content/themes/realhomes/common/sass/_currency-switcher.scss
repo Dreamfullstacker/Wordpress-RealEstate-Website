@@ -1,0 +1,124 @@
+/* Header currency switcher */
+.rh_wrapper_currency_switcher{
+  margin-bottom: 3px;
+  position: relative;
+  right: calc(-100% + 47px);
+  transition: .5s all ease-in-out;
+  direction: ltr;
+  form{
+    margin-bottom: 0;
+  }
+  &:hover{
+    right: 0;
+    transition: .2s all ease-in-out;
+
+  }
+  &.parent_open{
+    right: 0;
+    transition: .2s all ease-in-out;
+  }
+
+}
+.rh_currency_open_full{
+  right: 0;
+  #currency-switcher #selected-currency{
+    &:hover{
+      background-color: #ffffff;
+      color: #0d0d0d;
+    }
+  }
+}
+#currency-switcher-form{
+  background: #000000;
+}
+
+#currency-switcher{
+  margin: 0;
+  position: relative;
+  #selected-currency{
+    color: #fff;
+    //border: 1px solid #fff;
+    font-size: 11px;
+    line-height: 24px;
+    padding: 13px 13px;
+    cursor: pointer;
+    position: relative;
+    display: flex;
+    align-items: center;
+    //border-bottom: 1px solid #dcdcdc;
+    transition: .2s all;
+    &:after{
+      position: absolute;
+      right: 10px;
+      content: "\f107";
+      font-family: "Font Awesome 5 Free";
+      font-weight: 900;
+      font-size: 14px;
+      line-height: 20px;
+      //margin-left: 9px;
+      //margin-right: 9px;
+    }
+    &:hover{
+      //background-color: #ffffff;
+      //color: #0d0d0d;
+    }
+    i{
+      display: inline-block;
+      //margin-left: 9px;
+      //margin-right: 9px;
+
+    }
+    .currency_text{
+      margin-left: 12px;
+      margin-right: 12px;
+      font-size: 14px;
+      line-height: 14px;
+    }
+  }
+  &.open{
+    #selected-currency{
+    background-color: #ffffff;
+    color: #0d0d0d;
+    //border-bottom: 1px solid #dcdcdc;
+    }
+  }
+}
+
+#currency-switcher-list{
+  margin: 0;
+  list-style: none;
+  position: absolute;
+  top: 100%;
+  right: 0;
+  z-index: 9999;
+  display: none;
+  width: 100%;
+  max-height: 220px;
+  overflow-y: auto;
+  li{
+    display: flex;
+    align-items: center;
+    padding: 13px;
+    background-color: #ffffff;
+    color: #808080;
+    border-top: none;
+    font-size: 14px;
+    line-height: 26px;
+    cursor: pointer;
+    vertical-align: middle;
+    transition: .2s all;
+    &:first-child{
+    }
+    &:hover{
+      background-color: #f7f7f7;
+    }
+    i{
+      display: inline-block;
+
+    }
+    .currency_text{
+      margin-left: 13px;
+      margin-right: 9px;
+    }
+  }
+}

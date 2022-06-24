@@ -1,0 +1,52 @@
+$sidebar_width: 300px;
+$content_width: calc(100% - 300px);
+
+:root {
+  --dashboard-primary-color: #1ea69a;
+  --dashboard-primary-hover-color: #1b958b;
+  --dashboard-secondary-color: #ea723d;
+  --dashboard-secondary-hover-color: #d36737;
+  --dashboard-body-color: #808080;
+  --dashboard-heading-color: #333333;
+  --dashboard-link-color: #333333;
+  --dashboard-link-hover-color: #e86126;
+  --dashboard-logo-container-bg-color: #2f3534;
+  --dashboard-logo-color: #fff;
+  --dashboard-logo-hover-color: #f2f2f2;
+  --dashboard-sidebar-bg-color: #1e2323;
+  --dashboard-sidebar-menu-color: #91afad;
+  --dashboard-sidebar-menu-bg-color: #1e2323;
+  --dashboard-sidebar-menu-hover-color: #ffffff;
+  --dashboard-sidebar-menu-hover-bg-color: #1e3331;
+  --dashboard-sidebar-current-submenu-color: #ffffff;
+  --dashboard-sidebar-current-submenu-bg-color: #171b1b;
+  --dashboard-package-background-color: #d5f0eb;
+  --dashboard-popular-package-background-color: #f7daca;
+}
+
+/* Bootstrap Reboot v4.5.2 (https://getbootstrap.com/) */
+@import "dashboard/reboot";
+
+/* Bootstrap Grid v4.5.2 (https://getbootstrap.com/) */
+@import "dashboard/grid";
+
+/* Header */
+@import "dashboard/header";
+
+/* Common */
+@import "dashboard/common";
+
+/* Pages */
+@import "dashboard/pages";
+@import "dashboard/page-membership";
+
+/* Bootstrap Select */
+@import "dashboard/bootstrap-select";
+
+/* Jquery UI */
+@import "dashboard/jquery-ui";
+
+/* RTL */
+.rtl {
+  @import "dashboard/rtl";
+}

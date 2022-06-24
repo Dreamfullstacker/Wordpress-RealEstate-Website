@@ -1,0 +1,360 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Quick and Easy FAQs\n"
+"POT-Creation-Date: 2020-03-06 19:40+0500\n"
+"PO-Revision-Date: 2020-03-06 19:40+0500\n"
+"Last-Translator: M Saqib Sarwar <saqib@inspirythemes.com>\n"
+"Language-Team: M Saqib Sarwar <saqib@inspirythemes.com>\n"
+"Language: pt_BR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.3\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: quick-and-easy-faqs.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;"
+"_n_noop:1,2;_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#. Plugin Name of the plugin/theme
+#: admin/class-gutenberg-editor.php:17 frontend/class-shortcode.php:133
+#, fuzzy
+msgid "Quick and Easy FAQs"
+msgstr "FAQs rápidas e fáceis"
+
+#: admin/class-register-post-and-taxonomy.php:17
+msgctxt "Post Type General Name"
+msgid "FAQs"
+msgstr "FAQs"
+
+#: admin/class-register-post-and-taxonomy.php:18
+msgctxt "Post Type Singular Name"
+msgid "FAQ"
+msgstr "FAQ"
+
+#: admin/class-register-post-and-taxonomy.php:19
+#: admin/class-register-post-and-taxonomy.php:22
+msgid "FAQs"
+msgstr "FAQs"
+
+#: admin/class-register-post-and-taxonomy.php:20
+msgid "FAQ"
+msgstr "FAQ"
+
+#: admin/class-register-post-and-taxonomy.php:21
+msgid "Parent FAQ:"
+msgstr "Categorias FAQ:"
+
+#: admin/class-register-post-and-taxonomy.php:23
+msgid "Add New FAQ"
+msgstr "Adicionar Novo FAQ"
+
+#: admin/class-register-post-and-taxonomy.php:24
+msgid "Add New"
+msgstr "Adicionar Nova"
+
+#: admin/class-register-post-and-taxonomy.php:25
+msgid "New FAQ"
+msgstr "Nova FAQ"
+
+#: admin/class-register-post-and-taxonomy.php:26
+msgid "Edit FAQ"
+msgstr "Editar FAQ"
+
+#: admin/class-register-post-and-taxonomy.php:27
+msgid "Update FAQ"
+msgstr "Atualizar FAQ"
+
+#: admin/class-register-post-and-taxonomy.php:28
+msgid "View FAQ"
+msgstr "Ver FAQ"
+
+#: admin/class-register-post-and-taxonomy.php:29
+msgid "Search FAQ"
+msgstr "Pesquisar FAQ"
+
+#: admin/class-register-post-and-taxonomy.php:30
+msgid "Not found"
+msgstr "Não encontrada"
+
+#: admin/class-register-post-and-taxonomy.php:31
+msgid "Not found in Trash"
+msgstr "Não encontrada na lixeira"
+
+#: admin/class-register-post-and-taxonomy.php:35
+msgid "faq"
+msgstr "faq"
+
+#: admin/class-register-post-and-taxonomy.php:36
+msgid "Frequently Asked Questions"
+msgstr "Perguntas Frequentes"
+
+#: admin/class-register-post-and-taxonomy.php:53
+msgid "faqs"
+msgstr "faqs"
+
+#: admin/class-register-post-and-taxonomy.php:66
+msgctxt "Taxonomy General Name"
+msgid "FAQ Groups"
+msgstr "Grupos de FAQs"
+
+#: admin/class-register-post-and-taxonomy.php:67
+msgctxt "Taxonomy Singular Name"
+msgid "FAQ Group"
+msgstr "Grupo de FAQ"
+
+#: admin/class-register-post-and-taxonomy.php:68
+msgid "Groups"
+msgstr "Grupos"
+
+#: admin/class-register-post-and-taxonomy.php:69
+msgid "All FAQ Groups"
+msgstr "Todos os Grupos de FAQ"
+
+#: admin/class-register-post-and-taxonomy.php:70
+#, fuzzy
+msgid "Parent FAQ Group"
+msgstr "Grupo de Pais e Responsáveis FAQ"
+
+#: admin/class-register-post-and-taxonomy.php:71
+#, fuzzy
+msgid "Parent FAQ Group:"
+msgstr "Grupo de perguntas frequentes dos pais:"
+
+#: admin/class-register-post-and-taxonomy.php:72
+#, fuzzy
+msgid "New FAQ Group Name"
+msgstr "Novo Nome do Grupo FAQ"
+
+#: admin/class-register-post-and-taxonomy.php:73
+#, fuzzy
+msgid "Add New FAQ Group"
+msgstr "Adicionar Novo Grupo FAQ"
+
+#: admin/class-register-post-and-taxonomy.php:74
+#, fuzzy
+msgid "Edit FAQ Group"
+msgstr "Editar Grupo FAQ"
+
+#: admin/class-register-post-and-taxonomy.php:75
+#, fuzzy
+msgid "Update FAQ Group"
+msgstr "Grupo de Perguntas Frequentes de Actualização"
+
+#: admin/class-register-post-and-taxonomy.php:76
+#, fuzzy
+msgid "View FAQ Group"
+msgstr "Ver Grupo FAQ"
+
+#: admin/class-register-post-and-taxonomy.php:77
+#, fuzzy
+msgid "Separate FAQ Groups with commas"
+msgstr "Grupos de FAQ separados com vírgulas"
+
+#: admin/class-register-post-and-taxonomy.php:78
+#, fuzzy
+msgid "Add or remove FAQ Groups"
+msgstr "Adicionar ou remover grupos de perguntas frequentes"
+
+#: admin/class-register-post-and-taxonomy.php:79
+msgid "Choose from the most used"
+msgstr "Escolha entre as características do imóvel mais usadas"
+
+#: admin/class-register-post-and-taxonomy.php:80
+msgid "Popular FAQ Groups"
+msgstr "Grupos Populares FAQ"
+
+#: admin/class-register-post-and-taxonomy.php:81
+#, fuzzy
+msgid "Search FAQ Groups"
+msgstr "Pesquisar grupos de perguntas frequentes"
+
+#: admin/class-register-post-and-taxonomy.php:82
+msgid "Not Found"
+msgstr "Não encontrado"
+
+#: admin/class-register-post-and-taxonomy.php:97
+#, fuzzy
+msgid "faq_groups"
+msgstr "Grupos de FAQs"
+
+#: admin/class-settings.php:62
+#, fuzzy
+msgid "Quick & Easy Settings"
+msgstr "Definições rápidas e fáceis"
+
+#: admin/class-settings.php:63
+msgid "Settings"
+msgstr "Configurações"
+
+#: admin/class-settings.php:80
+msgid "Basic"
+msgstr "Básico"
+
+#: admin/class-settings.php:84
+msgid "Typography"
+msgstr "Tipografia"
+
+#: admin/class-settings.php:85
+#, fuzzy
+msgid ""
+"These settings only applies to FAQs with toggle style. As FAQs with list "
+"style use colors inherited from currently active theme."
+msgstr ""
+"Estas configurações só se aplicam a FAQs com estilo de alternância. Como as "
+"FAQs com estilo de lista usam cores herdadas do tema ativo atualmente."
+
+#: admin/class-settings.php:102
+#, fuzzy
+msgid "FAQs Plugin Based Font Awesome Stylesheet"
+msgstr "Perguntas Frequentes Ficha de Estilos de Fonte Baseada em Plugin"
+
+#: admin/class-settings.php:103
+msgid "Disable"
+msgstr "Desativar"
+
+#: admin/class-settings.php:108
+#, fuzzy
+msgid "Back to Index Link"
+msgstr "Voltar ao link do índice"
+
+#: admin/class-settings.php:109
+msgid "Hide"
+msgstr "Esconder"
+
+#: admin/class-settings.php:117
+#, fuzzy
+msgid "FAQs toggle colors"
+msgstr "FAQs alternância de cores"
+
+#: admin/class-settings.php:119
+#, fuzzy
+msgid "Choose custom colors to apply colors provided in options below."
+msgstr ""
+"Escolha cores personalizadas para aplicar as cores fornecidas nas opções "
+"abaixo."
+
+#: admin/class-settings.php:122
+msgid "Default Colors"
+msgstr "Cores Padrão"
+
+#: admin/class-settings.php:123
+msgid "Custom Colors"
+msgstr "Cores personalizadas"
+
+#: admin/class-settings.php:128
+#, fuzzy
+msgid "Question text color"
+msgstr "Cor do texto da pergunta"
+
+#: admin/class-settings.php:134
+#, fuzzy
+msgid "Question text color on mouse over"
+msgstr "Cor do texto da pergunta em cima do mouse"
+
+#: admin/class-settings.php:140
+#, fuzzy
+msgid "Question background color"
+msgstr "Pergunta cor de fundo"
+
+#: admin/class-settings.php:146
+#, fuzzy
+msgid "Question background color on mouse over"
+msgstr "Questionar a cor de fundo com o rato em cima"
+
+#: admin/class-settings.php:152
+#, fuzzy
+msgid "Answer text color"
+msgstr "Cor do texto de resposta"
+
+#: admin/class-settings.php:158
+#, fuzzy
+msgid "Answer background color"
+msgstr "Responder cor de fundo"
+
+#: admin/class-settings.php:164
+#, fuzzy
+msgid "Toggle Border color"
+msgstr "Alternar cor da fronteira"
+
+#: admin/class-settings.php:170
+msgid "Custom CSS"
+msgstr "CSS Personalizado"
+
+#: admin/class-settings.php:184
+#, fuzzy
+msgid "Quick and Easy FAQs Settings"
+msgstr "Perguntas Frequentes Rápidas e Fáceis"
+
+#: frontend/class-shortcode.php:134
+#, fuzzy
+msgid "Quick and Easy FAQs Plugin"
+msgstr "Perguntas Frequentes Rápido e Fácil Plugin"
+
+#: frontend/class-shortcode.php:136
+msgid "Content"
+msgstr "Conteúdo"
+
+#: frontend/class-shortcode.php:140
+msgid "Display Style"
+msgstr "Estilo de Exibição"
+
+#: frontend/class-shortcode.php:154
+#, fuzzy
+msgid "FAQs Filters"
+msgstr "FAQs Filtros"
+
+#: frontend/class-shortcode.php:165
+#, fuzzy
+msgid "FAQs Order"
+msgstr "Pedido de FAQs"
+
+#: frontend/class-shortcode.php:176
+#, fuzzy
+msgid "FAQs Order By"
+msgstr "Encomendar FAQs Por"
+
+#: includes/class-faqs-query.php:225
+msgid "All"
+msgstr "Todos"
+
+#: includes/class-faqs-query.php:290
+#, fuzzy
+msgid "Back to Index"
+msgstr "Voltar ao Índice"
+
+#: includes/class-settings-api.php:350
+msgid "Choose File"
+msgstr "Escolher Arquivo"
+
+#. Plugin URI of the plugin/theme
+msgid "https://github.com/inspirythemes/quick-and-easy-faqs"
+msgstr "https://github.com/inspirythemes/quick-and-easy-faqs"
+
+#. Description of the plugin/theme
+#, fuzzy
+msgid "A quick and easy way to add FAQs to your site."
+msgstr ""
+"Uma maneira rápida e fácil de adicionar perguntas frequentes ao seu site."
+
+#. Author of the plugin/theme
+msgid "Inspiry Themes"
+msgstr "Adimco Imóveis"
+
+#. Author URI of the plugin/theme
+msgid "https://inspirythemes.com/"
+msgstr "https://inspirythemes.com/"
+
+#~ msgid "Field id is missing!"
+#~ msgstr "Id do campo está faltando!"
+
+#~ msgid "Yes"
+#~ msgstr "Sim"
+
+#~ msgid "No"
+#~ msgstr "Não"

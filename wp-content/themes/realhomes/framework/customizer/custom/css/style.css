@@ -1,0 +1,87 @@
+/* Draggable  Control Styles*/
+.section {
+    height: auto;
+    padding: 15px 0;
+    width: 100%;
+    float: left;
+    border: 1px solid #cccccc;
+    background-color: #fff;
+    margin-bottom: 5px;
+    text-align: center;
+    font-weight: 700;
+    cursor: move;
+}
+
+.section.dragging {
+    border: 1px dashed #000;
+	background-color: rgba(0, 133, 186, 0.31);
+}
+
+.sorting-db {
+    display: none;
+}
+
+/* Radio Image Control Styles*/
+.customize-control-radio-image .image.ui-buttonset input[type=radio] {
+    height: auto;
+}
+
+.customize-control-radio-image .image.ui-buttonset label {
+    display: inline-block;
+    margin-right: 5px;
+    margin-bottom: 20px;
+    padding-left: 0;
+    padding-right: 0;
+    padding-bottom: 0;
+    border-radius: 0;
+    height: auto;
+}
+
+.customize-control-radio-image .image.ui-buttonset label.ui-state-active {
+    background: none;
+}
+
+.customize-control-radio-image .customize-control-radio-buttonset label {
+    padding: 5px 10px;
+    background: #f7f7f7;
+    border-left: 1px solid #dedede;
+    line-height: 35px;
+}
+
+.customize-control-radio-image label img {
+    border: 1px solid #bbb;
+    opacity: 0.5;
+}
+
+#customize-controls .customize-control-radio-image label img {
+    /*max-width: 120px;*/
+    height: auto;
+}
+
+.customize-control-radio-image label.ui-state-active img {
+    background: #dedede;
+    border-color: #000;
+    opacity: 1;
+}
+
+.customize-control-radio-image label.ui-state-hover img {
+    opacity: 0.9;
+    border-color: #999;
+}
+
+.customize-control-radio-buttonset label.ui-corner-left {
+    border-radius: 3px 0 0 3px;
+    border-left: 0;
+}
+
+.customize-control-radio-buttonset label.ui-corner-right {
+    border-radius: 0 3px 3px 0;
+}
+
+.customize-control-heading{
+    font-size: 14px;
+    line-height: 1.75;
+    font-weight: 600;
+    margin-top: 5px;
+    margin-bottom: 0;
+}

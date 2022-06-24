@@ -1,0 +1,54 @@
+.dsidx-results.dsidx-results-grid {
+  #dsidx-listings {
+    .dsidx-photo-count {
+      padding: 6px 5px 2px 24px !important;
+    }
+
+    .dsidx-listing {
+      border: 1px solid #dedede;
+
+      &:hover {
+        .dsidx-address {
+          a {
+            text-decoration: underline;
+          }
+        }
+      }
+    }
+
+    .dsidx-photo {
+      left: 0!important;
+    }
+
+    .dsidx-data {
+      .dsidx-primary-data {
+        width: 100%;
+        border: none;
+        background: none;
+        padding-bottom: 0;
+
+        .dsidx-address {
+          display: block;
+          float: none;
+          margin-left: 0;
+          margin-bottom: 5px;
+          padding-left: 10px;
+
+          a {
+            color: #333333;
+
+            span {
+              color: #66747e;
+            }
+          }
+        }
+
+        .dsidx-price {
+          float: none;
+          display: block;
+          padding: 5px 10px 6px !important;
+        }
+      }
+    }
+  }
+}

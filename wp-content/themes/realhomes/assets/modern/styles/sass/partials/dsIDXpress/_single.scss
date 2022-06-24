@@ -1,0 +1,135 @@
+#dsidx.dsidx-details {
+
+  #dsidx-header {
+    margin-top: 10px;
+
+    #dsidx-media-td {
+      padding-bottom: 10px;
+    }
+  }
+
+  #dsidx-primary-data {
+
+    tr {
+      th {
+        text-align: right;
+      }
+
+      &#dsidx-price {
+        td {
+          font-size: 18px;
+        }
+      }
+    }
+  }
+
+  #dsidx-description {
+    background: #fff;
+    border: 0;
+    padding: 10px;
+    margin-bottom: 0;
+
+    &:before {
+      content: none;
+    }
+  }
+
+  .dsidx-headerbar-green {
+    border-color: var(--rh-global-color-primary);
+    border-bottom: 0;
+    background: var(--rh-global-color-primary);
+
+    span.dsidx-header-title {
+      color: #fff !important;
+    }
+  }
+
+  .dsidx-contact-form {
+    border-color: var(--rh-global-color-primary);
+
+    table {
+
+      td, th {
+        vertical-align: middle;
+        font-size: 14px;
+      }
+
+      input.dsidx-text {
+        border: 1px solid #ededed;
+        height: 35px;
+        padding: 5px 10px;
+      }
+      .dsidx-contact-form-comments {
+        border: 1px solid #ededed;
+        padding: 5px 10px;
+      }
+
+      .dsidx-contact-form-schedule-yesno {
+        margin-right: 7px;
+      }
+
+      .select2-container {
+        width: 22%;
+      }
+    }
+  }
+
+  #dsidx-contact-disclaimer {
+    margin-bottom: 10px;
+  }
+
+  @media (max-width: 767px) {
+    padding: 0 12px;
+    .dsidx-call-to-action {
+      #dsidx-button-contact-agent,
+      #dsidx-button-schedule-showing {
+        width: auto !important;
+        @media (max-width: 417px) {
+          &:first-child {
+            margin-bottom: 5px;
+          }
+        }
+      }
+    }
+
+    .dsidx-contact-form table {
+      input.dsidx-text,
+      textarea,
+      .select2-container {
+        width: 90%;
+      }
+
+      .select2-container {
+        margin-bottom: 5px;
+      }
+    }
+  }
+}
+
+/* similar properties */
+#dsidx-similar-listings {
+  width: 100%;
+  padding: 0 !important;
+
+  .dsidx-result {
+    float: left;
+    width: 33.3%;
+    min-height: 126px;
+  }
+
+  .dsidx-result:nth-child(3n+1) {
+    clear: left;
+  }
+
+  @media (max-width: 767px) {
+    .dsidx-result {
+      width: 100%;
+    }
+
+    .dsidx-small-listing {
+      .dsidx-media {
+        width: auto;
+      }
+    }
+  }
+}

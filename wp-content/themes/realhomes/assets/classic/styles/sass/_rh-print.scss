@@ -1,0 +1,717 @@
+/*
+ * Print Styles
+ */
+@media print {
+
+  * {
+    background: transparent !important;
+    color: #000 !important;
+    box-shadow: none !important;
+    text-shadow: none !important;
+  }
+
+  html {
+    padding: 0 !important;
+  }
+
+  html,
+  body {
+    max-width: 960px !important;
+    width: auto !important;
+    height: auto !important;
+    margin: 0 auto !important;
+  }
+
+  body {
+    padding: 10px 25px !important;
+  }
+
+  @page {
+    margin: 1cm 0 !important;
+  }
+
+  a[href]:after {
+    content: "";
+  }
+
+  abbr[title]:after {
+    content: " [" attr(title) "] ";
+  }
+
+  [class*="span"] {
+    width: auto;
+  }
+
+  // Don't show links for images or javascript/internal links
+  .ir a:after,
+  a[href^="javascript:"]:after,
+  a[href^="#"]:after {
+    content: "";
+  }
+
+  pre,
+  blockquote {
+    border: 1px solid #999;
+  }
+
+  .single-property {
+    max-width: 768px;
+    margin: 0 auto;
+  }
+
+  @page {
+    margin: 25px;
+  }
+
+  img {
+    max-width: 100% !important;
+  }
+
+  #property_map img {
+    max-width: none !important;
+  }
+
+  // Theme specific css
+  body .container,
+  .page .container,
+  .single .container {
+    width: auto;
+    margin-bottom: 0;
+  }
+
+  .page .inner-wrapper,
+  .single .inner-wrapper {
+    padding: 0;
+    border: none;
+    margin-bottom: 0;
+  }
+
+  .only-for-print {
+    display: block;
+  }
+
+  .only-for-print.inline {
+    display: inline;
+  }
+
+  .only-for-print.inline-block {
+    display: inline-block;
+  }
+
+  // common
+  .yelp-wrap,
+  .walkscore-wrap,
+  .rh_property__mc_wrap,
+  .rh_property__mc_wrap .mc_left_side,
+  .availability-calendar-wrap,
+  .availability-calendar,
+  #currency-switcher,
+  #header-top #lang_sel,
+  .user-nav,
+  .tag-arrow,
+  .advance-search,
+  .pagination,
+  .view-type,
+  .follow-agent,
+  .detail .listing-layout.property-grid,
+  .page-breadcrumbs,
+  .social_networks,
+  .main-menu,
+  .property-item .printer-icon,
+  .property-item .printer-icon a,
+  .property-video,
+  .rh_property__video,
+  .share-networks,
+  .sidebar,
+  #comments,
+  .featured-properties-carousel,
+  #footer-wrapper,
+  .brands-carousel,
+  .slider-socket,
+  .rh_partners,
+  .inspiry-post-nav,
+  .rh_wrapper_floating_features,
+  .floor-plans .floor-plan-title .fa,
+  .floor-plans .floor-plan-title .fas,
+  .switcher__lang,
+  .single-property .property-sidebar .widget,
+  .single-property .property-sidebar .widget.widget_mortgage-calculator,
+  #scroll-top,
+  .child-properties,
+  #property-slider-two-wrapper,
+  #property-detail-flexslider,
+  .rh_sticky_wrapper_footer,
+  .grecaptcha-badge,
+  .property-views-wrap,
+  .property-views-wrapper,
+  .property-comments,
+  #property-agent-contact-methods-wrapper,
+  #overview .attachments-wrap {
+    display: none !important;
+  }
+
+  .single-property .property-sidebar,
+  .single-property .property-sidebar .property-agent,
+  .floor-plans .floor-plan-content {
+    display: block !important;
+  }
+
+  // Header Top
+  #header-top {
+    margin-bottom: 10px !important;
+    border: none;
+    text-align: left;
+
+    #contact-email {
+      display: inline;
+
+      i {
+        display: none;
+      }
+    }
+  }
+
+  #header {
+    margin-bottom: 0 !important;
+  }
+
+  .page-head {
+    min-height: 1px;
+    margin-bottom: 10px !important;
+    padding-top: 10px !important;
+  }
+
+  .outer-wrapper .wrap {
+    float: left;
+    width: calc(100% - 90px);
+  }
+
+  .inspiry-qr-code {
+    float: left;
+    margin: -10px 0 5px -15px;
+  }
+
+  body.sticky-header {
+    padding-top: 0 !important;
+  }
+  .header-wrapper.stick {
+    position: relative !important;
+    padding-top: 0 !important;
+  }
+  .sticky-header #property-featured-image {
+    margin-top: 20px;
+  }
+
+  // Logo
+  #logo {
+    float: left !important;
+    margin-bottom: 0 !important;
+
+    img {
+      max-width: 80% !important;
+      margin-bottom: 10px;
+    }
+
+    .logo-heading {
+      margin: 0;
+      font-size: 21px;
+      line-height: 30px;
+    }
+  }
+
+  #logo,
+  #header .tag-line {
+    text-align: left !important;
+  }
+
+  .menu-and-contact-wrap {
+    float: right;
+  }
+
+  .contact-number {
+    float: right !important;
+    margin-bottom: 0 !important;
+  }
+
+  // Header
+  #header {
+    .contact-number {
+      margin-top: 0;
+
+      .fa-phone,
+      .fa-whatsapp {
+        margin: 0;
+        position: relative;
+        top: 1px;
+        padding: 10px 4px;
+      }
+    }
+
+    .tag-line {
+      text-align: left;
+      margin: 0;
+
+      span {
+        margin: 0;
+        padding: 0;
+      }
+    }
+  }
+
+  #property-featured-image {
+    margin-bottom: 25px;
+  }
+
+  .span9.main-wrap {
+    width: 100%;
+  }
+
+  #overview .property-item ul.additional-details li {
+    padding: 3.5px 0;
+    border-bottom: none;
+  }
+
+  #overview .property-item h4.additional-title,
+  #overview .property-item .common-note .common-note-heading,
+  #overview .floor-plans .floor-plans-label,
+  .detail #overview .property-item .title,
+  .energy-performance-wrap .title {
+    margin: 0 0 10px;
+    padding: 0;
+    font-size: 16px;
+    font-weight: 700;
+  }
+
+  .energy-performance-wrap .title {
+    border: none;
+  }
+
+  .energy-performance-wrap,
+  .energy-performance-wrap .energy-performance,
+  .property-section-order-custom .main,
+  .main {
+    padding: 0;
+    border: none !important;
+  }
+
+  .main {
+    margin-bottom: 0 !important;
+  }
+
+  #overview .left-box figure {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+
+  #overview .property-item ul.additional-details {
+    border-top: none;
+  }
+
+  // Post Detail Page
+  .page,
+  .single-post {
+    .hentry {
+      .post-title,
+      .post-title a {
+        margin: 0 0 5px;
+      }
+
+      .post-meta {
+        border: none;
+        padding: 0 0 10px;
+      }
+
+      img, pre, blockquote {
+        page-break-inside: avoid;
+      }
+    }
+  }
+
+  .detail #overview {
+    .property-item {
+      .wrap {
+        margin-bottom: 5px;
+        page-break-inside: avoid;
+      }
+
+      .title {
+        float: none;
+        margin: 0;
+        padding: 0;
+        font-weight: bold;
+      }
+
+      .price {
+        float: none;
+        padding: 0;
+        margin: 0 0 5px 0;
+
+        span {
+          padding: 0;
+          margin: 0;
+          display: inline-block;
+        }
+
+        small {
+          font-size: inherit;
+        }
+
+        .status-label {
+          padding: 0 10px 0 0;
+        }
+      }
+
+      .property-meta {
+        border: none;
+        margin: 0 0 10px 0;
+
+        span {
+          border: none;
+          margin-left: 0;
+          padding: 0 15px 0 0;
+          float: left;
+
+          i {
+            display: none;
+          }
+        }
+
+        .add-to-fav {
+          display: none;
+        }
+      }
+
+      .content {
+        padding: 0;
+        margin-bottom: 0;
+        border: none;
+      }
+
+      .features {
+        border: none;
+        margin-top: 25px;
+        margin-bottom: 20px;
+        page-break-inside: avoid;
+
+        ul.arrow-bullet-list {
+          margin: 0px;
+
+          li {
+            width: 200px;
+            margin: 0 0 0 20px;
+            padding: 0;
+            float: left;
+            list-style-type: circle;
+            background-image: none !important;
+
+            &:before {
+              content: none;
+            }
+          }
+        }
+
+        h4 {
+          border: none;
+          padding: 0;
+          margin-bottom: 15px;
+        }
+      }
+    }
+
+    .map-wrap {
+      padding: 0px;
+      border: none;
+
+      .map-label {
+        display: none;
+      }
+
+      #property_map {
+        width: auto;
+        margin-bottom: 25px;
+        page-break-inside: avoid;
+      }
+    }
+
+    .agent-detail {
+      padding: 0;
+      margin: 20px 0 0;
+      page-break-inside: avoid;
+      border: none;
+
+      .left-box {
+        width: auto;
+        float: none;
+
+        figure img {
+          border: none;
+        }
+
+        .contacts-list {
+          float: none;
+          width: auto;
+          border: none;
+
+          li {
+            border: none;
+            margin: 0 0 10px 0;
+            padding: 0;
+          }
+        }
+
+        .real-btn {
+          display: none;
+        }
+      }
+
+      .contact-form {
+        display: none;
+      }
+    }
+  }
+
+  // Single Agent
+  .single-agent {
+    .listing-layout {
+      border: none;
+
+      .about-agent {
+        border: none;
+        padding: 0;
+        margin: 0 0 20px;
+        border-bottom: 1px solid #dedede;
+      }
+    }
+  }
+
+  .listing-grid-layout .title-heading {
+    padding: 0;
+    position: static;
+    top: auto;
+    left: auto;
+    border-top: 1px solid #dedede;
+  }
+
+  .listing-grid-layout .main {
+    margin: 20px 0 0;
+    padding: 0;
+  }
+
+  .listing-layout {
+    border: none;
+
+    .list-container {
+      border-top: 1px solid #dedede;
+      padding: 10px 0 0;
+
+      .property-item {
+        padding: 0;
+        border: none;
+        page-break-inside: avoid;
+
+        figure {
+          margin: 0 10px 10px 0;
+
+          figcaption {
+            background: #fff !important;
+            color: #000 !important;
+          }
+        }
+
+        .detail {
+          width: auto;
+          float: none;
+        }
+
+        .property-meta {
+          margin: 0;
+          padding: 0;
+          border: 1px solid #dedede;
+
+          span {
+            padding: 5px 10px;
+
+            i {
+              display: none;
+            }
+          }
+        }
+
+        .more-details {
+          display: none;
+        }
+      }
+    }
+  }
+
+  .home {
+    .narrative {
+      padding: 10px;
+    }
+
+    .property-items {
+      .span6 {
+        width: auto;
+      }
+
+      .property-item {
+
+        h4,
+        h4 a {
+          margin-bottom: 10px;
+        }
+
+        page-break-inside: avoid;
+
+        figure {
+          margin: 0 10px 10px 0;
+
+          figcaption {
+            background: #fff !important;
+            color: #000 !important;
+          }
+        }
+
+        .detail {
+          width: auto;
+          float: none;
+        }
+
+        .property-meta {
+          span {
+            padding: 5px 10px;
+
+            i {
+              display: none;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  // common note
+  #overview .property-item .common-note {
+    border: none;
+    padding: 0;
+    page-break-inside: avoid;
+  }
+
+  #contact-email {
+    font-size: 16px;
+  }
+
+  .floor-plans {
+    margin-bottom: 20px;
+
+    .floor-plan-title {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 10px 15px;
+
+      h3 {
+        margin: 0 !important;
+      }
+    }
+
+    .floor-plan-title,
+    .floor-plan-content {
+      border: 1px solid #dedede !important;
+    }
+
+    .floor-plan-content {
+      padding: 15px;
+    }
+
+    .floor-plan-title {
+      border-bottom: none !important;
+    }
+
+    img {
+      max-width: 300px !important;
+    }
+  }
+
+  .floor-plans,
+  .page-head .page-title span {
+    padding: 0;
+    opacity: 1;
+  }
+
+  .single-property {
+    .property-sidebar {
+
+      .property-agent {
+        border: none;
+        padding-bottom: 0;
+
+        .property-agent-title {
+          border-bottom: none;
+          padding: 0 0 15px;
+          margin: 0;
+        }
+
+        .agent-info {
+          padding: 0;
+
+          img {
+            display: inline-block;
+            width: auto;
+            float: left;
+            border: none;
+            margin-bottom: 0;
+          }
+
+          .contacts-list {
+            float: left;
+            margin: 0 auto;
+            padding: 0 0 0 20px;
+
+            li {
+              padding: 0 0 10px 0;
+              text-indent: 0;
+              border-top: none;
+              border-bottom: none;
+
+              svg {
+                display: none;
+              }
+            }
+          }
+
+          p {
+            float: left;
+            width: 370px;
+            padding: 0 0 0 20px;
+            margin-bottom: 0;
+
+            .real-btn {
+              display: none;
+            }
+          }
+        }
+
+        .enquiry-form {
+          display: none;
+        }
+      }
+    }
+  }
+
+  .rvr-property-policies,
+  .rvr-location-surrounding {
+    padding: 0;
+    margin-bottom: 15px;
+    border: none;
+  }
+
+  .energy-performance-wrap .energy-performance .epc-details {
+    border-color: grey !important;
+  }
+
+  .energy-performance-wrap .energy-performance .energy-class li.current span {
+    border-top-color: grey !important;
+  }
+
+}

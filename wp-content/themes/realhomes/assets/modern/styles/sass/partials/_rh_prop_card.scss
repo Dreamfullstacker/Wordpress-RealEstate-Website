@@ -1,0 +1,463 @@
+/**
+ * Property Card
+ */
+
+.rh_prop_card {
+	position: relative;
+	width: 100%;
+	padding: 0 15px 30px;
+
+	@include r(768)  { width: 50%; }
+	@include r(1024) { width: 33.3%; }
+
+	.rh_prop_card__featured {
+		margin: 0 auto;
+		max-width: 55rem;
+		position: relative;
+		margin-top: -11rem;
+		padding: 4rem;
+		box-shadow: 0px 0px 5px 2px rgba(0,0,0,0.05);
+
+		@include r(320)  { max-width: 30rem; }
+		@include r(480)  { max-width: 45rem; }
+		@include r(768)  { max-width: 45rem; }
+		@include r(1024) { max-width: 55rem; }
+		@include r(1140) { max-width: 55rem; }
+		@include r(1280) { max-width: 55rem; }
+	}
+
+	.rh_prop_card__child_property {
+		position: relative;
+		max-width: 55rem;
+		margin: 0 auto;
+		margin-top: -5rem;
+		padding: 4rem;
+
+		@include r(768)  {
+          box-shadow: 0px 0px 5px 2px rgba(0,0,0,0.05);
+		}
+	}
+
+	.rh_prop_card__wrap {
+		box-shadow: 0px 0px 5px 2px rgba(0,0,0,0.05);
+	}
+
+	.rh_prop_card__thumbnail {
+		position: relative;
+		margin: 0;
+
+		.rh_figure_property_one{
+			display: block;
+			@extend .property-thumbnail-gradient;
+			&:hover {
+				.rh_overlay {
+					opacity: 1;
+				}
+				.rh_overlay__contents {
+					top: 50%;
+					left: 50%;
+					opacity: 1;
+				}
+			}
+		}
+
+		a {
+			display: flex;
+		}
+
+		.rh_overlay__contents {
+			a {
+			    display: inline-block;
+			    color: #fff;
+			    font-weight: 500;
+			    font-size: 1.4rem;
+			    border: 1px solid #fff;
+			    padding: 1.5rem 2rem;
+			    line-height: 1.5;
+			    transition: 0.2s all linear;
+
+			    &:hover {
+			    	color: var(--rh-global-color-primary);
+			    	background: #fff;
+			    	transition: 0.2s all linear;
+			    }
+			}
+		}
+
+		img {
+			width: 100%;
+			height: 100%;
+			transition: 0.2s transform linear;
+
+			&:hover {
+				// transform: scale( 1.08 );
+				// transition: 0.2s transform linear;
+			}
+		}
+
+		.rh_prop_card__btns {
+			position: absolute;
+			right: 0;
+			bottom: 0;
+			z-index: 1;
+			margin: 2rem;
+
+			a {
+				display: inline-block;
+				margin-left: 1rem;
+
+				svg {
+					path {
+						fill: #fff;
+						transition: 0.2s all linear;
+					}
+				}
+
+				&:hover {
+					svg {
+						path {
+							fill: var(--rh-global-color-secondary);
+							transition: 0.2s all linear;
+						}
+					}
+				}
+			}
+
+			.favorite {
+				&:hover {
+					svg {
+						path {
+							fill: #ea3d3d;
+						}
+					}
+				}
+			}
+
+			.hide {
+				display: none;
+			}
+		}
+
+		.rh_prop_card__remove_fav {
+			position: absolute;
+			right: 0;
+			top: 0;
+			padding: 0;
+
+			a {
+				display: inline-block;
+				background: rgba(#000, 0.2);
+				padding: 0.5rem 0.8rem;
+
+				&:hover {
+					cursor: pointer;
+					background: rgba(#000, 0.5);
+					transition: 0.2s all linear;
+				}
+
+				i {
+					color: #fff;
+				}
+			}
+		}
+	}
+
+	.rh_prop_card__child_thumb {
+		max-width: 70rem;
+		margin: 0 auto;
+	}
+
+	.rh_prop_card__details {
+		display: block;
+		width: 100%;
+		background: #fff;
+		padding: 2rem;
+		text-align: left;
+
+		@include r(480)  { padding: 2.5rem; }
+
+		h3 {
+			margin: 0;
+			margin-bottom: 1.5rem;
+
+			a {
+				color: var(--rh-global-color-headings);
+				font-size: 1.9rem;
+				font-weight: 500;
+				line-height: 1.5;
+				transition: 0.2s all linear;
+
+				&:hover {
+					color: var(--rh-global-color-primary);
+					transition: 0.2s all linear;
+				}
+			}
+		}
+
+		.rh_prop_card__excerpt {
+			font-size: 1.4rem;
+			line-height: 1.5;
+			margin-bottom: 2rem;
+		}
+
+		.rh_prop_card__meta_wrap {
+			display: flex;
+			justify-content: flex-start;
+			align-items: flex-start;
+			flex-wrap: wrap;
+			margin-bottom: 0.5rem;
+		}
+
+		.rh_prop_card__meta {
+			padding: 0 1.5rem 1.5rem 0;
+			
+			.rh_meta_titles {
+				font-size: 1.3rem;
+				font-weight: 500;
+				margin: 0;
+				margin-bottom: 1rem;
+				line-height: 1.2;
+				color: #1a1a1a;
+				display: inline-block;
+			}
+
+			svg {
+				fill: #b3b3b3;
+			}
+
+			.figure {
+				font-size: 1.3rem;
+				font-weight: 500;
+				padding: 0 0 0 1rem;
+			}
+			.label {
+				font-size: 1.3rem;
+				padding: 0 0 0 0.3rem;
+			}
+		}
+
+		.rh_prop_card__priceLabel {
+			.rh_prop_card__status {
+				font-size: 1.3rem;
+				font-weight: 500;
+				margin: 0;
+				margin-bottom: 0.5rem;
+				line-height: 1.2;
+				color: #1a1a1a;
+				display: block;
+			}
+
+			.rh_prop_card__price {
+				font-size: 2.2rem;
+				color: var(--rh-global-color-primary);
+			}
+		}
+	}
+}
+
+#home-properties-section-wrapper{
+	.rh_property_card_stylish,.rh_prop_card--listing{
+		width: 33.3333%;
+		@include r(max1023){
+			width: 50%;
+		}
+		@include r(max767){
+			width: 100%;
+		}
+	}
+}
+
+.rh_rvr_price_status_box{
+	p.rh_prop_card__price{
+		margin-bottom: 0;
+		line-height: initial;
+	}
+}
+
+.add-to-compare {
+	path {
+		fill: #fff;
+		transition: 0.2s all linear;
+	}
+}
+
+// Featured Properties Variation
+.rh_section__featured {
+	margin: 0 auto;
+	max-width: 65rem;
+	padding: 0 0 3rem 0;
+	position: relative;
+
+	@include r(320)  { max-width: 100%; padding: 0 2rem 3rem; }
+	@include r(480)  { padding: 0 3rem 3rem; }
+	@include r(768)  { max-width: 50rem; padding: 0 0 3rem 0; }
+	@include r(1024) { max-width: 65rem; padding: 1rem 0 3rem; }
+
+	.rh_flexslider__nav {
+		a {
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			width: 73px;
+			height: 73px;
+			position: absolute;
+			top: 32%;
+			border-radius: 500rem;
+			-webkit-box-shadow: 0px 0px 5px 2px rgba(0,0,0,0.1);
+			-moz-box-shadow: 0px 0px 5px 2px rgba(0,0,0,0.1);
+			box-shadow: 0px 0px 5px 2px rgba(0,0,0,0.05);
+			transition: 0.2s all linear;
+
+			@include r(320)  { display: none; }
+			@include r(480)  { display: none; }
+			@include r(768)  { display: flex; width: 73px; height: 73px; }
+			@include r(1024) { display: flex; width: 73px; height: 73px; }
+			@include r(1140) { display: flex; width: 73px; height: 73px; }
+			@include r(1280) { display: flex; width: 73px; height: 73px; }
+
+			&:hover {
+				background: var(--rh-global-color-secondary);
+				transition: 0.2s all linear;
+
+				svg {
+					fill: #fff;
+					transition: 0.2s all linear;
+				}
+			}
+			svg {
+				fill: $rh_text_color;
+				transition: 0.2s all linear;
+			}
+		}
+	}
+
+	.rh_flexslider__prev {
+		left: -15rem;
+
+		@include r(320)  { left: -2rem; }
+		@include r(480)  { left: -2rem; }
+		@include r(768)  { left: -10rem; }
+		@include r(1024) { left: -15rem; }
+		@include r(1140) { left: -15rem; }
+		@include r(1280) { left: -15rem; }
+	}
+
+	.rh_flexslider__next {
+		right: -15rem;
+
+		@include r(320)  { right: -2rem; }
+		@include r(480)  { right: -2rem; }
+		@include r(768)  { right: -10rem; }
+		@include r(1024) { right: -15rem; }
+		@include r(1140) { right: -15rem; }
+		@include r(1280) { right: -15rem; }
+	}
+
+	.flexslider {
+		background: none;
+		border: none;
+		border-radius: 0;
+		box-shadow: none;
+		margin: 0;
+
+		ul.flex-direction-nav {
+			display: none;
+		}
+		li{
+			img{
+				height: 100%;
+			}
+		}
+	}
+	.property-label{
+		left: auto;
+		bottom: auto;
+		right: 20px;
+		top: 20px;
+	}
+}
+
+
+// Featured Property Widget
+.rh_prop_card--block {
+	display: block;
+	width: 100%;
+	padding: 0;
+	margin: 2rem 0 4rem 0;
+
+	@include r(320)  { width: 100%; margin: 2rem 0; }
+	@include r(768)  { width: 100%; margin: 2rem 0 4rem 0; }
+}
+
+// Grid listing property.
+.rh_prop_card--listing {
+	width: 100%;
+	margin: 0 auto;
+	padding: 0 15px 30px;
+
+	//@include r(320)  {  max-width: 40rem; }
+	@include r(768)  { width: 50%; }
+}
+
+.rh_page__listing_grid-three-column{
+
+	.rh_prop_card--listing {
+
+		@include r(1140) {
+			width: 33.333333%;
+		}
+	}
+}
+
+// Similar Property
+.rh_prop_card--similar {
+	width: 100%;
+	padding: 0 2rem 3rem;
+    z-index: 0;
+
+	@include r(768)  { width: 50%; padding: 0 2rem 4rem 2rem; }
+}
+
+.property-label {
+	position: absolute;
+	left: 20px;
+	bottom: 20px;
+	color: white;
+	padding: 5px 8px 4px;
+	font-size: 14px;
+	z-index: 1;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+}
+
+// Overlay
+.rh_overlay {
+	background: rgba(var(--rh-global-color-primary-rgb) ,0.7);
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	left: 0;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	opacity: 0;
+	transition: all 0.4s ease-in-out 0s;
+}
+
+.rh_overlay__contents {
+	position: absolute;
+	text-align: center;
+	padding-left: 1em;
+	padding-right: 1em;
+	width: 100%;
+	top: 50%;
+	left: 50%;
+	opacity: 0;
+	transform: translate(-50%, -50%);
+	transition: all 0.3s ease-in-out 0s;
+}
+
+.rh_overlay__fadeIn-bottom {
+	top: 80%;
+}

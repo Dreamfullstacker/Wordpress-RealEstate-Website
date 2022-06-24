@@ -1,0 +1,41 @@
+/**
+ * Google Maps
+ */
+
+.rh_map {
+	display: block;
+
+	#map-head {
+		height: 60rem;
+
+		#listing-map {
+			height: 100%;
+		}
+	}
+	@media (min-width: 480px) and (max-width: 1024px) {
+		#map-head {
+			height: 50rem;
+		}
+	}
+
+	@media (max-width: 480px) {
+		#map-head {
+			height: 50rem;
+		}
+	}
+}
+
+.rh_map__search {
+
+	#map-head {
+		margin-top: -5.3rem;
+		@include r(320)  { margin-top: 0; }
+		@include r(1024) { margin-top: -4.5rem; }
+		@include r(1140) { margin-top: -4rem; }
+		@include r(1280) { margin-top: -4.75rem; }
+	}
+}
+
+.inspriry_search_form_hidden_in_header .rh_map__search #map-head {
+	margin-top: 0;
+}

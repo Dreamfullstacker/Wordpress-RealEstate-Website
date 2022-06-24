@@ -1,0 +1,88 @@
+/**
+ * Edit Profile Page
+ */
+
+#user-profile-img {
+	margin-top: -4.5rem;
+	margin-right: 3rem;
+
+	@include r(320)  { margin-top: -3.5rem; margin-right: 0; margin-bottom: 2rem; }
+	@include r(480)  { margin-top: -4.5rem; margin-right: 0; margin-bottom: 3rem; }
+	@include r(768)  { margin-top: -4.5rem; margin-right: 3rem; margin-bottom: 0; }
+	@include r(1024) { margin-top: -4.5rem; margin-right: 3rem; margin-bottom: 0; }
+	@include r(1140) { margin-top: -4.5rem; margin-right: 3rem; margin-bottom: 0; }
+	@include r(1280) { margin-top: -4.5rem; margin-right: 3rem; margin-bottom: 0; }
+
+	.profile-thumb {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	    width: 128px;
+		height: 128px;
+		background: #fff url(../../images/profile-img-placeholder.png) no-repeat center center;
+		background-size: cover;
+		margin: 0 auto;
+	}
+}
+
+.profile-img-controls {
+	text-align: center;
+
+	@include r(320)  { text-align: center; }
+	@include r(480)  { text-align: center; }
+	@include r(768)  { text-align: left; }
+	@include r(1024) { text-align: left; }
+	@include r(1140) { text-align: left; }
+	@include r(1280) { text-align: left; }
+
+	a {
+		padding: 1.3rem 2rem;
+		margin-right: 1.5rem;
+
+		@include r(320)  { margin-right: 0; margin-bottom: 1.5rem; }
+		@include r(480)  { margin-right: 1.5rem; margin-bottom: 0; }
+		@include r(768)  { margin-right: 1.5rem; margin-bottom: 0; }
+		@include r(1024) { margin-right: 1.5rem; margin-bottom: 0; }
+		@include r(1140) { margin-right: 1.5rem; margin-bottom: 0; }
+		@include r(1280) { margin-right: 1.5rem; margin-bottom: 0; }
+	}
+
+	.field-description {
+		display: block;
+		list-style-type: none;
+		font-size: 1.5rem;
+		font-weight: 500;
+		line-height: 1.5;
+		padding: 2rem 0 0 0;
+		margin: 0;
+		text-align: left;
+
+		@include r(320)  { padding: 0.5rem 0 0 0; }
+		@include r(480)  { padding: 2rem 0 0 0; }
+		@include r(768)  { padding: 2rem 0 0 0; }
+		@include r(1024) { padding: 2rem 0 0 0; }
+		@include r(1140) { padding: 2rem 0 0 0; }
+		@include r(1280) { padding: 2rem 0 0 0; }
+	}
+}
+
+#form-loader {
+	display: none;
+	width: 32px;
+	height: 32px;
+	margin-left: 1.5rem;
+}
+
+#form-message {
+	font-size: 1.5rem;
+	padding: 0 1.5rem;
+}
+
+#form-errors {
+	display: block;
+	color: $rh_text_color;
+	font-size: 1.5rem;
+	padding: 0 1.5rem;
+	list-style-type: none;
+	line-height: 1.5;
+}

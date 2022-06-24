@@ -1,0 +1,202 @@
+/*!
+ * Real Homes Styles
+ *
+ * This file includes
+ *
+ * 1. Bootstrap styles
+ * 2. Bootstrap responsive styles
+ * 3. Core theme styles
+ * 4. Theme's responsive styles
+ */
+
+/*
+ * 1. Bootstrap Styles
+ */
+// Core variables and mixins
+@import "variables";
+@import "mixins";
+
+// CSS Reset
+@import "reset";
+
+// Grid system and page structure
+@import "scaffolding";
+@import "grid";
+@import "layouts";
+
+// Base CSS
+@import "type";
+@import "code";
+@import "forms";
+@import "tables";
+
+// Components: common
+@import "sprites";
+@import "dropdowns";
+@import "wells";
+@import "component-animations";
+@import "close";
+
+// Components: Buttons & Alerts
+@import "buttons";
+@import "button-groups";
+@import "alerts"; // Note: alerts share common CSS with buttons and thus have styles in buttons
+
+// Components: Nav
+@import "navs";
+@import "navbar";
+@import "breadcrumbs";
+@import "pagination";
+@import "pager";
+
+// Components: Popovers
+@import "modals";
+@import "tooltip";
+@import "popovers";
+
+// Components: Misc
+@import "thumbnails";
+@import "media";
+@import "labels-badges";
+@import "progress-bars";
+@import "accordion";
+@import "carousel";
+@import "hero-unit";
+
+// Utility classes
+@import "utilities"; // Has to be last to override when necessary
+
+/*
+ * 2. Bootstrap responsive styles
+ */
+@-ms-viewport{
+  width: device-width;
+}
+
+// REPEAT VARIABLES & MIXINS
+// -------------------------
+// Required since we compile the responsive stuff separately
+
+@import "variables"; // Modify this for custom colors, font-sizes, etc
+@import "mixins";
+
+// RESPONSIVE CLASSES
+// ------------------
+@import "responsive-utilities";
+
+// MEDIA QUERIES
+// ------------------
+
+// Large desktops
+@import "responsive-1200px-min";
+@import "responsive-980px-1199px";
+
+// Tablets to regular desktops
+@import "responsive-768px-979px";
+
+// Phones to portrait tablets and narrow desktops
+@import "responsive-767px-max";
+
+// RESPONSIVE NAVBAR
+// ------------------
+// From 979px and below, show a button to toggle navbar contents
+@import "responsive-navbar";
+
+// Social Media Colors;
+$facebook: #3b5998; 	/* Facebook */
+$twitter: #1da1f2; 		/* Twitter */
+$linkedin: #0077b5; 	/* LinkedIn */
+$googleplus: #dd4b39; 	/* Google+ */
+$instagram: #000000; 	/* Instagram */
+$skype: #00aff0; 		/* Skype */
+$youtube: #cd201f; 		/* YouTube */
+$pinterest: #bd081c; 	/* Pinterest */
+$tumblr: #35465c; 		/* Tumblr */
+$rss: #f26522; 			/* RSS */
+$stumbleupon: #eb4924; 	/* StumbleUpon */
+
+$outer_Wrapper_background_color:  #f5f5f5;
+$header_Wrapper_background_color:  #252a2b;  // Background color for Header Wrapper
+$header_text_color: #929a9b;
+$header_link_hover_color: #b0b8b9;
+
+$contact_number_color: #e7eff7;    // Text color for Contact Number in Header
+$contact_number_bg_color: #4dc7ec; // Background Color for Contact Number in Header
+
+$border_color_one:  #343a3b;      // Border Color for Top-Header in Header
+$border_color_two: #dedede;      // Border Color for Main Contents
+
+$label_color: #394041;       // Label color for Advance Search
+$form_input_color: #7b8283;  // color for input
+
+$main_menu_background_color: #ec894d;
+$main_menu_background_color_2: #dc7d44;
+$main_menu_background_color_3: #d0743d ;
+
+$linkColorHover : #df5400;     // overwrite link hover color;
+$features_bg	: #3eb6e0;			// features background color
+
+$main_menu_color:  #afb4b5;
+$main_menu_hover_color: $white;
+$main_menu_a_padding: 14px 10px ;
+$main_menu_a_padding_2: 10px 10px 12px;
+$main_menu_ul_width: 220px;
+$main_menu_ul_top: 48px;
+
+/*
+ * 3. Core theme styles
+ */
+@import "rh-wp-core";
+@import "rh-common";
+@import "rh-header";
+@import "rh-slider";
+@import "rh-search-form";
+@import "rh-search-form-over-image";
+@import "rh-homepage";
+@import "rh-footer";
+@import "rh-widgets";
+@import "rh-banner-and-map";
+@import "rh-blog";
+@import "rh-contact";
+@import "rh-property-detail";
+@import "rh-agents";
+@import "rh-property-listings";
+@import "rh-gallery";
+@import "rh-submit-property";
+@import "rh-login-and-register";
+@import "rh-my-properties";
+@import "rh-favorites";
+@import "rh-profile";
+@import "rh-print";
+@import "rh-faqs";
+@import "rh-testimonials";
+@import "rh-single-post-navigation";
+@import "rh-compare-listings";
+@import "rh-home-features";
+@import "home/rh-home-partners";
+@import "home/rh-featured-properties";
+@import "home/cfos";
+@import "idx/rh-optima-express";
+@import "idx/rh-dsidx";
+@import "my-properties/rh-stripe-button";
+@import "mailchimp/rh-mailchimp";
+@import "hamburgers/hamburgers";
+@import "sidebar";
+@import "open-street-map";
+@import "gutenberg";
+@import "single_property_fullwidth";
+@import "rh-bootstrap-select";
+@import "shortcodes";
+@import "woocommerce";
+
+/*
+ * 4. Theme's responsive styles
+ */
+@import "custom-responsive-1200px-min";
+@import "custom-responsive-979px-max";
+@import "custom-responsive-768px-979px";
+@import "custom-responsive-767px-max";
+@import "custom-responsive-499px-max";
+@import "custom-responsive-439px-max";
+@import "custom-responsive-369px-max";
+@import "custom-responsive-279px-max";

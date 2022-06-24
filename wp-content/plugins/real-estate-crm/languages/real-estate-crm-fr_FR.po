@@ -1,0 +1,703 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Real Estate CRM\n"
+"POT-Creation-Date: 2021-03-16 20:01+0500\n"
+"PO-Revision-Date: 2021-03-16 20:02+0500\n"
+"Last-Translator: M Saqib Sarwar <saqib@inspirythemes.com>\n"
+"Language-Team: M Saqib Sarwar <saqib@inspirythemes.com>\n"
+"Language: fr_FR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.3\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: real-estate-crm.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#. Plugin Name of the plugin/theme
+#: inc/class-recrm-admin-menu.php:19 inc/class-recrm-admin-menu.php:20
+msgid "Real Estate CRM"
+msgstr ""
+
+#: inc/class-recrm-admin-menu.php:35 inc/class-recrm-admin-menu.php:36
+#: inc/class-recrm-post-types.php:20
+msgid "Contacts"
+msgstr "Contacts"
+
+#: inc/class-recrm-admin-menu.php:51 inc/class-recrm-admin-menu.php:52
+msgid "Add Contact"
+msgstr "Ajouter Contact"
+
+#: inc/class-recrm-admin-menu.php:67 inc/class-recrm-admin-menu.php:68
+#: inc/class-recrm-meta-boxes.php:415 inc/class-recrm-post-types.php:110
+msgid "Enquiries"
+msgstr "Renseignements"
+
+#: inc/class-recrm-custom-columns.php:37 inc/class-recrm-meta-boxes.php:218
+#: inc/class-recrm-meta-boxes.php:761
+msgid "Contact ID"
+msgstr "Identifiant de contact"
+
+#: inc/class-recrm-custom-columns.php:38
+msgid "Name"
+msgstr "Nom"
+
+#: inc/class-recrm-custom-columns.php:39
+msgid "Photo"
+msgstr "Photo"
+
+#: inc/class-recrm-custom-columns.php:40 inc/class-recrm-meta-boxes.php:59
+msgid "Contact Details"
+msgstr "Coordonnées"
+
+#: inc/class-recrm-custom-columns.php:41 inc/class-recrm-custom-columns.php:230
+#: inc/class-recrm-meta-boxes.php:226 inc/class-recrm-meta-boxes.php:766
+#: inc/class-recrm-meta-boxes.php:1075 inc/class-recrm-meta-boxes.php:1339
+msgid "Status"
+msgstr "Statut"
+
+#: inc/class-recrm-custom-columns.php:42 inc/class-recrm-post-types.php:87
+msgid "Tags"
+msgstr "Étiquettes"
+
+#: inc/class-recrm-custom-columns.php:43
+msgid "Date"
+msgstr "Date"
+
+#: inc/class-recrm-custom-columns.php:97
+#, php-format
+msgid "Email: %1$s %2$s"
+msgstr ""
+
+#: inc/class-recrm-custom-columns.php:100
+#, php-format
+msgid "Work: %1$s %2$s"
+msgstr ""
+
+#: inc/class-recrm-custom-columns.php:103
+#, php-format
+msgid "Home: %1$s %2$s"
+msgstr ""
+
+#: inc/class-recrm-custom-columns.php:106
+#, php-format
+msgid "Mobile: %1$s %2$s"
+msgstr ""
+
+#: inc/class-recrm-custom-columns.php:182
+#, php-format
+msgid "Show All %s"
+msgstr "Afficher tout %s"
+
+#: inc/class-recrm-custom-columns.php:201
+msgid "..."
+msgstr "..."
+
+#: inc/class-recrm-custom-columns.php:226
+msgid "Enquiry ID"
+msgstr "Contact ID"
+
+#: inc/class-recrm-custom-columns.php:227
+msgid "From"
+msgstr "De"
+
+#: inc/class-recrm-custom-columns.php:228
+msgid "Thumbnail"
+msgstr "Miniature"
+
+#: inc/class-recrm-custom-columns.php:229
+msgid "Excerpt"
+msgstr "Extrait"
+
+#: inc/class-recrm-custom-columns.php:231 inc/class-recrm-meta-boxes.php:1354
+msgid "Negotiator"
+msgstr "Négociateur"
+
+#: inc/class-recrm-custom-columns.php:232 inc/class-recrm-meta-boxes.php:327
+#: inc/class-recrm-meta-boxes.php:771 inc/class-recrm-meta-boxes.php:1067
+#: inc/class-recrm-meta-boxes.php:1360 inc/class-recrm-settings.php:87
+msgid "Source"
+msgstr "Source"
+
+#: inc/class-recrm-custom-columns.php:233
+msgid "Date & Time"
+msgstr "Date & Heure"
+
+#: inc/class-recrm-get-posts-from-form.php:80
+#: inc/class-recrm-meta-boxes.php:204
+msgid "Lead,Customer"
+msgstr "Prospect, Client"
+
+#: inc/class-recrm-get-posts-from-form.php:89
+#: inc/class-recrm-meta-boxes.php:1055 inc/class-recrm-settings.php:100
+msgid "Open, Close"
+msgstr ""
+
+#: inc/class-recrm-get-posts-from-form.php:97
+#: inc/class-recrm-meta-boxes.php:210 inc/class-recrm-meta-boxes.php:1052
+#: inc/class-recrm-settings.php:90
+msgid "Website, Word of Mouth, Newspaper, Friend"
+msgstr "Site Web"
+
+#: inc/class-recrm-meta-boxes.php:44
+msgid "Just added a note"
+msgstr ""
+
+#: inc/class-recrm-meta-boxes.php:45
+msgid "x"
+msgstr "x"
+
+#: inc/class-recrm-meta-boxes.php:46
+msgid "An Error Occurred"
+msgstr "Une erreur s’est produite"
+
+#: inc/class-recrm-meta-boxes.php:47
+msgid " - Just Added"
+msgstr ""
+
+#: inc/class-recrm-meta-boxes.php:207 inc/class-recrm-settings.php:81
+msgid "Mr, Mrs, Ms, Miss, Dr, Prof, Mr & Mrs"
+msgstr "M., Mme, Mme, Mlle"
+
+#: inc/class-recrm-meta-boxes.php:207 inc/class-recrm-meta-boxes.php:210
+#: inc/class-recrm-meta-boxes.php:1058 inc/class-recrm-meta-boxes.php:1319
+#: inc/class-recrm-settings.php:57
+msgid "None"
+msgstr "Aucune"
+
+#: inc/class-recrm-meta-boxes.php:233
+msgid "Prefix"
+msgstr "Préfixe"
+
+#: inc/class-recrm-meta-boxes.php:235
+msgid "i.e Mr, Mrs, Ms, Miss, Dr, Prof, Mr & Mrs"
+msgstr ""
+
+#: inc/class-recrm-meta-boxes.php:241 inc/class-recrm-meta-boxes.php:716
+msgid "First Name"
+msgstr "Prénom"
+
+#: inc/class-recrm-meta-boxes.php:247 inc/class-recrm-meta-boxes.php:721
+msgid "Last Name"
+msgstr "Nom"
+
+#: inc/class-recrm-meta-boxes.php:253
+msgid "Email"
+msgstr "E-mail"
+
+#: inc/class-recrm-meta-boxes.php:259 inc/class-recrm-meta-boxes.php:726
+msgid "Address"
+msgstr "Adresse"
+
+#: inc/class-recrm-meta-boxes.php:265 inc/class-recrm-meta-boxes.php:731
+msgid "City"
+msgstr "Ville"
+
+#: inc/class-recrm-meta-boxes.php:271
+msgid "State/Province"
+msgstr "État/Province"
+
+#: inc/class-recrm-meta-boxes.php:277 inc/class-recrm-meta-boxes.php:741
+msgid "Zip/Postal Code"
+msgstr "Code postal"
+
+#: inc/class-recrm-meta-boxes.php:284
+msgid "Country"
+msgstr "Pays"
+
+#: inc/class-recrm-meta-boxes.php:291 inc/class-recrm-meta-boxes.php:746
+msgid "Mobile"
+msgstr "Mobile"
+
+#: inc/class-recrm-meta-boxes.php:297
+msgid "Work Phone"
+msgstr "Téléphone au travail"
+
+#: inc/class-recrm-meta-boxes.php:303
+msgid "Home Phone"
+msgstr "Téléphone maison"
+
+#: inc/class-recrm-meta-boxes.php:309
+msgid "Twitter Profile URL"
+msgstr "URL du Profil Twitter"
+
+#: inc/class-recrm-meta-boxes.php:315
+msgid "Linkedin Profile URL"
+msgstr "URL Profile Linkedin"
+
+#: inc/class-recrm-meta-boxes.php:321
+msgid "Facebook Profile URL"
+msgstr "URL Profile facebook"
+
+#: inc/class-recrm-meta-boxes.php:329 inc/class-recrm-meta-boxes.php:1069
+#: inc/class-recrm-meta-boxes.php:1077
+msgid "i.e Website, Word of Mouth, Newspaper, Friend"
+msgstr ""
+
+#: inc/class-recrm-meta-boxes.php:335 inc/class-recrm-meta-boxes.php:802
+#: inc/class-recrm-meta-boxes.php:1092 inc/class-recrm-meta-boxes.php:1410
+msgid "Private Note"
+msgstr "Remarque privée"
+
+#: inc/class-recrm-meta-boxes.php:359
+msgid "Attachment"
+msgstr "Pièce jointe"
+
+#: inc/class-recrm-meta-boxes.php:387
+msgid "Add File"
+msgstr "Ajouter un fichier"
+
+#: inc/class-recrm-meta-boxes.php:431 inc/class-recrm-meta-boxes.php:1121
+msgid "Enquiry For "
+msgstr "Demande de renseignements pour "
+
+#: inc/class-recrm-meta-boxes.php:434 inc/class-recrm-meta-boxes.php:437
+#: inc/class-recrm-meta-boxes.php:495 inc/class-recrm-meta-boxes.php:502
+#: inc/class-recrm-meta-boxes.php:1124 inc/class-recrm-meta-boxes.php:1127
+#: inc/class-recrm-meta-boxes.php:1183 inc/class-recrm-meta-boxes.php:1190
+msgid "Enquiry To "
+msgstr "Demande de renseignements pour "
+
+#: inc/class-recrm-meta-boxes.php:439 inc/class-recrm-meta-boxes.php:1129
+msgid "Enquiry Via <span>Contact Form</span>"
+msgstr ""
+
+#: inc/class-recrm-meta-boxes.php:476 inc/class-recrm-meta-boxes.php:1166
+#, php-format
+msgid "Enquired %1$s  ago"
+msgstr ""
+
+#: inc/class-recrm-meta-boxes.php:477 inc/class-recrm-meta-boxes.php:1167
+#, php-format
+msgid "Status: %1$s"
+msgstr "Statut: %1$s"
+
+#: inc/class-recrm-meta-boxes.php:480
+msgid "View Enquiry Details"
+msgstr ""
+
+#: inc/class-recrm-meta-boxes.php:508 inc/class-recrm-meta-boxes.php:1109
+#: inc/class-recrm-post-types.php:111 inc/class-recrm-post-types.php:137
+msgid "Enquiry"
+msgstr "Demande"
+
+#: inc/class-recrm-meta-boxes.php:537
+msgid "Notes"
+msgstr "Notes"
+
+#: inc/class-recrm-meta-boxes.php:539
+msgid "New Note"
+msgstr "Nouvelle note"
+
+#: inc/class-recrm-meta-boxes.php:546
+msgid "Save Note"
+msgstr "Sauvegarder la remarque"
+
+#: inc/class-recrm-meta-boxes.php:585
+#, php-format
+msgid "Added note %s ago"
+msgstr ""
+
+#: inc/class-recrm-meta-boxes.php:595
+msgid "Delete"
+msgstr "Supprimer"
+
+#: inc/class-recrm-meta-boxes.php:628 inc/class-recrm-meta-boxes.php:1221
+msgid "View"
+msgstr "Voir"
+
+#: inc/class-recrm-meta-boxes.php:629 inc/class-recrm-meta-boxes.php:1222
+msgid "Edit"
+msgstr "Modifier"
+
+#: inc/class-recrm-meta-boxes.php:736
+msgid "State"
+msgstr "État"
+
+#: inc/class-recrm-meta-boxes.php:751
+msgid "Home"
+msgstr "Accueil"
+
+#: inc/class-recrm-meta-boxes.php:756
+msgid "Work"
+msgstr "Travail"
+
+#: inc/class-recrm-meta-boxes.php:787 inc/class-recrm-meta-boxes.php:1388
+#: inc/class-recrm-meta-boxes.php:1393
+msgid "-"
+msgstr "-"
+
+#: inc/class-recrm-meta-boxes.php:816
+msgid "Attachments"
+msgstr "Pièces-jointes"
+
+#: inc/class-recrm-meta-boxes.php:1037
+msgid "Enquiry Details"
+msgstr "Détails des questions"
+
+#: inc/class-recrm-meta-boxes.php:1084
+msgid "Agent/Negotiator"
+msgstr ""
+
+#: inc/class-recrm-meta-boxes.php:1086
+msgid "Select an agent"
+msgstr "Sélectionnez un agent"
+
+#: inc/class-recrm-meta-boxes.php:1326
+msgid "ID"
+msgstr "ID"
+
+#: inc/class-recrm-meta-boxes.php:1332 inc/class-recrm-post-types.php:21
+#: inc/class-recrm-post-types.php:48
+msgid "Contact"
+msgstr "Contact"
+
+#: inc/class-recrm-meta-boxes.php:1345
+msgid "Property"
+msgstr "Bien"
+
+#: inc/class-recrm-meta-boxes.php:1455 inc/class-recrm-meta-boxes.php:1488
+msgid "NA"
+msgstr "NA"
+
+#: inc/class-recrm-post-types.php:18
+msgctxt "Post Type General Name"
+msgid "Contacts"
+msgstr "Contacts"
+
+#: inc/class-recrm-post-types.php:19
+msgctxt "Post Type Singular Name"
+msgid "Contact"
+msgstr "Contact"
+
+#: inc/class-recrm-post-types.php:22
+msgid "Contact Archives"
+msgstr "Archive des Client"
+
+#: inc/class-recrm-post-types.php:23
+msgid "Contact Attributes"
+msgstr ""
+
+#: inc/class-recrm-post-types.php:24
+msgid "Parent Contact:"
+msgstr "Contact parent :"
+
+#: inc/class-recrm-post-types.php:25
+msgid "All Contacts"
+msgstr "Tous les contacts"
+
+#: inc/class-recrm-post-types.php:26
+msgid "Add New Contact"
+msgstr "Ajouter un nouveau contact"
+
+#: inc/class-recrm-post-types.php:27 inc/class-recrm-post-types.php:117
+msgid "Add New"
+msgstr "Ajouter"
+
+#: inc/class-recrm-post-types.php:28
+msgid "New Contact"
+msgstr "Nouveau contact"
+
+#: inc/class-recrm-post-types.php:29
+msgid "Edit Contact"
+msgstr "Modifier le Contact"
+
+#: inc/class-recrm-post-types.php:30
+msgid "Update Contact"
+msgstr "Modifier le contact"
+
+#: inc/class-recrm-post-types.php:31
+msgid "View Contact"
+msgstr "Voir contact"
+
+#: inc/class-recrm-post-types.php:32
+msgid "View ContactS"
+msgstr ""
+
+#: inc/class-recrm-post-types.php:33
+msgid "Search Contact"
+msgstr "Trouver un contact"
+
+#: inc/class-recrm-post-types.php:34 inc/class-recrm-post-types.php:124
+msgid "Not found"
+msgstr "Pas de résultat"
+
+#: inc/class-recrm-post-types.php:35 inc/class-recrm-post-types.php:125
+msgid "Not found in Trash"
+msgstr "Pas résultat dans la Corbeille"
+
+#: inc/class-recrm-post-types.php:36 inc/class-recrm-post-types.php:126
+msgid "Featured Image"
+msgstr "Image à la une"
+
+#: inc/class-recrm-post-types.php:37 inc/class-recrm-post-types.php:127
+msgid "Set featured image"
+msgstr "Définir une image d'illustration"
+
+#: inc/class-recrm-post-types.php:38 inc/class-recrm-post-types.php:128
+msgid "Remove featured image"
+msgstr "Supprimer l'image mise en avant"
+
+#: inc/class-recrm-post-types.php:39 inc/class-recrm-post-types.php:129
+msgid "Use as featured image"
+msgstr "Utiliser comme image mise en avant"
+
+#: inc/class-recrm-post-types.php:40
+msgid "Insert into contact"
+msgstr "Insérer dans le contact"
+
+#: inc/class-recrm-post-types.php:41
+msgid "Uploaded to this contact"
+msgstr "Uploadé dans ce contact"
+
+#: inc/class-recrm-post-types.php:42
+msgid "Contacts list"
+msgstr "Liste des contact"
+
+#: inc/class-recrm-post-types.php:43
+msgid "Contacts list navigation"
+msgstr "Liste contacts navigation"
+
+#: inc/class-recrm-post-types.php:44
+msgid "Filter contacts list"
+msgstr "Filter la liste des contacts"
+
+#: inc/class-recrm-post-types.php:49
+msgid "Real Estate Contacts."
+msgstr ""
+
+#: inc/class-recrm-post-types.php:77
+msgctxt "taxonomy general name"
+msgid "Contact Tags"
+msgstr "Étiquettes de contact"
+
+#: inc/class-recrm-post-types.php:78
+msgctxt "taxonomy singular name"
+msgid "Contact Tag"
+msgstr "Mot-clé du Contact"
+
+#: inc/class-recrm-post-types.php:79
+msgid "Search Contact Tags"
+msgstr ""
+
+#: inc/class-recrm-post-types.php:80
+msgid "All Contact Tags"
+msgstr ""
+
+#: inc/class-recrm-post-types.php:81
+msgid "Parent Contact Tag"
+msgstr ""
+
+#: inc/class-recrm-post-types.php:82
+msgid "Parent Contact Tag:"
+msgstr ""
+
+#: inc/class-recrm-post-types.php:83
+msgid "Edit Contact Tag"
+msgstr ""
+
+#: inc/class-recrm-post-types.php:84
+msgid "Update Contact Tag"
+msgstr ""
+
+#: inc/class-recrm-post-types.php:85
+msgid "Add New Contact Tag"
+msgstr ""
+
+#: inc/class-recrm-post-types.php:86
+msgid "New Contact Tag Name"
+msgstr ""
+
+#: inc/class-recrm-post-types.php:108
+msgctxt "Post Type General Name"
+msgid "Enquiries"
+msgstr "Renseignements"
+
+#: inc/class-recrm-post-types.php:109
+msgctxt "Post Type Singular Name"
+msgid "Enquiry"
+msgstr "Demande"
+
+#: inc/class-recrm-post-types.php:112
+msgid "Enquiry Archives"
+msgstr ""
+
+#: inc/class-recrm-post-types.php:113
+msgid "Enquiry Attributes"
+msgstr ""
+
+#: inc/class-recrm-post-types.php:114
+msgid "Parent Enquiry:"
+msgstr ""
+
+#: inc/class-recrm-post-types.php:115
+msgid "All Enquiries"
+msgstr ""
+
+#: inc/class-recrm-post-types.php:116
+msgid "Add New Enquiry"
+msgstr "Ajouter une nouvelle enquête"
+
+#: inc/class-recrm-post-types.php:118
+msgid "New Enquiry"
+msgstr "Nouvelle demande de renseignement"
+
+#: inc/class-recrm-post-types.php:119
+msgid "Edit Enquiry"
+msgstr "Modifier demande"
+
+#: inc/class-recrm-post-types.php:120
+msgid "Update Enquiry"
+msgstr ""
+
+#: inc/class-recrm-post-types.php:121
+msgid "View Enquiry"
+msgstr "Afficher l'enquête"
+
+#: inc/class-recrm-post-types.php:122
+msgid "View Enquiries"
+msgstr ""
+
+#: inc/class-recrm-post-types.php:123
+msgid "Search Enquiry"
+msgstr ""
+
+#: inc/class-recrm-post-types.php:130
+msgid "Insert into enquiry"
+msgstr ""
+
+#: inc/class-recrm-post-types.php:131
+msgid "Uploaded to this enquiry"
+msgstr ""
+
+#: inc/class-recrm-post-types.php:132
+msgid "Enquiries list"
+msgstr ""
+
+#: inc/class-recrm-post-types.php:133
+msgid "Enquiries list navigation"
+msgstr ""
+
+#: inc/class-recrm-post-types.php:134
+msgid "Filter enquiries list"
+msgstr ""
+
+#: inc/class-recrm-post-types.php:138
+msgid "Real Estate Enquiries."
+msgstr ""
+
+#: inc/class-recrm-settings.php:34 inc/class-recrm-settings.php:47
+msgid "Real Estate CRM Settings"
+msgstr ""
+
+#: inc/class-recrm-settings.php:35 real-estate-crm.php:77
+msgid "Settings"
+msgstr "Paramètres"
+
+#: inc/class-recrm-settings.php:70
+msgid "Contact Statuses"
+msgstr ""
+
+#: inc/class-recrm-settings.php:71
+msgid ""
+"Provide comma separated values e.g (Lead, Customer). First value will be "
+"considered default for contact status."
+msgstr ""
+
+#: inc/class-recrm-settings.php:73
+msgid "Lead, Customer"
+msgstr "Prospect, Client"
+
+#: inc/class-recrm-settings.php:78
+msgid "Contact Prefixes"
+msgstr ""
+
+#: inc/class-recrm-settings.php:79
+msgid ""
+"Provide comma separated values e.g (Mr, Mrs, Ms, Miss, Dr, Prof, Mr & Mrs)."
+msgstr ""
+
+#: inc/class-recrm-settings.php:88
+msgid ""
+"Provide comma separated values e.g (Website, Word of Mouth, Newspaper, "
+"Friend). First value will be considered default for contact prefix."
+msgstr ""
+
+#: inc/class-recrm-settings.php:97
+msgid "Enquiry Status"
+msgstr "Statut"
+
+#: inc/class-recrm-settings.php:98
+msgid ""
+"Provide comma separated values e.g (Open, Close). First value will be "
+"considered default for enquiry status."
+msgstr ""
+
+#: inc/class-recrm-settings.php:106
+msgid "Enquiry Negotiator Source"
+msgstr ""
+
+#: inc/class-recrm-settings.php:107
+msgid "Select Negotiator Type"
+msgstr ""
+
+#: inc/class-recrm-settings.php:111
+msgid "Custom Post Types"
+msgstr "Types d'Articles personnalisés"
+
+#: inc/class-recrm-settings.php:112
+msgid "Users"
+msgstr "Utilisateurs"
+
+#: inc/class-recrm-settings.php:119
+msgid "Select Custom Post Type For Negotiator Source"
+msgstr ""
+
+#: inc/class-recrm-settings.php:120
+msgid "Select Agent Custom Post Type"
+msgstr ""
+
+#: inc/class-settings-api.php:344
+msgid "Choose File"
+msgstr "Choisissez un fichier"
+
+#: inc/plugin-update.php:80
+msgid "An Unexpected HTTP Error occurred during the API request. Try again!"
+msgstr ""
+"Une erreur HTTP inattendue s'est produite lors de la requête API. Essayez à "
+"nouveau !"
+
+#: inc/plugin-update.php:85
+msgid "An unknown error occurred"
+msgstr "Une erreur inconnue s’est produite"
+
+#: real-estate-crm.php:58
+msgid "Insert File"
+msgstr "Insérer un fichier"
+
+#: real-estate-crm.php:59
+msgid "Use this File"
+msgstr "Utilisez le texte du titre du fichier par défaut lorsqu'il est vide"
+
+#. Description of the plugin/theme
+msgid "Provides CRM functionality for Real Homes theme."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Inspiry Themes"
+msgstr "Inspiry Themes"
+
+#. Author URI of the plugin/theme
+msgid "https://inspirythemes.com/"
+msgstr "https://inspirythemes.com/"
+
+#, fuzzy
+#~ msgid "RECRM Settings"
+#~ msgstr "Paramètres RECRM"

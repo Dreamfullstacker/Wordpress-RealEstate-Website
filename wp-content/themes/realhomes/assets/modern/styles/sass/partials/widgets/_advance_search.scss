@@ -1,0 +1,190 @@
+/**
+ * Advance Property Search Widget
+ */
+
+.advance-search {
+  display: block;
+  width: 100%;
+  text-align: left;
+
+  .search-heading {
+    color: var(--rh-global-color-primary);
+    font-size: 1.5rem;
+    font-weight: 400;
+    margin: 2rem 0;
+
+    i {
+      display: none;
+    }
+  }
+
+  .rh_prop_search__select {
+    cursor: pointer;
+
+    .rh_prop_search__selectwrap {
+      .select2-selection__arrow {
+        display: inline-block;
+        right: 1rem;
+      }
+    }
+  }
+
+  .rh_prop_search__option {
+    background: #fff;
+    border-bottom: 1px solid rgba($rh_text_color, 0.2);
+
+    label {
+      display: block;
+      padding: 2rem 2rem 0;
+      font-size: 1.3rem;
+      color: var(--rh-global-color-headings);
+      cursor: pointer;
+
+      span {
+        font-size: inherit;
+      }
+    }
+
+    input:not([role='combobox']) {
+      display: block;
+      width: 100%;
+      padding: 0 2rem 2rem;
+      margin-top: 1rem;
+      color: $rh_text_color;
+      font-size: 1.5rem;
+    }
+
+    .rh_prop_search__selectwrap {
+      display: block;
+      width: 100%;
+      padding: 0;
+      margin-top: 1rem;
+
+      .select2 {
+        display: block;
+        width: 100%;
+        padding: 0 2rem 2rem;
+        border: none;
+      }
+
+      .select2-container--default .select2-selection--single {
+        border: none;
+        outline: 0;
+        background: transparent;
+        color: $rh_text_color;
+
+        .select2-selection__rendered {
+          padding: 0;
+          color: $rh_text_color;
+          font-size: 1.5rem;
+        }
+      }
+    }
+  }
+
+  .hide-fields {
+    display: none;
+  }
+}
+
+.select2-container--default .select2-selection--single {
+  .select2-selection__arrow b {
+    border-color: rgba($rh_text_color, 0.7) transparent transparent transparent;
+  }
+}
+
+.rh_widget_search__buttons {
+  .rh_prop_search__advance {
+    display: none;
+  }
+
+  .rh_prop_search__searchBtn {
+    button {
+      display: flex;
+      justify-content: center;
+      width: 100%;
+      padding: 2.5rem 2rem;
+      transition: 0.2s all linear;
+
+      &:hover {
+        background: var(--rh-global-color-primary-dark);
+        transition: 0.2s all linear;
+      }
+
+      svg {
+        display: inline-block;
+        width: 18px;
+        height: 18px;
+        margin-right: 0.5rem;
+        margin-left: 0.5rem;
+      }
+    }
+  }
+}
+
+.advance-search {
+  .rh_prop_search__active {
+    .select2-container--default.select2-container--open .select2-selection--single .select2-selection__arrow b {
+      border-color: transparent transparent rgba($rh_text_color, 0.7) transparent;
+    }
+  }
+}
+
+.Advance_Search_Widget {
+  .inspiry_select_picker_trigger > .dropdown-toggle {
+    padding: 0 20px 20px;
+    font-size: 1.5rem;
+    border: none;
+  }
+
+  .inspiry_select_picker_trigger > .dropdown-menu {
+    box-shadow: 0 3px 1px #e6e6e6;
+  }
+
+  .inspiry_select_picker_trigger > .dropdown-menu .btn-block {
+    border: none;
+  }
+
+  .inspiry_select_picker_trigger > .dropdown-menu .btn-block button {
+    background-color: var(--rh-global-color-primary);
+  }
+
+  .bs-actionsbox,
+  .bs-donebutton,
+  .bs-searchbox {
+    padding: 4px 20px;
+  }
+
+  .bs-actionsbox .btn-group button {
+    width: calc(50% - 10px);
+    margin: 0 5px;
+  }
+
+  .bs-searchbox + .bs-actionsbox {
+    padding: 0 15px 4px;
+  }
+
+  .bootstrap-select > .dropdown-toggle.bs-placeholder:active,
+  .bootstrap-select > .dropdown-toggle.bs-placeholder:focus,
+  .bootstrap-select > .dropdown-toggle.bs-placeholder:hover {
+    color: var(--rh-global-color-headings);
+  }
+
+  .bootstrap-select > .dropdown-toggle.bs-placeholder,
+  .inspiry_select_picker_trigger > .dropdown-toggle {
+    color: var(--rh-global-color-text);
+  }
+
+  ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: var(--rh-global-color-text);
+    opacity: 1; /* Firefox */
+  }
+
+  :-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: var(--rh-global-color-text);
+  }
+
+  ::-ms-input-placeholder { /* Microsoft Edge */
+    color: var(--rh-global-color-text);
+  }
+}

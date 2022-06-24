@@ -1,0 +1,46 @@
+div.rhea-map-head {
+
+  .leaflet-popup-content {
+    p {
+      line-height: 16px;
+      text-align: initial;
+
+      .osm-popup-price {
+        display: inline-block;
+        font-size: 12px;
+        color: var(--rh-global-color-primary);
+      }
+    }
+    .osm-popup-title {
+      text-align: initial;
+
+      padding-left: 20px;
+      padding-right: 20px;
+
+      margin-top: 20px;
+      margin-bottom: 0;
+    }
+  }
+
+  .leaflet-popup-content-wrapper {
+    border-radius: 0;
+    padding: 0 0 20px;
+    border-bottom: 3px solid var(--rh-global-color-primary);
+  }
+  .leaflet-popup-tip-container {
+    width: 40px;
+    height: 20px;
+    position: absolute;
+    left: 50%;
+    margin-left: -20px;
+    overflow: hidden;
+    pointer-events: none;
+  }
+  .leaflet-popup-tip {
+    background: var(--rh-global-color-primary);
+  }
+}
+
+.rhea-listing-map {
+  height: 600px;
+}

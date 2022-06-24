@@ -1,0 +1,180 @@
+/**
+* RVR - availability calendar styles + Minor Seasonal Prices Styles - Classic
+*/
+.availability-calendar-wrap,
+#seasonal-prices-wrap,
+#price-details-wrap {
+  h4 {
+    border-bottom: 1px solid $border_color_two;
+    background-color: #f8f8f8;
+    float: none;
+    padding: 9px 15px 10px;
+    line-height: 22px;
+    font-size: 16px;
+    margin: 0;
+    font-weight: normal;
+  }
+}
+
+#property-availability,
+#seasonal-prices {
+  padding: 30px 30px 0;
+  background: #f2f2f2;
+  border-bottom: 1px solid #dedede;
+}
+
+#seasonal-prices {
+	padding-bottom: 30px;
+
+	table {
+		width: 100%;
+		text-align: center;
+
+		td {
+			padding: 8px;
+		}
+	}
+}
+
+.availability-calendar {
+  overflow: hidden;
+  width: 48%;
+  box-sizing: border-box;
+  display: inline-block;
+  vertical-align: top;
+
+  & + .availability-calendar {
+    margin-left: 32px;
+  }
+
+  .paging {
+    text-align: center;
+    font-size: 12px;
+    position: relative;
+    padding: 10px;
+    background: #54c7ed;
+    color: #fff;
+
+    .month-name {
+      text-transform: uppercase;
+      font-size: 18px;
+    }
+
+    i {
+      width: 0;
+      height: 0;
+      display: inline-block;
+      vertical-align: middle;
+      position: absolute;
+      top: 13px;
+      line-height: 24px;
+      border-color: #fff;
+      border-style: solid;
+      border-width: 7px;
+      cursor: pointer;
+
+      &.prev {
+        left: 10px;
+        border-top-color: transparent;
+        border-bottom-color: transparent;
+        border-left-style: none;
+      }
+
+      &.next {
+        right: 10px;
+        border-top-color: transparent;
+        border-bottom-color: transparent;
+        border-right-style: none;
+      }
+    }
+  }
+
+  table {
+    font-weight: 400;
+    font-size: 14px;
+    color: #333;
+    border-collapse: collapse;
+    width: 100%;
+    border: none;
+    margin-bottom: -6px;
+
+    td {
+      text-align: center;
+      border: 1px solid #eee;
+      padding: 3px;
+      height: 36px;
+      box-sizing: border-box;
+
+      &.near-month {
+        color: #ccc;
+        visibility: hidden;
+        border-color: transparent;
+      }
+
+      &.cur-date.cur-month {
+        background: #D9EDF7;
+      }
+
+      &.unavailable {
+        background: #ec884d;
+        color: #fff;
+      }
+
+    }
+
+    thead {
+      font-weight: 700;
+
+      td {
+        border: none;
+        min-width: 40px;
+        background: none;
+        text-transform: uppercase;
+      }
+    }
+
+    tbody {
+
+      tr:last-child td.cur-month {
+        border-bottom-width: 37px;
+        border-bottom-color: #f2f2f2;
+        height: 54px;
+      }
+
+      td:hover {
+        background: #eee;
+
+        &.unavailable {
+          background: #ec884d;
+        }
+      }
+    }
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1199px) {
+  .availability-calendar {
+
+    & + .availability-calendar {
+      margin-left: 25px;
+    }
+  }
+}
+
+@media (max-width: 767px) {
+  .availability-calendar {
+    width: 100%;
+
+    & + .availability-calendar {
+      margin-left: 0;
+    }
+  }
+}
+
+@media (max-width: 345px) {
+  .availability-calendar {
+    table thead td {
+      min-width: auto;
+    }
+  }
+}

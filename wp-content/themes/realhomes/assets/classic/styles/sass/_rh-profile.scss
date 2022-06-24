@@ -1,0 +1,99 @@
+/*  User Profile Related Styles
+--------------------------------------------------------*/
+.edit-user-profile-form-custom-fields .span6 {
+  &:empty {
+    display: none;
+  }
+}
+
+.user-profile-img-wrapper{
+  #user-profile-img{
+    float: left;
+    margin: 0 30px 11px 0;
+  }
+  margin-bottom: 20px;
+  .real-btn{
+    margin-bottom: 15px;
+    i{
+      margin-left: 10px;
+      font-size: 14px;
+    }
+  }
+}
+
+.profile-thumb {
+  position: relative;
+  width: 210px;
+  height: 210px;
+  display: table;
+  text-align: center;
+  background: transparent url("../../images/profile-img-placeholder.png") no-repeat center center;
+  border: 4px solid #dedede;
+  span{
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    font-weight: bold;
+  }
+
+  img {
+	  width: 100%;
+	  height: auto;
+  }
+}
+
+.profile-img-controls{
+  overflow: hidden;
+}
+
+.field-description{
+  list-style-type: asterisks;
+  margin-left: 15px;
+  li{
+    padding-left: 5px;
+  }
+}
+
+#form-loader{
+  display: none;
+}
+
+#form-message{
+  margin-bottom: 0;
+  font-weight: bold;
+  display: none;
+}
+
+#form-errors{
+  margin-bottom: 0;
+  color: red;
+  list-style-type: asterisks;
+  margin-left: 15px;
+  li{
+    padding-left: 5px;
+  }
+}
+
+.rh_memberships__wrap{
+  margin: 0 0 20px;
+  padding: 10px 20px;
+  border: 1px dashed $border_color_two;
+  .title{
+    margin-bottom: 15px;
+  }
+  ul{
+    list-style-type: square;
+    margin-left: 15px;
+    li{
+      margin-bottom: 5px;
+    }
+  }
+  .title{}
+  .details{}
+}
+
+#ims_select_membership{
+  .select2-container{
+    margin-bottom: 10px;
+  }
+}

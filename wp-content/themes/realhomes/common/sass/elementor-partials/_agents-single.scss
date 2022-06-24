@@ -1,0 +1,147 @@
+.rhea-agent-widget-wrapper {
+  position: relative;
+  width: 100%;
+  height: 200px;
+  //margin-bottom: 30px;
+  overflow: hidden;
+
+    &.rhea-agent-widget-style-2 {
+      height: 430px;
+    }
+
+    &.rhea-agent-widget-style-3 {
+      height: 660px;
+    }
+
+  &:hover{
+    .rhea-agent-widget-overlay{
+      background: rgba(0,0,0,.5);
+    }
+  }
+
+}
+
+.rhea-agent-widget-inner{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+
+}
+.rhea-agent-widget-overlay{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  z-index: 10;
+  background: rgba(0,0,0,0);
+  transition: .2s all ease-in-out;
+}
+.rhea-agent-widget-details{
+  position: relative;
+  z-index: 20;
+  color: #ffffff;
+  ul{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-left: -7px;
+    margin-right: -7px;
+    margin-bottom: 0;
+    padding: 20px;
+    row-gap: 10px;
+    li{
+      display: inline-block;
+      a{
+        display: inline-block;
+        padding-left: 7px;
+        padding-right: 7px;
+        color: #ffffff;
+        transition: .2s all ease-in-out;
+        transform: scale(1);
+        &:hover{
+          //color: #cbcbcb;
+          animation-name: rh-pulse;
+          animation-duration: .2s;
+          animation-fill-mode: forwards;
+        }
+      }
+    }
+  }
+.rhea-agent-widget-head {
+  padding: 20px;
+}
+  .rhea-agent-title{
+    margin-top: 0;
+    margin-bottom: 5px;
+    color: #ffffff;
+    a{
+      color: #ffffff;
+      transition: .2s all ease-in-out;
+      &:hover{
+        color: #cbcbcb;
+      }
+    }
+  }
+  .rhea-agent-designation{
+    color: #ffffff;
+    font-size: 13px;
+    display: block;
+  }
+}
+
+@keyframes rh-pulse {
+  0% {
+    transform: scale(1);
+    filter: blur(0px);
+  }
+  90% {
+    transform: scale(2);
+    filter: blur(1px);
+  }
+  100% {
+    transform: scale(1.5);
+    filter: blur(0);
+  }
+}
+
+.rhea-agent-style-1{
+  .rhea-agent-widget-head{
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.7) 0%, rgba(192, 192, 192, 0) 100%);
+  }
+  .rhea-agent-socials{
+    background: linear-gradient(360deg, rgba(0, 0, 0, 0.7) 0%, rgba(192, 192, 192, 0) 100%);
+  }
+  .rhea-agent-widget-details{
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    justify-content: space-between;
+    .rhea-agent-excerpt{
+      padding: 0 20px;
+      position: relative;
+      bottom: -10%;
+      opacity: 0;
+      transition: .2s all ease-in-out;
+      color: #cbcbcb;
+      filter: blur(1px);
+      margin-bottom: 0;
+    }
+    &:hover{
+      .rhea-agent-excerpt{
+        bottom: 0;
+        opacity: 1;
+        filter: blur(0);
+      }
+    }
+    .rhea-agent-anchor-overlay{
+      display: flex;
+      height: 100%;
+    }
+  }
+}

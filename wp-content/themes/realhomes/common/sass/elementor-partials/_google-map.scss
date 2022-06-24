@@ -1,0 +1,59 @@
+.rhea_wrapper_properties_map {
+  .rhea-map-info-window {
+    display: block;
+    width: 244px;
+    background: #fff;
+    margin-bottom: 20px;
+    border-bottom: 3px solid var(--rh-global-color-primary);
+    .prop-thumb {
+      width: 100%;
+    }
+
+    .prop-title {
+      color: #1a1a1a;
+      font-weight: 500;
+      font-size: 15px;
+      margin: 0;
+      padding: 15px 15px 10px 15px;
+      text-align: initial;
+    }
+
+    a {
+      color: #1a1a1a;
+      font-weight: 500;
+      font-size: 15px;
+      line-height: 1.5;
+      transition: 0.2s all linear;
+
+      &:hover {
+        color: var(--rh-global-color-primary);
+        transition: 0.2s all linear;
+      }
+    }
+
+    p {
+      padding: 0 15px 15px;
+      color: var(--rh-global-color-primary);
+      margin: 0;
+    }
+
+    .arrow-down {
+      width: 0;
+      height: 0;
+      border-style: solid;
+      border-width: 10px 10px 0 10px;
+      border-color: var(--rh-global-color-primary) transparent transparent transparent;
+      position: absolute;
+      bottom: 10px;
+      left: calc(50% - 10px);
+    }
+  }
+}
+
+.rhea_wrapper_properties_map {
+  .rhea-listing-google-map {
+    img {
+      max-width: none;
+    }
+  }
+}

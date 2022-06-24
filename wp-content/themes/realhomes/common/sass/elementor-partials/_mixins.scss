@@ -1,0 +1,89 @@
+//Elementor mixins
+
+@mixin r($point) {
+  @if $point==240 {
+    @media (min-width: 240px) {
+      @content;
+    }
+  }
+  @if $point==320 {
+    @media (min-width: 320px) {
+      @content;
+    }
+  }
+  @if $point==480 {
+    @media (min-width: 480px) {
+      @content;
+    }
+  }
+  @if $point==600 {
+    @media (min-width: 600px) {
+      @content;
+    }
+  }
+  @if $point==768 {
+    @media (min-width: 768px) {
+      @content;
+    }
+  }
+  @if $point==1024 {
+    @media (min-width: 1024px) {
+      @content;
+    }
+  }
+  @if $point==1140 {
+    @media (min-width: 1140px) {
+      @content;
+    }
+  }
+  @if $point==1280 {
+    @media (min-width: 1280px) {
+      @content;
+    }
+  }
+  @if $point==1340 {
+    @media (min-width: 1340px) {
+      @content;
+    }
+  }
+  @if $point==1400 {
+    @media (min-width: 1400px) {
+      @content;
+    }
+  }
+  @if $point==1500 {
+    @media (min-width: 1500px) {
+      @content;
+    }
+  }
+  @if $point == max1139{
+    @media (max-width: 1139px) {
+      @content;
+    }
+  }
+  @if $point == max1023{
+    @media (max-width: 1023px) {
+      @content;
+    }
+  }
+  @if $point == max890{
+    @media (max-width: 890px) {
+      @content;
+    }
+  }
+  @if $point == max767{
+    @media (max-width: 767px) {
+      @content;
+    }
+  }
+  @if $point == max558{
+    @media (max-width: 558px) {
+      @content;
+    }
+  }
+  @if $point == max479{
+    @media (max-width: 479px) {
+      @content;
+    }
+  }
+}

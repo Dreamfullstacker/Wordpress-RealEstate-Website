@@ -1,0 +1,474 @@
+/* Common Styles = Tablet to Small Devices
+-------------------------------------------------------------- */
+@media ( max-width:979px ) {
+
+  body{
+    margin: 0;
+    padding:0;
+  }
+
+  #header-top{
+    margin-bottom: 15px;
+    text-align: center;
+    #lang_sel{
+      display: inline-block;
+      float: none;
+      clear: both;
+      width: 150px;
+      margin: 10px 5px;
+      li{
+        float: none;
+      }
+    }
+  }
+
+  /* Contact Email */
+  #contact-email{
+    display: inline-block;
+    padding: 0;
+    margin: 10px 5px;
+    float: none;
+    vertical-align: middle;
+  }
+
+  #logo{
+    float: none;
+    margin-bottom: 10px;
+    text-align: center;
+    img{
+      margin-bottom: 5px;
+    }
+    h2{
+      margin-bottom: 5px;
+    }
+    .tag-line{
+      margin-top: 0;
+    }
+  }
+
+  #header .tag-line{
+    text-align: center;
+  }
+
+  /* Menu and Contact Wrap */
+  .menu-and-contact-wrap{
+    position: static;
+  }
+
+  /* Contact Number */
+  .contact-number{
+    float: none;
+    background: none;
+    text-align: center;
+    margin: 0 auto 15px;
+    min-height: 20px;
+    line-height: 18px;
+    &:hover{
+      .fa-phone,
+      .fa-whatsapp{
+        background: none;
+      }
+    }
+    .fa-phone,
+    .fa-whatsapp{
+      background: none;
+      margin-right: 10px;
+      padding: 0 ;
+    }
+    .outer-strip{
+      display: none;
+    }
+  }
+
+  /* Main Nav */
+  .main-menu {
+    float: none;
+    margin: 0;
+    margin-bottom: 10px;
+    padding: 10px 0;
+
+    ul{
+      display: none;
+    }
+    .responsive-nav {
+      display: block;
+      border: 1px solid $border_color_one;
+      border-radius: 0;
+      &:focus{
+        outline: none;
+      }
+    }
+
+    .rh_menu__hamburger {
+      display: inline-block;
+    }
+  }
+
+  /* Slide Description */
+  .desc-wrap{
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+  }
+
+  .slide-description {
+    padding: 20px 16px;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 100%;
+    max-width: 320px;
+    height: fit-content;
+
+    h3{
+      margin: 0;
+      line-height: 34px;
+      font-size: 20px;
+    }
+    span{
+      font-size: 16px;
+    }
+    .know-more {
+      display: none;
+    }
+  }
+
+  /* Advance Search */
+  .advance-search{
+    .search-heading {
+      position: static;
+    }
+    &.rh_classic_main_search .rh_classic_advance_search_form.advance-search-form{
+
+      .option-bar{
+      &.large{
+        width: calc(25% - 20px);
+      }
+      &.small{
+        width: calc(25% - 20px);
+        max-width: calc(25% - 20px);
+      }
+    }
+    }
+  }
+
+  /* Footer */
+  #footer-bottom{
+    p{
+      text-align: center;
+      margin-bottom: 10px;
+    }
+    .designed-by{
+      text-align: center;
+    }
+  }
+
+  /* Sidebar */
+  .sidebar .widget{
+    background: $white;
+    margin-bottom: 35px;
+    &.icl_languages_selector{
+      background: transparent;
+    }
+  }
+
+
+  /* Listing Grid Layout */
+  .listing-grid-layout .main {
+    margin: 0 0 35px;
+  }
+  .listing-grid-layout .title-heading {
+    position: static;
+  }
+  .listing-layout .property-by .title-heading {
+    float: none;
+  }
+  .property-item .property-meta span{
+    font-size: 12px;
+    padding:  10px 12px 10px 0;
+    margin-right: 12px;
+  }
+
+  /* listing view types */
+  .view-type {
+    position: relative;
+    top: auto;
+    right: auto;
+    border: none;
+    border-bottom: 1px solid $border_color_two;
+    a {
+      display: block;
+      float: right;
+      &.grid,
+      &.list{
+        border-right: none;
+        border-left: 1px solid $border_color_two;
+      }
+    }
+  }
+
+  /* Comments */
+  .comment-detail-wrap {
+    width: 72%;
+  }
+  #comments .commentlist .children .depth-2 .comment-detail-wrap,
+  #comments .commentlist .children .depth-3 .comment-detail-wrap,
+  #comments .commentlist .children .depth-4 .comment-detail-wrap,
+  #comments .commentlist .children .depth-5 .comment-detail-wrap{
+    width: 72%;
+  }
+
+  /* Compare Listings */
+  .compare-template {
+    padding: 20px 0 0 0;
+
+    .compare-feature-column {
+      display: inline-block;
+
+      .property-thumbnail {
+        margin-left: -20px;
+      }
+
+      p {
+        margin-left: -20px;
+        padding: 10px 10px 10px 15px;
+      }
+    }
+
+    .compare-properties-column {
+      width: 124px;
+      padding: 0;
+
+      .stuck {
+        width: 124px;
+      }
+
+      p {
+        margin-left: -20px;
+        margin-right: 0;
+        padding: 10px 10px 10px 20px;
+      }
+
+      &:nth-last-child(1) {
+        .property-thumbnail {
+          margin-right: -22px;
+          padding-right: 22px;
+        }
+        p {
+          margin-right: -22px;
+        }
+      }
+
+      .feature-label {
+        display: none;
+      }
+    }
+  }
+
+  .compare-properties {
+    .compare-carousel {
+      .compare-carousel-slide {
+        width: 156px;
+      }
+    }
+  }
+
+  .property-grid {
+    .compare-properties {
+     margin: 0px -22px 15px -2px;
+    }
+  }
+
+  .page-template-properties-search {
+    .compare-properties {
+      .compare-carousel {
+        .compare-carousel-slide {
+          width: 143px;
+          margin-right: 15px;
+        }
+      }
+    }
+  }
+
+  .page-template-properties-search-right-sidebar {
+    .compare-properties {
+      margin: 25px -22px 0;
+    }
+  }
+
+  .page-template-properties-search-left-sidebar {
+    .compare-properties {
+      margin: 25px -22px 0;
+    }
+  }
+
+  .property-item {
+    .compare-meta {
+      span {
+        border-right: 1px solid $border_color_two;
+        margin-right: 12px;
+      }
+      .add-to-compare-search {
+        padding: 10px 17px;
+
+        .compare-tooltip {
+
+          &::before {
+            left: -94px;
+          }
+        }
+      }
+    }
+  }
+
+  /* Homepage Features Section */
+  .home-features-section {
+
+    .home-features-bg {
+      padding: 40px 20px;
+    }
+
+    .headings {
+      padding-bottom: 10px;
+    }
+
+    .features-wrapper {
+      .features-single {
+        margin: 0 30px;
+
+        .feature-img {
+          margin-bottom: 20px;
+        }
+      }
+    }
+  }
+
+  /* Header Variation: Center */
+
+  .header__top {
+    .header__switchers {
+      display: block;
+      width: 100%;
+      text-align: center;
+      padding-right: 20px;
+      box-sizing: border-box;
+    }
+  }
+
+  #social_nav {
+    .social_networks {
+      border-top: none;
+    }
+  }
+
+  .header__logo {
+    display: block;
+    margin-top: 20px;
+
+    .tag-line {
+      display: block;
+      margin: 0 auto;
+    }
+  }
+
+  .header__user_nav {
+    display: block;
+    width: 100%;
+    text-align: center;
+    margin-top: 10px;
+    margin-left: 20px;
+    padding-right: 20px;
+    box-sizing: border-box;
+
+    .user-nav {
+      padding: 0;
+    }
+
+    #contact-email {
+      padding: 15px 0;
+    }
+  }
+
+  .header__navigation {
+    display: flex;
+    flex-direction: column;
+
+    .header__menu {
+      display: block;
+      width: 100%;
+      order: 2;
+
+      .main-menu {
+        margin: 0 0 10px 0;
+      }
+    }
+
+    .header__phone_number {
+      display: block;
+      width: 100%;
+      order: 1;
+
+      .contact-number {
+        margin: 10px 0;
+      }
+    }
+  }
+
+  /* Featured Properties Variation */
+  .rh_slide__container {
+    flex-wrap: wrap;
+    padding: 40px 40px 35px;
+
+    figure {
+      flex-basis: 100%;
+
+      .wrapper {
+        margin: 0 0 20px;
+      }
+    }
+
+    .rh_slide__details {
+      flex-basis: 100%;
+    }
+  }
+
+  /* Optima Express */
+  #ihf-main-container {
+    .form-horizontal {
+      .control-label {
+        text-align: left;
+      }
+    }
+  }
+
+  .sidebar {
+    .widget.widget_ihomefindersocialwidget {
+      background: none;
+    }
+  }
+
+  .rh_content__compare {
+    padding: 0 2px 0;
+  }
+
+
+  .sidebar .widget.advance-search .option-bar.large{
+    width: 50%;
+  }
+
+  .listing-layout.inspiry-shortcode .rh_list_shortcode_container .property-item {
+    figure{
+      width: 30%;
+    }
+    .detail{
+      width: 70%;
+    }
+  }
+
+}

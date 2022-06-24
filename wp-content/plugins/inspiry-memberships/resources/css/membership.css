@@ -1,0 +1,17 @@
+/**
+ * Custom Admin Styles: Membership Post Type;
+ *
+ * @since 1.0.0
+ */
+
+.wp-admin select#duration_unit {
+	vertical-align: top;
+}
+
+.form-table td p.doc-note {
+	font-size: 12px;
+}
+
+.form-table td p.doc-note a {
+	cursor: pointer;
+}

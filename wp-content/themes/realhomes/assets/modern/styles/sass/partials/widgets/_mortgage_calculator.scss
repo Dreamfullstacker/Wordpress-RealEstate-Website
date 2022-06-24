@@ -1,0 +1,69 @@
+/**
+ * Mortgage Calculator Widget
+ */
+
+.widget_mortgage-calculator {
+	display: block;
+	width: 100%;
+	text-align: left;
+
+	.title {
+		color: var(--rh-global-color-primary);
+		font-size: 1.5rem;
+		font-weight: 400;
+		margin: 2rem 0;
+	}
+
+	.mc-wrapper {
+		background: #fff;
+
+		p {
+			margin: 0;
+			border-bottom: 1px solid rgba($rh_text_color, 0.2);
+
+			label {
+				display: block;
+				font-size: 1.3rem;
+				color: var(--rh-global-color-headings);
+				margin: 0;
+				padding: 2rem 2rem 0;
+			}
+
+			input {
+				display: block;
+				width: 100%;
+				padding: 0 2rem 2rem;
+				margin-top: 1rem;
+				color: $rh_text_color;
+				font-size: 1.5rem;
+				height: initial;
+			}
+
+			input[type="submit"] {
+				background: var(--rh-global-color-primary);
+				margin: 0;
+				padding: 2.5rem 2rem;
+				color: #fff;
+				transition: 0.2s background linear;
+
+				&:hover {
+					background: var(--rh-global-color-primary-dark);
+					transition: 0.2s background linear;
+				}
+			}
+
+			.error {
+				padding: 0 2rem 2rem;
+				color: #ff0000;
+			}
+		}
+	}
+
+	#mc-output {
+		padding: 2rem;
+
+		p {
+			border-bottom: none;
+		}
+	}
+}

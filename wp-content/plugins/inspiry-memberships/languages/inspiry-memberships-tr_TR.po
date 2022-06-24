@@ -1,0 +1,1367 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Inspiry Memberships for RealHomes\n"
+"Report-Msgid-Bugs-To: https://github.com/InspiryThemes/inspiry-memberships/"
+"issues\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2021-06-02 17:03+0500\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: tr_TR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.3\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: inspiry-memberships.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.min.js\n"
+"X-Poedit-SearchPathExcluded-1: node_modules\n"
+
+#: inspiry-memberships.php:171 resources/settings/class-wp-osa.php:684
+#: resources/settings/class-wp-osa.php:685
+msgid "Settings"
+msgstr "Ayarlar"
+
+#: resources/class-helper-functions.php:240
+msgid "Select Membership"
+msgstr "Üyelik Seç"
+
+#: resources/class-helper-functions.php:248
+#: resources/membership/class-membership-metaboxes.php:130
+#: resources/receipt/class-receipt-metaboxes.php:163
+msgid "None"
+msgstr "Yok"
+
+#: resources/class-helper-functions.php:264
+msgid "Recurring Membership?"
+msgstr "Tekrarlanan Üyelik?"
+
+#: resources/class-helper-functions.php:295
+#: resources/receipt/class-receipt-custom-columns.php:136
+#: resources/receipt/class-receipt-metaboxes.php:172
+msgid "Wire Transfer"
+msgstr "Banka Havalesi"
+
+#: resources/class-helper-functions.php:301
+msgid "Account Name: "
+msgstr "Hesap Adı: "
+
+#: resources/class-helper-functions.php:305
+msgid "Account Number: "
+msgstr "Hesap Numarası: "
+
+#: resources/class-helper-functions.php:314
+msgid "Send Receipt"
+msgstr "Makbuz Gönder"
+
+#: resources/class-helper-functions.php:343
+msgid "Are you sure?"
+msgstr "Emin misiniz?"
+
+#: resources/class-helper-functions.php:344
+msgid "Yes"
+msgstr "Evet"
+
+#: resources/class-helper-functions.php:345
+msgid "No"
+msgstr "Hayır"
+
+#: resources/class-helper-functions.php:362
+msgid "Day"
+msgstr "Gün"
+
+#: resources/class-helper-functions.php:363
+#: resources/membership/class-membership-metaboxes.php:133
+msgid "Days"
+msgstr "Gün"
+
+#: resources/class-helper-functions.php:364
+msgid "Week"
+msgstr "Hafta"
+
+#: resources/class-helper-functions.php:365
+#: resources/membership/class-membership-metaboxes.php:136
+msgid "Weeks"
+msgstr "Hafta"
+
+#: resources/class-helper-functions.php:366
+msgid "Month"
+msgstr "Ay"
+
+#: resources/class-helper-functions.php:367
+#: resources/membership/class-membership-metaboxes.php:139
+msgid "Months"
+msgstr "Aylar"
+
+#: resources/class-helper-functions.php:368
+msgid "Year"
+msgstr "Yıl"
+
+#: resources/class-helper-functions.php:369
+#: resources/membership/class-membership-metaboxes.php:142
+msgid "Years"
+msgstr "Yıl"
+
+#: resources/class-helper-functions.php:403
+#: resources/class-helper-functions.php:602
+msgid "Invalid Package ID"
+msgstr ""
+
+#: resources/class-helper-functions.php:417
+msgid "Your Order"
+msgstr "Siparişiniz"
+
+#: resources/class-helper-functions.php:423
+msgid "Package"
+msgstr "Paket"
+
+#: resources/class-helper-functions.php:424
+#: resources/membership/class-membership-custom-columns.php:41
+#: resources/receipt/class-receipt-custom-columns.php:42
+#: resources/receipt/class-receipt-metaboxes.php:122
+msgid "Price"
+msgstr "Fiyat"
+
+#: resources/class-helper-functions.php:433
+msgid "Total"
+msgstr "Toplam"
+
+#: resources/class-helper-functions.php:445
+msgid "Payment Method"
+msgstr "Ödeme Yöntemi"
+
+#: resources/class-helper-functions.php:458
+msgid "Direct Bank Transfer"
+msgstr "Doğrudan Banka Transferi"
+
+#: resources/class-helper-functions.php:467
+#: resources/receipt/class-receipt-custom-columns.php:134
+#: resources/receipt/class-receipt-metaboxes.php:169
+msgid "PayPal"
+msgstr "PayPal"
+
+#: resources/class-helper-functions.php:476
+#: resources/receipt/class-receipt-custom-columns.php:132
+#: resources/receipt/class-receipt-metaboxes.php:166
+msgid "Stripe"
+msgstr "Stripe"
+
+#: resources/class-helper-functions.php:524
+msgid "Recurring Payments?"
+msgstr ""
+
+#: resources/class-helper-functions.php:566
+#: resources/class-helper-functions.php:598
+msgid "Complete Payment"
+msgstr "Komple Ödeme"
+
+#: resources/class-helper-functions.php:568
+#: resources/payment-handler/class-stripe-payment-handler.php:216
+msgid "Subscribe"
+msgstr "Abone Ol"
+
+#: resources/class-ims-email.php:33
+msgid "Membership Package Subscription is Canceled"
+msgstr ""
+
+#: resources/class-ims-email.php:36
+#, php-format
+msgid "Your %s membership package subscription has been cancelled."
+msgstr ""
+
+#: resources/class-ims-email.php:39 resources/class-ims-email.php:99
+#: resources/class-ims-email.php:119 resources/class-ims-email.php:214
+#: resources/payment-handler/class-wire-transfer-handler.php:97
+msgid "For any further assistance, email us at"
+msgstr ""
+
+#: resources/class-ims-email.php:42 resources/class-ims-email.php:102
+#: resources/class-ims-email.php:122 resources/class-ims-email.php:217
+#: resources/payment-handler/class-wire-transfer-handler.php:100
+msgid " OR call us at "
+msgstr ""
+
+#: resources/class-ims-email.php:48 resources/class-ims-email.php:108
+#: resources/class-ims-email.php:128 resources/class-ims-email.php:223
+#: resources/payment-handler/class-wire-transfer-handler.php:106
+msgid "Regards"
+msgstr "Saygılarımızla"
+
+#: resources/class-ims-email.php:75 resources/class-ims-email.php:155
+msgid "via PayPal"
+msgstr ""
+
+#: resources/class-ims-email.php:77 resources/class-ims-email.php:157
+msgid "via Stripe"
+msgstr ""
+
+#: resources/class-ims-email.php:79 resources/class-ims-email.php:159
+msgid "via Wire Transfer"
+msgstr ""
+
+#: resources/class-ims-email.php:95 resources/class-ims-email.php:168
+msgid "Membership Package Subscription is Activated"
+msgstr ""
+
+#: resources/class-ims-email.php:96
+#, php-format
+msgid ""
+"Your %1$s membership package subscription has been activated. For more "
+"details please visit %2$s page of your account on our %3$swebsite%4$s."
+msgstr ""
+
+#: resources/class-ims-email.php:96 resources/class-ims-email.php:116
+msgid "My Membership"
+msgstr "Üyeliğim"
+
+#: resources/class-ims-email.php:115
+msgid "Membership Package Subscription is Updated."
+msgstr ""
+
+#: resources/class-ims-email.php:116
+#, php-format
+msgid ""
+"Your %1$s membership package subscription has been updated. For more details "
+"please visit %2$s page of your account on our %3$swebsite%4$s."
+msgstr ""
+
+#: resources/class-ims-email.php:169
+#, php-format
+msgid "A %s membership package subscription is activated on your site."
+msgstr ""
+
+#: resources/class-ims-email.php:170 resources/class-ims-email.php:176
+#, php-format
+msgid "For more details please check %s"
+msgstr "Daha fazla ayrıntı için lütfen kontrol edin %s"
+
+#: resources/class-ims-email.php:174
+msgid "Membership Package Subscription is Updated"
+msgstr ""
+
+#: resources/class-ims-email.php:175
+#, php-format
+msgid "A %s membership package subscription is updated on your site."
+msgstr ""
+
+#: resources/class-ims-email.php:209
+msgid "Your membership package subscription is about to end"
+msgstr ""
+
+#: resources/class-ims-email.php:210
+#, php-format
+msgid "Your membership package subscription on %s is about to end."
+msgstr "%s üzerindeki üyelik paketi aboneliğiniz sona ermek üzere."
+
+#: resources/class-ims-email.php:211
+msgid ""
+"Please make sure that you renew your subscription within due date. Otherwise "
+"your subscription will be cancelled."
+msgstr ""
+"Lütfen son tarih içinde aboneliğinizi yenilediğinizden emin olun. Aksi "
+"takdirde aboneliğiniz iptal edilecektir."
+
+#: resources/membership/class-ims-cpt-membership.php:38
+#: resources/membership/class-ims-cpt-membership.php:49
+#: resources/settings/admin-menu.php:49 resources/settings/admin-menu.php:50
+msgid "Memberships"
+msgstr "Üyelikler"
+
+#: resources/membership/class-ims-cpt-membership.php:39
+#: resources/receipt/class-receipt-custom-columns.php:41
+#: resources/receipt/class-receipt-metaboxes.php:95
+msgid "Membership"
+msgstr "Üyelik"
+
+#: resources/membership/class-ims-cpt-membership.php:40
+msgctxt "inspiry-memberships"
+msgid "Add New Membership"
+msgstr "Yeni Üyelik Ekle"
+
+#: resources/membership/class-ims-cpt-membership.php:41
+#: resources/settings/admin-menu.php:62
+msgid "Add New Membership"
+msgstr "Yeni Üyelik Ekle"
+
+#: resources/membership/class-ims-cpt-membership.php:42
+msgid "Edit Membership"
+msgstr "Üyeliği Düzenle"
+
+#: resources/membership/class-ims-cpt-membership.php:43
+#: resources/settings/admin-menu.php:63
+msgid "New Membership"
+msgstr "Yeni Üyelik"
+
+#: resources/membership/class-ims-cpt-membership.php:44
+msgid "View Membership"
+msgstr "Üyeliği Görüntüle"
+
+#: resources/membership/class-ims-cpt-membership.php:45
+msgid "Search Memberships"
+msgstr "Üyelik Ara"
+
+#: resources/membership/class-ims-cpt-membership.php:46
+msgid "No Memberships found"
+msgstr "Üyelik bulunamadı"
+
+#: resources/membership/class-ims-cpt-membership.php:47
+msgid "No Memberships found in Trash"
+msgstr "Çöpte Hiç Üyelik Bulunamadı"
+
+#: resources/membership/class-ims-cpt-membership.php:48
+msgid "Parent Membership:"
+msgstr "Veli Üyeliği:"
+
+#: resources/membership/class-ims-cpt-membership.php:53
+msgid "membership"
+msgstr "üyelik"
+
+#: resources/membership/class-ims-cpt-membership.php:62
+msgid "Represents a membership package."
+msgstr "Bir üyelik paketini temsil eder."
+
+#: resources/membership/class-ims-cpt-membership.php:98
+msgid "Once Weekly"
+msgstr "Haftada bir kez"
+
+#: resources/membership/class-ims-cpt-membership.php:103
+msgid "Once Monthly"
+msgstr "Aylık Bir Kez"
+
+#: resources/membership/class-ims-cpt-membership.php:108
+msgid "Once Yearly"
+msgstr "Yılda Bir kez"
+
+#: resources/membership/class-membership-custom-columns.php:38
+msgid "Membership Title"
+msgstr "Üyelik Başlığı"
+
+#: resources/membership/class-membership-custom-columns.php:39
+msgid "Allowed Properties"
+msgstr "İzin Verilen Özellikler"
+
+#: resources/membership/class-membership-custom-columns.php:40
+msgid "Featured Properties"
+msgstr "Öne Çıkan İlanlar"
+
+#: resources/membership/class-membership-custom-columns.php:42
+msgid "Billing Period"
+msgstr "Faturalama Periyodu"
+
+#: resources/membership/class-membership-custom-columns.php:77
+#: resources/membership/class-membership-custom-columns.php:86
+#: resources/membership/class-membership-custom-columns.php:103
+#: resources/membership/class-membership-custom-columns.php:115
+#: resources/receipt/class-receipt-custom-columns.php:80
+#: resources/receipt/class-receipt-custom-columns.php:92
+#: resources/receipt/class-receipt-custom-columns.php:95
+#: resources/receipt/class-receipt-custom-columns.php:112
+#: resources/receipt/class-receipt-custom-columns.php:125
+#: resources/receipt/class-receipt-custom-columns.php:140
+#: resources/receipt/class-receipt-custom-columns.php:149
+msgid "Not Available"
+msgstr "Mevcut Değil"
+
+#: resources/membership/class-membership-metaboxes.php:37
+msgid "Membership Detail"
+msgstr "Üyelik Detayı"
+
+#: resources/membership/class-membership-metaboxes.php:73
+msgid "Total number of allowed properties"
+msgstr "Toplam izin verilen mülk sayısı"
+
+#: resources/membership/class-membership-metaboxes.php:78
+#: resources/membership/class-membership-metaboxes.php:108
+msgid "Example: 20"
+msgstr "Örnek: 20"
+
+#: resources/membership/class-membership-metaboxes.php:85
+msgid "Max number of featured properties"
+msgstr "Maksimum özellikli özellik sayısı"
+
+#: resources/membership/class-membership-metaboxes.php:90
+msgid "Example: 4"
+msgstr "Örnek: 4"
+
+#: resources/membership/class-membership-metaboxes.php:97
+msgid "Membership price"
+msgstr "Üyelik fiyatı"
+
+#: resources/membership/class-membership-metaboxes.php:111
+msgid "Note: Please consult the "
+msgstr "Not: Lütfen "
+
+#: resources/membership/class-membership-metaboxes.php:113
+msgid " of the plugin for changing the price of the memebership"
+msgstr " memebership fiyatını değiştirmek için eklentinin"
+
+#: resources/membership/class-membership-metaboxes.php:122
+msgid "Membership billing period"
+msgstr "Üyelik fatura dönemi"
+
+#: resources/membership/class-membership-metaboxes.php:145
+msgid "Provide a number and select related duration."
+msgstr "Bir sayı girin ve ilgili süreyi seçin."
+
+#: resources/membership/class-membership-metaboxes.php:154
+msgid "Mark this package as Popular?"
+msgstr "Bu paket Popüler olarak işaretlensin mi?"
+
+#: resources/membership/class-membership-metaboxes.php:165
+msgid "Stripe Subscription Plan ID"
+msgstr "Şerit Abonelik Planı Kimliği"
+
+#: resources/membership/class-membership-metaboxes.php:170
+msgid "Required, If you are using Stripe for recurring payments."
+msgstr "Gerekli, yinelenen ödemeler için Stripe kullanıyorsanız."
+
+#: resources/payment-handler/class-payment-handler.php:118
+#: resources/payment-handler/class-wire-transfer-handler.php:154
+msgid "Order Completed Successfully!"
+msgstr ""
+
+#: resources/payment-handler/class-payment-handler.php:124
+#: resources/payment-handler/class-wire-transfer-handler.php:160
+msgid "Error occurred while processing order."
+msgstr ""
+
+#: resources/payment-handler/class-paypal-payment-handler.php:224
+#: resources/payment-handler/class-paypal-payment-handler.php:633
+msgid "Nonce verification failed."
+msgstr "Nonce verification failed."
+
+#: resources/payment-handler/class-paypal-payment-handler.php:234
+#: resources/payment-handler/class-paypal-payment-handler.php:375
+#: resources/payment-handler/class-paypal-payment-handler.php:643
+#: resources/payment-handler/class-paypal-payment-handler.php:709
+#: resources/payment-handler/class-wire-transfer-handler.php:67
+msgid "Please select a membership to continue."
+msgstr "Lütfen devam etmek için bir üyelik seçin."
+
+#: resources/payment-handler/class-paypal-payment-handler.php:304
+#: resources/payment-handler/class-paypal-payment-handler.php:309
+#: resources/payment-handler/class-paypal-payment-handler.php:664
+#: resources/payment-handler/class-paypal-payment-handler.php:966
+msgid "Payment for "
+msgstr "Ödeme Tarihi "
+
+#: resources/payment-handler/class-paypal-payment-handler.php:359
+msgid "We were unable to authorize payment from PayPal. Please try again."
+msgstr "PayPal'dan ödeme yetkisi alamadık. Lütfen tekrar deneyin."
+
+#: resources/payment-handler/class-paypal-payment-handler.php:367
+msgid "We were not able to connect to PayPal. Please try again."
+msgstr "PayPal ile bağlantı kuramadık. Lütfen tekrar deneyin."
+
+#: resources/payment-handler/class-paypal-payment-handler.php:701
+msgid "Error occurred while connecting to PayPal."
+msgstr "PayPal'a bağlanırken hata oluştu."
+
+#: resources/payment-handler/class-paypal-payment-handler.php:1169
+msgid "Membership cancelled!"
+msgstr "Üyelik İptal Edildi!"
+
+#: resources/payment-handler/class-stripe-payment-handler.php:188
+msgid "Pay with Card"
+msgstr "Kartla Öde"
+
+#: resources/payment-handler/class-stripe-payment-handler.php:207
+msgid "Membership Payment"
+msgstr "Üyelik Ödemesi"
+
+#: resources/payment-handler/class-stripe-payment-handler.php:225
+msgid "Membership ID is empty."
+msgstr "Üyelik kimliği boş."
+
+#: resources/payment-handler/class-stripe-payment-handler.php:233
+msgid "Membership ID is not valid."
+msgstr "Üyelik kimliği geçerli değil."
+
+#: resources/payment-handler/class-wire-transfer-handler.php:82
+msgid "Membership Receipt Information"
+msgstr ""
+
+#: resources/payment-handler/class-wire-transfer-handler.php:84
+#, php-format
+msgid ""
+"You have successfully applied for the %s membership package on our site."
+msgstr "Sitemizdeki %s üyelik paketine başarıyla başvurdunuz."
+
+#: resources/payment-handler/class-wire-transfer-handler.php:85
+#, php-format
+msgid ""
+"You chose to pay via Wire Transfer. Please send a payment of %s to the "
+"following account."
+msgstr ""
+"Banka Havalesi yoluyla ödeme yapmayı seçtiniz. Lütfen aşağıdaki hesaba %s "
+"tutarında bir ödeme gönderin."
+
+#: resources/payment-handler/class-wire-transfer-handler.php:89
+#, php-format
+msgid "Account Name: %s"
+msgstr "Hesap Adı: %s"
+
+#: resources/payment-handler/class-wire-transfer-handler.php:90
+#, php-format
+msgid "Account Number: %s"
+msgstr "Hesap Numarası: %s"
+
+#: resources/payment-handler/class-wire-transfer-handler.php:93
+#, php-format
+msgid ""
+"After sending the payment, notify us at %1$s and include your receipt %2$s "
+"number."
+msgstr ""
+
+#: resources/payment-handler/class-wire-transfer-handler.php:94
+msgid ""
+"We will activate your membership as soon as we get your payment confirmation."
+msgstr "Ödeme onayınızı alır almaz üyeliğinizi etkinleştireceğiz."
+
+#: resources/payment-handler/class-wire-transfer-handler.php:115
+msgid "New Membership Receipt Received"
+msgstr ""
+
+#: resources/payment-handler/class-wire-transfer-handler.php:117
+#, php-format
+msgid ""
+"You have received a %1$s membership receipt for the payment of %2$s from "
+"User ID #%3$s having email address %4$s"
+msgstr ""
+"E-posta adresine sahip %3$s Kullanıcı Kimliğinden %2$s ödemesine ilişkin bir "
+"%1$s üyelik makbuzu aldınız %4$s"
+
+#: resources/payment-handler/class-wire-transfer-handler.php:118
+#, php-format
+msgid ""
+"User chose to pay via Wire Transfer. Make sure to activate the membership "
+"receipt number %1$s as soon as you get the payment confirmation via email at "
+"%2$s"
+msgstr ""
+
+#: resources/payment-handler/class-wire-transfer-handler.php:127
+msgid "Your email address is not valid."
+msgstr "E-posta adresiniz geçerli değil."
+
+#: resources/payment-handler/class-wire-transfer-handler.php:139
+msgid "Email sent successfully."
+msgstr "E-posta başarıyla gönderildi."
+
+#: resources/payment-handler/class-wire-transfer-handler.php:145
+msgid "Error occurred while sending email."
+msgstr "E-posta gönderirken hata oluştu."
+
+#: resources/receipt/class-ims-cpt-receipt.php:32
+#: resources/receipt/class-ims-cpt-receipt.php:43
+#: resources/settings/admin-menu.php:69 resources/settings/admin-menu.php:70
+msgid "Receipts"
+msgstr "Makbuzlar"
+
+#: resources/receipt/class-ims-cpt-receipt.php:33
+#: resources/receipt/class-receipt-custom-columns.php:39
+#: resources/receipt/class-receipt-methods.php:49
+msgid "Receipt"
+msgstr "Makbuz"
+
+#: resources/receipt/class-ims-cpt-receipt.php:34
+msgctxt "inspiry-memberships"
+msgid "Add New Receipt"
+msgstr "Yeni Makbuz Ekle"
+
+#: resources/receipt/class-ims-cpt-receipt.php:35
+#: resources/settings/admin-menu.php:76
+msgid "Add New Receipt"
+msgstr "Yeni Makbuz Ekle"
+
+#: resources/receipt/class-ims-cpt-receipt.php:36
+msgid "Edit Receipt"
+msgstr "Alındıyı Düzenle"
+
+#: resources/receipt/class-ims-cpt-receipt.php:37
+#: resources/settings/admin-menu.php:77
+msgid "New Receipt"
+msgstr "Yeni Makbuz"
+
+#: resources/receipt/class-ims-cpt-receipt.php:38
+msgid "View Receipt"
+msgstr "Makbuzu Görüntüleyinn"
+
+#: resources/receipt/class-ims-cpt-receipt.php:39
+msgid "Search Receipts"
+msgstr "Makbuz Ara"
+
+#: resources/receipt/class-ims-cpt-receipt.php:40
+msgid "No Receipts found"
+msgstr "Makbuz bulunamadı"
+
+#: resources/receipt/class-ims-cpt-receipt.php:41
+msgid "No Receipts found in Trash"
+msgstr "Çöpte makbuz bulunamadı"
+
+#: resources/receipt/class-ims-cpt-receipt.php:42
+msgid "Parent Receipt:"
+msgstr "İlgili makbuz:"
+
+#: resources/receipt/class-ims-cpt-receipt.php:47
+msgid "receipt"
+msgstr "makbuz"
+
+#: resources/receipt/class-ims-cpt-receipt.php:56
+msgid "Represents a receipt of membership."
+msgstr "Bir üyelik makbuzunu temsil eder."
+
+#: resources/receipt/class-receipt-custom-columns.php:40
+#: resources/receipt/class-receipt-metaboxes.php:83
+msgid "Receipt For"
+msgstr "Şunun için makbuz"
+
+#: resources/receipt/class-receipt-custom-columns.php:43
+msgid "User"
+msgstr "Kullanıcı"
+
+#: resources/receipt/class-receipt-custom-columns.php:44
+#: resources/receipt/class-receipt-metaboxes.php:156
+msgid "Vendor"
+msgstr "Satıcı"
+
+#: resources/receipt/class-receipt-custom-columns.php:45
+#: resources/receipt/class-receipt-metaboxes.php:133
+msgid "Date of Purchase"
+msgstr "Satın Alma Tarihi"
+
+#: resources/receipt/class-receipt-custom-columns.php:46
+msgid "Status"
+msgstr "Durum"
+
+#: resources/receipt/class-receipt-custom-columns.php:138
+#: resources/receipt/class-receipt-metaboxes.php:175
+msgid "WooCommerce"
+msgstr "WooCommerce"
+
+#: resources/receipt/class-receipt-custom-columns.php:163
+msgid "Pending"
+msgstr "Beklemede"
+
+#: resources/receipt/class-receipt-custom-columns.php:165
+msgid "Expired"
+msgstr "Süresi Doldu"
+
+#: resources/receipt/class-receipt-custom-columns.php:167
+msgid "Active"
+msgstr "Aktif"
+
+#: resources/receipt/class-receipt-metaboxes.php:47
+msgid "Receipt Details"
+msgstr "Makbuz Detayları"
+
+#: resources/receipt/class-receipt-metaboxes.php:71
+msgid "Receipt ID"
+msgstr "Makbuz Kimliği"
+
+#: resources/receipt/class-receipt-metaboxes.php:76
+msgid "Receipt ID is not generated yet!"
+msgstr "Makbuz kimliği henüz oluşturulmadı!"
+
+#: resources/receipt/class-receipt-metaboxes.php:88
+msgid "Data not available!"
+msgstr "Veri mevcut değil!"
+
+#: resources/receipt/class-receipt-metaboxes.php:111
+msgid "Membership ID"
+msgstr "Üyelik Kimliği"
+
+#: resources/receipt/class-receipt-metaboxes.php:138
+msgid "Format: YYYY-MM-DD H:M:S"
+msgstr "Biçim: YYYY-AA-GG Y: E: S"
+
+#: resources/receipt/class-receipt-metaboxes.php:145
+msgid "User ID"
+msgstr "Kullanıcı ID"
+
+#: resources/receipt/class-receipt-metaboxes.php:184
+msgid "Payment ID"
+msgstr "Ödeme No"
+
+#: resources/receipt/class-receipt-metaboxes.php:195
+msgid "Membership Status"
+msgstr "Üyelik Durumu"
+
+#: resources/receipt/class-receipt-metaboxes.php:209
+msgid "Activate membership!"
+msgstr "Üyeliği etkinleştirin!"
+
+#: resources/receipt/class-receipt-metaboxes.php:212
+msgid "Membership expired."
+msgstr "Üyeliğin süresi doldu."
+
+#: resources/receipt/class-receipt-metaboxes.php:215
+msgid "Membership is active."
+msgstr "Üyelik aktif."
+
+#: resources/receipt/class-receipt-metaboxes.php:225
+msgid "Cancel Wire Transfer Membership?"
+msgstr "Banka Havalesi Üyeliği İptal Edilsin mi?"
+
+#: resources/receipt/class-receipt-metaboxes.php:229
+msgid "Yes!"
+msgstr "Evet!"
+
+#: resources/receipt/class-receipt-methods.php:61
+msgid "Receipt "
+msgstr "Fatura "
+
+#: resources/receipt/class-receipt-methods.php:71
+msgid "Normal Membership"
+msgstr "Normal Üyelik"
+
+#: resources/receipt/class-receipt-methods.php:72
+msgid "Recurring Membership"
+msgstr "Devamlı Üyelik"
+
+#: resources/settings/basic-settings.php:24
+msgid "Enable Memberships"
+msgstr "Üyelikleri Etkinleştir"
+
+#: resources/settings/basic-settings.php:25
+msgid "Check this to enable memberships on your website."
+msgstr "Web sitenizdeki üyelikleri etkinleştirmek için bunu işaretleyin."
+
+#: resources/settings/basic-settings.php:30
+msgid "Payments Gateway Type"
+msgstr ""
+
+#: resources/settings/basic-settings.php:31
+#, php-format
+msgid ""
+"If you choose \"Custom\" method, then you can use any individual direct "
+"payment methods such as Stripe, PayPal and WireTransfer. Choosing "
+"WooCommerce will allow you to use any WooCommerce supported payment method. "
+"For more details please check its documentation %1$sPayments Settings%2$s "
+"section."
+msgstr ""
+
+#: resources/settings/basic-settings.php:41
+msgid "Enable Recurring Memberships"
+msgstr "Yinelenen Üyelikleri Etkinleştir"
+
+#: resources/settings/basic-settings.php:42
+msgid ""
+"Check this to enable recurring memberships on your website. It is available "
+"only for \"Custom\" Payment Method because WooCommerce does not support "
+"recurring payments."
+msgstr ""
+
+#: resources/settings/basic-settings.php:47
+msgid "Currency Code"
+msgstr "Para Birimi Kodu"
+
+#: resources/settings/basic-settings.php:48
+msgid "Provide currency code that you want to use. Example: USD"
+msgstr "Kullanmak istediğiniz para birimi kodu. Örnek: USD"
+
+#: resources/settings/basic-settings.php:54
+msgid "Currency Symbol"
+msgstr "Para Birimi Sembolü"
+
+#: resources/settings/basic-settings.php:55
+msgid "Provide currency symbol that you want to use. Example: $"
+msgstr "Kullanmak istediğiniz para birimi sembolünü sağlayın. Örnek: $"
+
+#: resources/settings/basic-settings.php:61
+msgid "Currency Symbol Position"
+msgstr "Para Birimi Sembol Pozisyonu"
+
+#: resources/settings/basic-settings.php:62
+msgid "Default: Before"
+msgstr "Varsayılan: Önce"
+
+#: resources/settings/class-wp-osa.php:589
+msgid "Choose File"
+msgstr "Dosya Seçin"
+
+#: resources/settings/class-wp-osa.php:610
+msgid "Choose Image"
+msgstr "Resim Seç"
+
+#: resources/settings/class-wp-osa.php:694
+msgid "Inspiry Memberships Settings"
+msgstr "İlham Üyelik Ayarları"
+
+#: resources/settings/class-wp-osa.php:697
+msgid "For help, please consult the "
+msgstr "Yardım için lütfen "
+
+#: resources/settings/class-wp-osa.php:698
+msgid "documentation"
+msgstr "belgeler"
+
+#: resources/settings/class-wp-osa.php:699
+msgid " of the plugin."
+msgstr " eklentisi."
+
+#: resources/settings/class-wp-osa.php:700
+msgid "For feedback, please provide your "
+msgstr ""
+
+#: resources/settings/class-wp-osa.php:701
+msgid "feedback here!"
+msgstr ""
+
+#: resources/settings/paypal-settings.php:24
+msgid "Enable PayPal"
+msgstr "Paypal etkinleştirme"
+
+#: resources/settings/paypal-settings.php:25
+msgid "Check this to enable PayPal payments."
+msgstr "PayPal ödemelerini etkinleştirmek için bunu işaretleyin."
+
+#: resources/settings/paypal-settings.php:30
+msgid "Sandbox Mode"
+msgstr "Sandbox Modu"
+
+#: resources/settings/paypal-settings.php:31
+msgid "Check this option to use PayPal sandbox."
+msgstr "PayPal korumalı alanını kullanmak için bu seçeneği işaretleyin."
+
+#: resources/settings/paypal-settings.php:36
+msgid "Client ID"
+msgstr "Müşteri ID"
+
+#: resources/settings/paypal-settings.php:37
+msgid "Paste your client ID here."
+msgstr "Müşteri kimliğinizi buraya yapıştırın."
+
+#: resources/settings/paypal-settings.php:42
+msgid "Client Secret"
+msgstr "Müşteri Gizliliği"
+
+#: resources/settings/paypal-settings.php:43
+msgid "Paste your client secret here."
+msgstr "Müşteri sırrınızı buraya yapıştırın."
+
+#: resources/settings/paypal-settings.php:48
+msgid "API Username"
+msgstr "API Kullanıcı Adı"
+
+#: resources/settings/paypal-settings.php:49
+msgid "Paste your API username here."
+msgstr "API kullanıcı adınızı buraya yapıştırın."
+
+#: resources/settings/paypal-settings.php:54
+msgid "API Password"
+msgstr "API Şifre"
+
+#: resources/settings/paypal-settings.php:55
+msgid "Paste your API password here."
+msgstr "API şifrenizi buraya yapıştırın."
+
+#: resources/settings/paypal-settings.php:60
+msgid "API Signature"
+msgstr "API İmza"
+
+#: resources/settings/paypal-settings.php:61
+msgid "Paste your API signature here."
+msgstr "API imzanızı buraya yapıştırın."
+
+#: resources/settings/paypal-settings.php:66
+msgid "PayPal IPN URL"
+msgstr "PayPal IPN URL'si"
+
+#: resources/settings/settings-init.php:44
+msgid "Basic Settings"
+msgstr "Temel Ayarlar"
+
+#: resources/settings/settings-init.php:48
+msgid "Stripe Settings"
+msgstr "Stripe Ayarları"
+
+#: resources/settings/settings-init.php:52
+msgid "PayPal Settings"
+msgstr "PayPal Ayarları"
+
+#: resources/settings/settings-init.php:56
+msgid "Wire Transfer Settings"
+msgstr "Banka Transfer Bilgileri"
+
+#: resources/settings/stripe-settings.php:24
+msgid "Enable Stripe"
+msgstr "Stripe'yi Etkinleştir"
+
+#: resources/settings/stripe-settings.php:25
+msgid "Check this to enable Stripe payments."
+msgstr "Stripe ödemelerini etkinleştirmek için bunu işaretleyin."
+
+#: resources/settings/stripe-settings.php:30
+msgid "Publishable Key*"
+msgstr "Yayınlanabilir Anahtar *"
+
+#: resources/settings/stripe-settings.php:31
+msgid "Paste your stripe account publishable key."
+msgstr ""
+
+#: resources/settings/stripe-settings.php:36
+msgid "Secret Key*"
+msgstr "Gizli Anahtar"
+
+#: resources/settings/stripe-settings.php:37
+msgid "Paste your stripe account secret key."
+msgstr ""
+
+#: resources/settings/stripe-settings.php:42
+msgid "Stripe Button Label"
+msgstr "Şerit Düğme Etiketi"
+
+#: resources/settings/stripe-settings.php:43
+msgid "Default: Pay with Card"
+msgstr "Varsayılan: Kartla Öde"
+
+#: resources/settings/stripe-settings.php:49
+msgid "Stripe WebHook URL"
+msgstr "Stripe WebHook URL'si"
+
+#: resources/settings/wire-settings.php:24
+msgid "Enable Wire Transfer"
+msgstr "Banka Havalesini Etkinleştir"
+
+#: resources/settings/wire-settings.php:25
+msgid "Check this to enable wire transfer."
+msgstr "Kablo transferini etkinleştirmek için bunu işaretleyin."
+
+#: resources/settings/wire-settings.php:30
+msgid "Instructions for Wire Transfer"
+msgstr "Banka Transferi İçin Talimatlar"
+
+#: resources/settings/wire-settings.php:31
+msgid "Enter the instructions for wire transfer."
+msgstr "Banka havalesi için talimatları girin."
+
+#: resources/settings/wire-settings.php:37
+msgid "Account Name"
+msgstr "Hesap Adı"
+
+#: resources/settings/wire-settings.php:38
+msgid "Enter your account name."
+msgstr "Hesap adınızı girin."
+
+#: resources/settings/wire-settings.php:44
+msgid "Account Number"
+msgstr "Hesap Numarası"
+
+#: resources/settings/wire-settings.php:45
+msgid "Enter your account number."
+msgstr "Hesap numaranızı girin."
+
+#: resources/settings/wire-settings.php:46
+msgid "1111-2222-33333-44-5"
+msgstr "1111-2222-33333-44-5"
+
+#~ msgid "Check this to enable recurring memberships on your website."
+#~ msgstr ""
+#~ "Web sitenizde yinelenen üyelikleri etkinleştirmek için bunu işaretleyin."
+
+#~ msgid "Inspiry Memberships"
+#~ msgstr "İlham Üyelikleri"
+
+#~ msgid "Confirm"
+#~ msgstr "Onayla"
+
+#~ msgid "Cancel"
+#~ msgstr "İptal"
+
+#~ msgid "Membership Purchased."
+#~ msgstr "Üyelik satın alındı."
+
+#, php-format
+#~ msgid "You have successfully purchased %s package on our site."
+#~ msgstr "%s paketini sitemizden başarıyla satın aldınız."
+
+#, php-format
+#~ msgid "Your payment process completed successfully %s."
+#~ msgstr "Ödeme işleminiz başarıyla tamamlandı %s."
+
+#~ msgid "To view the details, please visit your profile page on our website."
+#~ msgstr ""
+#~ "Ayrıntıları görüntülemek için lütfen web sitemizdeki profil sayfanızı "
+#~ "ziyaret edin."
+
+#~ msgid "Membership Updated Successfully."
+#~ msgstr "Üyelik başarıyla güncellendi."
+
+#, php-format
+#~ msgid "A user successfully purchased %s package on your site."
+#~ msgstr "Bir kullanıcı %s paketini sitenizden başarıyla satın aldı."
+
+#, php-format
+#~ msgid "Payment process completed %s."
+#~ msgstr "Ödeme işlemi tamamlandı %s."
+
+#~ msgid "Membership Updated."
+#~ msgstr "Üyelik Güncellendi."
+
+#, php-format
+#~ msgid "A user successfully updated %s membership package on your site."
+#~ msgstr "Bir kullanıcı sitenizdeki %s üyelik paketini başarıyla güncelledi."
+
+#~ msgid "Membership is about to end."
+#~ msgstr "Üyelik sona ermek üzere."
+
+#~ msgid "Otherwise your membership will be cancelled."
+#~ msgstr "Aksi takdirde üyeliğiniz iptal edilir."
+
+#~ msgid "Membership Cancelled"
+#~ msgstr "Üyelik İptal Edildi"
+
+#~ msgid "Please visit "
+#~ msgstr "Lütfen ziyaret edin "
+
+#~ msgid " for more details."
+#~ msgstr " daha fazla ayrıntı için."
+
+#~ msgid "You chose to pay via Wire Transfer."
+#~ msgstr "Banka Havalesi ile ödeme yapmayı seçtiniz."
+
+#, php-format
+#~ msgid "Please send a payment of %s to the account mentioned on the website."
+#~ msgstr "Lütfen web sitesinde belirtilen hesaba %s ödeme gönderin."
+
+#, php-format
+#~ msgid "Please include the Receipt number %s in the payment details."
+#~ msgstr "Lütfen ödeme ayrıntılarına %s Makbuz numarasını ekleyin."
+
+#~ msgid "Other Settings"
+#~ msgstr "Diğer Ayarlar"
+
+#~ msgid "Text Input"
+#~ msgstr "Metin Girişi"
+
+#~ msgid "Text input description"
+#~ msgstr "Metin girişi açıklaması"
+
+#~ msgid "Number Input"
+#~ msgstr "Sayı Girişi"
+
+#~ msgid "Number field with validation callback `intval`"
+#~ msgstr "Doğrulama geri çağırma `intval` ile sayı alanı"
+
+#~ msgid "Password Input"
+#~ msgstr "Şifre Girişi"
+
+#~ msgid "Password field description"
+#~ msgstr "Şifre alanı açıklaması"
+
+#~ msgid "Textarea Input"
+#~ msgstr "Textarea Girişi"
+
+#~ msgid "Textarea description"
+#~ msgstr "Metin alanı açıklaması"
+
+#~ msgid "Checkbox"
+#~ msgstr "Onay Kutusu"
+
+#~ msgid "Checkbox Label"
+#~ msgstr "Onay kutusu etiketi"
+
+#~ msgid "Radio"
+#~ msgstr "Radyo"
+
+#~ msgid "Radio Button"
+#~ msgstr "Radyo düğmesi"
+
+#~ msgid "Multile checkbox"
+#~ msgstr "Çok dilli onay kutusu"
+
+#~ msgid "Multile checkbox description"
+#~ msgstr "Çok dilli onay kutusu açıklaması"
+
+#~ msgid "A Dropdown"
+#~ msgstr "Bir Açılır Menü"
+
+#~ msgid "A Dropdown description"
+#~ msgstr "Açılır menü açıklaması"
+
+#~ msgid "Image"
+#~ msgstr "Resim"
+
+#~ msgid "Image description"
+#~ msgstr "Görsel açıklaması"
+
+#~ msgid "File"
+#~ msgstr "Dosya"
+
+#~ msgid "File description"
+#~ msgstr "Dosya açıklaması"
+
+#~ msgid "Color"
+#~ msgstr "Renk"
+
+#~ msgid "Color description"
+#~ msgstr "Renk açıklaması"
+
+#~ msgid "WP_Editor"
+#~ msgstr "WP_Editor"
+
+#~ msgid "WP_Editor description"
+#~ msgstr "WP_Editor açıklaması"
+
+#~ msgid "Settings not saved."
+#~ msgstr "Ayarlar kaydedilmedi."
+
+#~ msgid "Some error occurred while saving settings"
+#~ msgstr "Ayarları kaydedilirken bir hata oluştu"
+
+#~ msgid "All done "
+#~ msgstr "Hepsi tamam "
+
+#~ msgid "Step 1: Basic Settings"
+#~ msgstr "Adım 1: Temel Ayarlar"
+
+#~ msgid "Check this box to enable memberships on your website"
+#~ msgstr ""
+#~ "Web sitenizdeki üyelikleri etkinleştirmek için bu kutuyu işaretleyin"
+
+#~ msgid "Check this box to enable recurring memberships on your website"
+#~ msgstr ""
+#~ "Web sitenizde yinelenen üyelikleri etkinleştirmek için bu kutuyu "
+#~ "işaretleyin"
+
+#~ msgid "Before (E.g. $10)"
+#~ msgstr "Önce (Örn. 10 $)"
+
+#~ msgid "After (E.g. 10$)"
+#~ msgstr "Sonra (Örn. 10 $)"
+
+#~ msgid "Next"
+#~ msgstr "Sonraki"
+
+#~ msgid "Step 3: PayPal Settings"
+#~ msgstr "3. Adım: PayPal Ayarları"
+
+#~ msgid "Important: "
+#~ msgstr "Önemli: "
+
+#~ msgid "Please get your PayPal API keys from your PayPal account."
+#~ msgstr "Lütfen PayPal API anahtarlarınızı PayPal hesabınızdan alın."
+
+#~ msgid "How to get API keys?"
+#~ msgstr "API anahtarları nasıl alınır?"
+
+#~ msgid "How to get API signature?"
+#~ msgstr "API imzası nasıl alınır?"
+
+#~ msgid "Check this box to enable PayPal payments."
+#~ msgstr "PayPal ödemelerini etkinleştirmek için bu kutuyu işaretleyin."
+
+#~ msgid "PayPal Sandbox"
+#~ msgstr "PayPal Sandbox"
+
+#~ msgid "Check this box to enable sandbox of PayPal."
+#~ msgstr "PayPal korumalı alanını etkinleştirmek için bu kutuyu işaretleyin."
+
+#~ msgid "For example: "
+#~ msgstr "Örneğin: "
+
+#~ msgid "Click here for more information."
+#~ msgstr "Daha fazla bilgi için buraya tıklayın."
+
+#~ msgid "Step 2: Stripe Settings"
+#~ msgstr "2. Adım: Şerit Ayarları"
+
+#~ msgid "Please get your Stripe API keys from the Stripe Dashboard."
+#~ msgstr "Lütfen Stripe API anahtarlarınızı Stripe Dashboard'dan alın."
+
+#~ msgid "Check this box to enable Stripe payments."
+#~ msgstr "Stripe ödemelerini etkinleştirmek için bu kutuyu işaretleyin."
+
+#~ msgid "Stripe Webhook URL"
+#~ msgstr "Şerit Web Kancası URL'si"
+
+#~ msgid "Click here to register your webhook."
+#~ msgstr "Web kancalarınızı kaydetmek için buraya tıklayın."
+
+#~ msgid "Step 4: Wire Transfer Settings"
+#~ msgstr "4. Adım: Banka Havalesi Ayarları"
+
+#~ msgid "Check this box to enable wire transfer."
+#~ msgstr "Banka havalesini etkinleştirmek için bu kutuyu işaretleyin."
+
+#~ msgid "Finish"
+#~ msgstr "Bitir"
+
+#, php-format
+#~ msgid "Inspiry Memberships %s"
+#~ msgstr "İlham Üyelikleri %s"
+
+#~ msgid "A membership plugin for RealHomes theme."
+#~ msgstr "RealHomes teması için bir üyelik eklentisi."
+
+#~ msgid "Get Started"
+#~ msgstr "Şimdi Başlayın"
+
+#~ msgid "You need to configure following settings."
+#~ msgstr "Aşağıdaki ayarları yapılandırmanız gerekir."
+
+#~ msgid "Start Configuring"
+#~ msgstr "Yapılandırmayı Başlat"
+
+#~ msgid "Features"
+#~ msgstr "Özellikler"
+
+#~ msgid ""
+#~ "This plugin facilitates you to create membership packages for your "
+#~ "RealHomes website."
+#~ msgstr ""
+#~ "Bu eklenti, RealHomes web siteniz için üyelik paketleri oluşturmanızı "
+#~ "kolaylaştırır."
+
+#~ msgid "Easy to Use"
+#~ msgstr "Kullanımı kolay"
+
+#~ msgid ""
+#~ "This plugin provides a simple and straight forward settings to get you "
+#~ "started on adding membership packages to your website."
+#~ msgstr ""
+#~ "Bu eklenti, web sitenize üyelik paketleri eklemeye başlamanız için basit "
+#~ "ve basit ayarlar sağlar."
+
+#~ msgid "One Menu to Rule Them All"
+#~ msgstr "Hepsini Yönetecek Bir Menü"
+
+#~ msgid ""
+#~ "This plugin offers only one menu to cover its settings and features. So, "
+#~ "no trouble in finding where the settings are, where to add a new "
+#~ "membership or where to find customer receipts. As all this is provided in "
+#~ "one place."
+#~ msgstr ""
+#~ "Bu eklenti, ayarlarını ve özelliklerini kapsayan tek bir menü sunar. Bu "
+#~ "nedenle, ayarların nerede olduğunu, yeni bir üyeliğin nereye ekleneceğini "
+#~ "veya müşteri makbuzlarının nerede bulunacağını bulmakta sorun yok. Bütün "
+#~ "bunlar tek bir yerde sağlandığı gibi."
+
+#~ msgid ""
+#~ "Using this plugin you can use your Stripe account to receive payments for "
+#~ "membership packages. You can also create subscriptions in your Stripe "
+#~ "account and integrate it with a membership package on your website using "
+#~ "related Stripe Plan ID."
+#~ msgstr ""
+#~ "Bu eklentiyi kullanarak üyelik paketleri için ödeme almak üzere Stripe "
+#~ "hesabınızı kullanabilirsiniz. Ayrıca Stripe hesabınızda abonelikler "
+#~ "oluşturabilir ve ilgili Stripe Plan Kimliğini kullanarak web sitenizdeki "
+#~ "bir üyelik paketiyle entegre edebilirsiniz."
+
+#~ msgid ""
+#~ "You can also use PayPal to receive payments for memberships. You can "
+#~ "accept payments through Master, Visa and other credit cards supported by "
+#~ "PayPal."
+#~ msgstr ""
+#~ "Üyelik ödemelerini almak için PayPal'ı da kullanabilirsiniz. Master, Visa "
+#~ "ve PayPal tarafından desteklenen diğer kredi kartları ile ödeme kabul "
+#~ "edebilirsiniz."
+
+#~ msgid "Wire Transfers"
+#~ msgstr "Banka Havaleleri"
+
+#~ msgid ""
+#~ "This plugin can also be configured to receive Wire Transfers. It emails "
+#~ "your customer the details of the selected membership so that they can pay "
+#~ "it via Wire Transfer."
+#~ msgstr ""
+#~ "Bu eklenti ayrıca Tel Aktarımları alacak şekilde yapılandırılabilir. "
+#~ "Havale yoluyla ödeme yapabilmeleri için müşterinize seçilen üyeliğin "
+#~ "ayrıntılarını e-posta ile gönderir."
+
+#~ msgid "Recurring Memberships"
+#~ msgstr "Devamlı Üyelikler"
+
+#~ msgid ""
+#~ "This plugin allows you to create recurring memberships. So that you can "
+#~ "receive recurring payments from your customers. You can use this feature "
+#~ "with both Stripe and PayPal. Every time you receive a payment, a receipt "
+#~ "is generated against it and both you and your customer gets an email "
+#~ "notification."
+#~ msgstr ""
+#~ "Bu eklenti, yinelenen üyelikler oluşturmanıza olanak tanır. Böylece "
+#~ "müşterilerinizden yinelenen ödemeler alabilirsiniz. Bu özelliği hem "
+#~ "Stripe hem de PayPal ile kullanabilirsiniz. Her ödeme aldığınızda, ona "
+#~ "karşı bir makbuz oluşturulur ve hem siz hem de müşteriniz bir e-posta "
+#~ "bildirimi alırsınız."
+
+#~ msgid "Register or Login"
+#~ msgstr "Kayıt Olun veya Giriş Yapın"
+
+#~ msgid " at our support website and ask your question there."
+#~ msgstr " destek web sitemizden ve sorunuzu orada sorun."
+
+#~ msgid "If you face any bugs or have any feedback, please "
+#~ msgstr ""
+#~ "Herhangi bir hata ile karşılaşırsanız veya herhangi bir geri bildiriminiz "
+#~ "varsa, lütfen "
+
+#~ msgid "sent it to us."
+#~ msgstr "bize gönderdi."
+
+#~ msgid "With love, from"
+#~ msgstr "Dan Sevgilerle"
+
+#~ msgid "Inspiry Themes"
+#~ msgstr "Meander Multimedya"
+
+#~ msgid "Price not available"
+#~ msgstr "Fiyat mevcut değil"
+
+#~ msgid "If you face any issues, please report them at "
+#~ msgstr ""
+#~ "Herhangi bir sorunla karşılaşırsanız, lütfen bunları şu adresten bildirin:"
+
+#~ msgid "GitHub."
+#~ msgstr "GitHub."
+
+#~ msgid "Test Mode"
+#~ msgstr "TEST MODU"
+
+#~ msgid "Check this to use the plugin in test mode."
+#~ msgstr "Eklentiyi test modunda kullanmak için bunu işaretleyin."
+
+#~ msgid "Paste your live secret key."
+#~ msgstr "Canlı gizli anahtarınızı yapıştırın."
+
+#~ msgid "Paste your live publishable key."
+#~ msgstr "Canlı yayınlanabilir anahtarınızı yapıştırın."
+
+#~ msgid "Test Secret Key"
+#~ msgstr "Gizli Anahtarı Test Et"
+
+#~ msgid "Test Publishable Key"
+#~ msgstr "Yayımlanabilir Anahtar'ı Test Edin"
+
+#~ msgid "Check this box to enable test mode of Stripe payments."
+#~ msgstr ""
+#~ "Stripe ödemelerinin test modunu etkinleştirmek için bu kutuyu işaretleyin."
+
+#~ msgid "Paste your live secret key here."
+#~ msgstr "Canlı gizli anahtarınızı buraya yapıştırın."
+
+#~ msgid "Paste your live publishable key here."
+#~ msgstr "Canlı yayınlanabilir anahtarınızı buraya yapıştırın."
+
+#~ msgid "Inspiry Memberships for RealHomes"
+#~ msgstr "RealHomes için İlham Üyelikleri"
+
+#~ msgid "https://github.com/InspiryThemes/inspiry-memberships"
+#~ msgstr "https://github.com/InspiryThemes/inspiry-memberships"
+
+#~ msgid ""
+#~ "Provides functionality to create membership packages for real estate "
+#~ "themes by Inspiry Themes"
+#~ msgstr ""
+#~ "Inspiry Themes tarafından emlak temaları için üyelik paketleri oluşturma "
+#~ "işlevselliği sağlar"
+
+#~ msgid "https://inspirythemes.com"
+#~ msgstr "https://inspirythemes.com"

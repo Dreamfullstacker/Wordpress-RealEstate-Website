@@ -1,0 +1,134 @@
+
+/* Home FlexSlider
+--------------------------------------------------------*/
+#home-flexslider {
+  height: auto;
+  .flexslider {
+    border: none;
+    margin: auto;
+    border-radius: 0;
+  }
+  /*
+    width: 100%;
+    height: auto;
+    margin: auto;
+    overflow: hidden;
+    position: relative;
+    .slides{
+      list-style: none;
+      margin: 0;
+      .container{
+        position: relative;
+      }
+    }
+    img{
+      width: 100%;
+      display: block;
+    }
+  */
+}
+
+
+/* Slide Description
+--------------------------------------------------------*/
+.desc-wrap{
+  width: 940px;
+  margin: auto;
+  position: relative;
+}
+.slide-description{
+  position: absolute;
+  //left: 62px;
+  top: 78px;
+  background-color: rgba(255,255,255,.9);
+  background-color: #fff\9;
+  padding: 2px 23px 16px;
+  width: 440px;
+  h3{
+    font-size: 24px;
+    margin-bottom: 4px;
+    a{
+      color: $headingsColor;
+      text-decoration: none;
+      &:hover{
+        color: $linkColorHover;
+      }
+    }
+  }
+  p {
+    margin-bottom: 14px;
+    line-height: 22px;
+  }
+  span{
+    font-size: 18px;
+    color: #df5400;
+    font-family: $RobotoFontFamily;
+  }
+  .know-more{
+    text-decoration: none;
+    font-family: $RobotoFontFamily;
+    position: absolute;
+    bottom: -34px;
+    left: 0;
+    display: inline-block;
+    background-color: #37b3d9;
+    padding: 6px  13px 8px;
+    font-size: 13px;
+    color:$white;
+    &:hover{
+      background-color: #2aa6cc;
+    }
+  }
+}
+
+
+/* Slider Nav
+--------------------------------------------------------*/
+.disable-responsive #home-flexslider{
+  min-width: 940px;
+}
+
+#home-flexslider{
+  .flexslider.loading{
+    min-height: 320px;
+    background: transparent url('../../images/slider-loader.gif') no-repeat center center;
+  }
+}
+
+#home-flexslider .flex-direction-nav {
+  li a {
+    display: block;
+    text-indent: -999em;
+    text-align: left;
+    width: 48px;
+    height: 48px;
+    position: absolute;
+    top: 50%;
+    margin-top: -22px;
+    z-index: 150;
+    cursor: pointer;
+    transition: none;
+    text-shadow: none;
+    outline: none;
+    &:focus{
+      outline: none;
+    }
+    &::before{
+      display: none;
+    }
+    &.flex-next {
+      background: url(../../images/slider-nav-right.png) no-repeat 0 0;
+      right: 30px;
+      &:hover {
+        background-position: bottom;
+      }
+    }
+    &.flex-prev {
+      background: url(../../images/slider-nav-left.png) no-repeat 0 0;
+      left: 30px;
+      &:hover {
+        background-position: bottom;
+      }
+    }
+  }
+}

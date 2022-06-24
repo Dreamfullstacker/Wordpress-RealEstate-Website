@@ -1,0 +1,181 @@
+/**
+ * CTA Section - Homepage
+ */
+
+.rh_section__cta {
+	position: relative;
+    z-index: 999;
+
+    &.diagonal-border:after {
+		content: '';
+		color: transparent;
+	    width: 0;
+	    height: 0;
+	    border-top-width: 180px;
+		border-bottom-width: 0px;
+	    border-right: 1440px solid transparent;
+	    border-right: 100vw solid transparent;
+	    position: absolute;
+	    bottom: -90px;
+	    left: 0;
+
+	    @include r(320)  { border-right-width: 0; border-top-width: 0; }
+		@include r(480)  { border-right-width: 0; border-top-width: 0; }
+		@include r(768)  { border-right-width: 0; border-top-width: 0; }
+		@include r(1024) { bottom: -70px; border-right-width: 100vw; border-top-width: 140px; }
+		@include r(1140) { bottom: -80px; border-right-width: 100vw; border-top-width: 160px; }
+		@include r(1280) { bottom: -90px; border-right-width: 100vw; border-top-width: 180px; }
+	}
+}
+
+.rh_cta {
+	background-position: 50%;
+	background-size: cover;
+	position: absolute;
+	top: -90px;
+	height: 100%;
+	height: calc(100% + 18rem);
+	width: 100%;
+	z-index: -9999;
+
+	@include r(320)  { top: 0; height: 100%; }
+	@include r(480)  { top: 0; height: 100%; }
+	@include r(768)  { top: 0; height: 100%; }
+	@include r(1024) { top: -70px; height: calc(100% + 14rem) }
+	@include r(1140) { top: -80px; height: calc(100% + 16rem) }
+	@include r(1280) { top: -90px; height: calc(100% + 18rem) }
+
+	.rh_cta__overlay {
+		display: block;
+		width: 100%;
+		height: 100%;
+		background: rgba(var(--rh-global-color-primary-rgb),0.8) ;
+	}
+}
+
+.rh_cta__wrap {
+    max-width: 1440px;
+	margin: 0 auto;
+
+	.rh_cta__title {
+		color: #fff;
+		font-size: 1.5rem;
+		font-weight: 500;
+		margin-bottom: 1.5rem;
+	}
+
+	.rh_cta__quote {
+		color: #fff;
+		font-size: 3.6rem;
+		font-weight: 400;
+		line-height: 1.5;
+		max-width: 95rem;
+		margin: 0 auto;
+		margin-bottom: 2.5rem;
+
+		a {
+			font-size: 3.6rem;
+			font-weight: 400;
+			line-height: 1.5;
+		}
+
+		@include r(320)  { font-size: 2.2rem; }
+		@include r(480)  { font-size: 2.5rem; }
+		@include r(768)  { font-size: 2.7rem; }
+		@include r(1024) { font-size: 3.2rem; }
+		@include r(1140) { font-size: 3.2rem; }
+		@include r(1280) { font-size: 3.6rem; }
+	}
+
+	.rh_cta__btns {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+
+		@include r(320)  { flex-direction: column; }
+		@include r(480)  { flex-direction: row; }
+		@include r(768)  { flex-direction: row; }
+		@include r(1024) { flex-direction: row; }
+		@include r(1140) { flex-direction: row; }
+		@include r(1280) { flex-direction: row; }
+
+		a {
+			display: inline-block;
+			font-size: 1.5rem;
+			font-weight: 500;
+			margin: 0 1rem 0;
+			z-index: 1;
+
+			@include r(320)  { margin: 0 0 1rem 0; }
+			@include r(480)  { margin: 0 1rem 0; }
+			@include r(768)  { margin: 0 1rem 0; }
+			@include r(1024) { margin: 0 1rem 0; }
+			@include r(1140) { margin: 0 1rem 0; }
+			@include r(1280) { margin: 0 1rem 0; }
+		}
+	}
+}
+
+.rh_cta--featured {
+
+	&.flat-border {
+		.rh_cta {
+			top: 0;
+			height: 100%;
+		}
+	}
+
+	.rh_cta {
+		background: url('../../images/cta-bg.jpg') no-repeat;
+		background-size: cover;
+		&.rh_parallax_cta{
+			background-repeat: repeat;
+		}
+	}
+
+	.rh_cta__wrap {
+		@include r(320)  { padding: 5rem 2rem; }
+		@include r(480)  { padding: 7rem 3rem; }
+		@include r(768)  { padding: 9rem 7rem; }
+		@include r(1024) { padding: 15rem 7rem; }
+		@include r(1140) { padding: 17rem 7rem; }
+		@include r(1280) { padding: 20rem 10rem; }
+	}
+}
+
+.rh_cta--contact {
+	&:after {
+		border-right: 0;
+		display: none;
+	}
+
+	.rh_cta {
+		background: url('../../images/cta-above-footer.jpg') no-repeat;
+		background-size: cover;
+		&.rh_parallax{
+			background-repeat: repeat;
+		}
+	}
+
+	.rh_cta__wrap {
+		@include r(320)  { padding: 5rem 2rem; }
+		@include r(480)  { padding: 7rem 3rem; }
+		@include r(768)  { padding: 10rem 7rem; }
+		@include r(1024) { padding: 13rem 7rem; }
+		@include r(1140) { padding: 15rem 7rem; }
+		@include r(1280) { padding: 16rem 10rem; }
+	}
+
+	.rh_cta__btns {
+		a {
+			margin: 0;
+
+			@include r(320)  { margin: 0 0 1rem 0; }
+			@include r(480)  { margin: 0; }
+			@include r(768)  { margin: 0; }
+			@include r(1024) { margin: 0; }
+			@include r(1140) { margin: 0; }
+			@include r(1280) { margin: 0; }
+		}
+	}
+}

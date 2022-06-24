@@ -1,0 +1,1474 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: RealHomes Vacation Rentals\n"
+"POT-Creation-Date: 2021-06-02 16:50+0500\n"
+"PO-Revision-Date: 2021-06-02 16:52+0500\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: fr_FR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.3\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: realhomes-vacation-rentals.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.min.js\n"
+
+#: admin/plugin-update.php:79
+msgid "An Unexpected HTTP Error occurred during the API request. Try again!"
+msgstr ""
+"Une erreur HTTP inattendue s'est produite lors de la requête API. Essayez à "
+"nouveau !"
+
+#: admin/plugin-update.php:84
+msgid "An unknown error occurred"
+msgstr "Une erreur inconnue s’est produite"
+
+#: admin/rvr-admin-menu.php:46 admin/rvr-admin-menu.php:47
+#: admin/rvr-property-metaboxes-config.php:14
+msgid "Vacation Rentals"
+msgstr "Locations de Vacances"
+
+#: admin/rvr-booking-post-type.php:22
+msgctxt "Post Type General Name"
+msgid "Bookings"
+msgstr "Réservations"
+
+#: admin/rvr-booking-post-type.php:23
+msgctxt "Post Type Singular Name"
+msgid "Booking"
+msgstr "Réservation"
+
+#: admin/rvr-booking-post-type.php:24
+msgid "Bookings"
+msgstr "Réservations"
+
+#: admin/rvr-booking-post-type.php:25 admin/rvr-booking-post-type.php:51
+#: admin/rvr-booking-post-type.php:126
+msgid "Booking"
+msgstr "Réservation"
+
+#: admin/rvr-booking-post-type.php:26
+msgid "Booking Archives"
+msgstr ""
+
+#: admin/rvr-booking-post-type.php:27
+msgid "Booking Attributes"
+msgstr ""
+
+#: admin/rvr-booking-post-type.php:28
+msgid "Parent Booking:"
+msgstr "Réservation Parents:"
+
+#: admin/rvr-booking-post-type.php:29
+msgid "All Bookings"
+msgstr "Toutes les Réservations"
+
+#: admin/rvr-booking-post-type.php:30
+msgid "Add New Booking"
+msgstr "Ajouter une nouvelle réservation"
+
+#: admin/rvr-booking-post-type.php:31 admin/rvr-invoice-post-type.php:36
+#: admin/rvr-owner-post-type.php:62
+msgid "Add New"
+msgstr "Ajouter"
+
+#: admin/rvr-booking-post-type.php:32
+msgid "New Booking"
+msgstr "Nouvelle réservation"
+
+#: admin/rvr-booking-post-type.php:33
+msgid "Edit Booking"
+msgstr "Modifier la réservation"
+
+#: admin/rvr-booking-post-type.php:34
+msgid "Update Booking"
+msgstr "Mettre à jour la réservation"
+
+#: admin/rvr-booking-post-type.php:35
+msgid "View Booking"
+msgstr "Voir la réservation"
+
+#: admin/rvr-booking-post-type.php:36
+msgid "View Bookings"
+msgstr "Voir les participations"
+
+#: admin/rvr-booking-post-type.php:37
+msgid "Search Booking"
+msgstr "Rechercher Réservation"
+
+#: admin/rvr-booking-post-type.php:38 admin/rvr-invoice-post-type.php:43
+#: admin/rvr-owner-post-type.php:69
+msgid "Not found"
+msgstr "Pas de résultat"
+
+#: admin/rvr-booking-post-type.php:39 admin/rvr-invoice-post-type.php:44
+#: admin/rvr-owner-post-type.php:70
+msgid "Not found in Trash"
+msgstr "Pas résultat dans la Corbeille"
+
+#: admin/rvr-booking-post-type.php:40 admin/rvr-invoice-post-type.php:45
+#: admin/rvr-owner-post-type.php:71
+msgid "Featured Image"
+msgstr "Image à la une"
+
+#: admin/rvr-booking-post-type.php:41 admin/rvr-invoice-post-type.php:46
+#: admin/rvr-owner-post-type.php:72
+msgid "Set featured image"
+msgstr "Définir une image d'illustration"
+
+#: admin/rvr-booking-post-type.php:42 admin/rvr-invoice-post-type.php:47
+#: admin/rvr-owner-post-type.php:73
+msgid "Remove featured image"
+msgstr "Supprimer l'image mise en avant"
+
+#: admin/rvr-booking-post-type.php:43 admin/rvr-invoice-post-type.php:48
+#: admin/rvr-owner-post-type.php:74
+msgid "Use as featured image"
+msgstr "Utiliser comme image mise en avant"
+
+#: admin/rvr-booking-post-type.php:44
+msgid "Insert into booking"
+msgstr ""
+
+#: admin/rvr-booking-post-type.php:45
+msgid "Uploaded to this booking"
+msgstr "Téléchargé à cette réservation"
+
+#: admin/rvr-booking-post-type.php:46
+msgid "Bookings list"
+msgstr "Liste des réservations"
+
+#: admin/rvr-booking-post-type.php:47
+msgid "Bookings list navigation"
+msgstr ""
+
+#: admin/rvr-booking-post-type.php:48
+msgid "Filter bookings list"
+msgstr ""
+
+#: admin/rvr-booking-post-type.php:52
+msgid "Bookings request for the rental properties."
+msgstr ""
+
+#: admin/rvr-booking-post-type.php:92
+msgid "Enter booking ID here"
+msgstr ""
+
+#: admin/rvr-booking-post-type.php:121
+msgid "Invoice is not available for this booking."
+msgstr ""
+
+#: admin/rvr-booking-post-type.php:131
+msgid "Booking Status"
+msgstr "Statut de la Réservation"
+
+#: admin/rvr-booking-post-type.php:134
+msgid "Pending"
+msgstr "FR Pending"
+
+#: admin/rvr-booking-post-type.php:135
+msgid "Rejected"
+msgstr "Rejeté"
+
+#: admin/rvr-booking-post-type.php:136
+msgid "Cancelled"
+msgstr "Annulée"
+
+#: admin/rvr-booking-post-type.php:137
+msgid "Confirmed"
+msgstr "FR Confirmed"
+
+#: admin/rvr-booking-post-type.php:143
+msgid "Check In Date"
+msgstr "Date d'arrivée"
+
+#: admin/rvr-booking-post-type.php:149
+msgid "Check Out Date"
+msgstr "Date de Départ"
+
+#: admin/rvr-booking-post-type.php:155 assets/rvr-booking-widget.php:39
+#: assets/rvr-booking-widget.php:291
+msgid "Adults"
+msgstr "Adultes"
+
+#: admin/rvr-booking-post-type.php:161 assets/rvr-booking-widget.php:40
+#: assets/rvr-booking-widget.php:292
+msgid "Children"
+msgstr "Enfants"
+
+#: admin/rvr-booking-post-type.php:167
+msgid "Request Date & Time"
+msgstr ""
+
+#: admin/rvr-booking-post-type.php:177
+msgid "Customer"
+msgstr "Client"
+
+#: admin/rvr-booking-post-type.php:181 admin/rvr-owner-post-type.php:216
+#: assets/rvr-booking-widget.php:26 assets/rvr-booking-widget.php:278
+msgid "Name"
+msgstr "Nom"
+
+#: admin/rvr-booking-post-type.php:187 admin/rvr-owner-post-type.php:124
+#: assets/rvr-booking-widget.php:28 assets/rvr-booking-widget.php:280
+#: assets/rvr-owner-widget.php:119
+msgid "Email"
+msgstr "E-mail"
+
+#: admin/rvr-booking-post-type.php:193 assets/rvr-booking-widget.php:31
+#: assets/rvr-booking-widget.php:283
+msgid "Phone"
+msgstr "Téléphone"
+
+#: admin/rvr-booking-post-type.php:201
+msgid "Pricing"
+msgstr "Tarification"
+
+#: admin/rvr-booking-post-type.php:205 assets/rvr-booking-widget.php:293
+msgid "Staying Nights"
+msgstr ""
+
+#: admin/rvr-booking-post-type.php:211
+msgid "Price Per Night"
+msgstr "Prix par nuit"
+
+#: admin/rvr-booking-post-type.php:217
+msgid "Staying Nights Price"
+msgstr ""
+
+#: admin/rvr-booking-post-type.php:223
+msgid "Government Tax"
+msgstr ""
+
+#: admin/rvr-booking-post-type.php:229 assets/rvr-booking-widget.php:44
+#: assets/rvr-booking-widget.php:296
+msgid "Services Charges"
+msgstr ""
+
+#: admin/rvr-booking-post-type.php:235 admin/rvr-booking-post-type.php:303
+#: assets/rvr-booking-widget.php:45 assets/rvr-booking-widget.php:297
+msgid "Total Price"
+msgstr "Prix Total"
+
+#: admin/rvr-booking-post-type.php:241
+msgid "Property Information"
+msgstr "Renseignements sur la propriété"
+
+#: admin/rvr-booking-post-type.php:245
+msgid "Property ID"
+msgstr "ID du bien"
+
+#: admin/rvr-booking-post-type.php:254 admin/rvr-booking-post-type.php:302
+msgid "Property Title"
+msgstr "Titre du bien"
+
+#: admin/rvr-booking-post-type.php:263
+msgid "Property URL"
+msgstr "URL de la propriété"
+
+#: admin/rvr-booking-post-type.php:297 admin/rvr-invoice-post-type.php:184
+#: admin/rvr-invoice-post-type.php:203
+msgid "Booking ID"
+msgstr "N° de Réservation"
+
+#: admin/rvr-booking-post-type.php:298
+msgid "Renter"
+msgstr "Loueur"
+
+#: admin/rvr-booking-post-type.php:299
+msgid "Renter Info"
+msgstr ""
+
+#: admin/rvr-booking-post-type.php:300 assets/rvr-booking-widget.php:33
+#: assets/rvr-booking-widget.php:285
+msgid "Check In"
+msgstr "Check In"
+
+#: admin/rvr-booking-post-type.php:301 assets/rvr-booking-widget.php:36
+#: assets/rvr-booking-widget.php:288
+msgid "Check Out"
+msgstr "Check Out"
+
+#: admin/rvr-booking-post-type.php:304
+msgid "Status"
+msgstr "Statut"
+
+#: admin/rvr-booking-post-type.php:305
+msgid "Received Time"
+msgstr ""
+
+#: admin/rvr-booking-post-type.php:355 admin/rvr-booking-post-type.php:370
+#: admin/rvr-booking-post-type.php:373 admin/rvr-booking-post-type.php:376
+#: admin/rvr-booking-post-type.php:379 admin/rvr-booking-post-type.php:382
+#: admin/rvr-booking-post-type.php:385 admin/rvr-booking-post-type.php:388
+#: admin/rvr-invoice-post-type.php:247 admin/rvr-invoice-post-type.php:251
+#: admin/rvr-invoice-post-type.php:252 admin/rvr-invoice-post-type.php:255
+#: admin/rvr-invoice-post-type.php:258 admin/rvr-invoice-post-type.php:261
+#: admin/rvr-invoice-post-type.php:264 admin/rvr-owner-post-type.php:280
+#: admin/rvr-owner-post-type.php:284
+msgid "NA"
+msgstr "NA"
+
+#: admin/rvr-booking-request-handler.php:18
+msgid "Unverified Nonce!"
+msgstr "Nonce non vérifié !"
+
+#: admin/rvr-booking-request-handler.php:28
+msgid "Provided Email address is invalid!"
+msgstr "L'adresse e-mail saisie est invalide !"
+
+#: admin/rvr-booking-request-handler.php:49
+msgid "You must book at least"
+msgstr ""
+
+#: admin/rvr-booking-request-handler.php:49
+msgid "nights."
+msgstr ""
+
+#: admin/rvr-booking-request-handler.php:61
+msgid "Incorrect information supplied!"
+msgstr ""
+
+#: admin/rvr-booking-request-handler.php:69
+msgid "Something went wrong, please try again later!"
+msgstr "Une erreur s'est produite; veuillez réessayer plus tard !"
+
+#: admin/rvr-booking-request-handler.php:95
+#: admin/rvr-booking-request-handler.php:272
+msgid "Booking Request Sent Successfully!"
+msgstr ""
+
+#: admin/rvr-booking-request-handler.php:103
+msgid "Server Error: WordPress mail function failed!"
+msgstr "Erreur serveur : La fonction e-mail de WordPress a échoué !"
+
+#: admin/rvr-booking-request-handler.php:110
+msgid "Invalid Request!"
+msgstr "Demande non valide !"
+
+#: admin/rvr-booking-request-handler.php:149
+msgid "Booking:"
+msgstr "Réservation :"
+
+#: admin/rvr-booking-request-handler.php:295
+msgid "New booking request sent by"
+msgstr ""
+
+#: admin/rvr-booking-request-handler.php:295
+msgid "using booking form at"
+msgstr ""
+
+#: admin/rvr-booking-request-handler.php:296
+msgid "You have received a booking request from: "
+msgstr ""
+
+#: admin/rvr-booking-request-handler.php:297
+#: admin/rvr-booking-request-handler.php:490
+msgid "Here are the booking details: "
+msgstr ""
+
+#: admin/rvr-booking-request-handler.php:300
+#, php-format
+msgid "%sBooking ID:%s "
+msgstr ""
+
+#: admin/rvr-booking-request-handler.php:304
+#: admin/rvr-booking-request-handler.php:497
+#, php-format
+msgid "%sProperty:%s "
+msgstr ""
+
+#: admin/rvr-booking-request-handler.php:308
+#: admin/rvr-booking-request-handler.php:501
+#, php-format
+msgid "%sProperty ID:%s "
+msgstr ""
+
+#: admin/rvr-booking-request-handler.php:312
+#: admin/rvr-booking-request-handler.php:493
+#, php-format
+msgid "%sPhone Number:%s "
+msgstr ""
+
+#: admin/rvr-booking-request-handler.php:316
+#: admin/rvr-booking-request-handler.php:505
+#, php-format
+msgid "%sCheck In Date:%s "
+msgstr ""
+
+#: admin/rvr-booking-request-handler.php:320
+#: admin/rvr-booking-request-handler.php:509
+#, php-format
+msgid "%sCheck Out Date:%s "
+msgstr ""
+
+#: admin/rvr-booking-request-handler.php:324
+#: admin/rvr-booking-request-handler.php:513
+#, php-format
+msgid "%sNumber of Adults:%s "
+msgstr ""
+
+#: admin/rvr-booking-request-handler.php:328
+#: admin/rvr-booking-request-handler.php:517
+#, php-format
+msgid "%sNumber of Children:%s "
+msgstr ""
+
+#: admin/rvr-booking-request-handler.php:332
+#: admin/rvr-booking-request-handler.php:521
+#, php-format
+msgid "%sStaying Nights:%s "
+msgstr ""
+
+#: admin/rvr-booking-request-handler.php:336
+#: admin/rvr-booking-request-handler.php:525
+#, php-format
+msgid "%sPer Night Price:%s "
+msgstr ""
+
+#: admin/rvr-booking-request-handler.php:340
+#: admin/rvr-booking-request-handler.php:529
+#, php-format
+msgid "%sPrice for Staying Nights:%s "
+msgstr ""
+
+#: admin/rvr-booking-request-handler.php:344
+#: admin/rvr-booking-request-handler.php:533
+#, php-format
+msgid "%sGovernment Tax:%s "
+msgstr ""
+
+#: admin/rvr-booking-request-handler.php:348
+#: admin/rvr-booking-request-handler.php:537
+#, php-format
+msgid "%sServices Charges:%s "
+msgstr ""
+
+#: admin/rvr-booking-request-handler.php:352
+#: admin/rvr-booking-request-handler.php:541
+#, php-format
+msgid "%sTotal Price:%s "
+msgstr ""
+
+#: admin/rvr-booking-request-handler.php:356
+#, php-format
+msgid "You can contact %1$s via email: %2$s"
+msgstr ""
+
+#: admin/rvr-booking-request-handler.php:384
+msgid "Your booking request has been received!"
+msgstr ""
+
+#: admin/rvr-booking-request-handler.php:385
+#: admin/rvr-booking-request-handler.php:461
+msgid "Hi "
+msgstr "Bonjour "
+
+#: admin/rvr-booking-request-handler.php:386
+msgid "Your booking request has been received."
+msgstr ""
+
+#: admin/rvr-booking-request-handler.php:390
+msgid "Your booking ID is"
+msgstr ""
+
+#: admin/rvr-booking-request-handler.php:394
+msgid " We will confirm your booking as soon as you pay the booking payment."
+msgstr ""
+
+#: admin/rvr-booking-request-handler.php:396
+msgid " We will confirm your booking as soon as possible and update you."
+msgstr ""
+
+#: admin/rvr-booking-request-handler.php:399
+msgid "Thank you."
+msgstr "Merci."
+
+#: admin/rvr-booking-request-handler.php:460
+#: admin/rvr-booking-request-handler.php:464
+#: admin/rvr-booking-request-handler.php:466
+msgid "Your ["
+msgstr ""
+
+#: admin/rvr-booking-request-handler.php:460
+msgid "] request is Updated!"
+msgstr ""
+
+#: admin/rvr-booking-request-handler.php:464
+msgid "] request status is changed from "
+msgstr ""
+
+#: admin/rvr-booking-request-handler.php:466
+msgid "] request reservation dates are changed from "
+msgstr ""
+
+#: admin/rvr-booking-request-handler.php:470
+msgid " for the "
+msgstr ""
+
+#: admin/rvr-booking-request-handler.php:470
+msgid " property."
+msgstr " propriété."
+
+#: admin/rvr-booking-request-handler.php:545
+#, php-format
+msgid "%sPayment Status:%s "
+msgstr ""
+
+#: admin/rvr-booking-request-handler.php:548
+#, php-format
+msgid "You can call administrator on this number %s or contact via email at %s"
+msgstr ""
+
+#: admin/rvr-booking-settings.php:22
+#: admin/rvr-property-metaboxes-config.php:135
+msgid "Outdoor Features"
+msgstr "Caractéristiques extérieures"
+
+#: admin/rvr-booking-settings.php:23
+msgid "Services"
+msgstr "Services"
+
+#: admin/rvr-booking-settings.php:24
+#: admin/rvr-property-metaboxes-config.php:175
+msgid "What is included"
+msgstr "Ce qui est inclus"
+
+#: admin/rvr-booking-settings.php:25
+#: admin/rvr-property-metaboxes-config.php:187
+msgid "What is not included"
+msgstr "Ce qui n'est pas inclus"
+
+#: admin/rvr-booking-settings.php:26
+msgid "Property Rules"
+msgstr ""
+
+#: admin/rvr-booking-settings.php:27
+msgid "Surroundings"
+msgstr "Entourage"
+
+#: admin/rvr-booking-settings.php:30 admin/rvr-property-metaboxes-config.php:56
+#: assets/rvr-booking-widget.php:50
+msgid "Instant Booking"
+msgstr "Réservation Instantanée"
+
+#: admin/rvr-booking-settings.php:49 admin/rvr-booking-settings.php:50
+#: admin/rvr-booking-settings.php:70 admin/rvr-booking-settings.php:71
+msgid "Settings"
+msgstr "Paramètres"
+
+#: admin/rvr-booking-settings.php:112
+msgid "Realhomes Vacation Rentals Settings"
+msgstr ""
+
+#: admin/rvr-booking-settings.php:137
+msgid "Contact Information"
+msgstr "Coordonnées"
+
+#: admin/rvr-booking-settings.php:144
+msgid "Terms and Conditions"
+msgstr "Termes et Conditions"
+
+#: admin/rvr-booking-settings.php:151
+msgid "Labels for Various Sections"
+msgstr ""
+
+#: admin/rvr-booking-settings.php:158
+#| msgid "Booking Status"
+msgid "Booking Payments"
+msgstr ""
+
+#: admin/rvr-booking-settings.php:166
+msgid "Realhomes Vacation Rentals"
+msgstr ""
+
+#: admin/rvr-booking-settings.php:174
+msgid "Booking Phone Number *"
+msgstr ""
+
+#: admin/rvr-booking-settings.php:182
+msgid "Contact Page"
+msgstr "Page de contact"
+
+#: admin/rvr-booking-settings.php:190
+msgid "Booking Email *"
+msgstr ""
+
+#: admin/rvr-booking-settings.php:198
+msgid "Booking Request Notification for Owner"
+msgstr ""
+
+#: admin/rvr-booking-settings.php:206
+msgid "Terms & Conditions Info"
+msgstr ""
+
+#: admin/rvr-booking-settings.php:214
+msgid "Terms & Conditions Text"
+msgstr "Texte des conditions générales d’utilisation"
+
+#: admin/rvr-booking-settings.php:222
+msgid "Label for Outdoor Features"
+msgstr ""
+
+#: admin/rvr-booking-settings.php:230
+msgid "Labels for Optional Services"
+msgstr ""
+
+#: admin/rvr-booking-settings.php:238
+msgid "Label for Property Policies"
+msgstr ""
+
+#: admin/rvr-booking-settings.php:246
+msgid "Label for Surroundings"
+msgstr ""
+
+#: admin/rvr-booking-settings.php:256
+msgid "Enable WooCommerce Payments for Bookings"
+msgstr ""
+
+#: admin/rvr-booking-settings.php:264
+#| msgid "Parent Booking:"
+msgid "Instant Booking Scope"
+msgstr ""
+
+#: admin/rvr-booking-settings.php:272
+msgid "Instant Booking Button Label"
+msgstr ""
+
+#: admin/rvr-booking-settings.php:286 admin/rvr-booking-settings.php:338
+#: admin/rvr-booking-settings.php:415
+#: admin/rvr-property-metaboxes-config.php:114
+msgid "Enable"
+msgstr "Activer"
+
+#: admin/rvr-booking-settings.php:290 admin/rvr-booking-settings.php:342
+#: admin/rvr-booking-settings.php:419
+#: admin/rvr-property-metaboxes-config.php:115
+msgid "Disable"
+msgstr "Désactiver"
+
+#: admin/rvr-booking-settings.php:292
+msgid ""
+"Enabling this will replace real estate functionality with vacation rentals "
+"functionality."
+msgstr ""
+
+#: admin/rvr-booking-settings.php:301
+msgid ""
+"To receive booking calls as it will be displayed on front-end booking widget."
+msgstr ""
+
+#: admin/rvr-booking-settings.php:313
+#: admin/rvr-property-metaboxes-config.php:44
+msgid "None"
+msgstr "Aucune"
+
+#: admin/rvr-booking-settings.php:317
+msgid ""
+"Select a page where users can ask Pre-Booking questions (e.g: contact page)."
+msgstr ""
+
+#: admin/rvr-booking-settings.php:327
+msgid "Provide an email address to receive new booking request notification."
+msgstr ""
+
+#: admin/rvr-booking-settings.php:354
+msgid "Show"
+msgstr "Afficher"
+
+#: admin/rvr-booking-settings.php:358
+msgid "Hide"
+msgstr "Cacher"
+
+#: admin/rvr-booking-settings.php:360
+msgid "If shown, user must accept it for booking form submission."
+msgstr ""
+
+#: admin/rvr-booking-settings.php:369
+#, php-format
+msgid ""
+"Provide Terms and Conditions option label text that will be displayed on "
+"booking form. You may use %s tag in your text to link separate Terms and "
+"Conditions page."
+msgstr ""
+
+#: admin/rvr-booking-settings.php:386
+msgid "Provide \"Optional Services\" section label."
+msgstr ""
+
+#: admin/rvr-booking-settings.php:388
+msgid "Provide \"Included\" sub-section label."
+msgstr ""
+
+#: admin/rvr-booking-settings.php:390
+msgid "Provide \"Not Included\" sub-section label."
+msgstr ""
+
+#: admin/rvr-booking-settings.php:421
+msgid "Enable WooCommerce payments for the bookings on your website."
+msgstr ""
+
+#: admin/rvr-booking-settings.php:431
+msgid "For All Properties"
+msgstr ""
+
+#: admin/rvr-booking-settings.php:435
+msgid "For Individual Property"
+msgstr ""
+
+#: admin/rvr-booking-settings.php:437
+msgid ""
+"If you choose \"For Individual Property\" option then you would need to "
+"enable the instant booking for properties individually from their add/edit "
+"page."
+msgstr ""
+
+#: admin/rvr-booking-settings.php:446
+msgid ""
+"This booking button label will be display for only instant booking enabled "
+"properties."
+msgstr ""
+
+#: admin/rvr-invoice-post-type.php:27
+msgctxt "Post Type General Name"
+msgid "Invoices"
+msgstr "Factures"
+
+#: admin/rvr-invoice-post-type.php:28
+msgctxt "Post Type Singular Name"
+msgid "Invoice"
+msgstr "Facture"
+
+#: admin/rvr-invoice-post-type.php:29
+msgid "Invoices"
+msgstr "Factures"
+
+#: admin/rvr-invoice-post-type.php:30 admin/rvr-invoice-post-type.php:56
+msgid "Invoice"
+msgstr "Facture"
+
+#: admin/rvr-invoice-post-type.php:31
+msgid "Invoice Archives"
+msgstr "Archives de la facture"
+
+#: admin/rvr-invoice-post-type.php:32
+msgid "Invoice Attributes"
+msgstr ""
+
+#: admin/rvr-invoice-post-type.php:33
+msgid "Parent Invoice:"
+msgstr "Facture Parente:"
+
+#: admin/rvr-invoice-post-type.php:34
+msgid "All Invoices"
+msgstr "Toutes les factures"
+
+#: admin/rvr-invoice-post-type.php:35
+msgid "Add New Invoice"
+msgstr "Ajouter une nouvelle facture"
+
+#: admin/rvr-invoice-post-type.php:37
+msgid "New Invoice"
+msgstr "Nouvelle facture"
+
+#: admin/rvr-invoice-post-type.php:38
+msgid "Edit Invoice"
+msgstr "Editer la facture"
+
+#: admin/rvr-invoice-post-type.php:39
+msgid "Update Invoice"
+msgstr "Mettre à Jour la facture"
+
+#: admin/rvr-invoice-post-type.php:40
+msgid "View Invoice"
+msgstr "Voir la facture"
+
+#: admin/rvr-invoice-post-type.php:41
+msgid "View Invoices"
+msgstr "Voir les Factures"
+
+#: admin/rvr-invoice-post-type.php:42
+msgid "Search Invoice"
+msgstr "Rechercher une facture"
+
+#: admin/rvr-invoice-post-type.php:49
+msgid "Insert into invoice"
+msgstr ""
+
+#: admin/rvr-invoice-post-type.php:50
+#| msgid "Uploaded to this booking"
+msgid "Uploaded to this invoice"
+msgstr ""
+
+#: admin/rvr-invoice-post-type.php:51
+msgid "Invoices list"
+msgstr "Liste des factures"
+
+#: admin/rvr-invoice-post-type.php:52
+msgid "Invoices list navigation"
+msgstr "La liste de factures navigation"
+
+#: admin/rvr-invoice-post-type.php:53
+msgid "Filter invoices list"
+msgstr ""
+
+#: admin/rvr-invoice-post-type.php:57
+msgid "Invoices of property bookings."
+msgstr ""
+
+#: admin/rvr-invoice-post-type.php:97
+msgid "Enter invoice ID here"
+msgstr ""
+
+#: admin/rvr-invoice-post-type.php:107
+msgid "Invoice Information"
+msgstr "Informations facturation"
+
+#: admin/rvr-invoice-post-type.php:118
+msgid "Not Available"
+msgstr "Non disponible"
+
+#: admin/rvr-invoice-post-type.php:139
+msgid "Payer First Name"
+msgstr ""
+
+#: admin/rvr-invoice-post-type.php:144
+msgid "Payer Last Name"
+msgstr ""
+
+#: admin/rvr-invoice-post-type.php:149 admin/rvr-invoice-post-type.php:205
+msgid "Payer Email"
+msgstr "E-mail du payeur"
+
+#: admin/rvr-invoice-post-type.php:154
+msgid "Payment Method"
+msgstr "Mode de paiement"
+
+#: admin/rvr-invoice-post-type.php:159
+msgid "Transaction ID"
+msgstr "ID de transaction"
+
+#: admin/rvr-invoice-post-type.php:164
+msgid "Payment Date"
+msgstr "Date de paiement"
+
+#: admin/rvr-invoice-post-type.php:169 admin/rvr-invoice-post-type.php:206
+msgid "Amount"
+msgstr "Montant"
+
+#: admin/rvr-invoice-post-type.php:174 admin/rvr-invoice-post-type.php:207
+msgid "Currency"
+msgstr "Devise"
+
+#: admin/rvr-invoice-post-type.php:179
+msgid "Payment Status"
+msgstr "Statut du paiement"
+
+#: admin/rvr-invoice-post-type.php:202
+msgid "Invoice ID"
+msgstr "Numéro de la facture"
+
+#: admin/rvr-invoice-post-type.php:204
+msgid "Payer"
+msgstr "Payeur"
+
+#: admin/rvr-invoice-post-type.php:208
+msgid "Method"
+msgstr "Méthode"
+
+#: admin/rvr-invoice-post-type.php:209
+msgid "Payment Time"
+msgstr ""
+
+#: admin/rvr-owner-post-type.php:25 admin/rvr-owner-post-type.php:26
+#: admin/rvr-owner-post-type.php:60
+msgid "All Owners"
+msgstr "Tous les Proprietaires"
+
+#: admin/rvr-owner-post-type.php:32 admin/rvr-owner-post-type.php:61
+msgid "Add New Owner"
+msgstr "Ajouter un nouveau propriétaire"
+
+#: admin/rvr-owner-post-type.php:33 admin/rvr-owner-post-type.php:63
+msgid "New Owner"
+msgstr "Nouveau propriétaire"
+
+#: admin/rvr-owner-post-type.php:53
+msgctxt "Post Type General Name"
+msgid "Owners"
+msgstr "Propriétaires"
+
+#: admin/rvr-owner-post-type.php:54
+msgctxt "Post Type Singular Name"
+msgid "Owner"
+msgstr "Propriétaire"
+
+#: admin/rvr-owner-post-type.php:55
+msgid "Owners"
+msgstr "Propriétaires"
+
+#: admin/rvr-owner-post-type.php:56 admin/rvr-owner-post-type.php:82
+#: admin/rvr-property-metaboxes-config.php:122 assets/rvr-owner-widget.php:323
+msgid "Owner"
+msgstr "Propriétaire"
+
+#: admin/rvr-owner-post-type.php:57
+msgid "Owner Archives"
+msgstr ""
+
+#: admin/rvr-owner-post-type.php:58
+msgid "Owner Attributes"
+msgstr ""
+
+#: admin/rvr-owner-post-type.php:59
+msgid "Parent Owner:"
+msgstr ""
+
+#: admin/rvr-owner-post-type.php:64
+msgid "Edit Owner"
+msgstr "Modifier le propriétaire"
+
+#: admin/rvr-owner-post-type.php:65
+msgid "Update Owner"
+msgstr ""
+
+#: admin/rvr-owner-post-type.php:66
+msgid "View Owner"
+msgstr "Voir propriétaire"
+
+#: admin/rvr-owner-post-type.php:67
+msgid "View Owners"
+msgstr ""
+
+#: admin/rvr-owner-post-type.php:68
+msgid "Search Owner"
+msgstr "Rechercher un propriétaire"
+
+#: admin/rvr-owner-post-type.php:75
+msgid "Insert into owner"
+msgstr ""
+
+#: admin/rvr-owner-post-type.php:76
+msgid "Uploaded to this owner"
+msgstr ""
+
+#: admin/rvr-owner-post-type.php:77
+msgid "Owners list"
+msgstr ""
+
+#: admin/rvr-owner-post-type.php:78
+msgid "Owners list navigation"
+msgstr ""
+
+#: admin/rvr-owner-post-type.php:79
+msgid "Filter owners list"
+msgstr ""
+
+#: admin/rvr-owner-post-type.php:83
+msgid ""
+"Owner custom post type for the properties to choose as contact and "
+"information provider."
+msgstr ""
+
+#: admin/rvr-owner-post-type.php:119
+msgid "Owner Details"
+msgstr "Informations sur le propriétaire"
+
+#: admin/rvr-owner-post-type.php:130 assets/rvr-owner-widget.php:92
+msgid "Mobile"
+msgstr "Mobile"
+
+#: admin/rvr-owner-post-type.php:136
+msgid "Office Phone"
+msgstr "Téléphone professionnel"
+
+#: admin/rvr-owner-post-type.php:142 assets/rvr-owner-widget.php:101
+msgid "Fax"
+msgstr "Fax"
+
+#: admin/rvr-owner-post-type.php:148
+msgid "Whatsapp"
+msgstr "Whatsapp"
+
+#: admin/rvr-owner-post-type.php:154 admin/rvr-owner-post-type.php:219
+#: assets/rvr-owner-widget.php:128
+msgid "Address"
+msgstr "Adresse"
+
+#: admin/rvr-owner-post-type.php:160
+msgid "Twitter Link"
+msgstr "Lien Twitter"
+
+#: admin/rvr-owner-post-type.php:166
+msgid "Facebook Link"
+msgstr "Lien Facebook"
+
+#: admin/rvr-owner-post-type.php:172
+msgid "Instagram Link"
+msgstr "Lien Instagram"
+
+#: admin/rvr-owner-post-type.php:178
+msgid "Linkedin Link"
+msgstr "Lien LinkedIn"
+
+#: admin/rvr-owner-post-type.php:184
+msgid "Pinterest Link"
+msgstr "Lien Pinterest"
+
+#: admin/rvr-owner-post-type.php:190
+msgid "Youtube Link"
+msgstr "Youtube Url"
+
+#: admin/rvr-owner-post-type.php:217
+msgid "Photo"
+msgstr "Photo"
+
+#: admin/rvr-owner-post-type.php:218
+msgid "Owner Info"
+msgstr "Infos sur le propriétaire"
+
+#: admin/rvr-owner-post-type.php:220
+msgid "Publish Time"
+msgstr "Heure de publication"
+
+#: admin/rvr-owner-post-type.php:268
+msgid "Email:"
+msgstr "E-mail:"
+
+#: admin/rvr-owner-post-type.php:272
+msgid "Mobile: "
+msgstr "Mobile: "
+
+#: admin/rvr-owner-post-type.php:276
+msgid "Whatsapp: "
+msgstr "Whatsapp: "
+
+#: admin/rvr-owner-post-type.php:302
+msgid "Enter owner name here"
+msgstr ""
+
+#: admin/rvr-property-metaboxes-config.php:57
+msgid ""
+"Instant booking will allow guest to confirm property booking instantly after "
+"paying the property booking payment."
+msgstr ""
+
+#: admin/rvr-property-metaboxes-config.php:69
+msgid "Guests Capacity"
+msgstr "Capacité"
+
+#: admin/rvr-property-metaboxes-config.php:70
+msgid "Example: 4"
+msgstr "Exemple : 4"
+
+#: admin/rvr-property-metaboxes-config.php:78
+msgid "Minimum Number of Nights to Stay"
+msgstr ""
+
+#: admin/rvr-property-metaboxes-config.php:79
+msgid "Example: 1"
+msgstr "Exemple : 1"
+
+#: admin/rvr-property-metaboxes-config.php:87
+msgid "Percentage of Govt Tax"
+msgstr ""
+
+#: admin/rvr-property-metaboxes-config.php:88
+msgid "Example: 16"
+msgstr ""
+
+#: admin/rvr-property-metaboxes-config.php:96
+msgid "Percentage of Service Charges"
+msgstr ""
+
+#: admin/rvr-property-metaboxes-config.php:97
+msgid "Example: 3"
+msgstr ""
+
+#: admin/rvr-property-metaboxes-config.php:123
+#, php-format
+msgid "You can add new owner by %s clicking here%s."
+msgstr ""
+
+#: admin/rvr-property-metaboxes-config.php:143
+#: admin/rvr-property-metaboxes-config.php:155
+#: admin/rvr-property-metaboxes-config.php:183
+#: admin/rvr-property-metaboxes-config.php:195
+#: admin/rvr-property-metaboxes-config.php:218
+msgid "+"
+msgstr "+"
+
+#: admin/rvr-property-metaboxes-config.php:148
+msgid "Property Surroundings"
+msgstr ""
+
+#: admin/rvr-property-metaboxes-config.php:158
+msgid "Point of Interest"
+msgstr "Point d'intérêt"
+
+#: admin/rvr-property-metaboxes-config.php:163
+msgid "Distance or How to approach"
+msgstr ""
+
+#: admin/rvr-property-metaboxes-config.php:203
+msgid "Property Policies or Rules"
+msgstr ""
+
+#: admin/rvr-property-metaboxes-config.php:204
+#, php-format
+msgid ""
+"* Default check icon %s will appear if \"Font Awesome Icon\" field is empty. "
+"You can see the list of Font Awesome Free Icons by %s clicking here%s. %s "
+"Add \"rvr-slash\" class with Font Awesome classes to display it as ban %s %s "
+"For example %s rvr-slash fas fa-paw %s for no pets "
+msgstr ""
+
+#: admin/rvr-property-metaboxes-config.php:221
+msgid "Policy Text"
+msgstr ""
+
+#: admin/rvr-property-metaboxes-config.php:226
+msgid "Font Awesome Icon (i.e far fa-star)"
+msgstr ""
+
+#: assets/realhomes-vacatin-rentals-include.php:49
+msgctxt "Sunday"
+msgid "su"
+msgstr "dim"
+
+#: assets/realhomes-vacatin-rentals-include.php:50
+msgctxt "Monday"
+msgid "mo"
+msgstr "mois"
+
+#: assets/realhomes-vacatin-rentals-include.php:51
+msgctxt "Tuesday"
+msgid "tu"
+msgstr "mar"
+
+#: assets/realhomes-vacatin-rentals-include.php:52
+msgctxt "Wednesday"
+msgid "we"
+msgstr "mer"
+
+#: assets/realhomes-vacatin-rentals-include.php:53
+msgctxt "Thursday"
+msgid "th"
+msgstr "e"
+
+#: assets/realhomes-vacatin-rentals-include.php:54
+msgctxt "Friday"
+msgid "fr"
+msgstr "ven"
+
+#: assets/realhomes-vacatin-rentals-include.php:55
+msgctxt "Saturday"
+msgid "sa"
+msgstr "sam"
+
+#: assets/realhomes-vacatin-rentals-include.php:58
+msgid "january"
+msgstr "janvier"
+
+#: assets/realhomes-vacatin-rentals-include.php:59
+msgid "february"
+msgstr "février"
+
+#: assets/realhomes-vacatin-rentals-include.php:60
+msgid "march"
+msgstr "mars"
+
+#: assets/realhomes-vacatin-rentals-include.php:61
+msgid "april"
+msgstr "avril"
+
+#: assets/realhomes-vacatin-rentals-include.php:62
+msgid "may"
+msgstr "mai"
+
+#: assets/realhomes-vacatin-rentals-include.php:63
+msgid "june"
+msgstr "juin"
+
+#: assets/realhomes-vacatin-rentals-include.php:64
+msgid "july"
+msgstr "juillet"
+
+#: assets/realhomes-vacatin-rentals-include.php:65
+msgid "august"
+msgstr "août"
+
+#: assets/realhomes-vacatin-rentals-include.php:66
+msgid "september"
+msgstr "septembre"
+
+#: assets/realhomes-vacatin-rentals-include.php:67
+msgid "october"
+msgstr "octobre"
+
+#: assets/realhomes-vacatin-rentals-include.php:68
+msgid "november"
+msgstr "novembre"
+
+#: assets/realhomes-vacatin-rentals-include.php:69
+msgid "december"
+msgstr "décembre"
+
+#: assets/rvr-booking-widget.php:15
+msgid ""
+"This widget displays rental booking form and can be used only on property "
+"single page."
+msgstr ""
+
+#: assets/rvr-booking-widget.php:17
+msgid "RealHomes - Vacation Rentals Booking Widget"
+msgstr ""
+
+#: assets/rvr-booking-widget.php:25 assets/rvr-booking-widget.php:276
+msgid "Request a Booking"
+msgstr "Demande de Réservation"
+
+#: assets/rvr-booking-widget.php:27 assets/rvr-booking-widget.php:279
+msgid "Enter Name"
+msgstr "Entrez le nom"
+
+#: assets/rvr-booking-widget.php:29 assets/rvr-booking-widget.php:281
+msgid "Enter Email"
+msgstr "Entrez une adresse mail"
+
+#: assets/rvr-booking-widget.php:30 assets/rvr-booking-widget.php:282
+msgid "Email field is required."
+msgstr "Le champ Email est obligatoire."
+
+#: assets/rvr-booking-widget.php:32 assets/rvr-booking-widget.php:284
+msgid "1-800-123-4567"
+msgstr ""
+
+#: assets/rvr-booking-widget.php:34 assets/rvr-booking-widget.php:37
+#: assets/rvr-booking-widget.php:286 assets/rvr-booking-widget.php:289
+msgid "yy-mm-dd"
+msgstr "aa-mm-jj"
+
+#: assets/rvr-booking-widget.php:35 assets/rvr-booking-widget.php:287
+msgid "Check-In field is required."
+msgstr ""
+
+#: assets/rvr-booking-widget.php:38 assets/rvr-booking-widget.php:290
+msgid "Check-Out field is required."
+msgstr ""
+
+#: assets/rvr-booking-widget.php:41
+msgid " Staying Nights"
+msgstr ""
+
+#: assets/rvr-booking-widget.php:42 assets/rvr-booking-widget.php:294
+msgid "Price For Staying Nights"
+msgstr ""
+
+#: assets/rvr-booking-widget.php:43 assets/rvr-booking-widget.php:295
+msgid "Government Taxes"
+msgstr ""
+
+#: assets/rvr-booking-widget.php:46 assets/rvr-booking-widget.php:298
+msgid "OR"
+msgstr "OU"
+
+#: assets/rvr-booking-widget.php:47 assets/rvr-booking-widget.php:299
+msgid "Call Now"
+msgstr "Appelez"
+
+#: assets/rvr-booking-widget.php:52 assets/rvr-booking-widget.php:277
+msgid "Book Now"
+msgstr "Réserver"
+
+#: assets/rvr-booking-widget.php:102
+msgid "Booking widget can be used only on property single page."
+msgstr ""
+
+#: assets/rvr-booking-widget.php:173
+msgid "Please accept the terms and conditions."
+msgstr "Veuillez accepter les termes et conditions."
+
+#: assets/rvr-booking-widget.php:230
+msgid "Ajax Loader"
+msgstr "Chargement Ajax"
+
+#: assets/rvr-booking-widget.php:266 assets/rvr-owner-widget.php:310
+msgid "Note: "
+msgstr "Remarque: "
+
+#: assets/rvr-booking-widget.php:266
+msgid "Please activate the RVR from its settings to display Booking form."
+msgstr ""
+
+#: assets/rvr-booking-widget.php:330
+msgid "Widget Title"
+msgstr "Titre Widget"
+
+#: assets/rvr-booking-widget.php:337
+msgid "Choose Property Statuses to Show Booking Form"
+msgstr ""
+
+#: assets/rvr-booking-widget.php:357
+msgid "Name Label"
+msgstr "Nom"
+
+#: assets/rvr-booking-widget.php:363
+msgid "Name Placeholder"
+msgstr "Texte du champ nom"
+
+#: assets/rvr-booking-widget.php:370
+msgid "Email Label"
+msgstr "Etiquette pour l’email"
+
+#: assets/rvr-booking-widget.php:376
+msgid "Email Placeholder"
+msgstr "Espace réservé Email"
+
+#: assets/rvr-booking-widget.php:383
+msgid "Required Email Text (If field is empty)"
+msgstr ""
+
+#: assets/rvr-booking-widget.php:390
+msgid "Phone Label"
+msgstr "Label telephone"
+
+#: assets/rvr-booking-widget.php:397
+msgid "Phone Placeholder"
+msgstr "Téléphone Placeholder"
+
+#: assets/rvr-booking-widget.php:405
+msgid "Check-In Label"
+msgstr ""
+
+#: assets/rvr-booking-widget.php:412
+msgid "Check-In Placeholder"
+msgstr ""
+
+#: assets/rvr-booking-widget.php:419
+msgid "Check-In Required Text (IF no date is selected)"
+msgstr ""
+
+#: assets/rvr-booking-widget.php:427
+msgid "Check-Out Label"
+msgstr ""
+
+#: assets/rvr-booking-widget.php:434
+msgid "Check-Out Placeholder"
+msgstr ""
+
+#: assets/rvr-booking-widget.php:442
+msgid "Check-Out Required Text (IF no date is selected)"
+msgstr ""
+
+#: assets/rvr-booking-widget.php:450
+msgid "Adults Label"
+msgstr ""
+
+#: assets/rvr-booking-widget.php:458
+msgid "Children Label"
+msgstr ""
+
+#: assets/rvr-booking-widget.php:465
+msgid "Staying Nights Text"
+msgstr ""
+
+#: assets/rvr-booking-widget.php:472
+msgid "Price for Staying Nights Text"
+msgstr ""
+
+#: assets/rvr-booking-widget.php:479
+msgid "Government Taxes Text"
+msgstr ""
+
+#: assets/rvr-booking-widget.php:486
+msgid "Services Charges Text"
+msgstr ""
+
+#: assets/rvr-booking-widget.php:493
+msgid "Total Price Text"
+msgstr "Texte du Prix Total"
+
+#: assets/rvr-booking-widget.php:500
+msgid "OR Tag Text"
+msgstr ""
+
+#: assets/rvr-booking-widget.php:507
+msgid "Call Now Text"
+msgstr "Texte Appeler Maintenant"
+
+#: assets/rvr-booking-widget.php:515
+msgid "Submit Button Text"
+msgstr "Texte du bouton de soumission"
+
+#: assets/rvr-owner-widget.php:15
+msgid ""
+"This widget displays rental owner information and can be used only on "
+"property single page."
+msgstr ""
+
+#: assets/rvr-owner-widget.php:17
+msgid "RVR - Owner Information Widget"
+msgstr ""
+
+#: assets/rvr-owner-widget.php:27
+msgid "Owner information widget can be used only on property single page."
+msgstr ""
+
+#: assets/rvr-owner-widget.php:83
+msgid "Office"
+msgstr "Bureau"
+
+#: assets/rvr-owner-widget.php:110
+msgid "WhatsApp"
+msgstr "WhatsApp"
+
+#: assets/rvr-owner-widget.php:199 assets/rvr-owner-widget.php:210
+msgid "Something went wrong!"
+msgstr "Un problème est survenu !"
+
+#: assets/rvr-owner-widget.php:310
+msgid ""
+"Please activate the RVR from its settings to display Property Owner "
+"information."
+msgstr ""
+
+#: assets/rvr-owner-widget.php:324
+msgid "off"
+msgstr "désactivé"
+
+#: assets/rvr-owner-widget.php:331
+msgid "Owner Name Prefix"
+msgstr ""
+
+#: assets/rvr-owner-widget.php:337
+msgid "Display Owner Contact Information?"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "RealHomes Vacation Rentals"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+#. Author URI of the plugin/theme
+msgid "https://inspirythemes.com/"
+msgstr "https://inspirythemes.com/"
+
+#. Description of the plugin/theme
+msgid "Add vacation rentals functionality to RealHomes theme."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "InspiryThemes"
+msgstr "InspiryThemes"
+
+#~ msgid "Property"
+#~ msgstr "Bien"

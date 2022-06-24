@@ -1,0 +1,113 @@
+/**
+* RVR - datepicker calendar styles - Classic/Default
+*/
+#ui-datepicker-div {
+  background-color: #fbfbfb;
+  padding: 0;
+  margin: 1px;
+  border: 0;
+  box-shadow: 0 5px 5px -5px #80808059;
+
+  .ui-datepicker-header {
+    background: #54c7ed;
+    color: #fff;
+    border: 0;
+    border-radius: 0;
+    padding: 8px 0;
+    font-weight: normal;
+
+    .ui-corner-all {
+
+      width: 40px;
+      height: 40px;
+      top: 0 !important;
+
+      &:hover {
+        cursor: pointer;
+        border: none;
+        background: none;
+      }
+
+      &.ui-datepicker-next {
+        right: 0 !important;;
+      }
+
+      &.ui-datepicker-prev {
+        left: 0 !important;
+
+        span {
+          background-position: -96px 0;
+        }
+      }
+
+      span {
+        width: 16px;
+        height: 16px;
+        top: 20px;
+        background-image: url("../datepicker/images/ui-icons_ffffff_256x240.png");
+        background-position: -32px 0;
+      }
+    }
+  }
+
+  .ui-datepicker-calendar {
+    margin: 0;
+
+    thead {
+      text-transform: uppercase;
+    }
+
+    tbody {
+      tr {
+        td {
+          border: 1px solid #dedede;
+          background-color: #fff;
+
+          &.ui-datepicker-today {
+            background: #54c7ee;
+          }
+
+          &.ui-state-reserved {
+            background-color: #ec884d !important;
+            opacity: 1;
+
+            span {
+              color: #fff;
+            }
+          }
+
+          a,
+          span {
+            text-align: center;
+            border: 0;
+            background: none;
+
+            &.ui-state-highlight {
+              color: #fff;
+            }
+          }
+
+          &:hover {
+            background-color: #ec884d;
+
+            a {
+              color: #fff;
+            }
+          }
+
+          &.ui-datepicker-current-day {
+            background-color: #54c7ed;
+
+            a {
+              color: #fff;
+            }
+          }
+
+          &.ui-state-disabled {
+            background-color: #dedede;
+          }
+        }
+      }
+    }
+  }
+}

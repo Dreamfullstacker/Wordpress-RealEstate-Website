@@ -1,0 +1,266 @@
+/**
+ * Theme Content
+ */
+.rh_content {
+  font-size: 1.5rem;
+  font-weight: inherit;
+  line-height: 2;
+  text-align: left;
+  margin-bottom: 1rem;
+
+  p {
+    margin-bottom: 2rem;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    margin: 0 auto 2rem;
+    line-height: 1.5;
+  }
+
+  ol,
+  ul {
+    margin: 0 0 2rem;
+    padding: 0 0 0 3rem;
+    line-height: 2;
+
+    ol,
+    ul {
+      margin-bottom: 0;
+    }
+  }
+
+  blockquote {
+    position: relative;
+    margin: 0 0 2rem 0;
+    padding: 34px 36px 46px 56px;
+
+    &:before {
+      color: #c6cdd1;
+      content: "\f10d";
+      position: absolute;
+      top: 30px;
+      left: 25px;
+      display: inline-block;
+      font-family: "Font Awesome 5 Free";
+      line-height: 1;
+      font-weight: 900;
+      text-rendering: auto;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+      -webkit-transform: translate(0, 0);
+      -ms-transform: translate(0, 0);
+      transform: translate(0, 0);
+      font-size: 24px;
+    }
+
+    p {
+      font-size: 1.7rem;
+      margin: 0;
+    }
+  }
+
+  .error {
+    background: #ff1200;
+  }
+}
+
+.rh_wrap--fluidwidth {
+  .rh_content {
+    margin: 0;
+  }
+}
+
+.post-password-form {
+  text-align: left;
+
+  p {
+    margin-bottom: 2rem;
+    font-size: 16px;
+  }
+
+  label,
+  input {
+    display: inline-block;
+  }
+
+  label input {
+    display: block;
+    margin: 5px 0 10px;
+
+    @media (min-width: 480px) {
+      min-width: 260px;
+      margin-bottom: 0;
+    }
+  }
+
+  input {
+    padding: 1.5rem;
+    border: 1px solid rgba(128, 128, 128, 0.2);
+  }
+
+  input[type="submit"] {
+    @extend .rh_btn;
+    @extend .rh_btn--primary;
+    padding-top: 1.6rem;
+    padding-bottom: 1.6rem;
+  }
+}
+
+.info {
+  background: $rh_footer_bg;
+  color: #fff;
+  padding: 1.5rem 3rem 1.5rem 2rem;
+  position: relative;
+  transition: 0.2s all linear;
+}
+
+.tip {
+  background: var(--rh-global-color-secondary);
+  color: #fff;
+  padding: 1.5rem 3rem 1.5rem 2rem;
+  position: relative;
+  transition: 0.2s all linear;
+}
+
+.success {
+  background: var(--rh-global-color-primary);
+  color: #fff;
+  padding: 1.5rem 3rem 1.5rem 2rem;
+  position: relative;
+  transition: 0.2s all linear;
+}
+
+.error {
+  color: #fff;
+  padding: 1.5rem 3rem 1.5rem 2rem;
+  position: relative;
+  transition: 0.2s all linear;
+}
+
+.icon-remove {
+  display: inline-block;
+  font-family: "Font Awesome 5 Free";
+  line-height: 1;
+  font-weight: 900;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-size: 1.8rem;
+  color: #fff;
+  position: absolute;
+  top: 2rem;
+  right: 1.5rem;
+  cursor: pointer;
+
+  &:before {
+    content: "\f00d";
+  }
+}
+
+.row-fluid {
+  display: flex;
+  margin: 0 -1rem;
+
+  @include r(320) {
+    flex-wrap: wrap;
+  }
+  @include r(1024) {
+    flex-wrap: nowrap;
+  }
+
+  .span2,
+  .span3,
+  .span4,
+  .span6 {
+    flex: 1 1 100%;
+    width: 100%;
+    padding: 0 1rem;
+  }
+
+  .span2 {
+    @include r(1024) {
+      flex: 1 1 16.67%;
+      width: 16.67%;
+    }
+  }
+
+  .span3 {
+    @include r(1024) {
+      flex: 1 1 25%;
+      width: 25%;
+    }
+  }
+
+  .span4 {
+    @include r(1024) {
+      flex: 1 1 33.3%;
+      width: 33.3%;
+    }
+  }
+
+  .span6 {
+    @include r(1024) {
+      flex: 1 1 50%;
+      width: 50%;
+    }
+  }
+}
+
+.disc-list {
+  ul {
+    padding: 0;
+    list-style-type: none;
+
+    li {
+      background: url('../../images/icons/icon-disc-small.png') 12px 12px no-repeat;
+      padding: 0 0 0 3rem;
+    }
+  }
+}
+
+.small-arrow-list {
+  ul {
+    padding: 0;
+    list-style-type: none;
+
+    li {
+      background: url('../../images/icons/icon-arrow-small.png') 12px 9px no-repeat;
+      padding: 0 0 0 3rem;
+    }
+  }
+}
+
+.tick-list {
+  ul {
+    padding: 0;
+    list-style-type: none;
+
+    li {
+      background: url('../../images/icons/icon-tick-list.png') 8px 7px no-repeat;
+      padding: 0 0 0 3rem;
+    }
+  }
+}
+
+.arrow-list {
+  ul {
+    padding: 0;
+    list-style-type: none;
+
+    li {
+      background: url('../../images/icons/icon-arrow.png') 9px 10px no-repeat;
+      padding: 0 0 0 3rem;
+    }
+  }
+}
+
+.inspiry-home-search-form-hide {
+  .wrapper-home-sections {
+    margin-top: 0;
+  }
+}

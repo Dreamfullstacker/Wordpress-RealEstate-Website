@@ -1,0 +1,24 @@
+/**
+ * Sidebar
+ */
+
+.rh_sidebar {
+	text-align: left;
+
+	.rh_prop_card {
+		z-index: 9;
+		margin: 0 0 3rem;
+
+		&:nth-last-child(1)  {
+			margin: 0;
+		}
+	}
+}
+
+.rvr-is-enabled{
+	.rh_sidebar {
+		.rh_prop_card {
+			z-index: auto;
+		}
+	}
+}

@@ -1,0 +1,123 @@
+/**
+ * Property Compare Template
+ *
+ */
+
+.rh_prop_compare {
+	display: block;
+	width: 100%;
+
+	@include r(320)  { padding: 0 0 2rem 0; }
+	@include r(480)  { padding: 0 0 3rem 0; }
+	@include r(768)  { padding: 0 0 5rem 0; }
+	@include r(1024) { padding: 0; }
+	@include r(1140) { padding: 0; }
+	@include r(1280) { padding: 0; }
+
+	.nothing-found {
+		font-size: 1.5rem;
+		font-weight: 500;
+		line-height: 2;
+		text-align: left;
+		color: var(--rh-global-color-headings);
+	}
+}
+
+.rh_prop_compare__wrap {
+	display: block;
+	padding: 2rem;
+	background: #fff;
+	box-shadow: 0px 0px 5px 2px rgba(0,0,0,0.05);
+}
+
+.rh_prop_compare__row {
+	display: block;
+	margin: 0;
+	margin-left: -2rem;
+	padding: 0 1rem;
+
+	@include r(320)  { overflow-x: scroll; white-space: nowrap; }
+	@include r(480)  { overflow-x: scroll; white-space: nowrap; }
+	@include r(768)  { overflow-x: scroll; white-space: nowrap; }
+	@include r(1024) { overflow-x: initial; white-space: initial; }
+	@include r(1140) { overflow-x: initial; white-space: initial; }
+	@include r(1280) { overflow-x: initial; white-space: initial; }
+
+	.rh_prop_compare__column {
+		display: inline-block;
+		width: 20%;
+		padding: 0 1rem;
+		text-align: left;
+
+		@include r(320)  { width: 75%; float: none; }
+		@include r(480)  { width: 50%; float: none; }
+		@include r(768)  { width: 30%; float: none; }
+		@include r(1024) { width: 20%; float: left; }
+		@include r(1140) { width: 20%; float: left; }
+		@include r(1280) { width: 20%; float: left; }
+
+		p {
+			line-height: 1.5;
+			margin: 0 -2rem;
+			padding: 1.5rem 2rem;
+
+			&:nth-child(2n) {
+				background: $rh_body_bg;
+			}
+		}
+	}
+
+	.heading {
+		p {
+			color: var(--rh-global-color-headings);
+			font-weight: 500;
+		}
+	}
+}
+
+.rh_prop_compare--height_fixed {
+	margin-right: -2rem;
+}
+
+.property-thumbnail {
+	background: #fff;
+	margin: 0 -2rem;
+	padding: 0 2rem;
+	white-space: initial;
+	z-index: 99;
+
+	.property-title {
+		margin: 1rem 0;
+
+		a {
+			display: inline-block;
+			font-size: 1.7rem;
+			font-weight: 500;
+			line-height: 1.5;
+			color: var(--rh-global-color-headings);
+			transition: 0.2s all linear;
+
+			&:hover {
+				color: var(--rh-global-color-primary);
+				transition: 0.2s all linear;
+			}
+		}
+	}
+
+	.property-status {
+		font-size: 1.3rem;
+		font-weight: 500;
+		line-height: 1.5;
+		margin: 0;
+		margin-bottom: 0.5rem;
+	}
+
+	.property-price {
+		p {
+			font-size: 1.7rem;
+			line-height: 1.5;
+			color: var(--rh-global-color-primary);
+			padding: 0 2rem 1.5rem 2rem;
+		}
+	}
+}

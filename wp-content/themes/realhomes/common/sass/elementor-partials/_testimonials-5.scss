@@ -1,0 +1,224 @@
+.rhea-testimonials-5-widget {
+  position: relative;
+  margin: 0;
+  padding: 125px 0;
+
+  &-bg-placeholder {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 35%;
+    height: 100%;
+    z-index: 1;
+    background-color: #0162ee;
+  }
+
+  &-inner-wrapper {
+    position: relative;
+    z-index: 2;
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  &-item-inner {
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 30px;
+    padding-right: 30px;
+
+    .rhea-testimonials-5-widget-image img {
+      display: block;
+      max-width: 100%;
+      height: auto;
+      border-radius: 10px;
+    }
+  }
+
+  &-left-col {
+    flex: 0 1 338px;
+    margin: 0 75px 30px 0;
+  }
+
+  &-right-col {
+    flex: 1 1;
+  }
+
+  &-section-head {
+    padding: 4px 180px 0 0;
+
+    &-subtitle {
+      display: block;
+      margin-bottom: 18px;
+      font-size: 14px;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 3px;
+      line-height: 1.2;
+      color: #feda00;
+    }
+
+    &-title {
+      margin: 0 0 40px;
+      font-size: 30px;
+      font-weight: 700;
+      line-height: 1.2;
+      color: #fff;
+    }
+  }
+
+  p {
+    margin-bottom: 40px;
+    font-size: 21px;
+    line-height: 1.5;
+    font-weight: 400;
+    color: #afcffe;
+  }
+
+  &-name {
+    position: relative;
+    margin: 0;
+    padding-left: 46px;
+    font-size: 16px;
+    font-weight: 400;
+    color: #fff;
+
+    &:before {
+      display: inline-block;
+      position: absolute;
+      top: 8px;
+      left: 0;
+      content: '';
+      width: 33px;
+      height: 4px;
+      border-radius: 2px;
+      vertical-align: middle;
+      background-color: #feda00;
+    }
+  }
+
+  &-carousel-dots {
+    width: calc( 84px + 338px );
+    padding: 0 30px;
+    line-height: 0;
+    text-align: center;
+    -webkit-tap-highlight-color: transparent;
+
+    .owl-dot {
+      display: inline-block;
+      zoom: 1;
+      padding: 0 !important;
+      cursor: pointer;
+      user-select: none;
+      font: inherit;
+      background: 0;
+      border: 0;
+      color: inherit;
+
+      &.active span,
+      &:hover span {
+        background: #ffdb00;
+      }
+
+      span {
+        display: block;
+        width: 12px;
+        height: 12px;
+        margin: 8px 8px 0;
+        border-radius: 50%;
+        transition: all .2s ease;
+        -webkit-backface-visibility: visible;
+        background: #fff;
+      }
+    }
+  }
+}
+
+// RTL Styles
+.rtl {
+
+  .rhea-testimonials-5-widget-bg-placeholder {
+    left: auto;
+    right: 0;
+  }
+
+  .rhea-testimonials-5-widget-section-head {
+    padding-right: 0;
+    padding-left: 180px;
+  }
+
+  .rhea-testimonials-5-widget-left-col {
+    margin-right: 0;
+    margin-left: 75px;
+  }
+
+  .rhea-testimonials-5-widget-name {
+    padding-left: 0;
+    padding-right: 46px;
+  }
+
+  .rhea-testimonials-5-widget-name:before {
+    right: 0;
+    left: auto;
+  }
+}
+
+.rtl[data-elementor-device-mode="tablet"],
+.rtl[data-elementor-device-mode="mobile_extra"] {
+  .rhea-testimonials-5-widget-left-col {
+    margin-right: 0;
+    margin-left: 30px;
+  }
+}
+
+// Responsive Styles
+[data-elementor-device-mode="tablet"],
+[data-elementor-device-mode="mobile_extra"]{
+
+  .rhea-testimonials-5-widget{
+    padding-top: 70px;
+    padding-bottom: 50px;
+  }
+
+  .rhea-testimonials-5-widget-left-col {
+    margin-right: 30px;
+  }
+}
+
+[data-elementor-device-mode="tablet"],
+[data-elementor-device-mode="mobile_extra"],
+[data-elementor-device-mode="mobile"] {
+
+  .rhea-testimonials-5-widget-section-head {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .rhea-testimonials-5-widget-carousel-dots {
+    width: auto;
+    margin-top: 25px;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+}
+
+[data-elementor-device-mode="mobile"] {
+
+  .rhea-testimonials-5-widget{
+    padding-top: 40px;
+    padding-bottom: 30px;
+  }
+
+  .rhea-testimonials-5-widget-bg-placeholder {
+    width: 50%;
+  }
+
+  .rhea-testimonials-5-widget-item-inner {
+    display: block;
+  }
+
+  .rhea-testimonials-5-widget-left-col {
+    margin-left: 0;
+    margin-right: 0;
+  }
+}

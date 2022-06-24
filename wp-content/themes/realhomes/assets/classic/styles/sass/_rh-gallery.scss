@@ -1,0 +1,165 @@
+
+/* Gallery Template
+--------------------------------------------------------*/
+@use "sass:math";
+
+#filter-by {
+  font-family: $RobotoFontFamily;
+  margin: 30px 0 0;
+  text-align: center;
+  a {
+    display: inline-block;
+    color: #586162;
+    font-size: 13px;
+    margin: 0 0 3px;
+    padding: 8px 17px;
+    border : 1px solid $border_color_two;
+    background-color: #eaeaea;
+    cursor: pointer;
+    &:focus,
+    &.active,
+    &:hover {
+      outline: 0;
+      color: #fff;
+      border-color: #ec894d;
+      background-color: #ec894d;
+      @include transition( 0.3s ease-in-out);
+    }
+  }
+}
+
+#gallery-container{
+  padding: 30px;
+}
+
+#gallery-container.inner-wrapper {
+  border: none;
+  margin-bottom: 0;
+}
+
+.gallery-item {
+  float: left;
+  margin-bottom: 18px;
+  overflow: hidden;
+
+  figure {
+    margin: 0 0 18px;
+    position: relative;
+    float: none;
+  }
+  img {
+    margin-bottom: 0;
+    border: none;
+  }
+  .media_container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 200;
+    background:  rgba(84,200,236,.9);
+    background:  rgb(84,200,236)\9;
+    display: none;
+    a {
+      opacity: 1.0;
+      z-index: 250;
+      display: block;
+      position: absolute;
+      top: 50%;
+      width: 32px;
+      height: 32px;
+      text-align: center;
+      line-height: 39px;
+      background-color: #ffffff;
+      &:hover {
+        background-color: #f5f5f5;
+        @include transition(ease-in-out 0.2s);
+      }
+      &.link {
+        right: 0;
+        background-repeat: no-repeat;
+        background-position: 50% 50%;
+      }
+      &.zoom {
+        left: 0;
+        background-repeat: no-repeat;
+        background-position: 50% 50%;
+      }
+    }
+  }
+}
+
+.gallery-item .item-title {
+  margin-bottom: 18px;
+  font-size: 14px;
+  font-weight: normal;
+  font-family: $RobotoFontFamily;
+  a {
+    color: $headingsColor;
+    &:hover {
+      color: $main_menu_background_color;
+    }
+  }
+}
+
+$gi_margin : 30px;
+$c_padding : 62px;
+$c_width   : 940px;
+
+@function giw($items)
+{
+  $wid   : $c_width - $c_padding ;
+  $ism   : $gi_margin * ( $items - 1 );
+  $isw   : math.div( $wid - $ism , $items);
+  @return  $isw;
+}
+
+.gallery-2-columns,
+.gallery-3-columns,
+.gallery-4-columns{ margin-left: -$gi_margin; }
+.gallery-2-columns .gallery-item,
+.gallery-3-columns .gallery-item,
+.gallery-4-columns .gallery-item{ margin-left: $gi_margin;}
+
+.gallery-2-columns .gallery-item { width: giw(2) ;}
+.gallery-3-columns .gallery-item { width: 272px ;}
+.gallery-4-columns .gallery-item { width: giw(4) ;}
+
+
+/* Isotope Styles
+--------------------------------------------------------*/
+table{
+  border-width: 1px;
+  border-spacing: 1px;
+  border-style: solid;
+  border-color: #cecece;
+  border-collapse: collapse;
+  background-color: transparent;
+  th{
+    border-width: 1px;
+    padding: 5px;
+    border-style: solid;
+    border-color: #cecece;
+    background-color: white;
+  }
+  td{
+    border-width: 1px;
+    padding: 5px;
+    border-style: solid;
+    border-color: #cecece;
+    background-color: white;
+  }
+}
+
+
+/* Isotope Styles
+--------------------------------------------------------*/
+.isotope-item {
+  z-index: 2;
+}
+
+.isotope-hidden.isotope-item {
+  pointer-events: none;
+  z-index: 1;
+}

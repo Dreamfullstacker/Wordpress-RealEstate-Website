@@ -1,0 +1,219 @@
+.rhea_classic_featured_properties_elementor{
+  overflow: hidden;
+  background: #252a2b;
+  .rhea_classic_featured_properties{
+    position: relative;
+    overflow: hidden;
+    //padding-bottom: 20px;
+  }
+
+
+  .flex-control-nav{
+    bottom: 10px;
+    z-index: 999;
+    margin: 0;
+    padding: 0;
+
+    li{
+      a{
+        transition: .2s all ease-in-out;
+        background: #8b9293;
+        &:hover{
+          background: #ffffff;
+        }
+        &.flex-active{
+          background: #ffffff;
+        }
+      }
+    }
+  }
+
+  ul.rhea_classic_featured_flex_slider {
+    margin: 0;
+    padding: 0;
+  }
+
+  .rhea_featured_slide{
+    overflow: hidden;
+
+  }
+  .rhea_slide_inner{
+    padding: 40px 50px 60px 40px;
+    display: flex;
+    margin-left: -25px;
+    margin-right: -25px;
+    flex-wrap: wrap;
+  }
+  .rhea_thumb_side{
+    //width: 50%;
+    flex: 50%;
+    min-width: 250px;
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+  .rhea_detail_side{
+    flex: 50%;
+    min-width: 200px;
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+
+  .rhea_detail_side_inner{
+    h4{
+      a{
+        font-size: 20px;
+        color: #ffffff;
+        &:hover{
+          color: rgba(255, 255, 255, 0.8);
+        }
+      }
+    }
+  }
+  .rhea_price_and_button_wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    //margin-left: -10px;
+    //margin-right: -10px;
+    p{
+      margin-bottom: 0;
+      padding-left: 10px;
+      padding-right: 10px;
+    }
+    a{
+      display: inline-block;
+      padding-left: 10px;
+      padding-right: 10px;
+    }
+  }
+
+  .rhea_featured_meta_container{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-right: -5px;
+    margin-left: -5px;
+
+    p{
+      margin-bottom: 0;
+    }
+    .rhea_featured_meta{
+      align-items: center;
+      display: flex;
+      margin-right: -5px;
+      margin-left: -5px;
+      padding-left: 5px;
+      padding-right: 5px;
+      margin-bottom: 10px;
+      svg{
+        fill: #8b9293;
+        width: 50px;
+        height: auto;
+        padding-left: 5px;
+        padding-right: 5px;
+        vertical-align: middle;
+      }
+      .rhea_featured_figure{
+        padding-left: 5px;
+        padding-right: 5px;
+      }
+    }
+    .rhea_featured_svg_icon{
+
+    }
+    .rhea_featured_figure{
+      font-size: 16px;
+      color: #888888;
+    }
+  }
+  .rhea_price_side{
+    margin-bottom: 15px;
+    margin-left: -10px;
+    margin-right: -10px;
+    .price{
+      font-weight: 700;
+      font-size: 22px;
+      color: #ec894d;
+    }
+    .type{
+      small{
+        font-size: 14px;
+        color: #ffffff;
+      }
+    }
+  }
+  .rhea_button_side{
+    margin-bottom: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-left: -5px;
+    margin-right: -5px;
+    a{
+      white-space: nowrap;
+      margin-bottom: 5px;
+      display: inline-block;
+      padding: 10px 20px;
+      transition: 0.2s all linear;
+      background: #ec894d;
+      border: 1px solid #ec894d;
+      color: #ffffff;
+      font-size: 14px;
+      line-height: 20px;
+      margin-left: 5px;
+      margin-right: 5px;
+      &:hover{
+        background: transparent;
+      }
+    }
+    .photos{
+      white-space: nowrap;
+      margin-bottom: 5px;
+      display: inline-block;
+      padding: 10px 20px;
+      transition: 0.2s all linear;
+      background: transparent;
+      border: 1px solid rgba(255, 255, 255, 0.5);
+      color: #ffffff;
+      font-size: 14px;
+      line-height: 20px;
+      margin-left: 5px;
+      margin-right: 5px;
+    }
+  }
+
+  .rhea_excerpt_wrapper{
+    color: #888888;
+  }
+
+  .rhea_thumb_side_inner{
+    position: relative;
+    margin-bottom: 20px;
+    img{
+      max-width: none;
+      width: 100%;
+    }
+    .statuses{
+      display: inline-block;
+      color: #fff;
+      background: #4dc7ec;
+      padding: 5px 15px;
+      border-radius: 500rem;
+      font-size: 11px;
+      text-transform: uppercase;
+      line-height: 17px;
+      position: absolute;
+      bottom: 20px;
+      right: 25px;
+    }
+  }
+
+  .rhea_meta_separator{
+    height: 1px;
+    background: #343a3b;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+  }
+}

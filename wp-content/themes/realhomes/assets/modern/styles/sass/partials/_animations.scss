@@ -1,0 +1,79 @@
+// Icon Up
+@keyframes rh-icon-up {
+  0%,
+  50%,
+  100% {
+    transform: translateY(0);
+  }
+  25%,
+  75% {
+    transform: translateY(-6px);
+  }
+}
+
+// Icon Pop
+@keyframes rh-icon-pop {
+  0% {
+    transform: scale(1);
+  }
+
+  50% {
+    transform: scale(1.12);
+  }
+
+  100% {
+    transform: scale(1);
+  }
+}
+
+// Ripple Out
+@keyframes rh-ripple-out {
+  0% {
+    opacity: 0;
+    transform: scale(1);
+  }
+  15% {
+    opacity: 1;
+  }
+  85% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0;
+    transform: scale(1.3);
+  }
+}
+
+@keyframes rh-slide-in {
+  0% {
+    height: 0;
+    opacity: 0;
+    transform: translateY(200%);
+  }
+  50% {
+    height: 50%;
+    opacity: .5;
+  }
+  100% {
+    height: initial;
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes rh-slide-out {
+  0% {
+    height: initial;
+    opacity: 1;
+    transform: translateY(0);
+  }
+  50% {
+    height: 50%;
+    opacity: .5;
+  }
+  100% {
+    height: 0;
+    opacity: 0;
+    transform: translateY(200%);
+  }
+}

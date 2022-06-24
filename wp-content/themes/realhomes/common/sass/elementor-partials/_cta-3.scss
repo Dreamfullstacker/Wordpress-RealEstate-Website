@@ -1,0 +1,132 @@
+
+
+.rh_section__cta_elementor_three {
+  text-align: center;
+  position: relative;
+  padding: 120px 30px;
+  background: #457b9d;
+  z-index: 1;
+
+  .rh_cta__btns_elementor_three {
+    a {
+      margin-bottom: 5px;
+      transition: all .2s ease-in-out;
+    }
+  }
+}
+
+.rh_bg_cta_three{
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+  z-index: 9;
+
+  &.rhea_cta_flip_image{
+    -moz-transform: scaleX(-1);
+    -o-transform: scaleX(-1);
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+  }
+}
+
+.wrapper_content_cta_3_box{
+  display: flex;
+  max-width: 1240px;
+  margin: auto;
+}
+
+.rhea_flip_content_cta{
+  .wrapper_content_cta_3_box{
+    flex-direction: row-reverse;
+  }
+}
+
+.wrapper_content_cta_3_gutter{
+  flex: auto;
+}
+
+.rhea_overlay_cta_3{
+  position: absolute;
+  background: rgba(0, 0, 0, 0.42);
+  width: 100%;
+  height: 100%;
+  z-index: 99;
+  left: 0;
+  top: 0;
+}
+
+.wrapper_content_cta_3{
+  position: relative;
+  z-index: 999;
+  max-width: 50%;
+  width: 100%;
+  text-align: initial;
+
+  .rhea_label_cta_3{
+    margin-bottom: 35px;
+    font-size: 36px;
+    color: #ffffff;
+    line-height: 1.2;
+    font-weight: 400;
+  }
+  .rhea_description_cta_3{
+    p{
+    font-size: 16px;
+    color: #ffffff;
+    margin-bottom: 35px;
+    }
+    a{
+      color: var(--rh-global-color-secondary);
+    }
+  }
+}
+
+.cta_three_elementor_button{
+  display: inline-block;
+  font-size: 15px;
+  padding: 15px 20px;
+  line-height: 18px;
+  font-weight: 500;
+  text-align: center;
+  outline: 0;
+  border: none;
+  border-radius: 0;
+  cursor: pointer;
+  transition: all .2s ease-in-out;
+  background: #ffffff;
+  margin: 0;
+}
+
+.rtl{
+  .wrapper_content_cta_3_box{
+    flex-direction: row-reverse;
+  }
+}
+
+[data-elementor-device-mode="tablet"],[data-elementor-device-mode="tablet_extra"] {
+  .wrapper_content_cta_3 .rhea_label_cta_3{
+    font-size: 28px;
+  }
+  .wrapper_content_cta_3 .rhea_description_cta_3 p{
+    font-size: 15px;
+  }
+  .rh_section__cta_elementor_three{
+    padding: 80px 30px;
+  }
+}
+
+[data-elementor-device-mode="mobile"],[data-elementor-device-mode="mobile_extra"] {
+  .wrapper_content_cta_3{
+    width: 100%;
+  }
+  .rh_section__cta_elementor_three{
+    padding: 80px 30px;
+  }
+  .wrapper_content_cta_3 .rhea_description_cta_3 p{
+    font-size: 14px;
+  }
+}

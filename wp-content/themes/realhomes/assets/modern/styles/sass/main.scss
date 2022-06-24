@@ -1,0 +1,130 @@
+/*!
+ * Real Homes Styles
+ * This file includes
+ * 1. Core theme styles
+ * 2. Theme's responsive styles
+ */
+
+// Configuration
+@import "partials/functions";
+@import "partials/variables";
+@import "partials/mixins";
+
+// Layout & components
+@import "partials/root";
+@import "partials/normalize";
+@import "partials/sanitize";
+@import "partials/animations";
+@import "partials/wp-core";
+
+// Base styles
+@import "partials/base";
+
+// Header
+@import "partials/header/header";
+@import "partials/header/header-2";
+@import "partials/header/header-3";
+@import "partials/header/sticky-header";
+
+// Theme Parts
+@import "partials/label";
+@import "partials/rh_prop_search";
+@import "partials/rh_prop_search_smart";
+@import "partials/rh_btn";
+@import "partials/rh_banner";
+@import "partials/rh_form";
+@import "partials/pagination";
+@import "partials/sidebar";
+@import "partials/content";
+@import "partials/rh_tool-tip";
+@import "hamburgers/hamburgers";
+@import "partials/rh_map";
+@import "partials/rh_gallery";
+@import "partials/infoBox";
+
+// Home
+@import "partials/home/slider";
+@import "partials/home/sections";
+@import "partials/rh_prop_card";
+@import "partials/rh_prop_card_2";
+@import "partials/home/testimonial";
+@import "partials/home/cta";
+@import "partials/home/agents";
+@import "partials/home/features";
+@import "partials/home/partners";
+@import "partials/home/news";
+@import "partials/home/content";
+@import "partials/home/sfoi";
+
+//elementor
+@import "partials/elementors/latest-properties";
+
+// Footer
+@import "partials/footer/footer";
+
+// Widgets
+@import "partials/widgets/widgets";
+
+// Pages
+@import "partials/page";
+@import "partials/pages/edit-profile";
+
+// Listing Property
+@import "partials/rh_list_card";
+
+// Advance Property Search Widget
+@import "partials/widgets/advance_search";
+// Mortgage Calculator Widget
+@import "partials/widgets/mortgage_calculator";
+
+// Agent
+@import "partials/agent/rh_agent_card";
+@import "partials/agent/rh_agent_profile";
+@import "partials/agent/rh_agent_form";
+
+// Single Property
+@import "partials/property/single_property";
+@import "partials/property/single_property_fullwidth";
+@import "partials/property/rh_property_agent";
+@import "partials/comments";
+
+// My Properties
+@import "partials/rh_my-property";
+
+// Memberships
+@import "partials/rh_membership";
+
+// Blog
+@import "partials/blog";
+
+//Breadcrumbs
+@import "partials/breadcrumbs";
+
+// Compare Properties
+@import "partials/property/rh_prop_compare";
+@import "partials/property/rh_compare";
+
+// Contact Template
+@import "partials/contact";
+
+// Shortcodes
+@import "partials/shortcodes";
+
+// Optima Express
+@import "partials/optima/optima-express";
+
+// dsIDXpress
+@import "partials/dsidxpress";
+
+@import "partials/open-street-map";
+// Print Styles
+@import "partials/print";
+
+// RVR Styles
+//@import "partials/rvr/rvr";
+
+// Gutenberg
+@import "partials/gutenberg";
+
+// WooCommerce
+@import "partials/woocommerce";

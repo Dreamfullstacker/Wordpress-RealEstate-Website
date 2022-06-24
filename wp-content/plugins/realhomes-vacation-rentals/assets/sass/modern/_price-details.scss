@@ -1,0 +1,45 @@
+
+/*** Price Details Section ***/
+.rvr_price_details_wrap {
+	margin-bottom: 30px;
+
+	.rvr_price_details {
+		ul {
+			display: flex;
+			flex-direction: row;
+			flex-wrap: wrap;
+			width: 100%;
+			list-style: none;
+
+			li {
+				flex-basis: 50%;
+				margin-bottom: 15px;
+	
+				strong {
+					font-weight: 500;
+					margin-right: 5px;
+				}
+
+				i {
+					margin-right: 5px;
+					font-size: 12px;
+				}
+
+				&.bulk-pricing-heading {
+					flex-basis: 100%;
+					margin: 10px 0 15px;
+					font-size: 1.6rem;
+					font-weight: 500;
+					line-height: 1.5;
+					color: var(--rvr-color-primary);
+				}
+			}
+
+			@media (max-width:580px) {
+				li {
+					flex-basis: 100%;
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,30 @@
+/**
+* Property Additional Fields Styles
+*/
+#additional-fields-wrapper {
+
+  @media (max-width: 980px) {
+
+    .features-checkboxes,
+    .additional-radio-options {
+      li {
+        width: 50%;
+      }
+    }
+  }
+
+  @media (max-width: 768px) {
+    .form-option {
+      clear: both;
+    }
+  }
+
+  @media (max-width: 400px) {
+    .features-checkboxes,
+    .additional-radio-options {
+      li {
+        width: 100%;
+      }
+    }
+  }
+}

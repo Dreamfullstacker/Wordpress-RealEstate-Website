@@ -1,0 +1,21 @@
+/**
+ * All of the CSS for admin-specific functionality
+ * included in this file.
+ */
+th span.currencies-last-update {
+	display: block;
+	background: #8080804a;
+    padding: 3px;
+    border-radius: 4px;
+    font-size: 10px;
+}
+
+th span.currencies-last-update em {
+	display: block;
+	color: #b42929;
+	font-style: normal;
+}
+
+.form-table td p.description {
+    max-width: 650px;
+}

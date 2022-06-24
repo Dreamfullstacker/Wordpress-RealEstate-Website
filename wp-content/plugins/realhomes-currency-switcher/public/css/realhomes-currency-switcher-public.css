@@ -1,0 +1,7 @@
+/**
+ * All of the CSS for public-facing functionality
+ * included in this file.
+ */
+ #currency-switcher-list li.selected-currency {
+	 display: none;
+ }

@@ -1,0 +1,495 @@
+$orange-color: #ea713c;
+$green-color: #4dc7ec;
+$green-light-color: #9fe2f5;
+
+.rh_property__mc_wrap {
+	border-bottom: 1px solid #dedede;
+	.rh_property__heading {
+		border-bottom: 1px solid #dedede;
+		background-color: #f8f8f8;
+		float: none;
+		padding: 9px 15px 10px;
+		line-height: 22px;
+		font-size: 16px;
+		margin: 0;
+		font-weight: normal;
+	}
+
+	.rh_property__mc {
+
+		padding: 2rem;
+
+		.mc_left_side,
+		.mc_right_side {
+			width: 50%;
+			float: left;
+			box-sizing: border-box;
+
+			@media (max-width: 767px) {
+				width: 100%;
+				float: none;
+				padding: 0 !important;
+			}
+		}
+
+		.mc_left_side {
+			padding-right: 2rem;
+
+			@media (max-width: 767px) {
+				margin-bottom: 3rem;
+			}
+		}
+
+		.mc_right_side {
+			padding-left: 2rem;
+		}
+
+		.rh_mc_field {
+			margin-bottom: 20px;
+
+			&:last-child {
+				margin-bottom: 0;
+			}
+
+			label {
+				display: block;
+			}
+
+			input {
+				display: block;
+				width: 100%;
+				margin-bottom: 10px;
+				background-color: #fff;
+				box-sizing: border-box;
+
+				&[type='text'] {
+					height: 34px;
+				}
+			}
+
+			.rh_form__item {
+				padding: 0;
+				display: block;
+				.select2-container {
+					width: 100%;
+				}
+
+				input {
+					width: 100%;
+				}
+
+				input[type=range] {
+					-webkit-appearance: none; /* Hides the slider so that custom slider can be made */
+					width: 100%; /* Specific width is required for Firefox. */
+					background: transparent; /* Otherwise white in Chrome */
+					padding: 0;
+					border: 0;
+
+					&:focus {
+						outline: none;
+					}
+
+					/* Special Range Thumb styling for WebKit/Blink */
+					&::-webkit-slider-thumb {
+						-webkit-appearance: none;
+						height: 12px;
+						width: 12px;
+						border-radius: 50%;
+						background: $green-color;
+						cursor: pointer;
+						margin-top: -3px;
+					}
+
+					/* All the same stuff for Firefox */
+					&::-moz-range-thumb {
+						-webkit-appearance: none;
+						height: 12px;
+						width: 12px;
+						border-radius: 50%;
+						background: $green-color;
+						cursor: pointer;
+						margin-top: -3px;
+						border: 0;
+					}
+
+					/* All the same stuff for IE */
+					&::-ms-thumb {
+						-webkit-appearance: none;
+						height: 12px;
+						width: 12px;
+						border-radius: 50%;
+						background: $green-color;
+						cursor: pointer;
+						margin-top: -3px;
+					}
+
+					/* Special Range Track styling for WebKit/Blink */
+					&::-webkit-slider-runnable-track {
+						width: 100%;
+						height: 6px;
+						cursor: pointer;
+						background: #e5e5e5;
+						border-radius: 5px;
+					  }
+
+					/* All the same stuff for Firefox */
+					&::-moz-range-track {
+					width: 100%;
+					height: 6px;
+					cursor: pointer;
+					background: #e5e5e5;
+					border-radius: 5px;
+					}
+
+					&::-moz-focus-outer {
+					border: 0;
+					}
+					  
+					/* All the same stuff for IE */
+					&::-ms-track {
+					width: 100%;
+					height: 6px;
+					cursor: pointer;
+					background: #e5e5e5;
+					border-radius: 5px;
+					}
+				}
+			}
+
+			.mc_down_payment {
+				width: 75%;
+				float: left;
+			}
+
+			.mc_down_payment_percent {
+				float: right;
+				width: 20%;
+			}
+		}
+
+		.mc_cost_total {
+			font-size: 1.4rem;
+			margin-bottom: 20px;
+			line-height: auto;
+		}
+
+		.mc_term_interest,
+		.mc_cost li {
+			font-size: 1rem;
+			color: #808080;
+			margin-bottom: 20px;
+			span {
+				color: #444444;
+			}
+		}
+
+		.graph_circle {
+			.mc_term_interest,
+			.mc_cost li {
+				text-align: center !important;
+			}
+		}
+
+		.mc_cost_graph {
+			margin-bottom: 20px;
+			ul {
+				padding-left: 7px;
+				margin: 0;
+				width: 100%;
+				li {
+					list-style: none;
+					display: block;
+					height: 10px;
+					width: 0%;
+					max-width: 100%;
+					float: left;
+					border-radius: 5px;
+					position: relative;
+					margin-left: -7px;
+					transition: width 0.5s linear;
+
+					span {
+						height: 4px;
+						width: 4px;
+						border-radius: 50%;
+						display: block;
+						float: right;
+						background-color: #fff;
+						margin-right: 5px;
+						margin-top: 3px;
+					}
+
+					&.mc_graph_interest {
+						background-color: $orange-color;
+						z-index: 3;
+					}
+
+					&.mc_graph_tax {
+						background-color: $green-color;
+						z-index: 2;
+					}
+
+					&.mc_graph_hoa {
+						background-color: $green-light-color;
+						z-index: 1;
+					}
+				}
+			}
+		}
+
+		.mc_cost_graph_circle {
+			position: relative;
+			border: 1px solid #e6e6e6;
+			border-radius: 50%;
+			width: 200px;
+			height: 200px;
+			padding: 8px;
+			box-shadow: 1px 3px 10px -8px #000;
+			margin: 0 auto 20px;
+			box-sizing: border-box;
+
+			.mc_cost_over_graph {
+				display: block;
+				width: 152px;
+				height: 152px;
+				position: absolute;
+				top: 23px;
+				left: 23px;
+				border-radius: 50%;
+				text-align: center;
+				line-height: 152px;
+				color: #808080;
+
+				strong {
+					display: block;
+					height: 20px;
+					font-size: 24px;
+					margin-top: -10px;
+					color: #444444;
+					margin-bottom: 5px;
+				}
+			}
+
+			.mc_graph_svg {
+
+				circle {
+					stroke-dashoffset: 0;
+					transition: stroke-dashoffset 1s linear;
+					stroke: #8080804a;
+					stroke-width: 10px;
+					stroke-linecap: round;
+				}
+			
+				.mc_graph_interest {
+					stroke: $orange-color;
+				}
+			
+				.mc_graph_tax {
+					stroke: $green-color;
+				}
+			
+				.mc_graph_hoa {
+					stroke: $green-light-color;
+				}
+			}
+		}
+
+		.mc_cost {
+			ul {
+				margin: 0;
+
+				li {
+					margin-bottom: 18px;
+					list-style: none;
+					padding-left: 20px;
+					&::before {
+						content: '';
+						display: inline-block;
+						width: 8px;
+						height: 8px;
+						border-radius: 50%;
+						margin-left: -20px;
+						margin-right: 8px;
+					}
+	
+					&.mc_cost_interest::before {
+						background-color: $orange-color;
+					}
+	
+					&.mc_cost_tax::before {
+						background-color: $green-color;
+					}
+	
+					&.mc_cost_hoa::before {
+						background-color: $green-light-color;
+					}
+				}
+			}
+		}
+	}
+}
+
+/*** Fullwidth Property Page Styles ***/
+.single-property-section {
+	.rh_property__mc_wrap {
+		margin-bottom: 0;
+	}
+}
+
+/**
+* Widget Styles.
+*/
+.widget {
+	.title {
+		@extend .inspiry-widget-title;
+		margin-bottom: 0;
+		padding: 1rem;
+	}
+	.rh_property__mc_wrap {
+		.rh_property__mc {
+			padding: 1rem;
+			background-color: #fff;
+		}
+	
+		.mc_left_side,
+		.mc_right_side {
+			padding: 0;
+			width: 100%;
+			margin-bottom: 0;
+		}
+
+		.mc_right_side {
+			margin-bottom: 1.2rem;
+		}
+
+		.mc_cost_total {
+			text-align: center;
+			font-size: 21px;
+			margin-bottom: 15px;
+		}
+
+		.mc_term_interest {
+			margin-bottom: 15px;
+			text-align: center;
+		}
+
+		.mc_cost_graph {
+			margin-bottom: 10px;
+			ul {
+				padding: 0 0 0 7px !important;
+				li {
+					padding: 0;
+				}
+			}
+		}
+
+		.mc_cost_graph_circle {
+			width: 180px;
+			height: 180px;
+
+			.mc_cost_over_graph {
+				width: 132px;
+				height: 132px;
+				line-height: 132px;
+			}
+		}
+
+		.mc_cost {
+			ul {
+				padding: 0;
+				li {
+					margin: 0;
+					border: 0;
+					font-size: 14px;
+					padding-bottom: 0;
+				}
+			}
+		}
+	}
+}
+
+#footer {
+	.widget {
+		.rh_property__mc_wrap {
+			.rh_property__mc {
+				padding: 0;
+				background-color: transparent;
+			}
+
+			.mc_cost_total,
+			.mc_term_interest {
+				text-align: left;
+			}
+
+			.mc_cost_graph ul li {
+				padding: 0;
+			}
+
+			.mc_cost {
+				ul {
+					li {
+						&::before {
+							margin-left: -14px;
+						}
+						&.mc_cost_hoa {
+							margin-bottom: 0;
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+/*** RTL Styles ***/
+.rtl {
+	.rh_property__mc_wrap {
+		.rh_property__mc {
+
+			.mc_term_interest {
+				direction: ltr;
+				text-align: right;			
+			}
+
+			.mc_cost_graph {
+				ul li {
+					float: right;
+					
+					span {
+						float: left;
+						margin-left: 5px;
+					}
+				}
+			}
+
+			.mc_cost {
+				ul {
+					li {
+						padding-left: 0;
+						padding-right: 20px;
+	
+						&:before {
+							margin-left: 8px;
+							margin-right: -20px;
+						}
+					}
+				}
+			}
+		}
+	}
+
+	#footer {
+		.widget {
+			.rh_property__mc_wrap {	
+				.mc_cost_total,
+				.mc_term_interest {
+					text-align: right;
+				}
+				.mc_cost ul li:before {
+					margin-right: -14px;
+					margin-left: 8px;
+				}
+			}
+		}
+	}
+}

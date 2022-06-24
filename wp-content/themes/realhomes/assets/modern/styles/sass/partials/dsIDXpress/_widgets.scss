@@ -1,0 +1,295 @@
+/*** quick search ***/
+.dsidx-search-grid table,
+.rh_sidebar .dsidx-widget-quick-search,
+.rh_sidebar .dsidx-widget-guided-search {
+
+  .select2-container--default .select2-selection--multiple .select2-selection__choice__remove {
+    line-height: 30px;
+  }
+}
+
+.dsidx-widget-quick-search,
+.dsidx-widget-guided-search {
+
+  .dsidx-resp-search-box {
+    background: #fff;
+    padding: 20px;
+  }
+
+  form {
+
+    label {
+      margin-bottom: 5px;
+      margin-top: 5px;
+
+      &.dsidx-resp-location {
+        margin-top: 0;
+      }
+    }
+
+    .select2-container {
+      margin-bottom: 10px;
+
+      &:focus {
+        outline: none;
+      }
+
+      .select2-container--default {
+        .select2-selection--single {
+          border-color: #e6e6e6;
+        }
+      }
+    }
+
+    input[type="text"] {
+      background: #fff;
+      border: 1px solid #e6e6e6;
+      height: 36px;
+      padding: 5px 8px;
+    }
+
+    input[type="submit"] {
+      background: var(--rh-global-color-primary);
+      color: #fff;
+      width: 100% !important;
+      padding: 10px;
+      margin-top: 10px;
+      cursor: pointer;
+
+      &:hover {
+        background: var(--rh-global-color-secondary);
+      }
+    }
+  }
+
+  .dsidx-resp-horizontal {
+    form {
+      label {
+        margin-top: 0;
+      }
+
+      input[type="submit"] {
+        margin-top: 0;
+      }
+    }
+  }
+}
+
+/*** idx results widget ***/
+.dsidx-results-widget {
+
+  .dsidx-panel .featured-listing .heading {
+    margin-bottom: 10px;
+  }
+
+  // expended
+  .dsidx-expanded {
+    .featured-listing {
+      background: #fff;
+      padding: 10px 15px;
+      margin-bottom: 20px !important;
+
+      .dsidx-photo {
+        width: 100%;
+        position: static;
+        margin:0 0 15px;
+
+        img {
+          max-width: 100% !important;
+          width: 100%;
+          border: none;
+        }
+      }
+
+      & > h4 {
+        margin-left: 0 !important;
+        clear: both;
+        padding: 0 20px;
+
+        a {
+          color: #1a1a1a;
+          font-size: 18px !important;
+
+          &:hover {
+            color: var(--rh-global-color-secondary);
+          }
+        }
+      }
+
+      ul {
+        margin-left: 0 !important;
+        padding: 0 20px;
+
+        li {
+          padding: 10px 0;
+          font-size: 13px !important;
+          display: block;
+          border-bottom: 1px solid #e6e6e6;
+
+          &:before {
+            display: inline-block;
+            content: "\f054";
+            font-family: "Font Awesome 5 Free";
+            font-weight: 900;
+            text-rendering: auto;
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
+            -webkit-transform: translate(0, 0);
+            -ms-transform: translate(0, 0);
+            transform: translate(0, 0);
+            margin-right: 5px;
+            font-size: 10px;
+            vertical-align: 1px;
+            color: var(--rh-global-color-primary);
+          }
+        }
+
+        &:last-child {
+          padding-bottom: 10px;
+          li {
+            &:last-child {
+              border-bottom: 0;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  // map details
+  .dsidx-results-widget-map-details {
+    height: auto !important;
+
+    .featured-listing {
+      background: #fff;
+      padding: 0 !important;
+      border: 1px solid #dedede !important;
+      margin-top: 10px !important;
+      display: none !important;
+
+      &:first-child {
+        display: block !important;
+      }
+
+      .dsidx-photo {
+        width: 100%;
+        position: static;
+        margin-bottom: 20px;
+
+        img {
+          max-width: 100% !important;
+          width: 100%;
+          border: none;
+        }
+      }
+
+      & > h4 {
+        margin-left: 0 !important;
+        clear: both;
+        padding: 0 20px;
+
+        a {
+          color: #1a1a1a;
+          font-size: 18px !important;
+
+          &:hover {
+            color: var(--rh-global-color-secondary);
+          }
+        }
+      }
+
+      ul {
+        margin-left: 0 !important;
+        padding: 0 20px;
+
+        li {
+          padding: 10px 0;
+          font-size: 13px !important;
+          display: block;
+          border-bottom: 1px solid #e6e6e6;
+
+          &:before {
+            display: inline-block;
+            content: "\f054";
+            font-family: "Font Awesome 5 Free";
+            font-weight: 900;
+            text-rendering: auto;
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
+            -webkit-transform: translate(0, 0);
+            -ms-transform: translate(0, 0);
+            transform: translate(0, 0);
+            margin-right: 5px;
+            font-size: 10px;
+            vertical-align: 1px;
+            color: var(--rh-global-color-primary);
+          }
+        }
+
+        &:last-child {
+          padding-bottom: 10px;
+          li {
+            &:last-child {
+              border-bottom: 0;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  // slide show
+  .dsidx-slideshow {
+    background: #fff;
+
+    .dsidx-photo {
+      margin-left: 7px;
+      border: none;
+    }
+
+    .dsidx-slideshow-control {
+      text-transform: capitalize;
+      height: 25px;
+      line-height: 22px;
+      background: var(--rh-global-color-primary);
+      color: #fff !important;
+
+      &:hover {
+        background: var(--rh-global-color-secondary);
+      }
+    }
+
+    ul, h4 {
+      margin-left: 110px !important;
+    }
+
+    h4 {
+      a { font-weight: 500; }
+    }
+  }
+
+  .dsidx-controls {
+    display: none;
+  }
+}
+
+/*** single listing ***/
+.dsidx-widget-single-listing {
+  width: 100%;
+
+  .dsidx-widget-single-listing-photo {
+    width: 100% !important;
+    height: auto !important;
+    img {
+      width: 100%;
+      height: auto;
+    }
+  }
+
+  .dsidx-widget-single-listing-meta {
+    .dsidx-widget-single-listing-photo-count {
+      top: 60%;
+      margin-top: 0;
+    }
+  }
+}

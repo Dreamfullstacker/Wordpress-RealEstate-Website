@@ -1,0 +1,81 @@
+.rh_property__energy_performance_wrap {
+  margin-bottom: 3rem;
+  
+  .energy-performance {
+
+    .epc-details {
+      margin: 0;
+      border: 2px solid #00845A;
+      background-color: #fff;
+
+      li {
+        padding: 8px 10px;
+        border-bottom: 1px solid #eee;
+        list-style: none;
+        font-size: 1.4rem;
+
+        strong {
+          font-weight: lighter;
+          margin-right: 5px;
+          color: #1a1a1a;
+          text-transform: uppercase;
+        }
+
+        span {
+          float: right;
+        }
+
+        abbr {
+          border-bottom: none;
+        }
+
+        &:nth-child(2n) {
+          background-color: #F7F7F7;
+        }
+      }
+    }
+
+    .energy-class {
+      display: flex;
+      margin: 13px 0 0;
+
+      li {
+        list-style: none;
+        flex: 1;
+        text-align: center;
+        color: #fff;
+        padding: 8px 10px;
+		position: relative;
+
+		&.current span {
+		  position: absolute;
+		  bottom: 23px;
+		  height: 0;
+		  width: 0;
+		  left: calc(50% - 12px);
+		  border: 12px solid transparent;
+		  content: "";
+		  border-top-color: #00845A;
+		}
+      }
+    }
+  }
+}
+
+// Property Single Fullwidth
+.energy-performance-content-wrapper {
+  .rh_property__energy_performance_wrap {
+    margin-bottom: 0;
+  }
+}
+
+// RTL Styles
+body.rtl {
+  .rh_property__energy_performance_wrap {
+    .energy-performance {
+      .epc-details li span {
+        float: left;
+      }
+    }
+  }
+}

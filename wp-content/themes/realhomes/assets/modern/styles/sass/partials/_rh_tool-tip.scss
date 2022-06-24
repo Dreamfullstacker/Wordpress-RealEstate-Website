@@ -1,0 +1,170 @@
+/**
+ * Tool Tip
+ */
+.rh_tooltip {
+	text-align: center;
+	position: absolute;
+	top: -55px;
+	left: -38px;
+	left: calc(100% - 63.5px);
+
+	.label {
+		display: inline-block;
+		width: 100px;
+		position: relative;
+		background: #000;
+		color: #fff;
+		padding: 1rem 0;
+		opacity: 0;
+		visibility: hidden;
+		transition: 0.3s all linear;
+
+		&:after {
+			content: '';
+			position: absolute;
+			bottom: -10px;
+			left: 42px;
+			width: 0;
+			height: 0;
+			border: 0 solid transparent;
+			border-left-width: 10px;
+			border-right-width: 10px;
+			border-top: 10px solid black;
+		}
+	}
+}
+
+.rh_property__print {
+	.rh_tooltip {
+		pointer-events: none;
+		width: auto;
+		left: auto;
+		top: -10px;
+		right: 35px;
+
+		.label {
+			width: auto;
+			white-space: nowrap;
+			padding-left: 20px;
+			padding-right: 20px;
+
+			&:after {
+				left: auto;
+				right: -15px;
+				bottom: 15px;
+				margin: auto;
+				transform: rotate(-90deg);
+			}
+		}
+	}
+}
+
+[data-tooltip] {
+	position: relative;
+}
+
+[data-tooltip]::before,
+[data-tooltip]::after {
+	text-transform: none;
+	font-size: .9em;
+	line-height: 1;
+	user-select: none;
+	pointer-events: none;
+	position: absolute;
+	display: none;
+	opacity: 0;
+	z-index: 99;
+}
+
+[data-tooltip]::before {
+	content: '';
+	border: 5px solid transparent;
+	z-index: 1001;
+}
+
+[data-tooltip]::after {
+	content: attr(data-tooltip);
+	font: 400 1.2rem/1.5 $rubikFontFamily;
+	text-align: center;
+	text-transform: uppercase;
+	/*
+	Let the content set the size of the tooltips
+	but this will also keep them from being obnoxious
+	*/
+	min-width: 3rem;
+	max-width: 21rem;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	padding: 0.7rem 1.5rem;
+	box-shadow: 0 1em 2em -.5em rgba(0, 0, 0, 0.35);
+	background: var(--rh-global-color-secondary);
+	color: #fff;
+}
+
+/* Make the tooltips respond to hover */
+[data-tooltip]:hover::before,
+[data-tooltip]:hover::after {
+	display: none;
+
+	@include r(768) {
+		display: block;
+	}
+}
+
+/* don't show empty tooltips */
+[tooltip='']::before,
+[tooltip='']::after {
+	display: none !important;
+}
+
+/* FLOW: UP */
+[data-tooltip]:not([flow])::before,
+[data-tooltip][flow^="up"]::before {
+	bottom: 100%;
+	border-bottom-width: 0;
+	border-top-color: var(--rh-global-color-secondary);
+}
+
+[data-tooltip]:not([flow])::after,
+[data-tooltip][flow^="up"]::after {
+	bottom: calc(100% + 5px);
+}
+
+[data-tooltip]:not([flow])::before,
+[data-tooltip]:not([flow])::after,
+[data-tooltip][flow^="up"]::before,
+[data-tooltip][flow^="up"]::after {
+	left: 50%;
+	transform: translate(-50%, -.5em);
+}
+
+@keyframes tooltips-vert {
+	to {
+		opacity: 1;
+		transform: translate(-50%, 0);
+	}
+}
+
+@keyframes tooltips-horz {
+	to {
+		opacity: 1;
+		transform: translate(0, -50%);
+	}
+}
+
+/* FX All The Things */
+[data-tooltip]:not([flow]):hover::before,
+[data-tooltip]:not([flow]):hover::after,
+[data-tooltip][flow^="up"]:hover::before,
+[data-tooltip][flow^="up"]:hover::after,
+[data-tooltip][flow^="down"]:hover::before,
+[data-tooltip][flow^="down"]:hover::after {
+	animation: tooltips-vert 300ms ease-out forwards;
+}
+
+// Save alert button tooltip fix.
+#rh_save_search_btn[data-tooltip]::after {
+	max-width: none;
+	text-transform: none;
+}

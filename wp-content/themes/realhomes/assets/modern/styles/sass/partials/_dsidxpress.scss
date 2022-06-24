@@ -1,0 +1,211 @@
+/**
+ * dsIDXpress
+ */
+.dsidx-autocomplete-box {
+  border: transparent;
+  width: 100%;
+
+  input[type='text'] {
+    border: 1px solid #e6e6e6 !important;
+  }
+}
+
+.select2-container--default.select2-container--focus .select2-selection--multiple {
+  border-color: #e6e6e6;
+}
+
+.entry-content {
+
+  .featured-listing .info-container .info-item {
+    width: 48% !important;
+  }
+}
+
+.page-template-template-dsIDX {
+  .entry-content {
+    padding: 2rem 0;
+  }
+
+  .select2-container {
+    width: 100%;
+  }
+  .select2-container--default {
+    .select2-selection--single {
+      border-color: #e1dfdf;
+      border-radius: 0;
+      height: 36px;
+    }
+
+    .select2-selection--single {
+      .select2-selection__arrow {
+        height: 36px;
+      }
+
+      .select2-selection__rendered {
+        line-height: 36px;
+        padding-right: 25px;
+      }
+    }
+  }
+
+  .select2-container--open {
+    .select2-dropdown--below,
+    .select2-dropdown--above {
+      .select2-results__option {
+        padding: 1.5rem;
+        z-index: 99999;
+      }
+    }
+  }
+}
+
+/* buttons */
+#dsidx .dsidx-large-button,
+body.dsidx .dsidx-large-button,
+#dsidx .dsidx-small-button,
+body.dsidx .dsidx-small-button {
+  background: var(--rh-global-color-primary);
+  border: none;
+  border-radius: 0;
+  padding: 0 15px;
+
+  &:hover {
+    background: var(--rh-global-color-primary-dark);
+  }
+}
+
+#dsidx .dsidx-small-button,
+body.dsidx .dsidx-small-button {
+  height: 24px;
+  line-height: 25px;
+  box-shadow: none;
+}
+
+/* paging controls */
+#dsidx.dsidx-results {
+  .dsidx-paging-control a {
+    display: inline-block;
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-size: 0;
+    text-align: center;
+    background: none;
+    line-height: 16px;
+    height: 16px;
+    cursor: pointer;
+    color: var(--rh-global-color-primary);
+    padding: 0;
+
+    &:hover {
+      color: var(--rh-global-color-secondary);
+      text-decoration: none;
+    }
+
+    &.dsidx-paging-control-disabled {
+      color: #394041;
+    }
+
+    &.dsidx-paging-control-prev:before {
+      content: "\f104";
+      font-size: 18px;
+    }
+
+    &.dsidx-paging-control-next:before {
+      content: "\f105";
+      font-size: 18px;
+    }
+  }
+}
+
+/* sorting controls */
+.dsidx-results .dsidx-paging-control,
+#dsidx .dsidx-sorting-control {
+  text-align: initial;
+}
+
+#dsidx.dsidx-results {
+  .dsidx-sorting-control {
+    line-height: 36px;
+
+    .select2-container {
+      width: 180px;
+
+      @media (min-width: 768px) {
+        width: 220px;
+      }
+    }
+  }
+}
+
+/* notices */
+#dsidx-zestimate-notice,
+#dsidx-rentzestimate-notice {
+  background: var(--rh-global-color-primary);
+  line-height: 22px;
+}
+
+#dsidx-zestimate,
+#dsidx-rentzestimate {
+  border-color: var(--rh-global-color-primary);
+}
+
+#dsidx-zestimate-triangle,
+#dsidx-rentzestimate-triangle {
+  border-left: 10px solid var(--rh-global-color-primary);
+}
+
+.dsidx-alert-text {
+  font-size: 10pt;
+}
+
+.dsidx-alert-color {
+  height: 32px;
+}
+
+/* tabs */
+#dsidx ul.dsidx-tabs,
+body.dsidx ul.dsidx-tabs {
+  height: 28px;
+
+  &.dsidx-result-tabs {
+    li.dsidx-tab {
+      height: 28px;
+      border-radius: 0;
+      border-style: solid;
+      border-color: #dedede;
+      border-width: 1px 1px 0 1px;
+
+      span {
+        padding-left: 22px;
+        font-size: 13px;
+        color: #404040;
+        opacity: 1 !important;
+      }
+    }
+
+    @media (max-width: 320px) {
+      li.dsidx-tab {
+
+        &:last-child {
+          margin-right: 0;
+        }
+
+        span {
+          padding-left: 19px;
+        }
+      }
+    }
+  }
+}
+
+@import "dsIDXpress/top-search-form";
+@import "dsIDXpress/listing";
+@import "dsIDXpress/listing-gird";
+@import "dsIDXpress/single";
+@import "dsIDXpress/member-features";
+@import "dsIDXpress/shortcodes";
+@import "dsIDXpress/widgets";
+@import "dsIDXpress/search-forms";

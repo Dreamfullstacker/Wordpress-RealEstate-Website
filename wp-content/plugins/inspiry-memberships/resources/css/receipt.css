@@ -1,0 +1,10 @@
+/**
+ * Custom Admin Styles: Receipt Post Type;
+ *
+ * @since 1.0.0
+ */
+
+.wp-admin input[type="text"],
+.wp-admin select {
+	width: 300px;
+}

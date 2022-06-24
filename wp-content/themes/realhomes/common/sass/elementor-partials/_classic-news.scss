@@ -1,0 +1,140 @@
+.rhea_classic_news_elementor_wrapper{
+  display: flex;
+  margin-left: -15px;
+  margin-right: -15px;
+  flex-wrap: wrap;
+  justify-content: center;
+  article.hentry{
+    width: 33.33%;
+    padding-left: 15px;
+    padding-right: 15px;
+    min-width: 200px;
+    margin-bottom: 30px;
+    margin-top: 0;
+    img{
+      width: 100%;
+      max-width: none;
+    }
+    h4{
+      margin-bottom: 15px;
+      a{
+        font-size: 16px;
+        line-height: 26px;
+        color: #394041;
+        &:hover{
+          color: #df5400;
+        }
+      }
+    }
+
+    .rhea_post_meta{
+      font-size: 13px;
+      line-height: 20px;
+      margin-bottom: 10px;
+      color: #394041;
+    }
+    p{
+      margin-bottom: 15px;
+      line-height: 22px;
+      font-size: 13px;
+    }
+    .rhea_more_details{
+      color: #394041;
+      display: inline-block;
+      margin-bottom: 20px;
+      //margin-right: 10px;
+      vertical-align: middle;
+      &:hover{
+        color: #df5400;
+      }
+      i{
+        margin-left: 5px;
+        margin-right: 5px;
+        vertical-align: middle;
+      }
+    }
+  }
+  .rhea_classic_listing_slider{
+    position: relative;
+    direction: ltr;
+    ul{
+      margin: 0;
+      padding: 0;
+      li{
+        margin-bottom: 0;
+      }
+    }
+  }
+  .rhea_thumb_wrapper{
+    margin-top: 0;
+    margin-bottom: 15px;
+    .video-wrapper{
+      height: 100%;
+      padding: 0;
+      background-color: #252a2b;
+      iframe{
+        height: 100%;
+      }
+    }
+  }
+
+  .flex-direction-nav{
+    li{
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      margin: auto;
+      display: flex;
+      &.flex-nav-prev{
+        left: 0;
+      }
+      &.flex-nav-next{
+        right: 0;
+      }
+      a{
+        position: static;
+        margin: 0;
+        align-self: center;
+        padding: 9px;
+        display: inline-block;
+        opacity: 1;
+        background: #dedede;
+        width: auto;
+        height: auto;
+        &:before{
+          display: none;
+        }
+        &:hover{
+          background: #394041;
+          color: #ffffff;
+        }
+        i{
+          &:before{
+            display: block;
+          }
+        }
+      }
+      .flex-prev{
+        left: 0;
+      }
+      .flex-next{
+        right: 0;
+      }
+    }
+  }
+}
+
+//RTL style for read more caret
+.rtl{
+  .rhea_classic_news_elementor_wrapper article .rhea_more_details i{
+    transform: rotate(180deg);
+  }
+  .classic_properties_elementor_wrapper .rhea_property_label{
+    left: auto;
+    right: 0;
+  }
+  .classic_properties_elementor_wrapper .rhea_property_status{
+    right: auto;
+    left: 0;
+  }
+}

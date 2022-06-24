@@ -1,0 +1,220 @@
+/* Main column width */
+.wp-block {
+    max-width: calc(738px + 30px);
+}
+
+/* Width of "wide" blocks */
+.wp-block[data-align="wide"] {
+    max-width: calc(1140px + 30px);
+}
+
+/* Width of "full-wide" blocks */
+.wp-block[data-align="full"] {
+    max-width: none;
+}
+
+.editor-post-title__block .editor-post-title__input {
+    font-family: "Rubik", sans-serif;
+    font-size: 32px;
+    font-weight: 700;
+    color: #394041;
+}
+
+.mce-content-body,
+body .editor-styles-wrapper,
+.editor-styles-wrapper {
+    font-family: "Rubik", sans-serif;
+    font-size: 15px;
+    line-height: 20px;
+    color: #666;
+}
+
+a,
+.wp-block-freeform.block-library-rich-text__tinymce a {
+    color: #444;
+    text-decoration: none;
+}
+
+a:hover,
+.wp-block-freeform.block-library-rich-text__tinymce a:hover {
+    color: #ea723d;
+}
+
+.editor-styles-wrapper p,
+.wp-block-freeform.block-library-rich-text__tinymce p {
+    margin-bottom: 20px;
+}
+
+body .editor-styles-wrapper p,
+.wp-block-freeform.block-library-rich-text__tinymce p {
+    font-size: 15px;
+    line-height: 2;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.mce-content-body h1,
+.mce-content-body h2,
+.mce-content-body h3,
+.mce-content-body h4,
+.mce-content-body h5,
+.mce-content-body h6 {
+    font-family: inherit;
+    font-weight: 700;
+    margin-top: 0;
+    margin-bottom: 20px;
+    line-height: 1.5;
+    color: #1a1a1a;
+}
+
+h1,
+.wp-block-freeform.block-library-rich-text__tinymce h1 {
+    font-size: 40px;
+}
+
+h2,
+.wp-block-freeform.block-library-rich-text__tinymce h2 {
+    font-size: 36px;
+}
+
+h3,
+.wp-block-freeform.block-library-rich-text__tinymce h3 {
+    font-size: 18px;
+}
+
+h4,
+.wp-block-freeform.block-library-rich-text__tinymce h4 {
+    font-size: 16px;
+}
+
+h5,
+.wp-block-freeform.block-library-rich-text__tinymce h5 {
+    font-size: 14px;
+}
+
+h6,
+.wp-block-freeform.block-library-rich-text__tinymce h6 {
+    font-size: 12px;
+}
+
+.wp-block-freeform.block-library-rich-text__tinymce ul,
+.wp-block-freeform.block-library-rich-text__tinymce ol {
+    margin: 0;
+    margin-bottom: 10px;
+    padding: 0 0 0 30px;
+    color: #808080;
+    line-height: 2;
+    font-size: 15px;
+    font-weight: 400;
+
+}
+
+.wp-block-freeform.block-library-rich-text__tinymce li {
+    font-size: 15px;
+}
+
+.wp-block-quote p,
+.wp-block-freeform.block-library-rich-text__tinymce blockquote p {
+    font-size: 17px;
+    margin: 0;
+    color: #808080;
+    font-weight: 400;
+}
+
+.wp-block-quote,
+.wp-block-freeform.block-library-rich-text__tinymce blockquote {
+    background-color: rgba(30, 166, 154, 0.1);
+    border-color: #1ea69a;
+    border-left: 5px solid #1ea69a;
+    position: relative;
+    margin: 0 0 20px 0;
+    padding: 34px 36px 46px 56px;
+}
+
+.wp-block-quote.is-large,
+.wp-block-quote.is-style-large{
+    padding: 35px 36px 35px 56px;
+    margin-bottom: 30px;
+}
+
+.wp-block-quote:before,
+.wp-block-freeform.block-library-rich-text__tinymce blockquote:before {
+    color: #c6cdd1;
+    content: "\f10d";
+    font-family: FontAwesome;
+    position: absolute;
+    top: 30px;
+    left: 25px;
+    display: inline-block;
+    /*font: normal normal normal 14px/1 FontAwesome;*/
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-transform: translate(0, 0);
+    -ms-transform: translate(0, 0);
+    transform: translate(0, 0);
+    font-size: 24px;
+}
+
+.wp-block-quote[style*="text-align:right"],
+.wp-block-quote[style*="text-align: right"] {
+    padding-right: 56px;
+    padding-left: 36px;
+}
+
+.wp-block-quote[style*="text-align:right"]:before,
+.wp-block-quote[style*="text-align: right"]:before {
+    content: "\f10e";
+    left: auto;
+    right: 20px;
+}
+
+code,
+pre,
+.wp-block-freeform.block-library-rich-text__tinymce code,
+.wp-block-freeform.block-library-rich-text__tinymce pre {
+    font-family: monospace, monospace;
+}
+
+table {
+    width: 100%;
+    max-width: 100%;
+    margin-bottom: 20px;
+}
+
+td, th {
+    padding: 5px;
+    border: 1px solid transparent;
+    border-color: #cecece;
+    background-color: white;
+}
+
+dl dt {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 1.5;
+    color: #1a1a1a;
+}
+
+dl dd {
+    font-size: 15px;
+    line-height: 2;
+    margin-bottom: 15px;
+}
+
+.alignleft {
+    margin-right: 20px;
+}
+
+.alignright {
+    margin-left: 20px;
+}
+
+body .editor-styles-wrapper ul li,
+body .editor-styles-wrapper ol li{
+    margin-bottom: 10px;
+}

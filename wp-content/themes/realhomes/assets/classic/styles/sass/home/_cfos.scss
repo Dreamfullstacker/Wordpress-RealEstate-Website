@@ -1,0 +1,351 @@
+.rh_cfos_slide_desc{
+  width: 100%;
+  max-width: 1168px;
+  margin: auto;
+  position: relative;
+  z-index: 9;
+}
+
+.rh_cfos_wrap{
+  display: block;
+  width: 100%;
+  position: absolute;
+  background: #fff;
+  max-width: 400px;
+  bottom: 53px;
+  right: 0;
+
+
+  .iti{
+    width: 100%;
+  }
+
+}
+
+
+.cfos_slide_visible_sm{
+  display: none;
+}
+
+.cfos_expand_width{
+  max-width: 450px;
+
+}
+.rh_cfos{
+  padding: 30px;
+  position: relative;
+  .cfos_phone_icon{
+    background: #ec894d;
+    display: inline-block;
+    padding: 8px;
+    position: absolute;
+    left: -46px;
+    svg{
+      width: 30px;
+      display: inherit;
+      .a{
+        fill: #ffffff;
+      }
+    }
+    &:after{
+      content: '';
+      display: block;
+      position: absolute;
+      border-top: 23px solid transparent;
+      border-bottom: 23px solid transparent;
+      border-left: 12px solid #ec894d;
+      left: 100%;
+      top: 0;
+    }
+
+  }
+  .rh_cfos_labels{
+    margin-bottom: 20px;
+  }
+  .cfos_field_wrapper{
+    margin-bottom: 15px;
+    padding-left: 7.5px;
+    padding-right: 7.5px;
+    box-sizing: border-box;
+
+    ::-webkit-input-placeholder { /* Edge */
+      color: #808080;
+    }
+
+    :-ms-input-placeholder { /* Internet Explorer 10-11 */
+      color: #808080;
+    }
+
+    ::placeholder {
+      color: #808080;
+    }
+
+  }
+  .rh_cfos_cta_title{
+    font-size: 24px;
+    margin-top: 0;
+    margin-bottom: 5px;
+    line-height: 31px;
+  }
+  .rh_cfos_cta_text{
+    font-size: 15px;
+    color: #808080;
+  }
+  label{
+    font-size: 14px;
+    font-weight: 500;
+    display: block;
+    margin-bottom: 10px;
+  }
+  .cfos_field{
+    border: 1px solid #e5e5e5;
+    height: 40px;
+    padding: 0 10px;
+    width: 100%;
+    color: #444444;
+    margin-bottom: 0;
+    box-sizing: border-box;
+    &.error{
+      border-color: red;
+    }
+  }
+  .cfos_full_tel{
+    .iti__selected-flag{
+      padding: 0 10px 0 12px;
+    }
+    .iti--allow-dropdown input[type=tel]{
+      padding-left: 62px;
+
+    }
+  }
+  .cfos_text_field{
+    border: 1px solid #e5e5e5;
+    padding: 10px;
+    width: 100%;
+    height: 80px;
+    margin-bottom: 0;
+    box-sizing: border-box;
+    &.error{
+      border-color: red;
+    }
+  }
+  .iti__selected-flag{
+    background: #e5e5e5;
+    transition: all .2s ease-in-out;
+    &:focus{
+      outline: none;
+    }
+  }
+  .gdpr-checkbox-label{
+    font-weight: 500;
+    display: block;
+    margin-bottom: 5px;
+  }
+  .rh_inspiry_gdpr{
+    label{
+      font-weight: 400;
+    }
+  }
+  .iti__country-list{
+    font-size: 12px;
+    white-space: normal;
+  }
+
+  .iti__country{
+    display: flex;
+    align-items: center;
+    padding: 7px 10px
+  }
+
+
+  .cfos_wrapper_name_email{
+    width: 100%;
+    .cfos_field_wrapper{
+
+    }
+  }
+
+  #inspiry-gdpr{
+    float: left;
+    margin-right: 5px;
+    + label{
+      margin-bottom: 0;
+    }
+    &.error{
+      outline: thin solid red;
+      + label{
+        color: red;
+      }
+    }
+  }
+
+}
+.cfos_submit{
+  padding: 11px 20px;
+  width: 100%;
+
+}
+.cfos_contact_form{
+
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: -7.5px;
+  margin-right: -7.5px;
+  margin-bottom: 0;
+  .cfos_half{
+    width: 50%;
+
+  }
+  .cfos_full{
+    width: 100%;
+  }
+
+  .inspiry_error_messages{
+
+    #error-container{
+      padding-left: 7.5px;
+      padding-right: 7.5px;
+      color: red;
+      line-height: 24px;
+      margin-top: 5px;
+      label{
+        display: none !important;
+      }
+    }
+    #message-container{
+      padding-top: 6.5px;
+      padding-left: 7.5px;
+      padding-right: 7.5px;
+      color: #4dc7ec;
+      margin-bottom: 0;
+    }
+  }
+
+  .cfos_recaptcha{
+    display: block;
+    width: 100%;
+  }
+  //}
+}
+
+.cfos_btn_wrapper{
+  padding-left: 7.5px;
+  padding-right: 7.5px;
+  position: relative;
+  width: auto !important;
+  #ajax-loader{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    margin: 0;
+    height: 100%;
+    svg{
+      rect{
+        fill: transparent;
+      }
+      path{
+        fill: #ec894d;
+      }
+    }
+  }
+}
+
+.cfos_hide_labels {
+  .rh_cfos {
+    .cfos_full {
+      label {
+        display: none;
+      }
+    }
+  }
+}
+.cfos_inner_container{
+  position: relative;
+}
+
+.rh_cfos_slider{
+  overflow: hidden;
+  .flexslider ul.slides .slide{
+    height: 700px;
+    display: block;
+  }
+.slide-description{
+  top: auto;
+  bottom: 100px;
+}
+
+}
+
+.inspiry_mod_header_variation_three{
+  .rh_cfos_wrap{
+    bottom: 30px;
+  }
+}
+.cfos_gdpr_field{
+  display: flex;
+}
+
+@media (max-width: 1460px) {
+  .rh_cfos_wrap{
+    //bottom: 20px;
+  }
+  .rh_cfos .cfos_wrapper_name_email{
+    display: flex;
+    .cfos_field_wrapper{
+      width: 50%;
+    }
+  }
+  .rh_cfos_slider .flexslider ul.slides .slide{
+    height: 660px;
+  }
+}
+
+@media (max-width: 1199px) {
+  .cfos_slide_visible_sm{
+    display: block;
+  }
+  .rh_cfos_wrap{
+    position: relative;
+    bottom: 0;
+    max-width: 940px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 53px;
+  }
+  .rh_cfos .cfos_phone_icon{
+    display: none;
+  }
+
+  .rh_cfos .cfos_wrapper_name_email{
+    display: block;
+    .cfos_field_wrapper{
+      width: 100%;
+    }
+  }
+  .rh_cfos_slider .flexslider ul.slides .slide{
+    height: 600px;
+  }
+
+}
+
+@media (max-width: 979px) {
+  .rh_cfos_wrap{
+    max-width: 724px;
+  }
+
+  .rh_cfos_slider .flexslider ul.slides .slide{
+    height: 512px;
+  }
+}
+
+@media (max-width: 767px) {
+  .rh_cfos_slider .flexslider ul.slides .slide{
+    height: 280px;
+  }
+  .cfos_contact_form .cfos_half{
+    width: 100%;
+  }
+}

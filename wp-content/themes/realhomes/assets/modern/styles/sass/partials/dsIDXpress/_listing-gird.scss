@@ -1,0 +1,120 @@
+.dsidx-results-grid {
+  #dsidx-listings {
+
+    .dsidx-listing-container {
+
+    }
+
+    .dsidx-listing {
+      border: 1px solid #dedede;
+
+      .dsidx-media {
+        padding: 0;
+        background: #fff;
+
+        .dsidx-photo {
+          box-shadow: none;
+          border: none;
+          left: 0;
+
+          img {
+            width: 100%;
+          }
+
+          .dsidx-photo-count {
+            padding: 3px 6px 4px 24px !important;
+            left: 0;
+            bottom: 0;
+            line-height: 14px;
+            background-position-y: 4px;
+            background-position-x: 5px;
+            background-color: var(--rh-global-color-primary);
+          }
+        }
+      }
+
+      .dsidx-data {
+        padding: 0;
+
+        .dsidx-primary-data {
+
+          .dsidx-address {
+            padding: 5px 10px 10px;
+
+            a {
+              font-weight: 500;
+            }
+          }
+
+          .dsidx-price {
+            background: var(--rh-global-color-primary);
+            border: none;
+            font-weight: 500;
+          }
+        }
+
+        .dsidx-secondary-data {
+          padding: 10px;
+
+          span {
+            font-weight: normal;
+          }
+
+          & > div {
+            color: #363636;
+          }
+        }
+      }
+
+      &:hover {
+        .dsidx-media {
+          padding: 0;
+        }
+
+        .dsidx-data {
+          padding: 0;
+          .dsidx-primary-data {
+            .dsidx-price {
+              padding: 5px 10px;
+            }
+          }
+        }
+      }
+    }
+
+  }
+
+  @media (max-width: 767px) {
+
+    #dsidx-listings {
+      li.dsidx-listing-container {
+        width: 100%;
+        float: none;
+
+        .dsidx-listing {
+          margin: 15px 0;
+
+          .dsidx-media {
+            padding: 0 !important;
+          }
+
+          .dsidx-data {
+            margin: 0 !important;
+
+            .dsidx-primary-data {
+              padding: 0;
+              margin: 0;
+              border: 0 !important;
+
+              .dsidx-address,
+              .dsidx-price {
+                float: none;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+}

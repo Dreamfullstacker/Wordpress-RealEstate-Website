@@ -1,0 +1,167 @@
+.rhea-inquiry-form-inner{
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: -5px;
+  margin-right: -5px;
+  align-items: end;
+  .rhea-inquiry-field{
+    width: 100%;
+    padding-left: 5px;
+    padding-right: 5px;
+    label{
+      margin-bottom: 10px;
+      font-weight: 600;
+      color: #1a1a1a;
+    }
+    input[type="text"],
+    input[type="date"],
+    input[type="email"],
+    input[type="number"]{
+      height: 44px;
+      padding-left: 10px;
+      padding-right: 10px;
+      padding-top: 0;
+      padding-bottom: 0;
+      margin-bottom: 20px;
+      color: #444444;
+      border: 1px solid rgba(128, 128, 128, 0.2);
+      background: #ffffff;
+      width: 100%;
+    }
+    select {
+      background: #ffffff;
+      height: 44px;
+      padding-left: 10px;
+      padding-right: 10px;
+      margin-bottom: 20px;
+      cursor: pointer;
+      outline: none;
+      color: #444444;
+      border: 1px solid rgba(128, 128, 128, 0.2);
+    }
+    textarea{
+      padding: 10px;
+      margin-bottom: 20px;
+      color: #444444;
+      border: 1px solid rgba(128, 128, 128, 0.2);
+      outline: none;
+      background: #ffffff;
+    }
+    .error{
+      border-color: red !important;
+    }
+  }
+  .rhea-inquiry-submit-wrapper{
+    margin-right: 5px;
+    margin-left: 5px;
+    width: 100%;
+
+
+    .rhea-ajax-loader{
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      top: 0;
+      left: 0;
+      background: rgba(255,255,255,.8);
+      display: none;
+      .rhea_loader_box{
+        position: absolute;
+        width: 32px;
+        height: 32px;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        margin: auto;
+      }
+      svg{
+        rect{
+          fill: transparent;
+        }
+        path{
+          fill: #808080;
+        }
+      }
+    }
+
+  }
+  .rhea-inquiry-gdpr-and-recaptcha{
+    margin-right: 5px;
+    margin-left: 5px;
+  }
+
+  .rhea-inquiry-submit{
+    padding: 13px 30px;
+    text-align: center;
+    cursor: pointer;
+    transition: .2s all ease-in-out;
+    background: var(--rh-global-color-primary);
+    position: relative;
+    span{
+      font-weight: 500;
+    }
+    &:hover{
+      background: var(--rh-global-color-primary-dark);
+    }
+  }
+  .rh_inspiry_gdpr{
+    margin-bottom: 20px;
+  }
+  .inspiry-recaptcha-wrapper{
+    margin-bottom: 20px;
+  }
+  .rhea-error-container,.rhea-message-container{
+    margin-right: 5px;
+    margin-left: 5px;
+    margin-bottom: 10px;
+    &:empty{
+      margin-bottom: 0;
+    }
+  }
+  .rhea-message-container{
+    color: var(--rh-global-color-primary);
+  }
+  .rhea-error-container{
+    display: block;
+    width: 100%;
+    .error{
+      background: transparent;
+      padding: 0;
+      color: red;
+      cursor: pointer;
+
+    }
+  }
+
+}
+
+.rhea-inquiry-field-break{
+  width: 100%;
+}
+.rhea-inquiry-form-separator{
+  margin-left: auto;
+  margin-right: auto;
+  height: 1px;
+  width: 60%;
+  margin-top: 7px;
+  margin-bottom: 25px;
+  background: #E7E7E7;
+
+}
+
+.rhea-radio-checkbox-fields{
+  display: flex;
+  column-gap: 20px;
+  flex-wrap: wrap;
+  label{
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    column-gap: 5px;
+  }
+}
+.rhea-inquiry-form-break{
+  display: block;
+  width: 100%;
+}

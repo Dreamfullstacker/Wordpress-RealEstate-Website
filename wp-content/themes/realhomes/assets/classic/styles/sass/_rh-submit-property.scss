@@ -1,0 +1,934 @@
+/*	Submit Property Template
+--------------------------------------------------------*/
+.submit-form {
+
+  .form-option {
+    margin-bottom: 15px;
+
+    &.checkbox-option {
+      input[type="checkbox"] {
+        display: block;
+        width: 6%;
+        float: left;
+        margin-top: 3px;
+      }
+
+      label {
+        display: block;
+        width: 94%;
+        float: left;
+        font-weight: normal;
+      }
+    }
+
+    &.terms-field-wrapper {
+
+      input[type="checkbox"] {
+        width: 5%;
+      }
+
+      label {
+        width: 95%;
+        float: right;
+        margin-top: -1px;
+      }
+    }
+
+    &.disabled{
+      .dropdown{
+        pointer-events: none;
+        background: #ececec;
+        opacity: .7;
+        transition: .2s all;
+      }
+    }
+  }
+
+  &,
+  .submit-field-wrapper {
+    margin-bottom: 0;
+  }
+
+  label {
+    color: $headingsColor;
+    font-size: 14px;
+    font-weight: 600;
+
+    &.error {
+      color: red;
+      font-size: 12px;
+      font-weight: normal;
+    }
+
+    small {
+      font-weight: normal;
+    }
+  }
+
+  input[type="file"] {
+    line-height: 15px;
+  }
+
+  input[type="text"],
+  input[type="email"],
+  input[type="password"],
+  textarea {
+    width: 424px;
+
+    &.error {
+      border: 1px solid red;
+    }
+  }
+
+  .selectwrap input[type="text"] {
+    width: 400px;
+  }
+
+  textarea {
+    display: block;
+    height: auto;
+  }
+
+  .map-wrapper img {
+    max-width: none;
+  }
+
+  .ui-helper-hidden-accessible {
+    display: none;
+  }
+
+  .features-checkboxes,
+  .additional-radio-options {
+    list-style: none;
+    margin: 8px 0 15px;
+
+    li {
+      margin: 0 0 8px 0;
+      float: left;
+      width: 33%;
+      padding-right: 2px;
+      box-sizing: border-box;
+    }
+
+    input[type="checkbox"],
+    input[type="radio"] {
+      margin: 4px 5px 0 0;
+      display: block;
+      float: left;
+      width: 12px;
+    }
+
+    label {
+      display: block;
+      margin: 0 0 0 17px;
+      font-size: 13px;
+      font-weight: normal;
+    }
+  }
+
+  .field-description {
+    font-size: 12px;
+  }
+
+  .rh_max_files_limit_message {
+    display: none;
+    margin-bottom: 6px;
+    color: red;
+
+    &.show {
+      display: block;
+    }
+  }
+
+  .map-wrapper {
+    padding-bottom: 10px;
+
+    .real-btn {
+      margin: 5px 0 15px;
+    }
+
+    .map-canvas {
+      width: 100%;
+      height: 352px;
+      margin-bottom: 10px;
+    }
+  }
+
+  .image {
+    margin-bottom: 6px;
+  }
+
+  #add-more {
+    margin-bottom: 10px;
+  }
+
+  #featured-file-container {
+
+  }
+
+  #featured-file-container.hidden {
+    display: none;
+  }
+
+  #featured-thumb-container,
+  #gallery-thumbs-container {
+    margin: 0 0 10px -8px;
+  }
+
+  .gallery-thumb,
+  .sortable-placeholder {
+    width: 141px;
+    height: 141px;
+    float: left;
+    margin: 0 0 8px 8px;
+    background-color: #efefef;
+  }
+
+  .gallery-thumb {
+    position: relative;
+    display: table;
+    text-align: center;
+    background-color: #efefef;
+    -webkit-box-shadow: inset 0px 0px 0px 2px rgba(223, 223, 223, 1);
+    -moz-box-shadow: inset 0px 0px 0px 2px rgba(223, 223, 223, 1);
+    box-shadow: inset 0px 0px 0px 2px rgba(223, 223, 223, 1);
+
+    span {
+      display: table-cell;
+      vertical-align: middle;
+      text-align: center;
+      font-weight: bold;
+    }
+
+    img {
+      width: 141px;
+      height: 141px;
+      position: absolute;
+      top: 0;
+      left: 0;
+    }
+
+    .mark-featured,
+    .loader,
+    a {
+      display: block;
+      background-color: rgba(0, 0, 0, 0.5);
+      color: #f0f0f0;
+      padding: 5px 8px;
+      position: absolute;
+      right: 0;
+      bottom: 0;
+      font-size: 16px;
+
+      &:hover {
+        color: #fff;
+        background-color: rgba(0, 0, 0, 0.6);
+      }
+    }
+
+    .loader {
+      right: auto;
+      bottom: auto;
+      left: 0;
+      top: 0;
+      background-color: rgba(0, 0, 0, 0.6);
+      color: #fff;
+      display: none;
+    }
+
+    .mark-featured {
+      right: auto;
+      top: auto;
+      bottom: 0;
+      left: 0;
+    }
+  }
+
+  /* Additional details
+  --------------------------------------------------------*/
+  .inspiry-detail {
+    margin: 5px 0;
+
+    .inspiry-detail-control {
+      width: 5%;
+      float: left;
+      color: #aaa;
+    }
+
+    .inspiry-detail-title {
+      width: 33%;
+      float: left;
+    }
+
+    .inspiry-detail-value {
+      width: 57%;
+      float: left;
+    }
+
+    label {
+      display: block;
+      font-weight: normal;
+    }
+
+    input[type="text"] {
+      width: 96%;
+      height: 34px;
+      margin: 0;
+      -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+      -moz-box-sizing: border-box; /* Firefox, other Gecko */
+      box-sizing: border-box; /* Opera/IE 8+ */
+    }
+
+  }
+
+  .detail-placeholder {
+    margin: 5px 0;
+    background: #f9f9f9;
+    height: 34px;
+  }
+
+  .sort-detail {
+    cursor: move;
+  }
+
+  .sort-detail:hover {
+    color: $textColor;
+  }
+
+  .inspiry-details-wrapper a {
+    color: #aaa;
+  }
+
+  .inspiry-details-wrapper a:hover,
+  .inspiry-details-wrapper a:focus {
+    color: $textColor;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    outline: none;
+  }
+
+  .inspiry-details-wrapper .fa {
+    text-decoration: none;
+    position: relative;
+    top: 7px;
+    font-size: 16px;
+  }
+
+}
+
+.form-options-container {
+  margin-left: -18px;
+
+  .form-option {
+    float: left;
+    width: 210px;
+    margin-left: 18px;
+  }
+
+  input[type="text"] {
+    width: 196px;
+    margin-bottom: 12px;
+  }
+
+  .selectwrap input[type="text"] {
+    width: 172px;
+  }
+
+  .full {
+    float: none;
+    width: 439px;
+
+    input[type="text"] {
+      width: 423px;
+    }
+
+    .selectwrap input[type="text"] {
+      width: 199px;
+    }
+  }
+}
+
+input[type="text"].ui-autocomplete-loading {
+  background: transparent url('../../images/loading.gif') no-repeat right center;
+  visibility: visible;
+}
+
+.ui-autocomplete-input.open {
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+.ui-widget {
+  font-family: $RobotoFontFamily;
+}
+
+.ui-autocomplete {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  position: absolute;
+  z-index: 10000;
+  border-bottom-right-radius: 3px;
+  border-bottom-left-radius: 3px;
+  border: 1px solid #ccc;
+  background: #fff;
+  color: $headingsColor;
+
+  .ui-state-focus,
+  .ui-state-hover {
+    border: none;
+    cursor: pointer;
+    font-weight: 400;
+  }
+}
+
+.ui-autocomplete li {
+  margin-bottom: 0;
+  white-space: nowrap;
+  text-align: left;
+  color: $headingsColor;
+
+  &:focus {
+    outline: none;
+  }
+}
+
+.ui-autocomplete li a {
+  display: block;
+  height: 100%;
+  padding: 4px 10px;
+}
+
+.ui-autocomplete li a.ui-state-focus {
+  cursor: pointer;
+}
+
+.form-option .agent-options {
+  label {
+    display: inline-block;
+    font-weight: normal;
+    font-size: 13px;
+  }
+
+  input[type="radio"] {
+    margin-top: -1px;
+  }
+
+  select {
+    width: auto;
+    margin: 0 0 0 5px;
+    border-radius: 0;
+  }
+}
+
+#drag-and-drop {
+  margin-bottom: 10px;
+  background-color: #efefef;
+  border: 3px dashed #dfdfdf;
+  position: relative;
+
+  &.hide {
+    display: none;
+  }
+
+  .limit_left {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    margin: 5px;
+    padding: 3px 6px;
+    font-size: 12px;
+    line-height: 1;
+    border-radius: 3px;
+  }
+}
+
+.drag-drop-msg {
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 15px;
+  font-size: 18px;
+}
+
+.drag-or {
+  text-align: center;
+}
+
+.drag-btn {
+  text-align: center;
+  margin-bottom: 30px;
+  margin-top: 15px;
+}
+
+.errors-log,
+#errors-log {
+  color: red;
+}
+
+#submit-property-form {
+  #wp-description-editor-tools {
+    .wp-editor-tabs {
+      .wp-switch-editor {
+        margin: 0 0 0 5px;
+      }
+    }
+  }
+
+  #wp-description-wrap {
+    .wp-editor-container {
+      border: 1px solid #e5e5e5;
+    }
+  }
+}
+
+@keyframes lds-dual-ring {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+/*** Property Additional Fields ***/
+@media (min-width: 768px) {
+  #additional-fields-wrapper {
+    .form-option {
+      float: left;
+      width: 33.3%;
+      padding-right: 20px;
+      box-sizing: border-box;
+
+      input[type="text"], select, textarea {
+        width: 100%;
+        max-width: 100%;
+        box-sizing: border-box;
+        height: 34px;
+      }
+
+      textarea {
+        height: auto;
+      }
+
+      .features-checkboxes {
+        margin-bottom: 0;
+      }
+
+      &:nth-child(3n) {
+        padding: 0;
+      }
+    }
+  }
+}
+
+// Floor Plans
+.inspiry-floor-plans-group-wrapper {
+
+  .inspiry-clone {
+    position: relative;
+    margin-bottom: 15px;
+    padding: 20px 20px 5px;
+    background-color: #f7f7f7;
+    border: 1px solid #cdcdcd;
+  }
+
+  .inspiry-remove-clone {
+    display: inline-block;
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    width: 20px;
+    height: 20px;
+    padding: 0;
+    font-size: 13px;
+    line-height: 22px;
+    cursor: pointer;
+    border-radius: 50%;
+    text-align: center;
+    text-decoration: none;
+    border: none;
+    background-color: #e74c3c;
+    color: #fff;
+
+    &:hover {
+      background-color: darken(#e74c3c, 5%);
+      color: #fff;
+    }
+  }
+
+  .inspiry-field {
+    margin-bottom: 15px;
+  }
+
+  label span {
+    display: inline-block;
+    margin: 0 4px;
+    font-size: 12px;
+    color: #999;
+  }
+
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -10px;
+    margin-left: -10px;
+
+    input[type="text"] {
+      margin-bottom: 5px;
+    }
+
+    input[type="text"],
+    textarea {
+      width: calc(100% - 14px);
+    }
+
+    textarea {
+      display: block;
+      height: 184px;
+      margin-bottom: 0;
+      resize: vertical;
+    }
+  }
+
+  .inspiry-btn-group {
+    display: block;
+
+    &.uploading-in-progress {
+      position: relative;
+      overflow: hidden;
+
+      &:before {
+        content: "";
+        display: block;
+        position: absolute;
+        top: 0;
+        z-index: 5;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(255, 255, 255, 0.85);
+        cursor: not-allowed;
+      }
+
+      &:after {
+        content: "";
+        display: block;
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        z-index: 10;
+        width: 18px;
+        height: 18px;
+        margin: auto;
+        border-radius: 50%;
+        border: 4px solid #000;
+        border-color: #000 transparent #000 transparent;
+        animation: lds-dual-ring 1.2s linear infinite;
+      }
+    }
+
+    &.show-remove-btn {
+
+      @media (min-width: 767px) {
+
+        .inspiry-file-remove {
+          margin-left: 1%;
+        }
+
+        input[type="text"] {
+          width: 58%;
+        }
+      }
+    }
+
+    input[type="text"] {
+      float: left;
+      width: 100%;
+      height: 34px;
+      margin-bottom: 0;
+      box-sizing: border-box;
+
+      @media (min-width: 767px) {
+        width: 79%;
+        margin-right: 1%;
+      }
+    }
+
+    .real-btn {
+      float: left;
+      width: 100%;
+      margin: 5px 0 0;
+      padding-left: 0;
+      padding-right: 0;
+      box-sizing: border-box;
+
+      @media (min-width: 767px) {
+        width: 20%;
+        margin: 0;
+      }
+    }
+
+    .inspiry-file-remove {
+      position: relative;
+      z-index: 10;
+    }
+
+    .hidden {
+      display: none;
+    }
+  }
+
+  .inspiry-add-clone-container {
+    text-align: right;
+  }
+
+  .real-btn,
+  .inspiry-add-clone{
+    @extend .real-btn;
+  }
+
+  .inspiry-add-clone i {
+    font-size: 12px;
+    margin-right: 8px;
+  }
+
+  .col-sm-6,
+  .col-lg-6 {
+    position: relative;
+    width: 100%;
+    padding-right: 10px;
+    padding-left: 10px;
+    box-sizing: border-box;
+  }
+
+  @media (min-width: 576px) {
+    .col-sm-6 {
+      flex: 0 0 50%;
+      max-width: 50%;
+    }
+  }
+
+  @media (min-width: 992px) {
+    .col-lg-6 {
+      flex: 0 0 50%;
+      max-width: 50%;
+    }
+  }
+}
+
+.rtl {
+
+  .inspiry-floor-plans-group-wrapper .inspiry-remove-clone {
+    right: auto;
+    left: 15px;
+  }
+
+  .inspiry-floor-plans-group-wrapper .inspiry-btn-group .real-btn {
+    float: right;
+  }
+
+  @media (min-width: 767px) {
+    .inspiry-floor-plans-group-wrapper .inspiry-btn-group input[type="text"] {
+      margin-right: 0;
+      margin-left: 1%;
+    }
+
+    .inspiry-floor-plans-group-wrapper .inspiry-btn-group.show-remove-btn .inspiry-file-remove {
+      margin-left: 0;
+      margin-right: 1%;
+    }
+  }
+
+  .inspiry-floor-plans-group-wrapper .inspiry-btn-group input[type="text"],
+  .inspiry-floor-plans-group-wrapper .inspiry-column,
+  .inspiry-floor-plans-group-wrapper .inspiry-column-3,
+  .inspiry-floor-plans-group-wrapper .inspiry-column-4,
+  .inspiry-floor-plans-group-wrapper .inspiry-column-5,
+  .inspiry-floor-plans-group-wrapper .inspiry-column-6,
+  .inspiry-floor-plans-group-wrapper .inspiry-column-12,
+  .inspiry-floor-plans-group-wrapper .inspiry-column-md-6 {
+    float: right;
+  }
+
+  .inspiry-floor-plans-group-wrapper .inspiry-add-clone-container {
+    text-align: left;
+  }
+
+  .inspiry-floor-plans-group-wrapper .inspiry-add-clone i {
+    margin-right: 0;
+    margin-left: 8px;
+  }
+}
+
+// Property Attachments
+.property-attachments-container {
+  width: 100%;
+  margin-bottom: 2.5rem;
+  border-left: 1px solid rgba(128, 128, 128, 0.2);
+  border-right: 1px solid rgba(128, 128, 128, 0.2);
+
+  .attachments-thumb-container {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    border-top: 1px solid rgba(128, 128, 128, 0.2);
+
+    &:empty {
+      display: none;
+    }
+  }
+
+  .attachment-thumb {
+    display: inline-block;
+    position: relative;
+    padding: 15px;
+    width: 50%;
+
+    &:hover {
+      .remove-attachment {
+        display: block;
+      }
+    }
+
+    @media (min-width: 550px) {
+      width: 33.33%;
+    }
+
+    @media (min-width: 700px) {
+      width: 20%;
+    }
+
+    @media (min-width: 1199px) {
+      width: 12.5%;
+    }
+
+    span {
+      display: block;
+      position: relative;
+      font-size: 13px;
+      text-align: center;
+
+      i {
+        display: block;
+      }
+    }
+
+    .attachment-icon {
+      margin-bottom: 7px;
+      font-size: 68px;
+    }
+
+    .attachment-title {
+      word-break: break-word;
+    }
+
+    .remove-attachment,
+    .loader {
+      display: none;
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 28px;
+      height: 28px;
+      line-height: 26px;
+      margin: 15px 15px 0;
+      padding: 0;
+      text-align: center;
+      border-radius: 50%;
+      background: rgba(0, 0, 0, 0.7);
+      color: #fff;
+    }
+
+    .loader {
+      padding-top: 7px;
+    }
+
+    .loader-lg {
+      position: absolute;
+      top: 25%;
+      left: 50%;
+      transform: translateX(-50%);
+    }
+  }
+
+  .attachments-max-upload,
+  .attachments-error-log {
+    padding: 10px;
+    font-size: 14px;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.2);
+    color: red;
+
+    &:empty {
+      display: none;
+    }
+  }
+
+  .attachments-drag-drop {
+    position: relative;
+    margin: 0;
+    padding: 20px 15px;
+    text-align: center;
+    background-color: #f7f7f7;
+    border-top: 1px dashed #d8d9d9;
+    border-bottom: 1px dashed #d8d9d9;
+
+    @media (min-width: 768px) {
+      padding-top: 35px;
+      padding-bottom: 35px;
+    }
+
+    > i,
+    > span,
+    > strong {
+      display: block;
+      margin-bottom: 15px;
+    }
+
+    > i {
+      font-size: 28px;
+      color: #b3b3b3;
+    }
+
+    > span,
+    .attachments-limit {
+      color: #999999;
+    }
+
+    .attachments-limit {
+      position: absolute;
+      top: 0;
+      right: 0;
+      margin: 15px;
+      font-size: 15px;
+
+      @media (min-width: 768px) {
+        margin: 20px;
+      }
+    }
+  }
+
+  button{
+    @extend .real-btn;
+  }
+}
+
+.rtl {
+  .property-attachments-container {
+
+    .attachment-thumb {
+      .remove-attachment,
+      .loader {
+        left: auto;
+        right: 0;
+      }
+    }
+
+    .attachments-drag-drop {
+      .attachments-limit {
+        right: auto;
+        left: 0;
+      }
+    }
+  }
+}

@@ -1,0 +1,76 @@
+.rh_elementor_widget .rh_blog__post {
+  background: inherit;
+}
+
+// Elementor lightbox broken image fix.
+.elementor-lightbox-image:not(.swiper-lazy-loaded) {
+  display: none !Important;
+}
+
+// Elementor video widget custom styles.
+#elementor-widget-video-custom-style {
+  .elementor-custom-embed-play {
+
+    i {
+      opacity: 1;
+      border-radius: 50%;
+      text-shadow: none;
+      background: #0068FF;
+      color: #fff;
+    }
+
+    &:hover i {
+      background: #0053cc;
+    }
+  }
+
+  &.elementor-widget-play-button-brown .elementor-custom-embed-play {
+
+    i {
+      background: #8C6239;
+    }
+
+    &:hover i {
+      background: #111;
+    }
+  }
+}
+
+#elementor-widget-video-custom-style .elementor-custom-embed-image-overlay {
+  background-color: #000;
+
+  img {
+    opacity: 1;
+    transition: opacity 0.2s ease-in-out;
+  }
+
+  &:hover img {
+    opacity: .95;
+  }
+}
+
+// Buttons
+.rhea-btn-primary,
+.rhea-btn-secondary {
+  transition: all 0.3s ease-in-out;
+}
+
+.rhea-btn-primary {
+  background: var(--rh-global-color-primary);
+  color: #fff;
+}
+
+.rhea-btn-primary:hover {
+  background: var(--rh-global-color-primary-dark, rgba(0, 0, 0, .2));
+  color: #fff;
+}
+
+.rhea-btn-secondary {
+  background: var(--rh-global-color-secondary);
+  color: #fff;
+}
+
+.rhea-btn-secondary:before {
+  background: var(--rh-global-color-secondary-dark, rgba(0, 0, 0, .2));
+  color: #fff;
+}

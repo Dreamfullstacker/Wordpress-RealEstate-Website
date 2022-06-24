@@ -1,0 +1,60 @@
+.rhea_classic_features_section_elementor{
+  position: relative;
+  padding: 60px 49px;
+  overflow: hidden;
+  background-size: cover;
+  background-position: center;
+
+  .rhea_heading_wrapper{
+  h2{
+    font-size: 30px;
+    margin-bottom: 16px;
+    color: #ffffff;
+  }
+  p{
+    margin-bottom: 30px;
+    color: #ffffff;
+  }
+  }
+  .rhea_features{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+  }
+.rhea_features_section{
+  width: 33.33%;
+  padding-left: 20px;
+  padding-right: 20px;
+  min-width: 200px;
+  h4{
+    font-size: 20px;
+    color: #ffffff;
+    margin-bottom: 10px;
+    line-height: 30px;
+  }
+  .rhea_features_content_area{
+    color: #ffffff;
+  }
+}
+  .rhea_features_overlay{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(62,182,224,.65);
+    z-index: 9;
+  }
+  .rhea_features_image{
+    max-width: 100%;
+    margin-bottom: 30px;
+  }
+}
+.rhea_classic_features_section_container{
+  position: relative;
+  z-index: 99;
+}
+.rhea_class_features_background{
+
+}

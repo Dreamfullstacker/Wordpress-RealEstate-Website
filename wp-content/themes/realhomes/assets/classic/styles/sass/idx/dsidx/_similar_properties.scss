@@ -1,0 +1,21 @@
+#dsidx-similar-listings {
+  width: 100%;
+  padding: 0 !important;
+
+  .dsidx-result {
+    float: left;
+    width: 33.3%;
+  }
+
+  @media (max-width: 767px) {
+    .dsidx-result {
+      width: 100%;
+    }
+
+    .dsidx-small-listing {
+      .dsidx-media {
+        width: auto;
+      }
+    }
+  }
+}

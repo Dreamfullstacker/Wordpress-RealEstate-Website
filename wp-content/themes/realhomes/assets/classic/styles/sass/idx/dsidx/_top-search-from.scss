@@ -1,0 +1,174 @@
+/* Top Advance search form */
+#dsidx-top-search {
+
+  .dsidx-search-bar-pull-down,
+  .dsidx-search-bar-pull-up {
+    display: inline-block;
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-size: 28px;
+    font-weight: bold;
+    text-align: center;
+    background: none;
+    line-height: 24px;
+    cursor: pointer;
+    color: #fff;
+
+    &:hover {
+      color: #394041;
+    }
+  }
+
+  .dsidx-search-bar-pull-down:before {
+      content: "\f107";
+  }
+
+  .dsidx-search-bar-pull-up:before {
+    content: "\f106";
+  }
+
+  &.open {
+    .dsidx-search-bar-pull-up {
+      top: auto;
+      bottom: -36px;
+      right: 6px;
+    }
+  }
+
+  #dsidx-search-form-wrap {
+    background: #4dc7ec;
+    border-radius: 0;
+  }
+
+  #dsidx-search-form-main{
+    border-radius: 0;
+
+    .dsidx-search-bar-pull-up {
+      z-index: 999;
+    }
+
+    .dsidx-search-grid{
+      select {
+        width: 100%;
+        min-width: 100px !important;
+      }
+    }
+
+    input.dsidx-medium {
+      width: 86px;
+    }
+
+    @media (max-width: 320px) {
+      .select2-container {
+        max-width: 185px;
+      }
+
+      input.dsidx-medium {
+        width: 78px;
+      }
+
+      input.dsidx-small {
+        margin-bottom: 5px;
+      }
+
+      #dsidx-search-pricedrop-days {
+        display: block;
+        margin-top: 5px;
+      }
+    }
+
+    #dsidx-search-filters {
+
+      .dsidx-search-openclose {
+        background-color: #4dc7ec;
+      }
+
+      .select2-container {
+        width: 100%;
+        max-width: 130px;
+      }
+
+      .dsidx-search-tag-list {
+        padding: 0 24px 8px 6px;
+      }
+
+      @media (max-width: 767px) {
+        #dsidx-search-garageparking + .select2-container,
+        #dsidx-search-pricedrop-pct {
+          margin-bottom: 5px;
+        }
+      }
+
+      #dsidx-search-foreclosures + .select2-container {
+        max-width: 220px;
+      }
+
+      .dsidx-search-tag-list {
+        li {
+          background-color: #666666;
+        }
+      }
+
+      .dsidx-search-tag-checkbox {
+        padding-top: 14px;
+
+        input[type="checkbox"] {
+          margin-top: 2px;
+          float: left;
+          margin-right: 5px;
+        }
+      }
+
+      .dsidx-search-tag-checkboxes {
+        .dsidx-search-tag-checkbox {
+          padding-top: 0;
+        }
+      }
+    }
+  }
+
+  #dsidx-search-bar {
+    color: #fff;
+    border-radius: 0 !important;
+    background: #4dc7ec;
+
+    input {
+      border: none;
+    }
+
+    .dsidx-search-controls {
+
+      .button {
+        margin-right: 30px;
+        box-shadow: none;
+        border-radius: 0;
+      }
+
+      button {
+        font-weight: normal;
+        padding: 6px 10px;
+        background: #ec894d;
+
+        &:hover {
+          background: #e3712c;
+        }
+      }
+    }
+
+    @media (max-width: 320px) {
+      input {
+        max-width: 127px;
+      }
+    }
+  }
+}
+
+#dsidx-profile-header {
+
+  @media (max-width: 767px) {
+      float: none;
+  }
+}

@@ -1,0 +1,42 @@
+.re_section_head_elementor{
+  margin: 0 auto;
+  .rh_section__subtitle{
+    display: block;
+    color: var(--rh-global-color-primary);
+    font-size: 15px;
+    font-weight: 500;
+  }
+  .rh_section__title{
+    font-weight: 300;
+    margin-top: 0;
+    color: #1a1a1a;
+    font-size: 36px;
+    margin-bottom: 0;
+  }
+  .rh_section__desc{
+    font-size: 15px;
+    color: #808080;
+  }
+}
+
+//Classic Section Title
+
+.rhea_classic_section_head_elementor{
+  margin: auto;
+  //max-width: 950px;
+  margin-bottom: 30px;
+  .rh_classic_section__title{
+    font-size: 30px;
+    margin-bottom: 16px;
+    line-height: 48px;
+    font-family: "Lato", Helvetica, Arial, sans-serif;
+    font-weight: bold;
+    color: #394041;
+  }
+  .rh_classic_section__desc{
+    font-family: "Open Sans", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    line-height: 24px;
+    color: #666;
+  }
+}

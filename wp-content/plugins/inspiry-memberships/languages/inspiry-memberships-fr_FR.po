@@ -1,0 +1,1372 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Inspiry Memberships for RealHomes\n"
+"Report-Msgid-Bugs-To: https://github.com/InspiryThemes/inspiry-memberships/"
+"issues\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2021-06-02 17:02+0500\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: fr_FR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.3\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: inspiry-memberships.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.min.js\n"
+"X-Poedit-SearchPathExcluded-1: node_modules\n"
+
+#: inspiry-memberships.php:171 resources/settings/class-wp-osa.php:684
+#: resources/settings/class-wp-osa.php:685
+msgid "Settings"
+msgstr "Paramètres"
+
+#: resources/class-helper-functions.php:240
+msgid "Select Membership"
+msgstr "Sélectionner l'abonnement"
+
+#: resources/class-helper-functions.php:248
+#: resources/membership/class-membership-metaboxes.php:130
+#: resources/receipt/class-receipt-metaboxes.php:163
+msgid "None"
+msgstr "Aucune"
+
+#: resources/class-helper-functions.php:264
+msgid "Recurring Membership?"
+msgstr "Adhésion récurrente ?"
+
+#: resources/class-helper-functions.php:295
+#: resources/receipt/class-receipt-custom-columns.php:136
+#: resources/receipt/class-receipt-metaboxes.php:172
+msgid "Wire Transfer"
+msgstr "Virement bancaire"
+
+#: resources/class-helper-functions.php:301
+msgid "Account Name: "
+msgstr "Nom du compte: "
+
+#: resources/class-helper-functions.php:305
+msgid "Account Number: "
+msgstr "Numéro de compte : "
+
+#: resources/class-helper-functions.php:314
+msgid "Send Receipt"
+msgstr "Envoyer un reçu"
+
+#: resources/class-helper-functions.php:343
+msgid "Are you sure?"
+msgstr "Êtes-vous sûr ?"
+
+#: resources/class-helper-functions.php:344
+msgid "Yes"
+msgstr "Oui"
+
+#: resources/class-helper-functions.php:345
+msgid "No"
+msgstr "Non"
+
+#: resources/class-helper-functions.php:362
+msgid "Day"
+msgstr "Jour"
+
+#: resources/class-helper-functions.php:363
+#: resources/membership/class-membership-metaboxes.php:133
+msgid "Days"
+msgstr "Jours"
+
+#: resources/class-helper-functions.php:364
+msgid "Week"
+msgstr "Semaine"
+
+#: resources/class-helper-functions.php:365
+#: resources/membership/class-membership-metaboxes.php:136
+msgid "Weeks"
+msgstr "Semaines"
+
+#: resources/class-helper-functions.php:366
+msgid "Month"
+msgstr "Mois"
+
+#: resources/class-helper-functions.php:367
+#: resources/membership/class-membership-metaboxes.php:139
+msgid "Months"
+msgstr "Mois"
+
+#: resources/class-helper-functions.php:368
+msgid "Year"
+msgstr "Année"
+
+#: resources/class-helper-functions.php:369
+#: resources/membership/class-membership-metaboxes.php:142
+msgid "Years"
+msgstr "Années"
+
+#: resources/class-helper-functions.php:403
+#: resources/class-helper-functions.php:602
+msgid "Invalid Package ID"
+msgstr ""
+
+#: resources/class-helper-functions.php:417
+msgid "Your Order"
+msgstr "Votre commande"
+
+#: resources/class-helper-functions.php:423
+msgid "Package"
+msgstr "Forfait"
+
+#: resources/class-helper-functions.php:424
+#: resources/membership/class-membership-custom-columns.php:41
+#: resources/receipt/class-receipt-custom-columns.php:42
+#: resources/receipt/class-receipt-metaboxes.php:122
+msgid "Price"
+msgstr "Prix"
+
+#: resources/class-helper-functions.php:433
+msgid "Total"
+msgstr "Total"
+
+#: resources/class-helper-functions.php:445
+msgid "Payment Method"
+msgstr "Mode de paiement"
+
+#: resources/class-helper-functions.php:458
+msgid "Direct Bank Transfer"
+msgstr "Virement bancaire"
+
+#: resources/class-helper-functions.php:467
+#: resources/receipt/class-receipt-custom-columns.php:134
+#: resources/receipt/class-receipt-metaboxes.php:169
+msgid "PayPal"
+msgstr "PayPal"
+
+#: resources/class-helper-functions.php:476
+#: resources/receipt/class-receipt-custom-columns.php:132
+#: resources/receipt/class-receipt-metaboxes.php:166
+msgid "Stripe"
+msgstr "Stripe"
+
+#: resources/class-helper-functions.php:524
+msgid "Recurring Payments?"
+msgstr ""
+
+#: resources/class-helper-functions.php:566
+#: resources/class-helper-functions.php:598
+msgid "Complete Payment"
+msgstr "Procéder au paiement"
+
+#: resources/class-helper-functions.php:568
+#: resources/payment-handler/class-stripe-payment-handler.php:216
+msgid "Subscribe"
+msgstr "S'abonner"
+
+#: resources/class-ims-email.php:33
+msgid "Membership Package Subscription is Canceled"
+msgstr ""
+
+#: resources/class-ims-email.php:36
+#, php-format
+msgid "Your %s membership package subscription has been cancelled."
+msgstr ""
+
+#: resources/class-ims-email.php:39 resources/class-ims-email.php:99
+#: resources/class-ims-email.php:119 resources/class-ims-email.php:214
+#: resources/payment-handler/class-wire-transfer-handler.php:97
+msgid "For any further assistance, email us at"
+msgstr ""
+
+#: resources/class-ims-email.php:42 resources/class-ims-email.php:102
+#: resources/class-ims-email.php:122 resources/class-ims-email.php:217
+#: resources/payment-handler/class-wire-transfer-handler.php:100
+msgid " OR call us at "
+msgstr ""
+
+#: resources/class-ims-email.php:48 resources/class-ims-email.php:108
+#: resources/class-ims-email.php:128 resources/class-ims-email.php:223
+#: resources/payment-handler/class-wire-transfer-handler.php:106
+msgid "Regards"
+msgstr "Cordialement"
+
+#: resources/class-ims-email.php:75 resources/class-ims-email.php:155
+msgid "via PayPal"
+msgstr "via PayPal"
+
+#: resources/class-ims-email.php:77 resources/class-ims-email.php:157
+msgid "via Stripe"
+msgstr "via Stripe"
+
+#: resources/class-ims-email.php:79 resources/class-ims-email.php:159
+msgid "via Wire Transfer"
+msgstr "par virement bancaire"
+
+#: resources/class-ims-email.php:95 resources/class-ims-email.php:168
+msgid "Membership Package Subscription is Activated"
+msgstr ""
+
+#: resources/class-ims-email.php:96
+#, php-format
+msgid ""
+"Your %1$s membership package subscription has been activated. For more "
+"details please visit %2$s page of your account on our %3$swebsite%4$s."
+msgstr ""
+
+#: resources/class-ims-email.php:96 resources/class-ims-email.php:116
+msgid "My Membership"
+msgstr "Mon adhésion"
+
+#: resources/class-ims-email.php:115
+msgid "Membership Package Subscription is Updated."
+msgstr ""
+
+#: resources/class-ims-email.php:116
+#, php-format
+msgid ""
+"Your %1$s membership package subscription has been updated. For more details "
+"please visit %2$s page of your account on our %3$swebsite%4$s."
+msgstr ""
+
+#: resources/class-ims-email.php:169
+#, php-format
+msgid "A %s membership package subscription is activated on your site."
+msgstr ""
+
+#: resources/class-ims-email.php:170 resources/class-ims-email.php:176
+#, php-format
+msgid "For more details please check %s"
+msgstr ""
+
+#: resources/class-ims-email.php:174
+msgid "Membership Package Subscription is Updated"
+msgstr ""
+
+#: resources/class-ims-email.php:175
+#, php-format
+msgid "A %s membership package subscription is updated on your site."
+msgstr ""
+
+#: resources/class-ims-email.php:209
+msgid "Your membership package subscription is about to end"
+msgstr ""
+
+#: resources/class-ims-email.php:210
+#, php-format
+msgid "Your membership package subscription on %s is about to end."
+msgstr ""
+
+#: resources/class-ims-email.php:211
+msgid ""
+"Please make sure that you renew your subscription within due date. Otherwise "
+"your subscription will be cancelled."
+msgstr ""
+
+#: resources/membership/class-ims-cpt-membership.php:38
+#: resources/membership/class-ims-cpt-membership.php:49
+#: resources/settings/admin-menu.php:49 resources/settings/admin-menu.php:50
+msgid "Memberships"
+msgstr "Adhésions"
+
+#: resources/membership/class-ims-cpt-membership.php:39
+#: resources/receipt/class-receipt-custom-columns.php:41
+#: resources/receipt/class-receipt-metaboxes.php:95
+msgid "Membership"
+msgstr "Abonnement"
+
+#: resources/membership/class-ims-cpt-membership.php:40
+msgctxt "inspiry-memberships"
+msgid "Add New Membership"
+msgstr "Ajouter une nouvelle adhésion"
+
+#: resources/membership/class-ims-cpt-membership.php:41
+#: resources/settings/admin-menu.php:62
+msgid "Add New Membership"
+msgstr "Ajouter une nouvelle adhésion"
+
+#: resources/membership/class-ims-cpt-membership.php:42
+msgid "Edit Membership"
+msgstr "Modifier l’abonnement"
+
+#: resources/membership/class-ims-cpt-membership.php:43
+#: resources/settings/admin-menu.php:63
+msgid "New Membership"
+msgstr "Nouvel abonnement"
+
+#: resources/membership/class-ims-cpt-membership.php:44
+msgid "View Membership"
+msgstr "Voir l'adhésion"
+
+#: resources/membership/class-ims-cpt-membership.php:45
+msgid "Search Memberships"
+msgstr "Rechercher des adhésions"
+
+#: resources/membership/class-ims-cpt-membership.php:46
+msgid "No Memberships found"
+msgstr "Aucune Adhésion Trouvée"
+
+#: resources/membership/class-ims-cpt-membership.php:47
+msgid "No Memberships found in Trash"
+msgstr "Aucune adhésion trouvée dans la corbeille"
+
+#: resources/membership/class-ims-cpt-membership.php:48
+msgid "Parent Membership:"
+msgstr "Abonnement parente  :"
+
+#: resources/membership/class-ims-cpt-membership.php:53
+msgid "membership"
+msgstr "abonnement"
+
+#: resources/membership/class-ims-cpt-membership.php:62
+msgid "Represents a membership package."
+msgstr "Représente un paquet d'adhésion."
+
+#: resources/membership/class-ims-cpt-membership.php:98
+msgid "Once Weekly"
+msgstr "Une fois par semaine"
+
+#: resources/membership/class-ims-cpt-membership.php:103
+msgid "Once Monthly"
+msgstr "Une fois par mois"
+
+#: resources/membership/class-ims-cpt-membership.php:108
+msgid "Once Yearly"
+msgstr "Une fois par année"
+
+#: resources/membership/class-membership-custom-columns.php:38
+msgid "Membership Title"
+msgstr "Titre de l'Abonnement"
+
+#: resources/membership/class-membership-custom-columns.php:39
+msgid "Allowed Properties"
+msgstr "Biens autorisés"
+
+#: resources/membership/class-membership-custom-columns.php:40
+msgid "Featured Properties"
+msgstr "Biens à la une"
+
+#: resources/membership/class-membership-custom-columns.php:42
+msgid "Billing Period"
+msgstr "Période de facturation"
+
+#: resources/membership/class-membership-custom-columns.php:77
+#: resources/membership/class-membership-custom-columns.php:86
+#: resources/membership/class-membership-custom-columns.php:103
+#: resources/membership/class-membership-custom-columns.php:115
+#: resources/receipt/class-receipt-custom-columns.php:80
+#: resources/receipt/class-receipt-custom-columns.php:92
+#: resources/receipt/class-receipt-custom-columns.php:95
+#: resources/receipt/class-receipt-custom-columns.php:112
+#: resources/receipt/class-receipt-custom-columns.php:125
+#: resources/receipt/class-receipt-custom-columns.php:140
+#: resources/receipt/class-receipt-custom-columns.php:149
+msgid "Not Available"
+msgstr "Non disponible"
+
+#: resources/membership/class-membership-metaboxes.php:37
+msgid "Membership Detail"
+msgstr "Détail du niveau d'adhésion"
+
+#: resources/membership/class-membership-metaboxes.php:73
+msgid "Total number of allowed properties"
+msgstr "Nombre total de biens autorisés"
+
+#: resources/membership/class-membership-metaboxes.php:78
+#: resources/membership/class-membership-metaboxes.php:108
+msgid "Example: 20"
+msgstr "Exemple : 20"
+
+#: resources/membership/class-membership-metaboxes.php:85
+msgid "Max number of featured properties"
+msgstr "Nombre maximum de propriétés présentées"
+
+#: resources/membership/class-membership-metaboxes.php:90
+msgid "Example: 4"
+msgstr "Exemple : 4"
+
+#: resources/membership/class-membership-metaboxes.php:97
+msgid "Membership price"
+msgstr "Prix de l’abonnement"
+
+#: resources/membership/class-membership-metaboxes.php:111
+msgid "Note: Please consult the "
+msgstr "Note : Veuillez consulter le "
+
+#: resources/membership/class-membership-metaboxes.php:113
+msgid " of the plugin for changing the price of the memebership"
+msgstr " du plugin pour modifier le prix de l'abonnement"
+
+#: resources/membership/class-membership-metaboxes.php:122
+msgid "Membership billing period"
+msgstr "Période de facturation de l'adhésion"
+
+#: resources/membership/class-membership-metaboxes.php:145
+msgid "Provide a number and select related duration."
+msgstr "Indiquez un numéro et sélectionnez la durée correspondante."
+
+#: resources/membership/class-membership-metaboxes.php:154
+msgid "Mark this package as Popular?"
+msgstr "Marquer cette abonnement comme populaire?"
+
+#: resources/membership/class-membership-metaboxes.php:165
+msgid "Stripe Subscription Plan ID"
+msgstr "ID du plan d'abonnement à la bande"
+
+#: resources/membership/class-membership-metaboxes.php:170
+msgid "Required, If you are using Stripe for recurring payments."
+msgstr "Obligatoire, si vous utilisez la bande pour des paiements récurrents."
+
+#: resources/payment-handler/class-payment-handler.php:118
+#: resources/payment-handler/class-wire-transfer-handler.php:154
+msgid "Order Completed Successfully!"
+msgstr ""
+
+#: resources/payment-handler/class-payment-handler.php:124
+#: resources/payment-handler/class-wire-transfer-handler.php:160
+msgid "Error occurred while processing order."
+msgstr ""
+
+#: resources/payment-handler/class-paypal-payment-handler.php:224
+#: resources/payment-handler/class-paypal-payment-handler.php:633
+msgid "Nonce verification failed."
+msgstr "Échec de la vérification."
+
+#: resources/payment-handler/class-paypal-payment-handler.php:234
+#: resources/payment-handler/class-paypal-payment-handler.php:375
+#: resources/payment-handler/class-paypal-payment-handler.php:643
+#: resources/payment-handler/class-paypal-payment-handler.php:709
+#: resources/payment-handler/class-wire-transfer-handler.php:67
+msgid "Please select a membership to continue."
+msgstr "Veuillez sélectionner une adhésion pour continuer."
+
+#: resources/payment-handler/class-paypal-payment-handler.php:304
+#: resources/payment-handler/class-paypal-payment-handler.php:309
+#: resources/payment-handler/class-paypal-payment-handler.php:664
+#: resources/payment-handler/class-paypal-payment-handler.php:966
+msgid "Payment for "
+msgstr "Paiement pour "
+
+#: resources/payment-handler/class-paypal-payment-handler.php:359
+msgid "We were unable to authorize payment from PayPal. Please try again."
+msgstr ""
+"Nous n'avons pas pu autoriser le paiement par PayPal. Veuillez réessayer."
+
+#: resources/payment-handler/class-paypal-payment-handler.php:367
+msgid "We were not able to connect to PayPal. Please try again."
+msgstr "Nous n'avons pas pu nous connecter à PayPal. Veuillez réessayer."
+
+#: resources/payment-handler/class-paypal-payment-handler.php:701
+msgid "Error occurred while connecting to PayPal."
+msgstr "Une erreur s'est produite lors de la connexion à PayPal."
+
+#: resources/payment-handler/class-paypal-payment-handler.php:1169
+msgid "Membership cancelled!"
+msgstr "Adhésion annulée !"
+
+#: resources/payment-handler/class-stripe-payment-handler.php:188
+msgid "Pay with Card"
+msgstr "Payer avec Carte"
+
+#: resources/payment-handler/class-stripe-payment-handler.php:207
+msgid "Membership Payment"
+msgstr "Paiement d’abonnement"
+
+#: resources/payment-handler/class-stripe-payment-handler.php:225
+msgid "Membership ID is empty."
+msgstr "Le numéro d'adhérent est vide."
+
+#: resources/payment-handler/class-stripe-payment-handler.php:233
+msgid "Membership ID is not valid."
+msgstr "La carte de membre n'est pas valable."
+
+#: resources/payment-handler/class-wire-transfer-handler.php:82
+msgid "Membership Receipt Information"
+msgstr ""
+
+#: resources/payment-handler/class-wire-transfer-handler.php:84
+#, php-format
+msgid ""
+"You have successfully applied for the %s membership package on our site."
+msgstr "Vous avez fait une demande d'adhésion à %s sur notre site."
+
+#: resources/payment-handler/class-wire-transfer-handler.php:85
+#, php-format
+msgid ""
+"You chose to pay via Wire Transfer. Please send a payment of %s to the "
+"following account."
+msgstr ""
+
+#: resources/payment-handler/class-wire-transfer-handler.php:89
+#, php-format
+msgid "Account Name: %s"
+msgstr "Nom de compte: %s"
+
+#: resources/payment-handler/class-wire-transfer-handler.php:90
+#, php-format
+msgid "Account Number: %s"
+msgstr "Numéro de compte: %s"
+
+#: resources/payment-handler/class-wire-transfer-handler.php:93
+#, php-format
+msgid ""
+"After sending the payment, notify us at %1$s and include your receipt %2$s "
+"number."
+msgstr ""
+
+#: resources/payment-handler/class-wire-transfer-handler.php:94
+msgid ""
+"We will activate your membership as soon as we get your payment confirmation."
+msgstr ""
+"Nous activerons votre adhésion dès que nous aurons reçu votre confirmation "
+"de paiement."
+
+#: resources/payment-handler/class-wire-transfer-handler.php:115
+msgid "New Membership Receipt Received"
+msgstr ""
+
+#: resources/payment-handler/class-wire-transfer-handler.php:117
+#, php-format
+msgid ""
+"You have received a %1$s membership receipt for the payment of %2$s from "
+"User ID #%3$s having email address %4$s"
+msgstr ""
+
+#: resources/payment-handler/class-wire-transfer-handler.php:118
+#, php-format
+msgid ""
+"User chose to pay via Wire Transfer. Make sure to activate the membership "
+"receipt number %1$s as soon as you get the payment confirmation via email at "
+"%2$s"
+msgstr ""
+
+#: resources/payment-handler/class-wire-transfer-handler.php:127
+msgid "Your email address is not valid."
+msgstr "Votre adresse électronique n'est pas valide."
+
+#: resources/payment-handler/class-wire-transfer-handler.php:139
+msgid "Email sent successfully."
+msgstr "Courriel envoyé avec succès."
+
+#: resources/payment-handler/class-wire-transfer-handler.php:145
+msgid "Error occurred while sending email."
+msgstr ""
+
+#: resources/receipt/class-ims-cpt-receipt.php:32
+#: resources/receipt/class-ims-cpt-receipt.php:43
+#: resources/settings/admin-menu.php:69 resources/settings/admin-menu.php:70
+msgid "Receipts"
+msgstr "Reçus"
+
+#: resources/receipt/class-ims-cpt-receipt.php:33
+#: resources/receipt/class-receipt-custom-columns.php:39
+#: resources/receipt/class-receipt-methods.php:49
+msgid "Receipt"
+msgstr "Reçu"
+
+#: resources/receipt/class-ims-cpt-receipt.php:34
+msgctxt "inspiry-memberships"
+msgid "Add New Receipt"
+msgstr "Ajouter une nouveau modèle de reçu"
+
+#: resources/receipt/class-ims-cpt-receipt.php:35
+#: resources/settings/admin-menu.php:76
+msgid "Add New Receipt"
+msgstr "Ajouter une nouveau modèle de reçu"
+
+#: resources/receipt/class-ims-cpt-receipt.php:36
+msgid "Edit Receipt"
+msgstr "Modifier le reçu"
+
+#: resources/receipt/class-ims-cpt-receipt.php:37
+#: resources/settings/admin-menu.php:77
+msgid "New Receipt"
+msgstr "Nouveau reçu"
+
+#: resources/receipt/class-ims-cpt-receipt.php:38
+msgid "View Receipt"
+msgstr "Voir le reçu"
+
+#: resources/receipt/class-ims-cpt-receipt.php:39
+msgid "Search Receipts"
+msgstr "Rechercher des reçus"
+
+#: resources/receipt/class-ims-cpt-receipt.php:40
+msgid "No Receipts found"
+msgstr "Aucun reçu trouvé"
+
+#: resources/receipt/class-ims-cpt-receipt.php:41
+msgid "No Receipts found in Trash"
+msgstr "Aucun reçu trouvé dans les poubelles"
+
+#: resources/receipt/class-ims-cpt-receipt.php:42
+msgid "Parent Receipt:"
+msgstr "Reçu des parents :"
+
+#: resources/receipt/class-ims-cpt-receipt.php:47
+msgid "receipt"
+msgstr "recu"
+
+#: resources/receipt/class-ims-cpt-receipt.php:56
+msgid "Represents a receipt of membership."
+msgstr "Représente un reçu d'adhésion."
+
+#: resources/receipt/class-receipt-custom-columns.php:40
+#: resources/receipt/class-receipt-metaboxes.php:83
+msgid "Receipt For"
+msgstr "Reçu pour"
+
+#: resources/receipt/class-receipt-custom-columns.php:43
+msgid "User"
+msgstr "Utilisateur"
+
+#: resources/receipt/class-receipt-custom-columns.php:44
+#: resources/receipt/class-receipt-metaboxes.php:156
+msgid "Vendor"
+msgstr "Vendeur"
+
+#: resources/receipt/class-receipt-custom-columns.php:45
+#: resources/receipt/class-receipt-metaboxes.php:133
+msgid "Date of Purchase"
+msgstr "Date d'achat"
+
+#: resources/receipt/class-receipt-custom-columns.php:46
+msgid "Status"
+msgstr "Statut"
+
+#: resources/receipt/class-receipt-custom-columns.php:138
+#: resources/receipt/class-receipt-metaboxes.php:175
+msgid "WooCommerce"
+msgstr "WooCommerce"
+
+#: resources/receipt/class-receipt-custom-columns.php:163
+msgid "Pending"
+msgstr "En attente"
+
+#: resources/receipt/class-receipt-custom-columns.php:165
+msgid "Expired"
+msgstr "Expiré"
+
+#: resources/receipt/class-receipt-custom-columns.php:167
+msgid "Active"
+msgstr "Actif"
+
+#: resources/receipt/class-receipt-metaboxes.php:47
+msgid "Receipt Details"
+msgstr "Détails de reçu"
+
+#: resources/receipt/class-receipt-metaboxes.php:71
+msgid "Receipt ID"
+msgstr "ID Reçu"
+
+#: resources/receipt/class-receipt-metaboxes.php:76
+msgid "Receipt ID is not generated yet!"
+msgstr "Le numéro d'identification du reçu n'est pas encore généré !"
+
+#: resources/receipt/class-receipt-metaboxes.php:88
+msgid "Data not available!"
+msgstr "Données non disponibles !"
+
+#: resources/receipt/class-receipt-metaboxes.php:111
+msgid "Membership ID"
+msgstr "ID de l'abonnement"
+
+#: resources/receipt/class-receipt-metaboxes.php:138
+msgid "Format: YYYY-MM-DD H:M:S"
+msgstr "Format : AAAA-MM-JJ H:M:S"
+
+#: resources/receipt/class-receipt-metaboxes.php:145
+msgid "User ID"
+msgstr "ID de l’utilisateur"
+
+#: resources/receipt/class-receipt-metaboxes.php:184
+msgid "Payment ID"
+msgstr "ID du Paiement"
+
+#: resources/receipt/class-receipt-metaboxes.php:195
+msgid "Membership Status"
+msgstr "Statut d'abonnement"
+
+#: resources/receipt/class-receipt-metaboxes.php:209
+msgid "Activate membership!"
+msgstr "Activez l'adhésion !"
+
+#: resources/receipt/class-receipt-metaboxes.php:212
+msgid "Membership expired."
+msgstr "Adhésion expirée."
+
+#: resources/receipt/class-receipt-metaboxes.php:215
+msgid "Membership is active."
+msgstr "L'adhésion est active."
+
+#: resources/receipt/class-receipt-metaboxes.php:225
+msgid "Cancel Wire Transfer Membership?"
+msgstr "Annuler l'adhésion au virement bancaire ?"
+
+#: resources/receipt/class-receipt-metaboxes.php:229
+msgid "Yes!"
+msgstr "Oui !"
+
+#: resources/receipt/class-receipt-methods.php:61
+msgid "Receipt "
+msgstr "Reçu "
+
+#: resources/receipt/class-receipt-methods.php:71
+msgid "Normal Membership"
+msgstr "Adhésion normale"
+
+#: resources/receipt/class-receipt-methods.php:72
+msgid "Recurring Membership"
+msgstr "Adhésion récurrente"
+
+#: resources/settings/basic-settings.php:24
+msgid "Enable Memberships"
+msgstr "Permettre l'adhésion"
+
+#: resources/settings/basic-settings.php:25
+msgid "Check this to enable memberships on your website."
+msgstr "Cochez cette case pour permettre l'adhésion sur votre site web."
+
+#: resources/settings/basic-settings.php:30
+msgid "Payments Gateway Type"
+msgstr ""
+
+#: resources/settings/basic-settings.php:31
+#, php-format
+msgid ""
+"If you choose \"Custom\" method, then you can use any individual direct "
+"payment methods such as Stripe, PayPal and WireTransfer. Choosing "
+"WooCommerce will allow you to use any WooCommerce supported payment method. "
+"For more details please check its documentation %1$sPayments Settings%2$s "
+"section."
+msgstr ""
+
+#: resources/settings/basic-settings.php:41
+msgid "Enable Recurring Memberships"
+msgstr "Permettre des adhésions récurrentes"
+
+#: resources/settings/basic-settings.php:42
+msgid ""
+"Check this to enable recurring memberships on your website. It is available "
+"only for \"Custom\" Payment Method because WooCommerce does not support "
+"recurring payments."
+msgstr ""
+
+#: resources/settings/basic-settings.php:47
+msgid "Currency Code"
+msgstr "Code de la monnaie"
+
+#: resources/settings/basic-settings.php:48
+msgid "Provide currency code that you want to use. Example: USD"
+msgstr ""
+"Indiquez le code de la monnaie que vous souhaitze utiliser. Example : USD"
+
+#: resources/settings/basic-settings.php:54
+msgid "Currency Symbol"
+msgstr "Symbole de la devise"
+
+#: resources/settings/basic-settings.php:55
+msgid "Provide currency symbol that you want to use. Example: $"
+msgstr ""
+"Indiquez le symbole de la monnaie que vous souhaitez utiliser. Exemple : $"
+
+#: resources/settings/basic-settings.php:61
+msgid "Currency Symbol Position"
+msgstr "Position du symbole monétaire"
+
+#: resources/settings/basic-settings.php:62
+msgid "Default: Before"
+msgstr "Par défaut : Avant"
+
+#: resources/settings/class-wp-osa.php:589
+msgid "Choose File"
+msgstr "Choisissez un fichier"
+
+#: resources/settings/class-wp-osa.php:610
+msgid "Choose Image"
+msgstr "Choisir une image"
+
+#: resources/settings/class-wp-osa.php:694
+msgid "Inspiry Memberships Settings"
+msgstr "Paramètres des adhésions à Inspiry"
+
+#: resources/settings/class-wp-osa.php:697
+msgid "For help, please consult the "
+msgstr "Pour obtenir de l'aide, veuillez consulter le "
+
+#: resources/settings/class-wp-osa.php:698
+msgid "documentation"
+msgstr "documentation"
+
+#: resources/settings/class-wp-osa.php:699
+msgid " of the plugin."
+msgstr " du plugin."
+
+#: resources/settings/class-wp-osa.php:700
+msgid "For feedback, please provide your "
+msgstr ""
+
+#: resources/settings/class-wp-osa.php:701
+msgid "feedback here!"
+msgstr ""
+
+#: resources/settings/paypal-settings.php:24
+msgid "Enable PayPal"
+msgstr "Activer Paypal"
+
+#: resources/settings/paypal-settings.php:25
+msgid "Check this to enable PayPal payments."
+msgstr "Cochez cette case pour activer les paiements PayPal."
+
+#: resources/settings/paypal-settings.php:30
+msgid "Sandbox Mode"
+msgstr "Mode sandbox"
+
+#: resources/settings/paypal-settings.php:31
+msgid "Check this option to use PayPal sandbox."
+msgstr "Cochez cette option pour utiliser le bac à sable de PayPal."
+
+#: resources/settings/paypal-settings.php:36
+msgid "Client ID"
+msgstr "ID Client"
+
+#: resources/settings/paypal-settings.php:37
+msgid "Paste your client ID here."
+msgstr "Collez votre numéro de client ici."
+
+#: resources/settings/paypal-settings.php:42
+msgid "Client Secret"
+msgstr "Client Secret"
+
+#: resources/settings/paypal-settings.php:43
+msgid "Paste your client secret here."
+msgstr "Collez votre secret de client ici."
+
+#: resources/settings/paypal-settings.php:48
+msgid "API Username"
+msgstr "Identifiant API"
+
+#: resources/settings/paypal-settings.php:49
+msgid "Paste your API username here."
+msgstr "Collez votre nom d'utilisateur API ici."
+
+#: resources/settings/paypal-settings.php:54
+msgid "API Password"
+msgstr "Mot de passe API"
+
+#: resources/settings/paypal-settings.php:55
+msgid "Paste your API password here."
+msgstr "Collez votre mot de passe API ici."
+
+#: resources/settings/paypal-settings.php:60
+msgid "API Signature"
+msgstr "Signature API"
+
+#: resources/settings/paypal-settings.php:61
+msgid "Paste your API signature here."
+msgstr "Collez votre signature API ici."
+
+#: resources/settings/paypal-settings.php:66
+msgid "PayPal IPN URL"
+msgstr "URL IPN PayPal"
+
+#: resources/settings/settings-init.php:44
+msgid "Basic Settings"
+msgstr "Paramètres de base"
+
+#: resources/settings/settings-init.php:48
+msgid "Stripe Settings"
+msgstr "Paramètres Stripe"
+
+#: resources/settings/settings-init.php:52
+msgid "PayPal Settings"
+msgstr "Paramètres PayPal"
+
+#: resources/settings/settings-init.php:56
+msgid "Wire Transfer Settings"
+msgstr "Paramètres de virement bancaire"
+
+#: resources/settings/stripe-settings.php:24
+msgid "Enable Stripe"
+msgstr "Activer Stripe"
+
+#: resources/settings/stripe-settings.php:25
+msgid "Check this to enable Stripe payments."
+msgstr "Cochez cette case pour permettre les paiements en Stripe."
+
+#: resources/settings/stripe-settings.php:30
+msgid "Publishable Key*"
+msgstr "Clé publiable*"
+
+#: resources/settings/stripe-settings.php:31
+msgid "Paste your stripe account publishable key."
+msgstr ""
+
+#: resources/settings/stripe-settings.php:36
+msgid "Secret Key*"
+msgstr "Clé secrète*"
+
+#: resources/settings/stripe-settings.php:37
+msgid "Paste your stripe account secret key."
+msgstr ""
+
+#: resources/settings/stripe-settings.php:42
+msgid "Stripe Button Label"
+msgstr "Étiquette de bouton à rayures"
+
+#: resources/settings/stripe-settings.php:43
+msgid "Default: Pay with Card"
+msgstr "Par défaut : Payer avec une carte"
+
+#: resources/settings/stripe-settings.php:49
+msgid "Stripe WebHook URL"
+msgstr "URL du crochet web Stripe"
+
+#: resources/settings/wire-settings.php:24
+msgid "Enable Wire Transfer"
+msgstr "Activez le virement bancaire"
+
+#: resources/settings/wire-settings.php:25
+msgid "Check this to enable wire transfer."
+msgstr "Cochez cette case pour permettre le virement bancaire."
+
+#: resources/settings/wire-settings.php:30
+msgid "Instructions for Wire Transfer"
+msgstr "Instructions pour le virement bancaire"
+
+#: resources/settings/wire-settings.php:31
+msgid "Enter the instructions for wire transfer."
+msgstr "Saisissez les instructions pour le virement bancaire."
+
+#: resources/settings/wire-settings.php:37
+msgid "Account Name"
+msgstr "Nom du compte"
+
+#: resources/settings/wire-settings.php:38
+msgid "Enter your account name."
+msgstr "8. Choissisez un nom de compte."
+
+#: resources/settings/wire-settings.php:44
+msgid "Account Number"
+msgstr "Numéro de compte"
+
+#: resources/settings/wire-settings.php:45
+msgid "Enter your account number."
+msgstr "Saisissez votre numéro de compte."
+
+#: resources/settings/wire-settings.php:46
+msgid "1111-2222-33333-44-5"
+msgstr "1111-2222-33333-44-5"
+
+#~ msgid "Check this to enable recurring memberships on your website."
+#~ msgstr ""
+#~ "Cochez cette case pour permettre des adhésions récurrentes sur votre site "
+#~ "web."
+
+#~ msgid "Inspiry Memberships"
+#~ msgstr "Membres d'Inspiry"
+
+#~ msgid "Confirm"
+#~ msgstr "Confirmer"
+
+#~ msgid "Cancel"
+#~ msgstr "Annuler"
+
+#~ msgid "Membership Purchased."
+#~ msgstr "Adhésion achetée."
+
+#, php-format
+#~ msgid "You have successfully purchased %s package on our site."
+#~ msgstr "Vous avez acheté avec succès le paquet %s sur notre site."
+
+#, php-format
+#~ msgid "Your payment process completed successfully %s."
+#~ msgstr "Votre processus de paiement s'est déroulé avec succès %s."
+
+#~ msgid "To view the details, please visit your profile page on our website."
+#~ msgstr ""
+#~ "Pour voir les détails, veuillez consulter la page de votre profil sur "
+#~ "notre site web."
+
+#~ msgid "Membership Updated Successfully."
+#~ msgstr "Mise à jour des adhésions réussie."
+
+#, php-format
+#~ msgid "A user successfully purchased %s package on your site."
+#~ msgstr "Un utilisateur a acheté avec succès le paquet %s sur votre site."
+
+#, php-format
+#~ msgid "Payment process completed %s."
+#~ msgstr "Processus de paiement terminé %s."
+
+#~ msgid "Membership Updated."
+#~ msgstr "Mise à jour de l'adhésion."
+
+#, php-format
+#~ msgid "A user successfully updated %s membership package on your site."
+#~ msgstr ""
+#~ "Un utilisateur a mis à jour avec succès le dossier d'adhésion de %s sur "
+#~ "votre site."
+
+#~ msgid "Membership is about to end."
+#~ msgstr "L'adhésion est sur le point de se terminer."
+
+#~ msgid "Otherwise your membership will be cancelled."
+#~ msgstr "Dans le cas contraire, votre adhésion sera annulée."
+
+#~ msgid "Membership Cancelled"
+#~ msgstr "Abonnement annulé"
+
+#~ msgid "Please visit "
+#~ msgstr "Veuillez visiter "
+
+#~ msgid " for more details."
+#~ msgstr " pour plus de détails."
+
+#~ msgid "You chose to pay via Wire Transfer."
+#~ msgstr "Vous avez choisi de payer par virement bancaire."
+
+#, php-format
+#~ msgid "Please send a payment of %s to the account mentioned on the website."
+#~ msgstr ""
+#~ "Veuillez envoyer un paiement de %s au compte mentionné sur le site web."
+
+#, php-format
+#~ msgid "Please include the Receipt number %s in the payment details."
+#~ msgstr ""
+#~ "Veuillez indiquer le numéro de reçu %s dans les détails du paiement."
+
+#~ msgid "Other Settings"
+#~ msgstr "Autres paramètres"
+
+#~ msgid "Text Input"
+#~ msgstr "Saisie de texte"
+
+#~ msgid "Text input description"
+#~ msgstr "Description d'entrée de texte"
+
+#~ msgid "Number Input"
+#~ msgstr "Nombre d'entrée"
+
+#~ msgid "Number field with validation callback `intval`"
+#~ msgstr "Champ de numéro avec rappel de validation \"intval\""
+
+#~ msgid "Password Input"
+#~ msgstr "Champ de mot de passe"
+
+#~ msgid "Password field description"
+#~ msgstr "Description du champ du mot de passe"
+
+#~ msgid "Textarea Input"
+#~ msgstr "Zone de texte"
+
+#~ msgid "Textarea description"
+#~ msgstr "Description de la zone de texte"
+
+#~ msgid "Checkbox"
+#~ msgstr "Case à cocher"
+
+#~ msgid "Checkbox Label"
+#~ msgstr "Étiquette de la case à cocher"
+
+#~ msgid "Radio"
+#~ msgstr "Radio"
+
+#~ msgid "Radio Button"
+#~ msgstr "Bouton radio"
+
+#~ msgid "Multile checkbox"
+#~ msgstr "Case à cocher multiple"
+
+#~ msgid "Multile checkbox description"
+#~ msgstr "Description des cases à cocher multiples"
+
+#~ msgid "A Dropdown"
+#~ msgstr "Une liste déroulante"
+
+#~ msgid "A Dropdown description"
+#~ msgstr "A Description du menu déroulant"
+
+#~ msgid "Image"
+#~ msgstr "Image"
+
+#~ msgid "Image description"
+#~ msgstr "Description de l'image"
+
+#~ msgid "File"
+#~ msgstr "Fichier"
+
+#~ msgid "File description"
+#~ msgstr "Description du fichier"
+
+#~ msgid "Color"
+#~ msgstr "Couleur"
+
+#~ msgid "Color description"
+#~ msgstr "Description de la couleur"
+
+#~ msgid "WP_Editor"
+#~ msgstr "WP_Editeur"
+
+#~ msgid "WP_Editor description"
+#~ msgstr "Description de l'Éditeur"
+
+#~ msgid "Settings not saved."
+#~ msgstr "﻿Paramètres non enregistrés."
+
+#~ msgid "Some error occurred while saving settings"
+#~ msgstr "Une erreur s'est produite lors de la sauvegarde des paramètres"
+
+#~ msgid "All done "
+#~ msgstr "Terminé "
+
+#~ msgid "Step 1: Basic Settings"
+#~ msgstr "Étape 1 & #160;: paramètres de base"
+
+#~ msgid "Check this box to enable memberships on your website"
+#~ msgstr "Cochez cette case pour permettre l'adhésion sur votre site web"
+
+#~ msgid "Check this box to enable recurring memberships on your website"
+#~ msgstr ""
+#~ "Cochez cette case pour permettre des adhésions récurrentes sur votre site "
+#~ "web"
+
+#~ msgid "Before (E.g. $10)"
+#~ msgstr "Avant (par exemple 10 $)"
+
+#~ msgid "After (E.g. 10$)"
+#~ msgstr "Après (par exemple 10$)"
+
+#~ msgid "Next"
+#~ msgstr "Suivant"
+
+#~ msgid "Step 3: PayPal Settings"
+#~ msgstr "Étape 3 : Paramètres de PayPal"
+
+#~ msgid "Important: "
+#~ msgstr "Important : "
+
+#~ msgid "Please get your PayPal API keys from your PayPal account."
+#~ msgstr "Veuillez obtenir vos clés API PayPal sur votre compte PayPal."
+
+#~ msgid "How to get API keys?"
+#~ msgstr "Comment obtenir des clés API ?"
+
+#~ msgid "How to get API signature?"
+#~ msgstr "Comment obtenir la signature de l'API ?"
+
+#~ msgid "Check this box to enable PayPal payments."
+#~ msgstr "Cochez cette case pour activer les paiements PayPal."
+
+#~ msgid "PayPal Sandbox"
+#~ msgstr "Bac à sable PayPal"
+
+#~ msgid "Check this box to enable sandbox of PayPal."
+#~ msgstr "Cochez cette case pour activer la sandbox de PayPal."
+
+#~ msgid "For example: "
+#~ msgstr "Par exemple : "
+
+#~ msgid "Click here for more information."
+#~ msgstr "Cliquez ici pour en savoir plus."
+
+#~ msgid "Step 2: Stripe Settings"
+#~ msgstr "Étape 2 : Paramètres des bandes"
+
+#~ msgid "Please get your Stripe API keys from the Stripe Dashboard."
+#~ msgstr ""
+#~ "Veuillez obtenir vos clés Stripe API à partir du tableau de bord Stripe."
+
+#~ msgid "Check this box to enable Stripe payments."
+#~ msgstr "Cochez cette case pour permettre les paiements en Stripe."
+
+#~ msgid "Stripe Webhook URL"
+#~ msgstr "URL du crochet web Stripe"
+
+#~ msgid "Click here to register your webhook."
+#~ msgstr "Cliquez ici pour enregistrer votre webhook."
+
+#~ msgid "Step 4: Wire Transfer Settings"
+#~ msgstr "Étape 4 : Paramètres des virements bancaires"
+
+#~ msgid "Check this box to enable wire transfer."
+#~ msgstr "Cochez cette case pour activer le virement bancaire."
+
+#~ msgid "Finish"
+#~ msgstr "Terminer"
+
+#, php-format
+#~ msgid "Inspiry Memberships %s"
+#~ msgstr "Inspiration Adhésions %s"
+
+#~ msgid "A membership plugin for RealHomes theme."
+#~ msgstr "Un plugin d'adhésion pour le thème RealHomes."
+
+#~ msgid "Get Started"
+#~ msgstr "Commencer"
+
+#~ msgid "You need to configure following settings."
+#~ msgstr "Vous devez configurer les paramètres suivants."
+
+#~ msgid "Start Configuring"
+#~ msgstr "Commencer à configurer"
+
+#~ msgid "Features"
+#~ msgstr "Caractéristiques"
+
+#~ msgid ""
+#~ "This plugin facilitates you to create membership packages for your "
+#~ "RealHomes website."
+#~ msgstr ""
+#~ "Ce plugin vous permet de créer des packs d'adhésion pour votre site "
+#~ "RealHomes."
+
+#~ msgid "Easy to Use"
+#~ msgstr "Simple à utiliser"
+
+#~ msgid ""
+#~ "This plugin provides a simple and straight forward settings to get you "
+#~ "started on adding membership packages to your website."
+#~ msgstr ""
+#~ "Ce plugin fournit un paramétrage simple et direct pour vous permettre de "
+#~ "commencer à ajouter des packs d'adhésion à votre site web."
+
+#~ msgid "One Menu to Rule Them All"
+#~ msgstr "Un seul menu pour tous les régir"
+
+#~ msgid ""
+#~ "This plugin offers only one menu to cover its settings and features. So, "
+#~ "no trouble in finding where the settings are, where to add a new "
+#~ "membership or where to find customer receipts. As all this is provided in "
+#~ "one place."
+#~ msgstr ""
+#~ "Ce plugin n'offre qu'un seul menu pour couvrir ses paramètres et ses "
+#~ "fonctionnalités. Ainsi, il n'y a aucun problème pour trouver où se "
+#~ "trouvent les paramètres, où ajouter une nouvelle adhésion ou où trouver "
+#~ "les reçus des clients. Tout cela est fourni en un seul endroit."
+
+#~ msgid ""
+#~ "Using this plugin you can use your Stripe account to receive payments for "
+#~ "membership packages. You can also create subscriptions in your Stripe "
+#~ "account and integrate it with a membership package on your website using "
+#~ "related Stripe Plan ID."
+#~ msgstr ""
+#~ "Grâce à ce plugin, vous pouvez utiliser votre compte Stripe pour recevoir "
+#~ "les paiements des forfaits d'adhésion. Vous pouvez également créer des "
+#~ "abonnements dans votre compte Stripe et les intégrer à un pack "
+#~ "d'abonnement sur votre site web en utilisant l'identifiant du pack Stripe "
+#~ "correspondant."
+
+#~ msgid ""
+#~ "You can also use PayPal to receive payments for memberships. You can "
+#~ "accept payments through Master, Visa and other credit cards supported by "
+#~ "PayPal."
+#~ msgstr ""
+#~ "Vous pouvez également utiliser PayPal pour recevoir les paiements des "
+#~ "adhésions. Vous pouvez accepter les paiements par Master, Visa et autres "
+#~ "cartes de crédit prises en charge par PayPal."
+
+#~ msgid "Wire Transfers"
+#~ msgstr "Transferts bancaires"
+
+#~ msgid ""
+#~ "This plugin can also be configured to receive Wire Transfers. It emails "
+#~ "your customer the details of the selected membership so that they can pay "
+#~ "it via Wire Transfer."
+#~ msgstr ""
+#~ "Ce plugin peut également être configuré pour recevoir des virements. Il "
+#~ "envoie à votre client les détails de l'abonnement sélectionné par e-mail "
+#~ "afin qu'il puisse le payer par virement bancaire."
+
+#~ msgid "Recurring Memberships"
+#~ msgstr "Adhésions récurrentes"
+
+#~ msgid ""
+#~ "This plugin allows you to create recurring memberships. So that you can "
+#~ "receive recurring payments from your customers. You can use this feature "
+#~ "with both Stripe and PayPal. Every time you receive a payment, a receipt "
+#~ "is generated against it and both you and your customer gets an email "
+#~ "notification."
+#~ msgstr ""
+#~ "Ce plugin vous permet de créer des adhésions récurrentes. Vous pouvez "
+#~ "ainsi recevoir des paiements récurrents de la part de vos clients. Vous "
+#~ "pouvez utiliser cette fonction avec Stripe et PayPal. Chaque fois que "
+#~ "vous recevez un paiement, un reçu est généré et vous et votre client "
+#~ "recevez une notification par courrier électronique."
+
+#~ msgid "Register or Login"
+#~ msgstr "S'inscrire ou se connecter"
+
+#~ msgid " at our support website and ask your question there."
+#~ msgstr " sur notre site de soutien et posez-y votre question."
+
+#~ msgid "If you face any bugs or have any feedback, please "
+#~ msgstr ""
+#~ "Si vous êtes confronté à des bugs ou si vous avez des commentaires, "
+#~ "veuillez "
+
+#~ msgid "sent it to us."
+#~ msgstr "nous l'a envoyé."
+
+#~ msgid "With love, from"
+#~ msgstr "Avec amour, de"
+
+#~ msgid "Inspiry Themes"
+#~ msgstr "Inspiry Themes"
+
+#~ msgid "Price not available"
+#~ msgstr "Prix non disponible"
+
+#~ msgid "If you face any issues, please report them at "
+#~ msgstr ""
+#~ "Si vous rencontrez des problèmes, veuillez les signaler à l'adresse "
+#~ "suivante "
+
+#~ msgid "GitHub."
+#~ msgstr "GitHub."
+
+#~ msgid "Test Mode"
+#~ msgstr "Mode test"
+
+#~ msgid "Check this to use the plugin in test mode."
+#~ msgstr "Cochez cette case pour utiliser le plugin en mode test."
+
+#~ msgid "Paste your live secret key."
+#~ msgstr "Collez votre clé secrète vivante."
+
+#~ msgid "Paste your live publishable key."
+#~ msgstr "Collez votre clé publiable en direct."
+
+#~ msgid "Test Secret Key"
+#~ msgstr "Clé secrète de Test"
+
+#~ msgid "Test Publishable Key"
+#~ msgstr "Clé publique de Test"
+
+#~ msgid "Check this box to enable test mode of Stripe payments."
+#~ msgstr "Cochez cette case pour activer le mode test des paiements en bande."
+
+#~ msgid "Paste your live secret key here."
+#~ msgstr "Collez ici votre clé secrète vivante."
+
+#~ msgid "Paste your live publishable key here."
+#~ msgstr "Collez ici votre clé publiable en direct."
+
+#~ msgid "Inspiry Memberships for RealHomes"
+#~ msgstr "Adhésion à Inspiry for RealHomes"
+
+#~ msgid "https://github.com/InspiryThemes/inspiry-memberships"
+#~ msgstr "https://github.com/InspiryThemes/inspiry-memberships"
+
+#~ msgid ""
+#~ "Provides functionality to create membership packages for real estate "
+#~ "themes by Inspiry Themes"
+#~ msgstr ""
+#~ "Fournit des fonctionnalités permettant de créer des forfaits d'adhésion "
+#~ "pour des thèmes immobiliers par thèmes d'Inspiration"
+
+#~ msgid "https://inspirythemes.com"
+#~ msgstr "https://inspirythemes.com"

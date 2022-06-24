@@ -1,0 +1,32 @@
+/*
+	RHEA Search Sorting Control Styles
+ */
+
+.rhea_sorting_control_wrapper ul li{
+
+    background: #505050;
+    margin-top: 10px;
+    font-size: 14px;
+    cursor: move;
+    color: #ffffff;
+    /*transition: .2s all ease-in-out;*/
+}
+.rhea_sorting_control_wrapper ul li:hover{
+    background: #1a1a1a;
+}
+.rhea_sorting_control_wrapper ul li label{
+    cursor: pointer;
+    padding-top: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-bottom: 10px;
+    vertical-align: middle;
+    display: inline-block;
+}
+.rhea_sorting_control_wrapper ul li label input{
+    cursor: pointer;
+    margin-left: 5px;
+    margin-right: 5px;
+    vertical-align: 1px;
+    display: inline-block;
+}

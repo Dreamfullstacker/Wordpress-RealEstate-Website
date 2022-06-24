@@ -1,0 +1,327 @@
+.rhea_sa_wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  margin-left: -45px;
+  margin-right: -45px;
+  &.rhea_sa_invert_column{
+    .rhea_sa_thumbnail_wrapper{
+      order: 1;
+    }
+    .rhea_sa_thumbnail_box{
+      order: 0;
+    }
+    .rhea_sa_detail_wrapper_sm_devices{
+      order: 3;
+    }
+  }
+  a{
+    transition: .2s all ease-in-out;
+  }
+  .rhea_sa_thumbnail_wrapper {
+    width: 50%;
+
+    padding-left: 45px;
+    padding-right: 45px;
+  }
+  .rhea_sa_thumbnail_box{
+    //max-width: 540px;
+    padding-top: 100%;
+    position: relative;
+    .rhea_agent_figure{
+      position: absolute;
+      left: 0;
+      top: 0;
+      width: 100%;
+      height: 100%;
+      z-index: 10;
+      img{
+        width: 100%;
+        height: 100%;
+      }
+    }
+
+  }
+
+  .rhea_sa_svg_box{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 100;
+    svg{
+
+    }
+    &.rhea_sa_invert_mask{
+      transform: rotateY(180deg);
+    }
+  }
+  .rhea_sa_detail_wrapper {
+    //width: 50%;
+    flex: 1;
+    padding-left: 45px;
+    padding-right: 45px;
+  }
+  .rhea_sa_designation {
+    color: var(--rh-global-color-primary);
+    font-weight: 500;
+    font-size: 18px;
+    display: inline-block;
+  }
+  h3.rhea_sa_title {
+    font-size: 48px;
+    font-weight: 500;
+    color: #1a1a1a;
+  }
+  a.rhea_sa_title {
+    font-size: 48px;
+    font-weight: 500;
+    color: #1a1a1a;
+    display: block;
+    line-height: 1.5;
+    margin-bottom: 20px;
+    transition: .2s all ease-in-out;
+    &:hover{
+      color: var(--rh-global-color-primary);
+    }
+  }
+  .rhea_sa_sub_title {
+    font-size: 21px;
+    font-weight: 400;
+    color: #1a1a1a;
+    line-height: 32px;
+    margin-bottom: 30px;
+  }
+  .rhea_sa_detail {
+    font-size: 16px;
+    line-height: 28px;
+    color: #808080;
+    margin-bottom: 40px;
+  }
+
+  &.rhea_text_align_initial{
+    text-align: initial;
+  }
+  &.rhea_text_align_center{
+    text-align: center;
+    .rhea_sa_phone_email_wrapper{
+      justify-content: center;
+    }
+  }
+  &.rhea_text_align_right{
+    text-align: right;
+    .rhea_sa_phone_email_wrapper{
+      justify-content: flex-end;
+      .rhea_sa_label{
+        text-align: right;
+      }
+    }
+
+  }
+}
+
+.rhea_sa_phone_email_wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: -15px;
+  margin-right: -15px;
+  margin-bottom: 30px;
+  .rhea_sa_phone_box {
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: -7.5px;
+    margin-right: -7.5px;
+    display: flex;
+    align-items: center;
+    white-space: nowrap;
+    margin-bottom: 15px;
+
+  }
+  .rhea_sa_email_box {
+    padding-left: 15px;
+    padding-right: 15px;
+    display: flex;
+    align-items: center;
+    white-space: nowrap;
+    margin-bottom: 15px;
+    margin-left: -7.5px;
+    margin-right: -7.5px;
+  }
+
+  .rhea_sa_icon {
+    color: #b3b3b3;
+    font-size: 20px;
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    border: 1px solid #b3b3b3;
+    text-align: center;
+    margin-left: 7.5px;
+    margin-right: 7.5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .rhea_sa_label {
+    display: block;
+    font-size: 16px;
+    font-weight: 400;
+    color: #808080;
+    margin-bottom: 4px;
+    text-align: left;
+
+  }
+  .rhea_sa_contact {
+    font-size: 18px;
+    font-weight: 400;
+    color: #1a1a1a;
+    transition: .2s all ease-in-out;
+    &:hover{
+      color: var(--rh-global-color-secondary);
+    }
+  }
+  .rhea_sa_contact_wrapper {
+    margin-left: 7.5px;
+    margin-right: 7.5px;
+  }
+
+
+
+  &.rhea_sa_icon_align_right{
+    .rhea_sa_icon{
+      transform: rotateY(180deg);
+    order: 1;
+    }
+    .rhea_sa_contact_wrapper{
+      order: 0;
+    }
+  }
+}
+.rhea_sa_button{
+  font-size: 16px;
+  font-weight: 500;
+  display: inline-block;
+  color: #ffffff;
+  background: var(--rh-global-color-primary);
+  padding: 16px 30px;
+  &:hover{
+    background: var(--rh-global-color-secondary);
+    color: #ffffff;
+  }
+}
+
+.rhea_mask{
+  fill: #ffffff;
+}
+
+.rhea_sa_detail_wrapper_sm_devices{
+  display: none;
+  width: 100%;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.rtl{
+  .rhea_sa_wrapper.rhea_text_align_initial{
+    text-align: left;
+  }
+  .rhea_sa_wrapper.rhea_text_align_initial .rhea_sa_phone_email_wrapper{
+    justify-content: flex-end;
+  }
+  .rhea_sa_wrapper.rhea_text_align_right .rhea_sa_phone_email_wrapper{
+    justify-content: flex-start;
+  }
+  .rhea_sa_phone_email_wrapper .rhea_sa_label{
+    text-align: right;
+  }
+}
+[data-elementor-device-mode="desktop"],
+[data-elementor-device-mode="laptop"],
+[data-elementor-device-mode="widescreen"] {
+  .rhea_sa_wrapper .rhea_sa_thumbnail_wrapper{
+    align-self: flex-start;
+  }
+}
+[data-elementor-device-mode="tablet"],
+[data-elementor-device-mode="tablet_extra"] {
+  .rhea_sa_wrapper{
+    margin-left: -15px;
+    margin-right: -15px;
+  }
+  .rhea_sa_wrapper .rhea_sa_thumbnail_wrapper{
+    width: 240px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-bottom: 40px;
+
+  }
+  .rhea_sa_wrapper .rhea_sa_detail_wrapper{
+   width: auto;
+    flex: 1;
+    padding-left: 15px;
+    padding-right: 15px;
+
+  }
+  .rhea_sa_wrapper h3.rhea_sa_title{
+    font-size: 38px;
+  }
+  .rhea_sa_wrapper a.rhea_sa_title{
+    font-size: 38px;
+  }
+  .rhea_sa_detail_wrapper_lg_devices{
+    display: none;
+  }
+  .rhea_sa_detail_wrapper_sm_devices{
+    display: block;
+  }
+}
+
+
+[data-elementor-device-mode="mobile"],
+[data-elementor-device-mode="mobile_extra"] {
+  .rhea_sa_wrapper{
+    margin-left: -15px;
+    margin-right: -15px;
+    text-align: center;
+  }
+  .rhea_sa_wrapper .rhea_sa_thumbnail_wrapper{
+    width: 210px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-bottom: 40px;
+    margin-left: auto;
+    margin-right: auto;
+
+  }
+  .rhea_sa_wrapper .rhea_sa_detail_wrapper{
+    width: auto;
+    flex: 1;
+    padding-left: 15px;
+    padding-right: 15px;
+    min-width: 290px;
+  }
+  .rhea_sa_wrapper h3.rhea_sa_title{
+    font-size: 32px;
+  }
+  .rhea_sa_wrapper a.rhea_sa_title{
+    font-size: 32px;
+  }
+  .rhea_sa_detail_wrapper_lg_devices{
+    display: none;
+  }
+  .rhea_sa_detail_wrapper_sm_devices{
+    display: block;
+  }
+  .rhea_sa_phone_email_wrapper{
+    width: min-content;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+    justify-content: normal !important;
+  }
+    .rhea_sa_phone_email_wrapper{
+      &.rhea_sa_icon_align_right{
+      justify-content: flex-end !important;
+    }
+  }
+}

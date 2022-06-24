@@ -1,0 +1,146 @@
+/* Footer
+--------------------------------------------------------*/
+#footer-wrapper {
+  background: url("../../images/background-outer-wrapper.png") repeat-x scroll bottom center transparent;
+  padding-bottom: 245px;
+}
+
+.disable-responsive #footer-wrapper {
+  min-width: 940px;
+}
+
+#footer {
+  .widget {
+    margin-bottom: 30px;
+    background: none;
+    border: none;
+    font-size: 13px;
+    line-height: 22px;
+
+
+    .title,
+    .wp-block-group__inner-container > h2,
+    .wp-block-search__label {
+      font-family: $RobotoFontFamily;
+      margin-bottom: 26px;
+      font-weight: normal;
+      font-size: 20px;
+      padding: 0;
+      border: none;
+      background: none;
+    }
+
+    select {
+      margin: auto;
+    }
+
+    #wp-calendar caption {
+      font-size: 1.2em;
+    }
+
+    .tagcloud a {
+      color: #fff;
+      &:hover {
+        color: #fff;
+      }
+    }
+
+    ul {
+      padding: 0;
+      margin-left: 2px;
+      li {
+        padding: 0 0 0 14px;
+        margin-bottom: 10px;
+        border: none;
+      }
+      .children {
+        margin-top: 10px;
+      }
+    }
+    ul.menu ul.sub-menu {
+      margin-top: 10px;
+    }
+    ul.menu ul.sub-menu .sub-menu .sub-menu .sub-menu .sub-menu li {
+      margin-left: -12px;
+    }
+    .textwidget {
+      padding: 0;
+    }
+    &.quick-links {
+      ul {
+        li {
+          margin-bottom: 10px;
+        }
+      }
+    }
+  }
+}
+
+#footer .widget.advance-search {
+  background: white;
+  .title {
+      background-color:  #394041;
+      font-size: 18px;
+      position: static;
+      padding: 0 0 0 15px;
+      margin-bottom: 0;
+    .fa-search {
+          float: right;
+          margin: 0 0 0 10px;
+          color: #c7d2d3;
+          padding-left: 15px ;
+          padding-right: 15px;
+    }
+  }
+  .selectwrap ul li {
+      background: none;
+      margin-bottom: 0;
+      padding: 6px 8px;
+      border-bottom: 1px solid #dedede;
+      &:hover {
+        background-color: #f7f7f7;
+      }
+  }
+}
+
+#footer-bottom {
+  font-family: $RobotoFontFamily;
+  border-top: 1px solid #dedede;
+  padding: 25px 0;
+  margin-top: 38px;
+  p {
+    font-size: 13px;
+    margin-bottom: 0;
+  }
+  .designed-by {
+    text-align: right;
+  }
+}
+
+/* Scroll Top
+--------------------------------------------------------*/
+#scroll-top {
+  display: none;
+  position: fixed;
+  right: 15px;
+  bottom: 15px;
+  z-index: 999;
+  height: 42px;
+  width: 42px;
+  line-height: 42px;
+  text-align: center;
+  transition: all 0.25s ease-in-out;
+  background-color: #4dc7ec;
+  color: #fff;
+
+  &:hover {
+    background-color: #37b3d9;
+  }
+  &.stp_right {
+    right: 15px;
+  }
+  &.stp_left {
+    left: 15px;
+  }
+}
+

@@ -1,0 +1,126 @@
+/*
+*   CSS to Fix Styles Conflict with Visual Composer Plugin
+*/
+
+/* Homepage Flex Slider */
+#home-flexslider{
+
+  .flexslider {
+    margin: 0;
+    background: transparent;
+    border: none;
+    position: relative;
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    -o-border-radius: 0px;
+    border-radius: 0px;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    -o-box-shadow: none;
+    box-shadow: none;
+    zoom: normal;
+  }
+
+  .flex-direction-nav .flex-next {
+    text-align: left;
+  }
+
+  .flex-direction-nav a {
+    -webkit-transition: none;
+    -moz-transition: none;
+    transition: none;
+  }
+
+}
+
+/* Property Detail Page Flex Slider */
+#property-detail-flexslider{
+
+  .flexslider {
+    margin: 0;
+    background: transparent;
+    border: none;
+    position: relative;
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    -o-border-radius: 0px;
+    border-radius: 0px;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    -o-box-shadow: none;
+    box-shadow: none;
+    zoom: normal;
+  }
+
+}
+
+#property-slider-two-wrapper{
+
+  .flexslider {
+    margin: 0;
+    background: transparent;
+    border: none;
+    position: relative;
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    -o-border-radius: 0px;
+    border-radius: 0px;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    -o-box-shadow: none;
+    box-shadow: none;
+    zoom: normal;
+  }
+
+  .flex-direction-nav .flex-next {
+    text-align: left;
+  }
+
+  .flex-direction-nav a {
+    -webkit-transition: none;
+    -moz-transition: none;
+    transition: none;
+  }
+
+  .flex-direction-nav .flex-disabled {
+    opacity: 1 !important;
+    filter: alpha(opacity=100) !important;
+    pointer-events: none;
+  }
+
+}
+
+
+
+/* Visual Composer Row */
+.vc_row{
+
+  .flex-direction-nav a{
+    text-indent: 0;
+  }
+
+  .vc_carousel .vc_carousel-control .icon-prev,
+  .vc_carousel .vc_carousel-control .icon-next,
+  .vc_images_carousel .vc_carousel-control .icon-prev,
+  .vc_images_carousel .vc_carousel-control .icon-next{
+    background: none;
+    line-height: normal;
+    vertical-align: bottom;
+  }
+
+  .widget{
+
+    .tagcloud {
+      padding: 5px 18px 49px 22px;
+    }
+
+    #calendar_wrap{
+      padding: 10px;
+    }
+
+    ul li{
+      line-height: 20px;
+    }
+
+  }
+}

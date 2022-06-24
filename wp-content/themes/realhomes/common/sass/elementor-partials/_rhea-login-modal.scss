@@ -1,0 +1,275 @@
+.rhea_menu__user_profile {
+  position: relative;
+  display: inline-block;
+  &:hover {
+    .rhea_modal {
+      visibility: visible;
+      opacity: 1;
+      top: 0;
+    }
+  }
+}
+
+.rhea_modal {
+
+  padding-top: 15px;
+  display: inline-block;
+  width: 260px;
+  visibility: hidden;
+  opacity: 0;
+  position: absolute;
+  top: 30px;
+  right: 20px;
+  -webkit-transform: translateY(2em);
+  -ms-transform: translateY(2em);
+  transform: translateY(2em);
+  z-index: 999999;
+  -webkit-transition: all .3s ease-in-out;
+  transition: all .3s ease-in-out;
+
+  .rhea_modal__corner {
+    display: block;
+    width: 10px;
+    height: 10px;
+    margin: 0 0 0 auto;
+    border-top: 10px solid transparent;
+    border-right: 20px solid #F7F7F7;
+    position: relative;
+    //@include r(max767) {
+    //  border-right: none;
+    //  border-left: 20px solid #f7f7f7;
+    //  margin: 0;
+    //}
+  }
+
+  .rhea_modal__wrap {
+    display: block;
+    text-align: center;
+    background: #F7F7F7;
+    box-shadow: 0 0 5px 2px rgba(0, 0, 0, 0.05);
+    padding: 25px;
+
+    label {
+      display: block;
+      text-align: left;
+      margin: 5px 0;
+      font-size: 14px;
+      padding: 0;
+      color: #d51007;
+    }
+
+    .rhea_modal_role_select {
+      text-align: left;
+      margin-bottom: 2px;
+      .select2-container {
+        width: 100% !important;
+        outline: none;
+      }
+      .select2-container .select2-selection--single {
+        height: 50px;
+        border: none;
+        border-radius: 0;
+        background: #ffffff;
+        outline: none;
+
+      }
+      .select2-container--default .select2-selection--single .select2-selection__rendered {
+        line-height: 50px;
+      }
+      .select2-container--default .select2-selection--single .select2-selection__arrow {
+        height: 50px;
+      }
+    }
+
+    .modal-loader {
+      display: none;
+      width: 35px;
+      height: 35px;
+    }
+
+    .rhea_modal__msg {
+      margin-bottom: 1px;
+      font-size: 14px;
+      line-height: 1.5;
+    }
+
+    .rhea_modal__login_wrap {
+      padding: 25px;
+
+    }
+
+    h3 {
+      font-weight: 500;
+      margin: 0 0 10px 0;
+      text-align: left;
+    }
+
+    input {
+      background: #fff;
+      font-size: 15px;
+      padding: 15px;
+      width: 100%;
+      border-bottom: 2px solid #F7F7F7;
+    }
+
+    button {
+      width: 100%;
+      padding: 15px;
+      cursor: pointer;
+      margin: 0;
+      margin-bottom: 15px;
+      transition: 0.2s background linear;
+
+      &:hover {
+        background: var(--dashboard-primary-hover-color);
+        transition: 0.2s background linear;
+      }
+    }
+
+    a {
+      display: inline-block;
+      font-size: 15px;
+      font-weight: 500;
+      margin-bottom: 10px;
+
+      &:hover {
+        color: var(--rh-global-color-secondary);
+      }
+    }
+
+    .rhea_modal__dashboard {
+      display: block;
+      //background: #fff;
+      text-align: left;
+
+      .rhea_modal__dash_link {
+        display: flex;
+        align-items: center;
+        width: 100%;
+        margin-bottom: 25px;
+        transition: 0.2s all linear;
+
+        &:last-of-type {
+          margin-bottom: 0;
+        }
+        &:hover {
+          svg {
+            fill: var(--rh-global-color-secondary);
+            transition: 0.2s all linear;
+          }
+        }
+
+        svg {
+          width: 14px;
+          height: auto;
+          fill: #808080;
+        }
+        i {
+          transition: .2s all ease-in-out;
+        }
+
+        span {
+          padding: 0 15px 0 15px;
+          transition: .2s all ease-in-out;
+        }
+      }
+    }
+  }
+
+}
+
+.rhea_login_modal_show {
+  .rhea_modal {
+    visibility: visible;
+    opacity: 1;
+  }
+}
+
+.rhea_menu_position_left {
+  .rhea_modal {
+    right: auto;
+    left: 20px;
+    .rhea_modal__corner {
+      margin: 0;
+      border-right-color: transparent;
+      border-left: 20px solid #ffffff;
+    }
+  }
+}
+
+.rhea_menu_position_left {
+  .rhea_modal {
+    .rhea_modal__corner {
+      margin-right: auto;
+    }
+  }
+}
+
+.rhea_user {
+  display: flex;
+  align-items: center;
+  margin-left: -10px;
+  margin-right: -10px;
+  padding-bottom: 25px;
+
+  .rhea_user__avatar {
+    width: 40px;
+    height: 40px;
+    border-radius: 40px;
+    overflow: hidden;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  .rhea_user__details {
+    margin-left: 10px;
+    margin-right: 10px;
+    p, h3 {
+      margin-bottom: 0;
+    }
+    p {
+      font-size: 13px;
+
+    }
+    h3 {
+      font-size: 15px;
+      font-weight: 500;
+    }
+  }
+
+}
+
+.rhea_online_avatar {
+  border-radius: 28px;
+  width: 28px;
+  height: 28px;
+  cursor: pointer;
+  overflow: hidden;
+  transition: .3s all ease-in-out;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.rhea_offline_avatar {
+  cursor: pointer;
+  svg {
+    fill: #d8d8d8;
+  }
+}
+
+.rhea_login_register_text {
+  font-size: 15px;
+  font-weight: 500;
+  color: #1a1a1a;
+  transition: .2s all ease-in-out;
+}
+
+.rhea_login_extended_link {
+  i {
+    color: #808080;
+  }
+  svg {
+    fill: #808080;
+    height: auto;
+  }
+}

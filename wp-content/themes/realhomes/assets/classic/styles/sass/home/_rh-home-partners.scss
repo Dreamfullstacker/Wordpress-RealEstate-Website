@@ -1,0 +1,43 @@
+/**
+ * Home: Partners Section;
+ *
+ */
+
+.rh_partners {
+  padding: 15px 0 0;
+  border-top: 1px solid $border_color_two;
+  text-align: center;
+
+  @media (min-width: 768px) {
+    padding-top: 35px;
+    padding-bottom: 35px;
+  }
+
+  .row {
+    margin: 0;
+
+    @media (min-width: 470px) {
+      margin-left: -15px;
+      margin-right: -15px;
+    }
+  }
+
+  .rh_partners__single {
+    padding: 15px;
+    box-sizing: border-box;
+
+    @media (min-width: 470px) {
+      display: inline-block;
+      width: 48%;
+      margin: 0 auto;
+    }
+
+    @media (min-width: 768px) {
+      width: 24%;
+    }
+
+    @media (min-width: 992px) {
+      width: 19%;
+    }
+  }
+}

@@ -1,0 +1,614 @@
+/* Responsive: Tablet to desktop
+------------------------------------------------------*/
+@use "sass:math";
+
+$gi_margin : 30px;
+$c_padding : 62px;
+$c_width   : 724px;
+
+@function giw($items)
+{
+  $wid   : $c_width - $c_padding ;
+  $ism   : $gi_margin * ( $items - 1 );
+  $isw   : math.div( $wid - $ism , $items);
+  @return  $isw;
+}
+
+@media (min-width: 768px) and (max-width: 979px){
+
+  #header-top{
+    #lang_sel_click{
+      display: block;
+      float: none;
+      clear: both;
+      width: 150px;
+      margin: 10px auto;
+    }
+    #lang_sel_list{
+      float: none;
+      clear: both;
+      &.lang_sel_list_vertical,
+      &.lang_sel_list_horizontal{
+        ul{
+          text-align: center;
+          clear: both;
+          height: auto;
+        }
+        li{
+          float: none;
+          display: inline-block;
+        }
+      }
+      &.lang_sel_list_vertical{
+        height: auto;
+      }
+    }
+  }
+
+
+  /* Social Networks */
+  .header-wrapper .social_networks{
+    border-top: 1px solid $border_color_one;
+    float: none;
+    text-align: center;
+    clear: both;
+    li{
+      float: none;
+      display: inline-block;
+      a{
+        border: none;
+      }
+    }
+  }
+
+  .tag-line{
+    text-align: center;
+  }
+
+  /* Google Listing Map */
+  #listing-map{
+    height: 450px;
+  }
+
+  /* User Nav */
+  .user-nav{
+    float: none;
+    text-align: center;
+  }
+
+
+  /* Select Box & Advance Search Controls */
+  .selectbox-wrapper {
+    width: 100%;
+  }
+
+
+  /* Slider Loader */
+  #home-flexslider{
+    .flexslider.loading{
+      min-height: 250px;
+    }
+  }
+
+
+  /* Property Item */
+  .narrative{
+    padding: 0 50px;
+  }
+  .property-items{
+    .span6{
+      width: 624px;
+      margin-left: 49px;
+    }
+    .narrative{
+      padding-left: 80px;
+      padding-right: 80px;
+    }
+
+  }
+  .property-item{
+    padding: 15px 20px 0;
+    figure{
+      width: 244px;
+    }
+    .detail{
+      width: 56.3%;
+    }
+    .price{
+      padding: 10px 10px 10px 15px;
+      margin: 0 0 10px -15px;
+    }
+    p{
+      font-size: 13px;
+      overflow: visible;
+    }
+    .property-meta{
+      margin: 0 -20px 0;
+      padding: 0 20px;
+    }
+  }
+
+
+  /* Carousel For Featured Properties */
+
+  $list_item_width:  187px;
+  $list_item_margin: 30px;
+
+  .es-carousel-wrapper {
+    ul{
+      li{
+        width: $list_item_width !important;
+        margin-right: $list_item_margin !important;
+      }
+    }
+  }
+
+
+  /* Brand Partners carousel */
+
+  // 722 - (160* 4 )640 = 82 / 2 = 41px
+  $list_item_width:  160px;
+
+  .brands-carousel {
+    .jcarousel-container-horizontal{
+      padding-left: 41px;
+      padding-right: 41px;
+    }
+    ul.brands-carousel-list{
+      li{
+        width: $list_item_width;
+      }
+    }
+  }
+
+  /** Login Page **/
+  .login-register {
+    .form-option {
+      .selectwrap {
+        width: 91%;
+      }
+    }
+  }
+
+  /* Footer */
+  #footer{
+    > .row{
+      > .span3{
+        width: 342px;
+      }
+    }
+  }
+
+
+  /* Layout */
+  .contents {
+    .main-wrap,
+    .sidebar-wrap{
+      width: 724px;
+    }
+  }
+
+
+  /* widgets */
+  .widget{
+    &.quick-links{
+      ul{
+        li{
+          float: left;
+          width: 46%;
+        }
+      }
+    }
+  }
+
+  .sidebar .widget{
+    background: $white;
+    &.icl_languages_selector{
+      background: transparent;
+    }
+  }
+
+  /* Calculator Widget */
+  .widget.calculator {
+    .option-bar {
+      margin: 0 20px;
+    }
+    .title {
+      background: $white;
+    }
+    .real-btn {
+      float: right;
+      margin: 0 24px 0 0;
+    }
+  }
+
+  /* Featured Properties Widget */
+  ul.featured-properties {
+    overflow: hidden;
+    padding: 0 83px;
+    li {
+      img{
+        width: 100%;
+        height: auto;
+      }
+    }
+  }
+
+  #footer .widget ul.featured-properties li{
+    margin-left: 0;
+  }
+
+  /* Agent Listing Detail Page
+  ------------------------------------------------------*/
+  #property-detail-flexslider {
+    .flex-direction-nav,
+    .flex-viewport{
+      width: 631px;
+    }
+  }
+
+  .listing-layout{
+    .property-item{
+      .price {
+        margin-right: -21px;
+      }
+      .detail {
+        width: 374px;
+      }
+    }
+  }
+  // for shortcode in full width page
+  .span12 .listing-layout{
+    .property-item {
+      .detail {
+        width: 370px;
+      }
+    }
+  }
+
+  /* Property Grid View Page */
+  .property-grid{
+
+    .list-container{
+      margin-left: -20px;
+    }
+    .page.hentry {
+      margin-left: 20px;
+    }
+    .property-item{
+      margin-left: 20px;
+      width: 212px;
+      figure {
+        width: 212px;
+      }
+    }
+  }
+  // for short code use in full width page
+  .span12 .property-grid.inspiry-shortcode .list-container{
+    padding-left: 0;
+  }
+
+
+  /* Contact Page */
+  #map_canvas {
+    height: 370px;
+  }
+
+
+  /* About Us Page */
+  .services-list {
+    li{
+      width: 316px;
+    }
+  }
+
+  .how-we-work{
+    ol{
+      li{
+        width: 280px;
+      }
+    }
+  }
+
+  /* Gallery Template */
+  .gallery-2-columns,
+  .gallery-3-columns,
+  .gallery-4-columns{ margin-left: -$gi_margin; }
+  .gallery-2-columns .gallery-item,
+  .gallery-3-columns .gallery-item,
+  .gallery-4-columns .gallery-item{ margin-left: $gi_margin;}
+
+  .gallery-2-columns .gallery-item { width: giw(2) ;}
+  .gallery-3-columns .gallery-item { width: giw(2) ;}
+  .gallery-4-columns .gallery-item { width: giw(2) ;}
+
+  /* dsIDX Styles */
+  #dsidx-listings{
+    .dsidx-primary-data{
+      width: 63%;
+    }
+    .dsidx-secondary-data div{
+      width: 42%;
+    }
+  }
+
+
+  /* Similar Properties on Property Detail Page */
+  .detail{
+    .listing-layout{
+      margin-bottom: 35px;
+    }
+    .list-container {
+      padding: 10px 20px 22px;
+      h3{
+        margin: 0 0 5px 20px;
+      }
+    }
+    .property-grid .property-item{
+      margin-left: 20px;
+      width: 214px;
+    }
+  }
+
+  /* Submit Property Template
+  -------------------------------------------------------------------------*/
+  .submit-form{
+    input[type="email"],
+    input[type="password"],
+    input[type="text"],
+    textarea{
+      width: 316px;
+    }
+    .selectwrap input[type="text"]{
+      width: 292px;
+    }
+    .form-option{
+      margin-bottom: 10px;
+    }
+    .features-checkboxes{
+      li{
+        margin: 0 0 8px 0;
+        float: left;
+        width: 50%;
+      }
+    }
+    .form-options-container{
+      .form-option{
+        float: none;
+        width: 332px;
+        margin-right: 0;
+      }
+      input[type="text"]{
+        width: 316px;
+      }
+      .selectwrap input[type="text"]{
+        width: 292px;
+      }
+      .right{
+        margin-right: 0;
+      }
+      .full{
+        float: none;
+        width: 332px;
+        input[type="text"]{
+          width: 316px;
+        }
+        .selectwrap input[type="text"]{
+          width: 292px;
+        }
+      }
+    }
+    #gallery-thumbs-container{
+      margin-left: -5px;
+    }
+    .sortable-placeholder,
+    .gallery-thumb{
+      width: 107px;
+      height: 107px;
+      margin: 0 0 5px 5px;
+      img{
+        width: 107px;
+        height: 107px;
+      }
+      a{
+        font-size: 20px;
+      }
+    }
+  }
+
+
+  /*	Login & Register
+  -------------------------------------------------------------------------*/
+  .login-register{
+    .inner-wrapper{
+      padding: 40px 50px 25px;
+    }
+    input[type="text"],
+    input[type="password"]{
+      width: 85%;
+    }
+  }
+
+
+  /*	My Properties
+  -------------------------------------------------------------------------*/
+  .my-property{
+    .cell{
+      padding: 20px 10px;
+      h5{
+        height: auto;
+        line-height: 20px;
+        overflow: auto;
+      }
+    }
+    .property-thumb{
+      width: 120px;
+    }
+    .property-title{
+      width: 150px;
+    }
+    .property-date{
+      width: 150px;
+    }
+    .property-publish-status{
+      width: 60px;
+    }
+    .property-payment{
+      width: 96px;
+    }
+    .property-controls{
+      width: 39px;
+      a{
+        width: 39px;
+        height: 39px;
+      }
+      i{
+        line-height: 39px;
+      }
+    }
+  }
+
+
+  /* Property detail slider variation 2
+  -------------------------------------------------------------------------*/
+  #property-carousel-two{
+    padding: 0 39px;
+  }
+
+
+  /* Properties sort controls
+  -------------------------------------------------------------------------*/
+  .search-header{
+    padding: 42px 49px;
+  }
+  .property-grid .list-container .search-header{
+    margin-left: 20px;
+  }
+
+
+  /* dsIDXpress Search Widget on Homepage
+  -------------------------------------------------------------------------*/
+  #home-idx-search{
+    h3.home-widget-label{
+      position: relative;
+      top: 0;
+    }
+    .dsidx-search-widget{
+      input[type=text]{
+        width: 150px !important;
+        &.dsidx-price{
+          width: 100px !important;
+        }
+      }
+    }
+  }
+
+
+  /*  User Profile Related Styles
+  -------------------------------------------------------------------------*/
+  .user-profile-img-wrapper{
+    #user-profile-img{
+      float: none;
+      margin: 0 15px 15px 0;
+    }
+    br{
+      display: none;
+    }
+    .real-btn{
+      margin-right: 8px;
+    }
+  }
+
+  /* Mortgage Calculator Widget
+  -------------------------------------------------------------------------*/
+  .lidd_mc_form{
+    padding: 0 4% 10px 4%;
+    input[type="number"],
+    input[type="text"]{
+      width: 98%;
+    }
+  }
+  #lidd_mc_details {
+    padding: 0 4% 0 4%;
+    #lidd_mc_inspector {
+      right: 4%;
+    }
+  }
+
+  /* Properties list layout shortcode in property detail page */
+  .detail #overview .inspiry-shortcode {
+    .property-item {
+      figure {
+        width: 234px;
+      }
+      .detail {
+        width: 408px;
+      }
+    }
+  }
+
+  /* Properties list layout shortcode in floor plans */
+  .detail #overview .floor-plan-desc .inspiry-shortcode {
+    .property-item {
+      figure {
+        width: 244px;
+      }
+      .detail {
+        width: 346px;
+      }
+    }
+  }
+
+  /* Properties grid layout shortcode in property detail page */
+  .detail #overview .inspiry-shortcode.property-grid{
+    .property-item{
+      margin-left: 20px;
+    }
+  }
+
+  /* Properties grid layout shortcode in floor plans */
+  .detail #overview .floor-plan-desc .inspiry-shortcode.property-grid {
+    .list-container {
+      margin-left: -15px;
+    }
+    .property-item {
+      margin-left: 15px;
+      width: 200px;
+      figure {
+        width: 200px;
+      }
+    }
+  }
+
+  .page-template-properties-search,
+  .page-template-home {
+    .page-head {
+      margin-bottom: 22px;
+    }
+  }
+
+  /* Optima Express */
+  #ihf-main-container .ihf-slider-col .ihf-grid-result-container .ihf-grid-result-basic-info-item2,
+  #ihf-main-container .ihf-grid-result .ihf-grid-result-container .ihf-grid-result-basic-info-item2 {
+    padding: 0 6px;
+  }
+
+  /* Optima Express */
+  #ihf-main-container {
+    .ihf-slider-col {
+      .ihf-grid-result-container {
+        padding: 10px;
+
+        .ihf-grid-result-price {
+          margin: 0 -11px 10px;
+        }
+      }
+    }
+  }
+
+
+
+} // End Qurey
+
+
+

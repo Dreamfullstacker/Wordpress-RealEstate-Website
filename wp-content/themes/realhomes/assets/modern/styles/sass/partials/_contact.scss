@@ -1,0 +1,266 @@
+/**
+ * Contact Page Template
+ */
+
+.rh_contact {
+	display: flex;
+	margin-bottom: 5rem;
+	text-align: left;
+
+	@include r(1140) { margin-bottom: 0; }
+}
+
+.rh_contact__wrap {
+	display: flex;
+	flex-wrap: wrap;
+	width: 100%;
+	padding: 0 0 2.5rem;
+
+	@include r(768)  { padding: 0 3rem 5rem; }
+}
+
+.rh_contact__form {
+	width: 100%;
+	padding: 0 2rem;
+
+	@include r(1024) { width: 50%; }
+
+	.contact-form {
+		display: flex;
+		flex-wrap: wrap;
+	}
+
+	.wpcf7-form {
+		p {
+			display: block;
+			width: 100%;
+		}
+
+		label {
+			display: block;
+			width: 100%;
+			color: var(--rh-global-color-headings);
+			font-size: 1.5rem;
+			line-height: 1.5;
+			padding: 0 0 1.5rem;
+		}
+
+		span {
+			display: block;
+			width: 100%;
+		}
+
+		span.wpcf7-not-valid-tip {
+			margin: 1rem 0;
+		}
+
+		input,
+		textarea {
+			display: block;
+			width: 100%;
+			color: $rh_text_color;
+			font-size: 1.4rem;
+			line-height: 1.5;
+			padding: 1.5rem 1rem;
+			border: 1px solid rgba($rh_text_color, 0.2);
+			margin-top: 1.5rem;
+			transition: 0.2s all linear;
+		}
+
+		textarea {
+			line-height: 2;
+		}
+
+		input[type="submit"] {
+			@extend .rh_btn;
+			@extend .rh_btn--primary;
+			display: inline-block;
+			width: initial;
+			font-size: 1.4rem;
+			margin-top: 0;
+			margin-bottom: 1.5rem;
+		}
+
+		.ajax-loader {
+			display: inline-block;
+			width: initial;
+			margin-left: 1.5rem;
+		}
+
+		.wpcf7-response-output {
+			font-size: 1.5rem;
+			color: $rh_text_color;
+			margin: 0;
+			border: none;
+			padding: 1rem 0;
+		}
+
+		.wpcf7-recaptcha {
+			@include r(320)  { transform-origin: 0 0; transform: scale(0.76); }
+			@include r(480)  { transform-origin: 0 0; transform: scale(1); }
+		}
+
+		.wpcf7-recaptcha div {
+			margin-bottom: 1.5rem;
+		}
+	}
+
+	.rh_contact__input label,
+	.gdpr-checkbox-label{
+		margin-bottom: 1rem;
+		font-size: 1.5rem;
+		line-height: 1.5;
+		color: var(--rh-global-color-headings);
+	}
+
+	.rh_contact__input {
+		display: flex;
+		flex-direction: column;
+		width: 100%;
+
+		input,
+		textarea {
+			display: block;
+			width: 100%;
+			color: $rh_text_color;
+			font-size: 1.4rem;
+			line-height: 1.5;
+			padding: 1.5rem;
+			background-clip: padding-box;
+			box-shadow: none;
+			border: 1px solid rgba($rh_text_color, 0.2);
+			margin-bottom: 1.5rem;
+			transition: 0.2s all linear;
+		}
+
+		textarea {
+			line-height: 2;
+		}
+
+		input[type="submit"] {
+			color: #fff;
+			padding: 1.5rem 2rem;
+		}
+
+		.error {
+			background: rgba(#ea3d3d, 0.05);
+			border-color: #ea3d3d;
+			transition: 0.2s all linear;
+		}
+
+		.inspiry-google-recaptcha {
+			margin-bottom: 1.5rem;
+		}
+	}
+
+	.rh_contact__submit {
+		width: initial;
+		flex-direction: row;
+		align-items: center;
+
+		input[type="submit"] {
+			margin-bottom: 0;
+		}
+	}
+}
+
+.rh_contact__details {
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	width: 100%;
+	padding: 0 2rem;
+	margin-top: 2rem;
+
+	@include r(1024) { width: 50%; margin-top: 6px; }
+
+	.rh_contact__item {
+		margin-bottom: 2.5rem;
+
+		.icon {
+			float: left;
+			display: inline-block;
+			width: 2rem;
+			margin-right: 1.5rem;
+
+			svg {
+				fill: $rh_text_color;
+			}
+		}
+
+		.content {
+			display: table;
+
+			a {
+				transition: 0.2s all linear;
+
+				&:not(:hover){
+					color: inherit;
+				}
+			}
+		}
+
+		.label {
+			display: block;
+			margin-bottom: 0.8rem;
+			font-size: 1.4rem;
+			color: var(--rh-global-color-headings);
+		}
+	}
+}
+
+.ajax-loader,
+#ajax-loader {
+	display: none;
+	margin-left: 1.5rem;
+
+	svg path{
+		fill:  var(--rh-global-color-primary);
+	}
+}
+
+.error-container,
+#error-container {
+	display: block;
+	width: 100%;
+	margin-top: 1rem;
+
+	&:empty{
+		display: none;
+	}
+
+	label {
+		display: block;
+		width: 100%;
+		margin: 0;
+		padding: 0;
+		line-height: 2;
+		color: #ea3d3d;
+	}
+}
+
+.message-container,
+#message-container {
+	display: block;
+	width: 100%;
+	margin: 1rem 0;
+	padding: 0;
+	font: 400 1.5rem/1.5 $rubikFontFamily;
+	color: $rh_text_color;
+
+	&:empty{
+		display: none;
+	}
+}
+
+.rh_contact__map {
+	display: block;
+	width: 100%;
+	height: 50rem;
+	padding: 0 2rem;
+	margin-top: 4rem;
+
+	#map_canvas {
+		height: 100%;
+	}
+}

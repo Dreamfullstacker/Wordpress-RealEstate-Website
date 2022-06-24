@@ -1,0 +1,124 @@
+/**
+ * Banner
+ */
+
+.rh_banner {
+  display: flex;
+  align-items: flex-end;
+  width: 100%;
+  background: $rh_banner_bg;
+  position: relative;
+
+  .rh_banner__wrap {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      flex-direction: column;
+      width: 100%;
+      position: relative;
+      padding: 0 3rem 3rem;
+      margin: 0 auto;
+      max-width: 1440px;
+
+      @include r(480)  { flex-direction: row; align-items: center; }
+      @include r(768)  { padding: 0 5rem 5rem; }
+      @include r(1024) { padding-bottom: 7rem; }
+      @include r(1140) { padding-left: 7rem; padding-right: 7rem }
+      @include r(1280) { padding-left: 10rem; padding-right: 10rem; padding-bottom: 8rem; }
+  }
+
+  .rh_banner__title {
+    margin: 0;
+    font-size: 3.6rem;
+    font-weight: 400;
+    color: #fff;
+    @include r(max558){
+      font-size: 2.4rem;
+    }
+  }
+
+  .rh_view_type {
+    a {
+      &:hover {
+        path {
+          fill: var(--rh-global-color-primary);
+        }
+      }
+    }
+    .active {
+      path {
+        fill: var(--rh-global-color-primary);
+      }
+    }
+    svg {
+      path {
+        fill: #fff;
+      }
+    }
+  }
+}
+
+.rh_banner__default {
+  height: 17rem;
+
+  @include r(768) { height:  11rem; }
+  @include r(1024) { height: 18rem; }
+  @include r(1140) { height: 22rem; }
+  @include r(1280) { height: 20rem; }
+
+  &.rh_banner__default_hide{
+    @include r(max1023){
+      display: none;
+    }
+  }
+}
+
+
+.rh_banner__image {
+  height: 30rem;
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-size: cover;
+  @include r(max558){
+    height: 31rem;
+  }
+}
+.inspiry_responsive_header_solid{
+  .rh_banner__image {
+    @include r(max1139){
+      height: 20rem;
+    }
+    @include r(max767){
+      height: auto;
+    }
+    .rh_banner__wrap{
+      @include r(max767){
+        padding: 2rem 3rem;
+      }
+    }
+  }
+}
+
+.inspiry_mod_header_variation_three,.inspiry_mod_header_variation_two{
+  .rh_banner__image {
+    @include r(1280){
+    height: 20rem;
+    }
+  }
+}
+.inspiry_mod_header_variation_two{
+  &.inspiry_mod_search_form_default{
+    .rh_banner__image {
+      height: 23rem;
+    }
+  }
+}
+
+.rh_banner__cover {
+  display: block;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(#000, 0.5);
+}

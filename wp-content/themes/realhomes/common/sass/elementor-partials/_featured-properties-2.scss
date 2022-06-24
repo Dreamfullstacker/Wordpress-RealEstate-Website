@@ -1,0 +1,484 @@
+.rhea_features_properties_2 {
+  font-family: "Rubik", sans-serif;
+  a {
+    transition: .2s all;
+  }
+  ul {
+    padding: 0;
+    margin: 0;
+  }
+  li {
+    list-style: none;
+  }
+}
+
+.rhea_wrapper_fp_carousel {
+  position: relative;
+  .flexslider{
+    margin-bottom: 0;
+    border: none;
+    background: transparent;
+    overflow: initial !important;
+  }
+  .rhea_fp_nav {
+    position: absolute;
+    z-index: 999999;
+    top: 50%;
+    margin-top: -30px;
+    background: #ffffff;
+    padding: 16px 14px;
+    transition: .2s all ease-in-out;
+    box-shadow: 0px 0px 5px 2px rgba(0, 0, 0, 0.05);
+    display: flex;
+    svg {
+      transition: .2s all ease-in-out;
+      height: auto;
+      path{
+        fill: #b3b3b3;
+      }
+    }
+    &:hover {
+      background: #000000;
+      svg {
+        path{
+          fill: #ffffff;
+        }
+      }
+    }
+  }
+  .flex-prev {
+    left: -60px;
+  }
+  .flex-next {
+    right: -60px;
+    transform: rotate(180deg);
+  }
+
+  .highlight{
+    svg{
+      fill: var(--rh-global-color-secondary);
+    }
+  }
+}
+
+.rhea_fp_slide_contents {
+  position: relative;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.rhea_fp_thumbnail{
+  display: block;
+  padding-top: 58%;
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.rhea_fp_slide_info {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  h3.rhea_fp2_title {
+    font-size: 30px;
+    font-weight: 500;
+    margin-bottom: 10px;
+    @include r(max1023){
+      font-size: 24px;
+    }
+    @include r(max767){
+      font-size: 21px;
+      line-height: 1.2;
+    }
+  }
+}
+
+.rhea_fp_slide_info_inner {
+  background: #ffffff;
+  padding: 35px 35px 15px;
+  width: 100%;
+  max-width: 400px;
+  position: relative;
+
+  &:after {
+    position: absolute;
+    content: '';
+    display: block;
+    border: 10px solid transparent;
+    border-bottom-color: var(--rh-global-color-secondary);
+    border-right-color: var(--rh-global-color-secondary);
+    right: 0;
+    bottom: 0;
+  }
+
+  .rhea_fp_excerpt {
+    font-family: "Roboto", Sans-serif;
+    font-size: 14px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+    font-weight: 400;
+    color: #808080;
+  }
+}
+
+.rhea-corner-pin-right .rhea_fp_slide_info_inner:after {
+  border-top-color: transparent;
+  border-right-color: var(--rh-global-color-secondary);
+  border-bottom-color: var(--rh-global-color-secondary);
+  border-left-color: transparent;
+}
+
+.rtl .rhea-corner-pin-right .rhea_fp_slide_info_inner:after {
+  border-top-color: transparent;
+  border-left-color: var(--rh-global-color-secondary);
+  border-bottom-color: var(--rh-global-color-secondary);
+  border-right-color: transparent;
+}
+
+.rhea-corner-pin-left .rhea_fp_slide_info_inner:after {
+  border-top-color: transparent;
+  border-left-color: var(--rh-global-color-secondary);
+  border-bottom-color: var(--rh-global-color-secondary);
+  border-right-color: transparent;
+}
+
+.rtl .rhea-corner-pin-left .rhea_fp_slide_info_inner:after {
+  border-top-color: transparent;
+  border-right-color: var(--rh-global-color-secondary);
+  border-bottom-color: var(--rh-global-color-secondary);
+  border-left-color: transparent;
+}
+
+.rhea-corner-pin-top-left .rhea_fp_slide_info_inner:after {
+  border-bottom-color: transparent;
+  border-top-color: var(--rh-global-color-secondary);
+  border-left-color: var(--rh-global-color-secondary);
+  border-right-color: transparent;
+}
+
+.rtl .rhea-corner-pin-top-left .rhea_fp_slide_info_inner:after {
+  border-bottom-color: transparent;
+  border-top-color: var(--rh-global-color-secondary);
+  border-right-color: var(--rh-global-color-secondary);
+  border-left-color: transparent;
+}
+
+.rhea-corner-pin-top-right .rhea_fp_slide_info_inner:after {
+  border-bottom-color: transparent;
+  border-top-color: var(--rh-global-color-secondary);
+  border-right-color: var(--rh-global-color-secondary);
+  border-left-color: transparent;
+}
+
+.rtl .rhea-corner-pin-top-right .rhea_fp_slide_info_inner:after {
+  border-bottom-color: transparent;
+  border-top-color: var(--rh-global-color-secondary);
+  border-left-color: var(--rh-global-color-secondary);
+  border-right-color: transparent;
+}
+
+.rhea_fp_address {
+  display: inline-block;
+  font-style: normal;
+  margin-bottom: 19px;
+  padding: 0;
+  border: none;
+  background: none;
+  a {
+    color: #000000;
+    vertical-align: middle;
+    display: flex;
+    margin-left: -5px;
+    margin-right: -5px;
+    &:hover {
+      color: #808080;
+    }
+  }
+  .rhea_address_pin {
+    width: 16px;
+    vertical-align: middle;
+    line-height: 20px;
+    margin-left: 2.5px;
+    margin-right: 2.5px;
+
+  }
+  .rhea_address_text {
+    font-size: 14px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 2.5px;
+    margin-right: 2.5px;
+    line-height: 22px;
+    flex: 1;
+  }
+  svg {
+    width: 100%;
+    fill: #b3b3b3;
+    transition: .2s all;
+  }
+}
+
+.rhea_fp_features {
+  .rhea_features_title {
+    font-family: "Roboto", Sans-serif;
+    font-weight: 600;
+    font-size: 13px;
+    margin-bottom: 5px;
+    line-height: 1.5;
+    display: block;
+    color: #1a1a1a;
+  }
+}
+
+ul.rhea_fp_features_list {
+  margin-left: -3.5px;
+  margin-right: -3.5px;
+  margin-bottom: 10px;
+  li.rhea_feature_item {
+    margin-left: 3.5px;
+    margin-right: 3.5px;
+    display: inline-block;
+    padding-left: 20px;
+    position: relative;
+    margin-bottom: 10px;
+    a {
+      line-height: 16px;
+      color: #808080;
+      &:hover {
+        color: var(--rh-global-color-secondary);
+      }
+    }
+    .rhea_check_icon {
+      vertical-align: middle;
+      left: 0;
+      top: 0;
+      bottom: 0;
+      margin: auto;
+      display: flex;
+      position: absolute;
+      svg {
+        width: 14px;
+        fill: var(--rh-global-color-secondary);
+      }
+    }
+  }
+  .rhea_fp_features_count {
+    display: inline-block;
+    margin-left: 2.5px;
+    margin-right: 2.5px;
+    .rhea_features_count_left {
+      font-size: 15px;
+      padding: 3px 10px;
+      border-radius: 15px;
+      display: inline-block;
+      color: var(--rh-global-color-secondary);
+      background: rgba(234, 114, 61, .1);
+      direction: ltr;
+    }
+  }
+}
+
+.rhea_fp_sales_icons {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.rhea_wrapper_member_functions {
+  display: flex;
+  align-items: center;
+  margin-left: -2.5px;
+  margin-right: -2.5px;
+  margin-bottom: 20px;
+  svg, .rh_svg {
+    fill: #b3b3b3;
+  }
+  .highlight__red{
+	cursor: pointer;
+    margin-left: 2.5px;
+    margin-right: 2.5px;
+    svg, .rh_svg {
+      fill: #ea3d3d;
+    }
+  }
+
+  .add-to-compare-span {
+    margin-left: 2.5px;
+    margin-right: 2.5px;
+    &:hover {
+      svg {
+        fill: var(--rh-global-color-secondary);
+      }
+    }
+  }
+  .add-to-favorite {
+    margin-left: 2.5px;
+    margin-right: 2.5px;
+    &:hover {
+      .rh_svg {
+        fill: #ea3d3d;
+      }
+    }
+  }
+
+}
+
+.rhea_fp_price_status {
+  .rhea_fp_status {
+    font-size: 13px;
+    font-weight: 500;
+    margin-bottom: 5px;
+    line-height: 1.2;
+    color: #1a1a1a;
+    display: block;
+  }
+  .rhea_fp_price {
+    font-family: "Rubik", sans-serif;
+    font-size: 22px;
+    color: var(--rh-global-color-primary);
+    line-height: 26px;
+    margin-bottom: 20px;
+    span {
+      display: inline-block;
+    }
+  }
+}
+.rhea-corner-pin-left{
+  .rhea_fp_slide_info_inner:after{
+    right: auto;
+    left: 0;
+  }
+}
+.rhea-corner-pin-top-right{
+  .rhea_fp_slide_info_inner:after{
+    right: 0;
+    bottom: auto;
+    left: auto;
+    top: 0;
+  }
+}
+.rhea-corner-pin-top-left{
+  .rhea_fp_slide_info_inner:after{
+    right: auto;
+    bottom: auto;
+    left: 0;
+    top: 0;
+  }
+}
+
+.rtl{
+  ul.rhea_fp_features_list li.rhea_feature_item{
+    padding-left: 0;
+    padding-right: 20px;
+  }
+  ul.rhea_fp_features_list li.rhea_feature_item .rhea_check_icon{
+    left: auto;
+    right: 0;
+  }
+  .rhea_fp_slide_info_inner:after{
+    right: auto;
+    left: 0;
+    border-right-color: transparent;
+    border-left-color: var(--rh-global-color-secondary);
+  }
+  .rhea-corner-pin-left  .rhea_fp_slide_info_inner:after{
+    right: 0;
+    left: auto;
+  }
+  .rhea-corner-pin-top-left{
+    .rhea_fp_slide_info_inner:after{
+      right: 0;
+      left: auto;
+    }
+  }
+  .rhea-corner-pin-top-right{
+    .rhea_fp_slide_info_inner:after{
+      right: auto;
+      left: 0;
+    }
+  }
+}
+
+.rhea_fp_permalink{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+}
+.elementor-content-relative{
+  .rhea_fp_permalink{
+    display: none;
+  }
+  .rhea_fp_slide_info_inner{
+    box-shadow: 0px 0px 5px 2px rgba(0, 0, 0, 0.05);
+  }
+}
+.rhea_fp_agent_expand_wrapper{
+  margin-bottom: 15px;
+  padding-top: 20px;
+  border-top: 1px solid #f0f0f0;
+  .rhea_agent_list{
+    display: flex;
+    align-items: center;
+    margin-left: -10px;
+    margin-right: -10px;
+  }
+  .agent-image{
+    width: 48px;
+    margin-left: 10px;
+    margin-right: 10px;
+    img{
+      width: 100%;
+    }
+  }
+  .rhea_agent_agency{
+    margin-left: 9px;
+    margin-right: 9px;
+    a{
+      display: block;
+      line-height: 1.4;
+      font-size: 16px;
+      font-weight: 500;
+    }
+    .rh_property_agent__title{
+      color: #333333;
+      &:hover{
+        color: var(--rh-global-color-secondary);
+      }
+    }
+    .rh_property_agent__agency{
+      color: var(--rh-global-color-primary);
+      font-weight: 400;
+      &:hover{
+        color: #333333;
+      }
+    }
+    .rhea_owner_label{
+      display: block;
+      line-height: 1.4;
+      font-size: 14px;
+      font-weight: 400;
+      color: #808080;
+    }
+    .rhea_owner_title{
+      display: block;
+      line-height: 1.4;
+      font-size: 16px;
+      font-weight: 500;
+      color: var(--rh-global-color-primary);
+    }
+  }
+}
+.rhea_fp_agent_list{
+  display: flex;
+  align-items: center;
+  margin-left: -10px;
+  margin-right: -10px;
+}
